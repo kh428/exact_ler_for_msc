@@ -1,0 +1,77 @@
+{
+  "candidate_only": true,
+  "growth_faults": [
+    {
+      "source_location": 3246,
+      "source_line": 356,
+      "source_kind": "DEPOLARIZE2",
+      "support": [
+        4,
+        3
+      ],
+      "outcome": {
+        "code": 1,
+        "label": 1048576
+      },
+      "event_index": 3671
+    },
+    {
+      "source_location": 3794,
+      "source_line": 424,
+      "source_kind": "DEPOLARIZE2",
+      "support": [
+        2,
+        0
+      ],
+      "outcome": {
+        "code": 1,
+        "label": 549755813888
+      },
+      "event_index": 4385
+    },
+    {
+      "source_location": 2700,
+      "source_line": 290,
+      "source_kind": "DEPOLARIZE2",
+      "support": [
+        10,
+        9
+      ],
+      "outcome": {
+        "code": 1,
+        "label": 4990445783585362565057740800
+      },
+      "event_index": 2942
+    }
+  ],
+  "final_fault": {
+    "source_location": 5379,
+    "source_line": 615,
+    "source_kind": "DEPOLARIZE2",
+    "support": [
+      2,
+      3
+    ],
+    "outcome": {
+      "code": 12,
+      "x": 8,
+      "z": 8,
+      "response_label": 273154050
+    },
+    "event_index": 6327
+  },
+  "growth_label": "166020696663385964544",
+  "incoming_labels": [
+    9,
+    0
+  ],
+  "incoming_representatives": [
+    1097,
+    0
+  ],
+  "predicted_A": "1/4",
+  "predicted_B": "1/4",
+  "compatible_triples_visited": 4233,
+  "seconds": 0.0384600410470739,
+  "qualification": "Previous four-fault pattern translated to the new source; previous probabilities are not predictions for this source."
+}

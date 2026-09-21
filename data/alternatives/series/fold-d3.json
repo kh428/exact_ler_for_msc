@@ -1,0 +1,40 @@
+{
+  "case": "fold-d3",
+  "family": "Fold-transversal",
+  "distance": 3,
+  "degree": 5,
+  "fault_distance": 3,
+  "variable": "x=p/(1-p)",
+  "method": "polynomial tensor contraction",
+  "scope": "Terminated native-T core with unitary injection; excludes the noisy pre-escape syndrome round and escape; noiseless terminal projection.",
+  "locations_in_coefficient_convention": 374,
+  "a": [
+    "1",
+    "428/5",
+    "262581413/66150",
+    "66400191928181/500094000",
+    "1134111548815069441/315059220000",
+    "4184373195556368193523/49621827150000"
+  ],
+  "e": [
+    "0",
+    "0",
+    "0",
+    "3909023513/41674500",
+    "3114124289101043/315059220000",
+    "232798293013514038969/396974617200000"
+  ],
+  "L": [
+    "0",
+    "0",
+    "0",
+    "3909023513/41674500",
+    "23378177959691/12602368800",
+    "21954457843901229433/396974617200000"
+  ],
+  "model": "inputs/fold-d3/model.json",
+  "model_sha256": "3a872108fe6874071006d7e05c994b03c325ed3179efcd58c825ab7304bb9368",
+  "certificate": "certificates/fold-d3/result.json",
+  "all_orders_value": false,
+  "tail_bound": null
+}

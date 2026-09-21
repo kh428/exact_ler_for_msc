@@ -1,0 +1,43 @@
+{
+  "complete": true,
+  "degree": 6,
+  "a": [
+    "1",
+    "914/15"
+  ],
+  "e": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "350644373171/540000",
+    "30240823879586477/364500000"
+  ],
+  "L": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "350644373171/540000",
+    "15818820811063247/364500000"
+  ],
+  "model": "new",
+  "source_model_sha256": "e8e07c36976a8856417cc5fd04ac9822aa95dfc337c9d18a00c0ff29f3ef1785",
+  "endpoint_functions": "endpoint_functions.json",
+  "partial_endpoints": "new_partial_endpoints.json",
+  "growth_result": "new_growth_mode5_limit0.json",
+  "old_series_regression_passed": true,
+  "old_control_record": "old_series6.json",
+  "seconds": 20.391757667064667,
+  "threads": 14,
+  "total_seconds_including_endpoint_work": 27.875425291014835,
+  "implementation_sha256": {
+    "growth46.cpp": "bc3e919ce431323d1a6e90b2004b93e6b87012023632b080d29bd0d766304a0f",
+    "run_series.py": "082b19bf6a661647fbaf5b65a874a4907d82fe0824f7122b50ee307be0d1e4f6",
+    "preflight.py": "6d7dad75153b51ec1ba6f237fac9a0cdef3de36959bd508098881a766b36a329"
+  },
+  "scope": "Full injection and cultivation, all source detectors/noise; no escape; noiseless terminal readout.",
+  "arithmetic": "Exact integer Newton contractions plus proved-height endpoint reconstruction."
+}

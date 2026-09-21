@@ -1,0 +1,22 @@
+[
+  {
+    "p": "1/2000",
+    "file": "data/exact_points/p0005.json"
+  },
+  {
+    "p": "3/4000",
+    "file": "data/exact_points/p00075.json"
+  },
+  {
+    "p": "1/1000",
+    "file": "data/exact_points/p001.json"
+  },
+  {
+    "p": "3/2000",
+    "file": "data/exact_points/p0015.json"
+  },
+  {
+    "p": "1/500",
+    "file": "data/exact_points/p002.json"
+  }
+]

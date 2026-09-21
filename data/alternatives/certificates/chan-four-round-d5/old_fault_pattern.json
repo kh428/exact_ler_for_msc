@@ -1,0 +1,10 @@
+{
+  "compiled_growth_label": "4990445783585362015300878336",
+  "growth_compatibility_mask": "216172782113783808",
+  "nonzero_compatibility_bits": [
+    56,
+    57
+  ],
+  "old_three_growth_faults_rejected": true,
+  "qualification": "Exact compiled Choi test; an independent gate-level witness check is separate."
+}

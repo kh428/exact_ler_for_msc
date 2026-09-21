@@ -1,0 +1,43 @@
+{
+  "h1_denominator": 5,
+  "h2_denominator": 7200,
+  "h1_entries": 171,
+  "h2_entries": 8628,
+  "proof": [
+    {
+      "order": 1,
+      "clearing_denominator": "16106127360",
+      "integer_upper": "14914273935360",
+      "reconstruction_prime": "2305940865748566017",
+      "held_out_prime": "2305943064771821569",
+      "reduced_denominator": 5,
+      "support": 171
+    },
+    {
+      "order": 2,
+      "clearing_denominator": "241591910400",
+      "integer_upper": "103467775426560000",
+      "reconstruction_prime": "2305940865748566017",
+      "held_out_prime": "2305943064771821569",
+      "reduced_denominator": 7200,
+      "support": 5037
+    }
+  ],
+  "certificates": [
+    {
+      "prime": "2305940865748566017",
+      "odd_k": 2097241,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2305943064771821569",
+      "odd_k": 2097243,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    }
+  ],
+  "formula": "h1=W0*F_B1; h2=W0*F_B2+W1*F_B1; all logical tags included."
+}

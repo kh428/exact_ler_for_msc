@@ -1,0 +1,2 @@
+# verify_results.py and evaluate_series.py use only the Python standard library.
+# Optional calculations have separate requirements files.

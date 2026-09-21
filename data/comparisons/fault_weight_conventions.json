@@ -1,0 +1,9 @@
+{
+  "p": "1/1000",
+  "e3": "574/375",
+  "e4_reduced": "1041564221/810000",
+  "e4_full": "2985633341/810000",
+  "share_reduced": "0.800693576857520377005314593138",
+  "share_full": "0.308982328904181299291553453746",
+  "scope": "Fraction of accepted-and-wrong mass in fault weights three and four, using the named location convention."
+}

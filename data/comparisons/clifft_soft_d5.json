@@ -1,0 +1,165 @@
+{
+  "Clifft": {
+    "rows": [
+      {
+        "p": 0.0005,
+        "point": 1.56e-10,
+        "figure_point": 1.557904864202353e-10,
+        "lower": 6.91821641611272e-11,
+        "upper": 2.952608491934104e-10,
+        "point_source": "paper table",
+        "pdf_xy": [
+          67.89966,
+          243.11848
+        ],
+        "band_pdf_y": [
+          227.5803,
+          255.35631
+        ]
+      },
+      {
+        "p": 0.0007,
+        "point": 6.047101644018275e-10,
+        "figure_point": 6.047101644018275e-10,
+        "lower": 3.2345589781414553e-10,
+        "upper": 1.0150588116085123e-09,
+        "point_source": "approximate vector extraction",
+        "pdf_xy": [
+          112.46188,
+          269.0784
+        ],
+        "band_pdf_y": [
+          257.10205,
+          278.9926
+        ]
+      },
+      {
+        "p": 0.001,
+        "point": 2.67e-09,
+        "figure_point": 2.6749351140310556e-09,
+        "lower": 1.6677738631862972e-09,
+        "upper": 4.023657827973137e-09,
+        "point_source": "paper table",
+        "pdf_xy": [
+          179.34311,
+          297.53995
+        ],
+        "band_pdf_y": [
+          288.497,
+          305.35463
+        ]
+      },
+      {
+        "p": 0.0015,
+        "point": 1.590666788040443e-08,
+        "figure_point": 1.590666788040443e-08,
+        "lower": 1.0019365017885543e-08,
+        "upper": 2.3743620675570257e-08,
+        "point_source": "approximate vector extraction",
+        "pdf_xy": [
+          290.70418,
+          331.66502
+        ],
+        "band_pdf_y": [
+          322.81763,
+          339.33249
+        ]
+      },
+      {
+        "p": 0.002,
+        "point": 5.78e-08,
+        "figure_point": 5.779224777328554e-08,
+        "lower": 3.091274838203647e-08,
+        "upper": 9.700933405504144e-08,
+        "point_source": "paper table",
+        "pdf_xy": [
+          401.83781,
+          356.35931
+        ],
+        "band_pdf_y": [
+          344.38297,
+          366.27351
+        ]
+      }
+    ],
+    "sha256": "36e15835c65d91019a0eab87b81a03a4c2580ae11378fc846b009ac6786f2c78",
+    "url": "https://arxiv.org/html/2604.27058v2#S4.F6",
+    "maximum_log10_axis_residual": 1.0073945254873706e-05,
+    "interval": "Published likelihood >= maximum/1000 under its effective-binomial convention; endpoints approximately extracted from the vector figure"
+  },
+  "SOFT": {
+    "rows": [
+      {
+        "p": 0.0005,
+        "point": 1.57e-10,
+        "lower": 2.908474809344755e-11,
+        "upper": 4.633596573810712e-10,
+        "pixel_x": 245,
+        "edge_pixel_y": [
+          378.2333333333332,
+          519.1011904761905
+        ],
+        "edge_fits": [
+          [
+            378.2333333333332,
+            519.1011904761905
+          ]
+        ],
+        "reported_errors": 8,
+        "reported_kept_rounded": 50900000000.0,
+        "reported_discard_percent": 62.1,
+        "two_pixel_endpoint_sensitivity_factor": 1.0400859501177147
+      },
+      {
+        "p": 0.001,
+        "point": 4.59e-09,
+        "lower": 2.526819860199083e-09,
+        "upper": 7.53646431640444e-09,
+        "pixel_x": 533,
+        "edge_pixel_y": [
+          236.31135531135544,
+          291.9194139194139
+        ],
+        "edge_fits": [
+          [
+            236.26666666666677,
+            292.1333333333332
+          ],
+          [
+            236.35604395604412,
+            291.7054945054946
+          ]
+        ],
+        "reported_errors": 49,
+        "reported_kept_rounded": 10600000000.0,
+        "reported_discard_percent": 85.6,
+        "two_pixel_endpoint_sensitivity_factor": 1.0400859501177147
+      },
+      {
+        "p": 0.002,
+        "point": 3.41e-08,
+        "lower": 1.3563969088241068e-08,
+        "upper": 6.927420722827473e-08,
+        "pixel_x": 822,
+        "edge_pixel_y": [
+          123.42941176470583,
+          206.4073529411764
+        ],
+        "edge_fits": [
+          [
+            123.42941176470583,
+            206.4073529411764
+          ]
+        ],
+        "reported_errors": 22,
+        "reported_kept_rounded": 600000000.0,
+        "reported_discard_percent": 97.92,
+        "two_pixel_endpoint_sensitivity_factor": 1.0400859501177147
+      }
+    ],
+    "sha256": "e574cc835ff324b4e303e497890787c36cb0976ff22aa703870926b27ddf4d51",
+    "url": "https://arxiv.org/html/2512.23037v1#S5.F2",
+    "interval": "Published likelihood >= maximum/1000; approximate screenshot digitization, not a new exact count-based interval",
+    "counts_caveat": "The table's rounded kept counts do not divide consistently into its reported rates, particularly at p=.002. At that p, Table I gives 31.0B attempts and 0.64B kept, while Table III gives 28.9B and 0.60B; both give 22 errors and the same rate. Plot the printed rate with its plotted band; do not infer exact counts."
+  }
+}

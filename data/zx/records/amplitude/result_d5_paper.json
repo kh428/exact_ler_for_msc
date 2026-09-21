@@ -1,0 +1,229 @@
+{
+  "case": "d5",
+  "method": "paper",
+  "faultfree_flip0": {
+    "p": 0.9999999999999996,
+    "clifford_terms": 489,
+    "stats": {
+      "fused_rounds": [
+        {
+          "round": 1,
+          "terms_in": 1,
+          "reduced_tcounts_in": [
+            40
+          ],
+          "branches": 0,
+          "terms_out": 1,
+          "reduced_tcounts_out": [
+            40
+          ],
+          "seconds": 7.0
+        }
+      ],
+      "reduced": {
+        "terms": 1,
+        "tcounts": [
+          40
+        ]
+      },
+      "clifford_terms": 489,
+      "bss_leaves": 489,
+      "ladder_per_term": [
+        489
+      ]
+    }
+  },
+  "input_flip": false,
+  "wires": 39,
+  "measurements": 39,
+  "good": {
+    "amplitude": [
+      0.0,
+      0.0
+    ],
+    "p": 0.0,
+    "clifford_terms": 0,
+    "bss_leaves": 0,
+    "stats": {
+      "fused_rounds": [
+        {
+          "round": 1,
+          "terms_in": 1,
+          "reduced_tcounts_in": [
+            40
+          ],
+          "branches": 2,
+          "terms_out": 2,
+          "reduced_tcounts_out": [
+            0,
+            32
+          ],
+          "seconds": 7.5
+        },
+        {
+          "round": 2,
+          "terms_in": 2,
+          "reduced_tcounts_in": [
+            0,
+            32
+          ],
+          "branches": 2,
+          "terms_out": 3,
+          "reduced_tcounts_out": [
+            0,
+            16,
+            16
+          ],
+          "seconds": 7.3
+        },
+        {
+          "round": 3,
+          "terms_in": 3,
+          "reduced_tcounts_in": [
+            0,
+            16,
+            16
+          ],
+          "branches": 4,
+          "terms_out": 5,
+          "reduced_tcounts_out": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "seconds": 14.1
+        },
+        {
+          "round": 4,
+          "terms_in": 5,
+          "reduced_tcounts_in": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "branches": 0,
+          "terms_out": 5,
+          "reduced_tcounts_out": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "seconds": 0.1
+        }
+      ],
+      "reduced": {
+        "terms": 0,
+        "tcounts": []
+      },
+      "clifford_terms": 0,
+      "bss_leaves": 0,
+      "ladder_per_term": []
+    },
+    "seconds": 29.1
+  },
+  "bad": {
+    "amplitude": [
+      0.2499999999999999,
+      0.0
+    ],
+    "p": 0.062499999999999944,
+    "clifford_terms": 1,
+    "bss_leaves": 0,
+    "stats": {
+      "fused_rounds": [
+        {
+          "round": 1,
+          "terms_in": 1,
+          "reduced_tcounts_in": [
+            40
+          ],
+          "branches": 2,
+          "terms_out": 2,
+          "reduced_tcounts_out": [
+            0,
+            32
+          ],
+          "seconds": 7.4
+        },
+        {
+          "round": 2,
+          "terms_in": 2,
+          "reduced_tcounts_in": [
+            0,
+            32
+          ],
+          "branches": 2,
+          "terms_out": 3,
+          "reduced_tcounts_out": [
+            0,
+            16,
+            16
+          ],
+          "seconds": 7.3
+        },
+        {
+          "round": 3,
+          "terms_in": 3,
+          "reduced_tcounts_in": [
+            0,
+            16,
+            16
+          ],
+          "branches": 4,
+          "terms_out": 5,
+          "reduced_tcounts_out": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "seconds": 14.1
+        },
+        {
+          "round": 4,
+          "terms_in": 5,
+          "reduced_tcounts_in": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "branches": 0,
+          "terms_out": 5,
+          "reduced_tcounts_out": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "seconds": 0.1
+        }
+      ],
+      "reduced": {
+        "terms": 1,
+        "tcounts": [
+          0
+        ]
+      },
+      "clifford_terms": 1,
+      "bss_leaves": 0,
+      "ladder_per_term": [
+        1
+      ]
+    },
+    "seconds": 29.1
+  },
+  "expected_good": 0.0,
+  "expected_bad": 0.0625,
+  "total_seconds": 65.7,
+  "pyzx_param": "0.9.0"
+}

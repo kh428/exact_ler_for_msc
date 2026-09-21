@@ -1,0 +1,159 @@
+{
+  "case": "d3",
+  "method": "paper",
+  "faultfree_flip0": {
+    "p": 0.9999999999999996,
+    "clifford_terms": 1,
+    "stats": {
+      "fused_rounds": [
+        {
+          "round": 1,
+          "terms_in": 1,
+          "reduced_tcounts_in": [
+            16
+          ],
+          "branches": 2,
+          "terms_out": 2,
+          "reduced_tcounts_out": [
+            0,
+            0
+          ],
+          "seconds": 0.4
+        },
+        {
+          "round": 2,
+          "terms_in": 2,
+          "reduced_tcounts_in": [
+            0,
+            0
+          ],
+          "branches": 0,
+          "terms_out": 2,
+          "reduced_tcounts_out": [
+            0,
+            0
+          ],
+          "seconds": 0.0
+        }
+      ],
+      "reduced": {
+        "terms": 1,
+        "tcounts": [
+          0
+        ]
+      },
+      "clifford_terms": 1,
+      "bss_leaves": 0,
+      "rounds": []
+    }
+  },
+  "input_flip": false,
+  "wires": 14,
+  "measurements": 14,
+  "good": {
+    "amplitude": [
+      0.0,
+      0.0
+    ],
+    "p": 0.0,
+    "clifford_terms": 0,
+    "bss_leaves": 0,
+    "stats": {
+      "fused_rounds": [
+        {
+          "round": 1,
+          "terms_in": 1,
+          "reduced_tcounts_in": [
+            16
+          ],
+          "branches": 2,
+          "terms_out": 2,
+          "reduced_tcounts_out": [
+            0,
+            0
+          ],
+          "seconds": 0.4
+        },
+        {
+          "round": 2,
+          "terms_in": 2,
+          "reduced_tcounts_in": [
+            0,
+            0
+          ],
+          "branches": 0,
+          "terms_out": 2,
+          "reduced_tcounts_out": [
+            0,
+            0
+          ],
+          "seconds": 0.0
+        }
+      ],
+      "reduced": {
+        "terms": 0,
+        "tcounts": []
+      },
+      "clifford_terms": 0,
+      "bss_leaves": 0,
+      "rounds": []
+    },
+    "seconds": 0.4
+  },
+  "bad": {
+    "amplitude": [
+      0.49999999999999983,
+      0.0
+    ],
+    "p": 0.24999999999999983,
+    "clifford_terms": 1,
+    "bss_leaves": 0,
+    "stats": {
+      "fused_rounds": [
+        {
+          "round": 1,
+          "terms_in": 1,
+          "reduced_tcounts_in": [
+            16
+          ],
+          "branches": 2,
+          "terms_out": 2,
+          "reduced_tcounts_out": [
+            0,
+            0
+          ],
+          "seconds": 0.4
+        },
+        {
+          "round": 2,
+          "terms_in": 2,
+          "reduced_tcounts_in": [
+            0,
+            0
+          ],
+          "branches": 0,
+          "terms_out": 2,
+          "reduced_tcounts_out": [
+            0,
+            0
+          ],
+          "seconds": 0.0
+        }
+      ],
+      "reduced": {
+        "terms": 1,
+        "tcounts": [
+          0
+        ]
+      },
+      "clifford_terms": 1,
+      "bss_leaves": 0,
+      "rounds": []
+    },
+    "seconds": 0.4
+  },
+  "expected_good": 0.0,
+  "expected_bad": 0.25,
+  "total_seconds": 1.2,
+  "pyzx_param": "0.9.0"
+}

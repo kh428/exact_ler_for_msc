@@ -1,0 +1,125 @@
+{
+  "complete": true,
+  "sources": [
+    {
+      "stem": "d5a19r4",
+      "source_sha256": "16513bf1dfaaa5537d1b710376fac95a3ec5141fc00a2ed3a664112637fd54ba",
+      "trueT_sha256": "5812a6ba05e11991e8691da9a873c7110051cd8bfbb41d7c9c10c29969b8514a",
+      "total_physical_channels": 3900,
+      "prefix_unchanged": true,
+      "windows": [
+        {
+          "window": 0,
+          "equivalent_to": "d5a19_window0",
+          "exact_geometry_and_channel_law_match": true,
+          "relevant_channels": 158,
+          "start_line": 153,
+          "stop_line": 214
+        },
+        {
+          "window": 1,
+          "equivalent_to": "d5a19_window1",
+          "exact_geometry_and_channel_law_match": true,
+          "relevant_channels": 686,
+          "start_line": 478,
+          "stop_line": 576
+        }
+      ],
+      "growth": {
+        "stem": "d5a19r4",
+        "source_sha256": "16513bf1dfaaa5537d1b710376fac95a3ec5141fc00a2ed3a664112637fd54ba",
+        "start_line": 214,
+        "stop_line": 478,
+        "accepted_record_dimension": 4,
+        "record_basis": [
+          4194304,
+          16777216,
+          2147483648,
+          8589934592
+        ],
+        "random_measurements": 10,
+        "constraint_bits": 67,
+        "noise_label_rank": 93,
+        "label_bits": 93,
+        "retained_channels": 1176,
+        "ignored_channels": 367,
+        "record_independence": true,
+        "output_bits": 26,
+        "scope": "Exact noisy Clifford growth Choi instrument; every accepted measurement record included, no probability contraction yet."
+      }
+    },
+    {
+      "stem": "d5a19r4f13",
+      "source_sha256": "84451c222e5dfa8e91c944bf0ce7478ca6072db969a2057b7995a66fa08bb8c5",
+      "trueT_sha256": "9c2c0186755f8cc48de53a313f2f349b83df32e0db9bee83e3191420c4295dd5",
+      "total_physical_channels": 5537,
+      "prefix_unchanged": true,
+      "windows": [
+        {
+          "window": 0,
+          "equivalent_to": "d5a19f13_window0",
+          "exact_geometry_and_channel_law_match": true,
+          "relevant_channels": 230,
+          "start_line": 166,
+          "stop_line": 249
+        },
+        {
+          "window": 1,
+          "equivalent_to": "d5a19f13_window1",
+          "exact_geometry_and_channel_law_match": true,
+          "relevant_channels": 926,
+          "start_line": 513,
+          "stop_line": 644
+        }
+      ],
+      "growth": {
+        "stem": "d5a19r4f13",
+        "source_sha256": "84451c222e5dfa8e91c944bf0ce7478ca6072db969a2057b7995a66fa08bb8c5",
+        "start_line": 249,
+        "stop_line": 513,
+        "accepted_record_dimension": 4,
+        "record_basis": [
+          16777216,
+          67108864,
+          8589934592,
+          34359738368
+        ],
+        "random_measurements": 10,
+        "constraint_bits": 67,
+        "noise_label_rank": 93,
+        "label_bits": 93,
+        "retained_channels": 1176,
+        "ignored_channels": 952,
+        "record_independence": true,
+        "output_bits": 26,
+        "scope": "Exact noisy Clifford growth Choi instrument; every accepted measurement record included, no probability contraction yet."
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "compile_sources.py",
+      "sha256": "3fb4b5ae1b8f33a14c99e886d056d52894d60374e53373c148b6f4077220e815"
+    },
+    {
+      "path": "compile_flagged.py",
+      "sha256": "dd5d63a3a54e2e434acd3fd20cbba88475a2b9c6b84d445ce8af29f62089aacd"
+    },
+    {
+      "path": "compile_growth.py",
+      "sha256": "705726396321912f2a57acc6e5b6cf9d419c882c5505c3bf65ae707724486c56"
+    },
+    {
+      "path": "growth_frames.py",
+      "sha256": "b2ede0799dd22895065876f4ca1f6d8572de32ba1fed89372c50128e6959729f"
+    },
+    {
+      "path": "source_program.py",
+      "sha256": "d03e71532d7ba7a75cf7eb3a20184086e6ea5f9f7762d78cb9ef6d6d22966a2d"
+    },
+    {
+      "path": "injection_prefix.py",
+      "sha256": "133cf48981e7a8fa8e279083c77c0fef619ad1e35d3f420778f54cbfd5a206e4"
+    }
+  ]
+}

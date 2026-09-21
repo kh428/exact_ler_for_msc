@@ -1,0 +1,34 @@
+{
+  "status": "validated_direct_B_source",
+  "model": "puri/native_d5/update01_20260917/model.json",
+  "model_sha256": "d695e09475aaad6c6cb3506e5772aacb6517103cd4ecde6f2713378fdb128bff",
+  "classes": 4595,
+  "physical_locations": 2116,
+  "denominator": 315,
+  "direct_quantum_bits": 62,
+  "direct_label_bits": 301,
+  "profile_conversion_checks": 12230,
+  "direct_B_checks": 186,
+  "physical_source_rebuild": "all four power sums agree",
+  "signed_histogram_absolute_bound": "94283252698551659584123233632184000",
+  "S1_squared": "6785789658",
+  "S1_S2": "7268631099822",
+  "hashes": {
+    "plan.json": "db1e1de85193fb876502d79168f183eda32b55150b49717655bd03a7f5ce07a8",
+    "labels.json": "32846875744c7d43f24848bebb40cfd86515484f658c61e4afa81ebf4875191f",
+    "signatures.json": "28c55dfa71c7a9c09b3581063ddc4804794f5851db0b66dd520d7df257884fe1",
+    "powers.npy": "f186e7f2572e6fcacbed995b7f1868c2d94bd7ca2f4e48dd045ed7e85d8ab90b"
+  },
+  "code_hashes": {
+    "updated_fold_higher.cpp": "eec5038a3c57eb9a176dc0a9fcc16e9c148103ae3be779eee01d092dd6d5344d",
+    "updated_fold_higher.py": "95b894b5ad445f38c00d798cb09fb5e38394173351cd593d463e531a10307720",
+    "phase_sixth_direct.cpp": "06a49559ceb302349a6324113e8d83dbf2e9bf82b84183e40187816acb32a048",
+    "phase_bulk_filter.cpp": "8375cc3bd5508f09dee237eeaff9a30c343db376dc2a4eb79cf0c55060fd274d",
+    "phase_gaussian_kernel.cpp": "c7cb5b5b3779df495356580ec48c275d429970b322302b9456d82adacd73b788",
+    "phase_kernel.py": "e27e1bae1563624f7c9454cfcb8f57c50618951ba4548589c3604746212413a8",
+    "direct_bad_join_pilot.py": "4d1a15e8438b1c4514e06896484e08ef5339a60280410fa94dd46d64994c44ee",
+    "direct_bad_phase_pilot.py": "482f091774b5bfa8db224c15bcfa456cab9a452b6dba153982351ddbd11b5427"
+  },
+  "seconds": 1.1257702499860898,
+  "peak_rss_bytes": 82624512
+}

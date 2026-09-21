@@ -1,0 +1,40 @@
+{
+  "case": "rp2-d3",
+  "family": "RP2",
+  "distance": 3,
+  "degree": 5,
+  "fault_distance": 2,
+  "variable": "x=p/(1-p)",
+  "method": "polynomial tensor contraction",
+  "scope": "Full cultivation-only source after the documented S-to-T conversion; noiseless terminal projection; no escape.",
+  "locations_in_coefficient_convention": 678,
+  "a": [
+    "1",
+    "361/30",
+    "999743/900",
+    "569890669/27000",
+    "231503373677/270000",
+    "64674668194319/3037500"
+  ],
+  "e": [
+    "0",
+    "0",
+    "131/450",
+    "49559629/54000",
+    "465763021/10800",
+    "61371014030191/24300000"
+  ],
+  "L": [
+    "0",
+    "0",
+    "131/450",
+    "9874093/10800",
+    "17172616651/540000",
+    "27243842363149/24300000"
+  ],
+  "model": "inputs/rp2-d3/model.json",
+  "model_sha256": "19d363e691fe96791bda026814e30a454805d85cf58684ec601ecca59773b49b",
+  "certificate": "certificates/rp2-d3/result.json",
+  "all_orders_value": false,
+  "tail_bound": null
+}

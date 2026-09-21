@@ -1,0 +1,106 @@
+{
+  "distance": 3,
+  "degree": 5,
+  "variable": "x=p/(1-p)",
+  "scope": "Injection plus two fold-transversal HXY measurements, followed by noiseless code projection and logical HXY readout. No noisy pre-escape syndrome round; no escape.",
+  "physical_locations": 374,
+  "denominator_power_of_two": 83,
+  "primes": [
+    "2305940865748566017",
+    "2305943064771821569",
+    "2305954059888099329"
+  ],
+  "CRT_modulus_bits": 184,
+  "coefficient_bounds": [
+    {
+      "k": 0,
+      "denominator": "9671406556917033397649408",
+      "signed_numerator_bound": "9671406556917033397649408",
+      "required_bits": 85
+    },
+    {
+      "k": 1,
+      "denominator": "3046493065428865520259563520",
+      "signed_numerator_bound": "1139388406470395704577076756480",
+      "required_bits": 101
+    },
+    {
+      "k": 2,
+      "denominator": "959645315610092638881762508800",
+      "signed_numerator_bound": "66936220409119571654641816751308800",
+      "required_bits": 117
+    },
+    {
+      "k": 3,
+      "denominator": "302288274417179181247755190272000",
+      "signed_numerator_bound": "2614528769180210468830309362306121728000",
+      "required_bits": 132
+    },
+    {
+      "k": 4,
+      "denominator": "95220806441411442093042884935680000",
+      "signed_numerator_bound": "76386726152561324109963525906476228935680000",
+      "required_bits": 147
+    },
+    {
+      "k": 5,
+      "denominator": "29994554029044604259308508754739200000",
+      "signed_numerator_bound": "1780574586616204465003249788879960896490700800000",
+      "required_bits": 162
+    }
+  ],
+  "all_sqrt2_components_proved_zero": true,
+  "raw_acceptance": [
+    "1",
+    "428/5",
+    "262581413/66150",
+    "66400191928181/500094000",
+    "1134111548815069441/315059220000",
+    "4184373195556368193523/49621827150000"
+  ],
+  "raw_accepted_error": [
+    "0",
+    "0",
+    "0",
+    "3909023513/41674500",
+    "3114124289101043/315059220000",
+    "232798293013514038969/396974617200000"
+  ],
+  "conditional_LER": [
+    "0",
+    "0",
+    "0",
+    "3909023513/41674500",
+    "23378177959691/12602368800",
+    "21954457843901229433/396974617200000"
+  ],
+  "source_sha256": "3a872108fe6874071006d7e05c994b03c325ed3179efcd58c825ab7304bb9368",
+  "saved_enumeration_orders_zero_to_two_match": true,
+  "residue_records": [
+    {
+      "path": "puri/polynomial/k5_q0_plus.json",
+      "sha256": "3fa42127446ed5d0d87a43a245bab6d0c794c441e5429747cf23ed7ed1eb80fa"
+    },
+    {
+      "path": "puri/polynomial/k5_q0_minus.json",
+      "sha256": "a5946b27691cd78e1f0ce9773f138d2a7da9ef447785b3e59b3ebb923e38f2c5"
+    },
+    {
+      "path": "puri/polynomial/k5_q1_plus.json",
+      "sha256": "9b9fec08b9cc8e004ef945a8d17936619c3e4fc4b7a679c11a3de88b88f412a0"
+    },
+    {
+      "path": "puri/polynomial/k5_q1_minus.json",
+      "sha256": "87dfa29e5030289232c0c7dcffe0ee9a54c5bde68e149ebdc597d8b9956988d8"
+    },
+    {
+      "path": "puri/polynomial/k5_q2_plus.json",
+      "sha256": "f85276687f2b2bce55261cd850e694e55983291ebc2b87ee388fc4920a52c477"
+    },
+    {
+      "path": "puri/polynomial/k5_q2_minus.json",
+      "sha256": "8b43b51461ad3b5a1173266d1dc7199330a234c6371d2e6f8756114d31824f0e"
+    }
+  ],
+  "qualification": "Full noise of the terminated core only. The known first and second orders agree with the earlier exhaustive state calculation. Third through fifth orders have one polynomial implementation, with arithmetic certification."
+}

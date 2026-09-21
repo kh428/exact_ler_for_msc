@@ -1,0 +1,58 @@
+{
+  "complete": true,
+  "circuits": [
+    {
+      "stem": "d5a19r4",
+      "fault_distance": 3,
+      "raw_e_through4": [
+        "0",
+        "0",
+        "0",
+        "574/375",
+        "1043452157/810000"
+      ],
+      "leading_L3": "574/375",
+      "source_sha256": "16513bf1dfaaa5537d1b710376fac95a3ec5141fc00a2ed3a664112637fd54ba"
+    },
+    {
+      "stem": "d5a19r4f13",
+      "fault_distance": 5,
+      "raw_e_through4": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "full_e5_lower_bound": "16091442832/253125",
+      "source_sha256": "84451c222e5dfa8e91c944bf0ce7478ca6072db969a2057b7995a66fa08bb8c5"
+    }
+  ],
+  "fifth_order_subset": {
+    "window_e5": "16091442832/253125",
+    "no_growth_or_first_stage_faults": true,
+    "denominator": "815372697600000",
+    "integer_height_upper": "4576486987679699828736000000",
+    "modulus": "5317368347146835871870532670741020673",
+    "residues": [
+      {
+        "prime": "2305940865748566017",
+        "window_e5_residue": 1126702065520722915
+      },
+      {
+        "prime": "2305943064771821569",
+        "window_e5_residue": 1907357674498456956
+      }
+    ],
+    "argument": "The unchanged final window has positive accepted-error weight at five physical faults with an ideal incoming state. This is a nonnegative subset of full e5. Full e0..e4 vanish exactly, so the full repaired fault distance is five."
+  },
+  "scope": "Supplied four-round circuits with documented S->T, S_DAG->T_DAG substitution, all source noise and detector conditions, noiseless terminal code/logical readout, no escape.",
+  "not_computed": "Full fifth-order coefficient for the repaired source, higher coefficients, or all-orders rational LER.",
+  "implementation_hashes": {
+    "low_order_growth.py": "8960f994627585b64b398c2b3a71bc2b380c25bb1fc71cec7535bf316058b19c",
+    "low_order_growth.cpp": "de6a364e2053730c954ef916c7ee3e8be2fed03368a7f75080f6b5023e9be784",
+    "test_low_order_growth.py": "2751dcc38979a6fdb329f2dcebb66a06f2ebac9fd0936eb0600948ca22ddec2e",
+    "compile_sources.py": "3fb4b5ae1b8f33a14c99e886d056d52894d60374e53373c148b6f4077220e815",
+    "certify_fault_distance.py": "79bf77bfe055177ef25eaf395611888f9335f5465d59f0e6cfdeb0e01d2812fd"
+  }
+}

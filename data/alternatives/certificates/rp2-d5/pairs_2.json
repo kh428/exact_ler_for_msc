@@ -1,0 +1,151 @@
+{
+  "status": "complete_exact_shard",
+  "source": "planning/phase_rp2_pairs_source01_20260916.json",
+  "source_sha256": "946db59c008942afe5e39e66869687370dae22fe807a132ca782e0045472462d",
+  "model_sha256": "9cc698fe04999fffbe87c818909a9c3878e9a679b079bc77e7d4e47240aed4f8",
+  "offset": 2,
+  "stride": 7,
+  "limit": 0,
+  "term_count": 5653,
+  "pair_weight_denominator": 225,
+  "build_seconds": 2.6767601249739528,
+  "nonzero_B_classes": 0,
+  "witnesses": [],
+  "done": 5653,
+  "code_hashes": {
+    "phase_pair_evaluate.py": "0a386618d890bf40736e4b1e4ec43f7c390eacebdfac61122a45e495138eb09e",
+    "phase_sum.py": "3ef6a1b493db79ebef1369ae1ae4fad19b6ef1e8b7c21187001e9c57f6a81f04",
+    "parameterized_phase.py": "180e22c426d8bfe2060de730f0ff7acfa2a1edb40a271ffbd34abe2155e9beab",
+    "exact_phase_sum.py": "650e16b92f26a44f5c4de40ce92fb3597ff1607d657db5769071b60ca38faac1"
+  },
+  "sums": {
+    "A": {
+      "a": "416813",
+      "b": "0",
+      "denominator_power_of_two": 4
+    },
+    "X": {
+      "a": "0",
+      "b": "416813",
+      "denominator_power_of_two": 5
+    },
+    "Y": {
+      "a": "0",
+      "b": "416813",
+      "denominator_power_of_two": 5
+    },
+    "B": {
+      "a": "0",
+      "b": "0",
+      "denominator_power_of_two": 0
+    }
+  },
+  "seconds": 6.1300661250716075,
+  "engines": {
+    "A": {
+      "free_bits": 249,
+      "parameters": 5601,
+      "compatibility_constraints": 92,
+      "phase_factors": 3144,
+      "base_monomials": 0,
+      "base_degree": 0,
+      "cached_delta_monomials": 26859,
+      "normalization_power": 249,
+      "normalization_phase": 0
+    },
+    "X": {
+      "free_bits": 249,
+      "parameters": 5601,
+      "compatibility_constraints": 92,
+      "phase_factors": 3144,
+      "base_monomials": 56,
+      "base_degree": 2,
+      "cached_delta_monomials": 27566,
+      "normalization_power": 249,
+      "normalization_phase": 0
+    },
+    "Y": {
+      "free_bits": 249,
+      "parameters": 5601,
+      "compatibility_constraints": 92,
+      "phase_factors": 3149,
+      "base_monomials": 56,
+      "base_degree": 2,
+      "cached_delta_monomials": 27571,
+      "normalization_power": 249,
+      "normalization_phase": 2
+    }
+  },
+  "progress": {
+    "observable": "Y",
+    "done": 5000
+  },
+  "histogram": [
+    {
+      "response": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "weight": 3149481
+    },
+    {
+      "response": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "weight": 46493
+    },
+    {
+      "response": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "weight": 9703
+    },
+    {
+      "response": [
+        1,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      "weight": 1744
+    },
+    {
+      "response": [
+        1,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      "weight": 1332
+    },
+    {
+      "response": [
+        1,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      "weight": 2474
+    }
+  ]
+}

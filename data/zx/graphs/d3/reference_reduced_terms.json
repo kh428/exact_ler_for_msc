@@ -1,0 +1,129 @@
+{
+  "schema": "msc-zx-terms-1",
+  "case": "d3",
+  "record": "reference",
+  "outcomes": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "stage": "reduced_terms",
+  "terms": [
+    {
+      "weight": {
+        "complex": [
+          0.9999999999999998,
+          0.0
+        ]
+      },
+      "graph": {
+        "vertices": [],
+        "edges": [],
+        "inputs": [],
+        "outputs": [],
+        "scalar": {
+          "mapping": [
+            [
+              "power2",
+              0
+            ],
+            [
+              "phase",
+              {
+                "fraction": [
+                  0,
+                  1
+                ]
+              }
+            ],
+            [
+              "phasevars_pi",
+              {
+                "set": []
+              }
+            ],
+            [
+              "phasevars_pi_pair",
+              []
+            ],
+            [
+              "phasevars_halfpi",
+              {
+                "mapping": []
+              }
+            ],
+            [
+              "phasepairs",
+              []
+            ],
+            [
+              "phasenodes",
+              []
+            ],
+            [
+              "phasenodevars",
+              []
+            ],
+            [
+              "floatfactor",
+              {
+                "DyadicNumber": {
+                  "mapping": [
+                    [
+                      "k",
+                      0
+                    ],
+                    [
+                      "a",
+                      1
+                    ],
+                    [
+                      "b",
+                      0
+                    ],
+                    [
+                      "c",
+                      0
+                    ],
+                    [
+                      "d",
+                      0
+                    ]
+                  ]
+                }
+              }
+            ],
+            [
+              "approximate_floatfactor",
+              {
+                "complex": [
+                  1.0,
+                  0.0
+                ]
+              }
+            ],
+            [
+              "is_unknown",
+              false
+            ],
+            [
+              "is_zero",
+              false
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}

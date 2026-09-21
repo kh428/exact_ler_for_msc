@@ -1,0 +1,7 @@
+p,LER_estimate,A_estimate,weight_cutoff,weight_basis,not_actual_shot_counts
+0.0001,3.3274810793292793e-15,0.8236230153267832,5,detector error model mechanisms,True
+0.0002,9.807822908306551e-14,0.6783878606092018,5,detector error model mechanisms,True
+0.0003,7.236714067150579e-13,0.5587902136904835,5,detector error model mechanisms,True
+0.0005,9.092875493131587e-12,0.37918720019914653,5,detector error model mechanisms,True
+0.001,2.861794184106297e-10,0.1439581767577936,5,detector error model mechanisms,True
+0.002,9.103835179901436e-09,0.020825412610562293,5,detector error model mechanisms,True

@@ -1,0 +1,59 @@
+{
+  "status": "complete_exact_sixth_order",
+  "pid": 79389,
+  "mode": 0,
+  "workers": 8,
+  "total_shards": 23542,
+  "selected_shards": 23542,
+  "model_sha256": "d695e09475aaad6c6cb3506e5772aacb6517103cd4ecde6f2713378fdb128bff",
+  "manifest_sha256": "4b16d3edc6939115013e13a996bc7b638f44bc3c82b7eebbde0a9d4ef1506d5a",
+  "resumed": 336,
+  "pilot": false,
+  "done": 23542,
+  "six_class_sum": "103231877531352256693741829535/4096",
+  "candidates": 52622368055661,
+  "shard_core_seconds": 94884.83382717623,
+  "process_core_seconds": 94136.89569100001,
+  "wall_seconds": 11996.833031459013,
+  "peak_rss_bytes": 1925660672,
+  "failures": [],
+  "stops": [],
+  "result": {
+    "e": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "3493956797/17781120000",
+      "141047129810985390817/1411465305600000",
+      "2283720369401810712823951339/64024066262016000000"
+    ],
+    "L": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "3493956797/17781120000",
+      "140969009479148306917/1411465305600000",
+      "241056568979596536874210373/32012033131008000000"
+    ],
+    "e6": "2283720369401810712823951339/64024066262016000000",
+    "L6": "241056568979596536874210373/32012033131008000000",
+    "a_required": [
+      "1",
+      "845/3",
+      "267924805507/6350400",
+      "989964639091007/222264000"
+    ],
+    "sixth_EGF_parts": [
+      "0",
+      "-18407768161361437845/32",
+      "-30238542833282731768887225/256",
+      "103231877531352256693741829535/4096"
+    ],
+    "C2": "3392894829",
+    "convention": "x=p/(1-p); frozen 2116-location native reconstruction; noiseless terminal projection; no escape"
+  },
+  "saved_shards_digest": "ef8a3d84bdbb562f860a3a4f1b021bf79eef1bc311db8337e583c9c0f67796bc",
+  "verification": "all tasks, hashes, exact census and quotient recursion agree"
+}

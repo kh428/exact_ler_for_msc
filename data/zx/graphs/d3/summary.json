@@ -1,0 +1,220 @@
+{
+  "case": "d3",
+  "method": "both",
+  "versions": {
+    "pyzx-param_distribution": "0.9.3",
+    "pyzx_param_internal": "0.9.0",
+    "stim": "1.16.0"
+  },
+  "scalar_arithmetic": "complex floating point",
+  "absolute_tolerance": 1e-12,
+  "records": {
+    "reference": {
+      "expected_probability": 1.0,
+      "wires": 14,
+      "measurement_bits": 14,
+      "methods": {
+        "ladder": {
+          "amplitude": [
+            0.9999999999999994,
+            -9.247774692466729e-17
+          ],
+          "probability": 0.9999999999999989,
+          "seconds": 0.010934999969322234,
+          "statistics": {
+            "clifford_leaves": 9
+          }
+        },
+        "cut": {
+          "amplitude": [
+            0.9999999999999998,
+            0.0
+          ],
+          "probability": 0.9999999999999996,
+          "seconds": 0.3989741670084186,
+          "statistics": {
+            "fused_rounds": [
+              {
+                "round": 1,
+                "terms_in": 1,
+                "reduced_tcounts_in": [
+                  16
+                ],
+                "branches": 2,
+                "terms_out": 2,
+                "reduced_tcounts_out": [
+                  0,
+                  0
+                ],
+                "seconds": 0.4
+              },
+              {
+                "round": 2,
+                "terms_in": 2,
+                "reduced_tcounts_in": [
+                  0,
+                  0
+                ],
+                "branches": 0,
+                "terms_out": 2,
+                "reduced_tcounts_out": [
+                  0,
+                  0
+                ],
+                "seconds": 0.0
+              }
+            ],
+            "reduced": {
+              "terms": 1,
+              "tcounts": [
+                0
+              ]
+            },
+            "clifford_terms": 1,
+            "bss_leaves": 0,
+            "ladder_per_term": [
+              1
+            ]
+          }
+        }
+      }
+    },
+    "good": {
+      "expected_probability": 0.0,
+      "wires": 14,
+      "measurement_bits": 14,
+      "methods": {
+        "ladder": {
+          "amplitude": [
+            -1.4370919814331763e-18,
+            3.469446951953614e-17
+          ],
+          "probability": 1.2057714486051217e-33,
+          "seconds": 0.010773624991998076,
+          "statistics": {
+            "clifford_leaves": 7
+          }
+        },
+        "cut": {
+          "amplitude": [
+            0.0,
+            0.0
+          ],
+          "probability": 0.0,
+          "seconds": 0.4415614159661345,
+          "statistics": {
+            "fused_rounds": [
+              {
+                "round": 1,
+                "terms_in": 1,
+                "reduced_tcounts_in": [
+                  16
+                ],
+                "branches": 2,
+                "terms_out": 2,
+                "reduced_tcounts_out": [
+                  0,
+                  0
+                ],
+                "seconds": 0.4
+              },
+              {
+                "round": 2,
+                "terms_in": 2,
+                "reduced_tcounts_in": [
+                  0,
+                  0
+                ],
+                "branches": 0,
+                "terms_out": 2,
+                "reduced_tcounts_out": [
+                  0,
+                  0
+                ],
+                "seconds": 0.0
+              }
+            ],
+            "reduced": {
+              "terms": 0,
+              "tcounts": []
+            },
+            "clifford_terms": 0,
+            "bss_leaves": 0,
+            "ladder_per_term": []
+          }
+        }
+      }
+    },
+    "bad": {
+      "expected_probability": 0.25,
+      "wires": 14,
+      "measurement_bits": 14,
+      "methods": {
+        "ladder": {
+          "amplitude": [
+            0.4999999999999997,
+            -4.77236335350989e-17
+          ],
+          "probability": 0.24999999999999972,
+          "seconds": 0.011640875018201768,
+          "statistics": {
+            "clifford_leaves": 9
+          }
+        },
+        "cut": {
+          "amplitude": [
+            0.49999999999999983,
+            0.0
+          ],
+          "probability": 0.24999999999999983,
+          "seconds": 0.44905875000404194,
+          "statistics": {
+            "fused_rounds": [
+              {
+                "round": 1,
+                "terms_in": 1,
+                "reduced_tcounts_in": [
+                  16
+                ],
+                "branches": 2,
+                "terms_out": 2,
+                "reduced_tcounts_out": [
+                  0,
+                  0
+                ],
+                "seconds": 0.4
+              },
+              {
+                "round": 2,
+                "terms_in": 2,
+                "reduced_tcounts_in": [
+                  0,
+                  0
+                ],
+                "branches": 0,
+                "terms_out": 2,
+                "reduced_tcounts_out": [
+                  0,
+                  0
+                ],
+                "seconds": 0.0
+              }
+            ],
+            "reduced": {
+              "terms": 1,
+              "tcounts": [
+                0
+              ]
+            },
+            "clifford_terms": 1,
+            "bss_leaves": 0,
+            "ladder_per_term": [
+              1
+            ]
+          }
+        }
+      }
+    }
+  },
+  "complete": true
+}

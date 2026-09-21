@@ -1,0 +1,188 @@
+{
+  "complete": true,
+  "degree": 10,
+  "prime_certificate": {
+    "prime": "2305940865748566017",
+    "odd_k": 2097241,
+    "power_of_two": 40,
+    "witness": 3,
+    "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+  },
+  "physical_channels": 402,
+  "region_channels": [
+    244,
+    158
+  ],
+  "shape": [
+    8,
+    8,
+    4,
+    11
+  ],
+  "axes": [
+    "X_syndrome",
+    "Z_syndrome",
+    "T_tag",
+    "physical_x_degree"
+  ],
+  "tag_order": [
+    "I",
+    "X",
+    "Z",
+    "Y"
+  ],
+  "frame_range": [
+    0,
+    256
+  ],
+  "queries": 8388608,
+  "nonzero_tags": 5692928,
+  "metadata": {
+    "source_sha256": "859d925c74712efaae8bab1d944f9e5be4e042e226eeafcc6d7bef9d6fbfbae5",
+    "proxy": false,
+    "payload_bits": 157,
+    "payload_widths": [
+      15,
+      18,
+      75,
+      49
+    ],
+    "payload_offsets": [
+      0,
+      15,
+      33,
+      108
+    ],
+    "source_channels": 3564,
+    "relevant_channels": 1996,
+    "ignored_channels": 1568,
+    "outcome_items": 11290,
+    "necessary_label_rank": 93,
+    "record_sum": "All 16 accepted records included by the noisy growth Choi equality; no extra multiplicity applied to the prefix",
+    "scope": "Complete frozen SOFT source through its actual ideal code/T readout, with covariance-moved channel representatives in the two checks"
+  },
+  "channel_laws": [
+    {
+      "physical_channels": 244,
+      "label_bits": 15,
+      "degree": 10,
+      "character_profiles": 8566,
+      "all_characters": 32768,
+      "normalization_coefficients_checked": 11,
+      "selected_entries": 256,
+      "seconds": 0.27821645900257863,
+      "arithmetic": "All Fourier characters, exact truncated physical-weight polynomials modulo q"
+    },
+    {
+      "physical_channels": 158,
+      "label_bits": 18,
+      "degree": 10,
+      "character_profiles": 1725,
+      "all_characters": 262144,
+      "normalization_coefficients_checked": 11,
+      "selected_entries": 4096,
+      "seconds": 0.46953329202369787,
+      "arithmetic": "All Fourier characters, exact truncated physical-weight polynomials modulo q"
+    }
+  ],
+  "native_tags": {
+    "build_stdout_sha256": "d48d3e7fc36dc0c9a85897336574a9e2e8bab4452398392c5f4448488f5ba1f2",
+    "source_sha256": "4e23a65d8ec653bca10c17c05bcdecf717f54f3b0a82f3cdc0c8a2d57623521e",
+    "binary_sha256": "bf233ee585b3dc0885da079a1131b7ee844feeaf9604c7770ef8bbe21309e253"
+  },
+  "polynomial_kernel": {
+    "source_sha256": {
+      "sims/arxiv_polynomial_endpoints.cpp": "b52c1346246de0b39709e8c56b0d8871b54181612d269f725e2e2430a60264e4",
+      "sims/arxiv_polynomial.cpp": "9fab9d5cd457c25a9fcf893410ec32b6566c63c1ff57cab99429c7bf4298d037",
+      "sims/modular_binary.cpp": "41c0887b5ecc158800c6f23a66690f4b586773567700da79adedff2f3378c06d"
+    },
+    "binary_sha256": "a58d39c9d17e48fef4a9316917028d0ff38cf74309e7e2da3e6a39bdcbd14f89"
+  },
+  "mixture_seconds": 1.714807375014061,
+  "projected_d3": {
+    "a_residues": [
+      1,
+      1537293910499044037,
+      1176029841531769763,
+      330347380322824755,
+      683526422058018208,
+      921484336280124871,
+      66074537932558635,
+      2136017154440726105,
+      532496234926220381,
+      705635379668904374,
+      1852686498023415789
+    ],
+    "e_residues": [
+      0,
+      0,
+      891630468089445527,
+      713816805775056560,
+      515480269755538289,
+      401437924006145752,
+      390012781057119418,
+      1705216020152005246,
+      1945337929707751344,
+      2291704789980160268,
+      1999167540595294291
+    ],
+    "independent_injection_times_open_response_agrees": true,
+    "response_components": [
+      {
+        "seconds": 0.16464025000459515,
+        "pooled_array_bytes": 148057344,
+        "memory_plan": {
+          "degree": 10,
+          "scratch_entries": 524288,
+          "scratch_bytes": 46137344,
+          "pooled_array_bytes": 148057344,
+          "source_array_bytes": 41728,
+          "maximum_estimated_live_array_bytes": 148163328,
+          "elimination_coefficient_multiplications": 115039824,
+          "elimination_branch_additions": 19657416,
+          "maximum_binary_product_bits": 20,
+          "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+        },
+        "kernel": {
+          "source_sha256": {
+            "sims/arxiv_polynomial_endpoints.cpp": "b52c1346246de0b39709e8c56b0d8871b54181612d269f725e2e2430a60264e4",
+            "sims/arxiv_polynomial.cpp": "9fab9d5cd457c25a9fcf893410ec32b6566c63c1ff57cab99429c7bf4298d037",
+            "sims/modular_binary.cpp": "41c0887b5ecc158800c6f23a66690f4b586773567700da79adedff2f3378c06d"
+          },
+          "binary_sha256": "a58d39c9d17e48fef4a9316917028d0ff38cf74309e7e2da3e6a39bdcbd14f89"
+        },
+        "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+      },
+      {
+        "seconds": 0.1629548750061076,
+        "pooled_array_bytes": 148057344,
+        "memory_plan": {
+          "degree": 10,
+          "scratch_entries": 524288,
+          "scratch_bytes": 46137344,
+          "pooled_array_bytes": 148057344,
+          "source_array_bytes": 41728,
+          "maximum_estimated_live_array_bytes": 148163328,
+          "elimination_coefficient_multiplications": 115039824,
+          "elimination_branch_additions": 19657416,
+          "maximum_binary_product_bits": 20,
+          "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+        },
+        "kernel": {
+          "source_sha256": {
+            "sims/arxiv_polynomial_endpoints.cpp": "b52c1346246de0b39709e8c56b0d8871b54181612d269f725e2e2430a60264e4",
+            "sims/arxiv_polynomial.cpp": "9fab9d5cd457c25a9fcf893410ec32b6566c63c1ff57cab99429c7bf4298d037",
+            "sims/modular_binary.cpp": "41c0887b5ecc158800c6f23a66690f4b586773567700da79adedff2f3378c06d"
+          },
+          "binary_sha256": "a58d39c9d17e48fef4a9316917028d0ff38cf74309e7e2da3e6a39bdcbd14f89"
+        },
+        "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+      }
+    ]
+  },
+  "elapsed_seconds": 2.162527125008637,
+  "artifact": {
+    "sha256": "de95b718524165a07453121b400136f85d42ff3ca6045dde224c10ac3c632995"
+  },
+  "scope": "All first-stage output syndrome and T-tag weights, exact modulo q through physical weight K. No projection onto only the positive code sector in saved W. No polynomial growth yet."
+}

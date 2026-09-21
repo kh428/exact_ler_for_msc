@@ -1,0 +1,801 @@
+{
+  "case": "d3",
+  "method": "reduced",
+  "faultfree_flip0": {
+    "p": 0.9999999999999969,
+    "clifford_terms": 8,
+    "stats": {
+      "rounds": [
+        {
+          "round": 1,
+          "terms_in": 1,
+          "tcounts_in": [
+            16
+          ],
+          "branches": 2,
+          "terms_after_collect": 2,
+          "tcounts_after": [
+            15,
+            15
+          ],
+          "seconds": 0.1
+        },
+        {
+          "round": 2,
+          "terms_in": 2,
+          "tcounts_in": [
+            15,
+            15
+          ],
+          "branches": 4,
+          "terms_after_collect": 4,
+          "tcounts_after": [
+            14,
+            14,
+            14,
+            14
+          ],
+          "seconds": 0.1
+        },
+        {
+          "round": 3,
+          "terms_in": 4,
+          "tcounts_in": [
+            14,
+            14,
+            14,
+            14
+          ],
+          "branches": 8,
+          "terms_after_collect": 8,
+          "tcounts_after": [
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13
+          ],
+          "seconds": 0.2
+        },
+        {
+          "round": 4,
+          "terms_in": 8,
+          "tcounts_in": [
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13
+          ],
+          "branches": 16,
+          "terms_after_collect": 16,
+          "tcounts_after": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "seconds": 0.3
+        },
+        {
+          "round": 5,
+          "terms_in": 16,
+          "tcounts_in": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "branches": 32,
+          "terms_after_collect": 16,
+          "tcounts_after": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ],
+          "seconds": 0.6
+        },
+        {
+          "round": 6,
+          "terms_in": 16,
+          "tcounts_in": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ],
+          "branches": 32,
+          "terms_after_collect": 9,
+          "tcounts_after": [
+            0,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "seconds": 0.5
+        },
+        {
+          "round": 7,
+          "terms_in": 8,
+          "tcounts_in": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "branches": 16,
+          "terms_after_collect": 8,
+          "tcounts_after": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "seconds": 0.2
+        },
+        {
+          "round": 8,
+          "terms_in": 8,
+          "tcounts_in": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "branches": 16,
+          "terms_after_collect": 16,
+          "tcounts_after": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "seconds": 0.2
+        },
+        {
+          "round": 9,
+          "terms_in": 16,
+          "tcounts_in": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "branches": 32,
+          "terms_after_collect": 3,
+          "tcounts_after": [
+            0,
+            6,
+            6
+          ],
+          "seconds": 0.2
+        }
+      ],
+      "clifford_terms": 8,
+      "bss_leaves": 6
+    }
+  },
+  "input_flip": false,
+  "wires": 14,
+  "measurements": 14,
+  "good": {
+    "amplitude": [
+      -2.3141736163163178e-17,
+      1.734723475976807e-17
+    ],
+    "p": 8.3646650645596e-34,
+    "clifford_terms": 8,
+    "bss_leaves": 6,
+    "stats": {
+      "rounds": [
+        {
+          "round": 1,
+          "terms_in": 1,
+          "tcounts_in": [
+            16
+          ],
+          "branches": 2,
+          "terms_after_collect": 2,
+          "tcounts_after": [
+            15,
+            15
+          ],
+          "seconds": 0.1
+        },
+        {
+          "round": 2,
+          "terms_in": 2,
+          "tcounts_in": [
+            15,
+            15
+          ],
+          "branches": 4,
+          "terms_after_collect": 4,
+          "tcounts_after": [
+            14,
+            14,
+            14,
+            14
+          ],
+          "seconds": 0.1
+        },
+        {
+          "round": 3,
+          "terms_in": 4,
+          "tcounts_in": [
+            14,
+            14,
+            14,
+            14
+          ],
+          "branches": 8,
+          "terms_after_collect": 8,
+          "tcounts_after": [
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13
+          ],
+          "seconds": 0.2
+        },
+        {
+          "round": 4,
+          "terms_in": 8,
+          "tcounts_in": [
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13
+          ],
+          "branches": 16,
+          "terms_after_collect": 8,
+          "tcounts_after": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "seconds": 0.4
+        },
+        {
+          "round": 5,
+          "terms_in": 8,
+          "tcounts_in": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "branches": 16,
+          "terms_after_collect": 16,
+          "tcounts_after": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ],
+          "seconds": 0.3
+        },
+        {
+          "round": 6,
+          "terms_in": 16,
+          "tcounts_in": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ],
+          "branches": 24,
+          "terms_after_collect": 9,
+          "tcounts_after": [
+            0,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "seconds": 0.5
+        },
+        {
+          "round": 7,
+          "terms_in": 8,
+          "tcounts_in": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "branches": 16,
+          "terms_after_collect": 8,
+          "tcounts_after": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "seconds": 0.2
+        },
+        {
+          "round": 8,
+          "terms_in": 8,
+          "tcounts_in": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "branches": 16,
+          "terms_after_collect": 16,
+          "tcounts_after": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "seconds": 0.2
+        },
+        {
+          "round": 9,
+          "terms_in": 16,
+          "tcounts_in": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "branches": 20,
+          "terms_after_collect": 3,
+          "tcounts_after": [
+            0,
+            6,
+            6
+          ],
+          "seconds": 0.3
+        }
+      ],
+      "clifford_terms": 8,
+      "bss_leaves": 6
+    },
+    "seconds": 2.3
+  },
+  "bad": {
+    "amplitude": [
+      0.49999999999999944,
+      -5.454159433318065e-16
+    ],
+    "p": 0.24999999999999944,
+    "clifford_terms": 8,
+    "bss_leaves": 6,
+    "stats": {
+      "rounds": [
+        {
+          "round": 1,
+          "terms_in": 1,
+          "tcounts_in": [
+            16
+          ],
+          "branches": 2,
+          "terms_after_collect": 2,
+          "tcounts_after": [
+            15,
+            15
+          ],
+          "seconds": 0.1
+        },
+        {
+          "round": 2,
+          "terms_in": 2,
+          "tcounts_in": [
+            15,
+            15
+          ],
+          "branches": 4,
+          "terms_after_collect": 4,
+          "tcounts_after": [
+            14,
+            14,
+            14,
+            14
+          ],
+          "seconds": 0.1
+        },
+        {
+          "round": 3,
+          "terms_in": 4,
+          "tcounts_in": [
+            14,
+            14,
+            14,
+            14
+          ],
+          "branches": 8,
+          "terms_after_collect": 8,
+          "tcounts_after": [
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13
+          ],
+          "seconds": 0.2
+        },
+        {
+          "round": 4,
+          "terms_in": 8,
+          "tcounts_in": [
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13,
+            13
+          ],
+          "branches": 16,
+          "terms_after_collect": 8,
+          "tcounts_after": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "seconds": 0.4
+        },
+        {
+          "round": 5,
+          "terms_in": 8,
+          "tcounts_in": [
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12
+          ],
+          "branches": 16,
+          "terms_after_collect": 16,
+          "tcounts_after": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ],
+          "seconds": 0.3
+        },
+        {
+          "round": 6,
+          "terms_in": 16,
+          "tcounts_in": [
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11
+          ],
+          "branches": 24,
+          "terms_after_collect": 9,
+          "tcounts_after": [
+            0,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "seconds": 0.6
+        },
+        {
+          "round": 7,
+          "terms_in": 8,
+          "tcounts_in": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "branches": 16,
+          "terms_after_collect": 8,
+          "tcounts_after": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "seconds": 0.2
+        },
+        {
+          "round": 8,
+          "terms_in": 8,
+          "tcounts_in": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "branches": 16,
+          "terms_after_collect": 16,
+          "tcounts_after": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "seconds": 0.2
+        },
+        {
+          "round": 9,
+          "terms_in": 16,
+          "tcounts_in": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "branches": 20,
+          "terms_after_collect": 3,
+          "tcounts_after": [
+            0,
+            6,
+            6
+          ],
+          "seconds": 0.3
+        }
+      ],
+      "clifford_terms": 8,
+      "bss_leaves": 6
+    },
+    "seconds": 2.3
+  },
+  "expected_good": 0.0,
+  "expected_bad": 0.25,
+  "total_seconds": 7.2,
+  "pyzx_param": "0.9.0"
+}

@@ -1,0 +1,336 @@
+{
+  "complete": true,
+  "scope": "Plot revision only; existing exact values and interval endpoints reused.",
+  "exact_rows": [
+    {
+      "p": 0.0005,
+      "A": 0.8285997036075837,
+      "B": 1.3594498810900885e-07,
+      "LER": 1.6406593861562735e-07,
+      "discard_fraction": 0.17140029639241622
+    },
+    {
+      "p": 0.001,
+      "A": 0.6867847489562792,
+      "B": 6.169243830463577e-07,
+      "LER": 8.982790954282404e-07,
+      "discard_fraction": 0.3132152510437208
+    },
+    {
+      "p": 0.002,
+      "A": 0.47225722106253853,
+      "B": 2.688039540930891e-06,
+      "LER": 5.691897171806141e-06,
+      "discard_fraction": 0.5277427789374615
+    },
+    {
+      "p": 0.003,
+      "A": 0.3251631976884603,
+      "B": 5.876915721439068e-06,
+      "LER": 1.8073741933949598e-05,
+      "discard_fraction": 0.6748368023115398
+    },
+    {
+      "p": 0.005,
+      "A": 0.15479820918179918,
+      "B": 1.3141218051390375e-05,
+      "LER": 8.489257156687758e-05,
+      "discard_fraction": 0.8452017908182008
+    },
+    {
+      "p": 0.007,
+      "A": 0.0741479056922478,
+      "B": 1.8696990672675247e-05,
+      "LER": 0.00025215804139199074,
+      "discard_fraction": 0.9258520943077522
+    },
+    {
+      "p": 0.01,
+      "A": 0.024911595680611652,
+      "B": 2.1700702272544722e-05,
+      "LER": 0.0008711084809968267,
+      "discard_fraction": 0.9750884043193884
+    }
+  ],
+  "series": [
+    {
+      "label": "Clifft",
+      "interval": "Published likelihood >= maximum/1000, effective-binomial convention; not 95%",
+      "rows": [
+        {
+          "p": 0.0005,
+          "point": 1.6121666513711649e-07,
+          "lower": 1.037662869617505e-07,
+          "upper": 2.3673100836338254e-07,
+          "pdf_xy": [
+            64.60701,
+            199.79224
+          ],
+          "pdf_band_y": [
+            191.36012,
+            207.14438
+          ],
+          "exact_over_reported": 1.0176735666631458,
+          "contains_exact": true
+        },
+        {
+          "p": 0.001,
+          "point": 8.877500405846926e-07,
+          "lower": 6.483920053148242e-07,
+          "upper": 1.1797885801945683e-06,
+          "pdf_xy": [
+            83.08406,
+            232.43962
+          ],
+          "pdf_band_y": [
+            226.42673,
+            237.88232
+          ],
+          "exact_over_reported": 1.011860382272259,
+          "contains_exact": true
+        },
+        {
+          "p": 0.002,
+          "point": 5.656840570372172e-06,
+          "lower": 4.5769356523474405e-06,
+          "upper": 6.894295160310058e-06,
+          "pdf_xy": [
+            119.94696,
+            267.88087
+          ],
+          "pdf_band_y": [
+            263.82687,
+            271.66681
+          ],
+          "exact_over_reported": 1.0061972051355978,
+          "contains_exact": true
+        },
+        {
+          "p": 0.003,
+          "point": 1.7995109240006394e-05,
+          "lower": 1.5185544463028634e-05,
+          "upper": 2.1131934502984024e-05,
+          "pdf_xy": [
+            156.67912,
+            290.0274
+          ],
+          "pdf_band_y": [
+            286.7787,
+            293.10251
+          ],
+          "exact_over_reported": 1.0043696702750984,
+          "contains_exact": true
+        },
+        {
+          "p": 0.005,
+          "point": 8.460531346539604e-05,
+          "lower": 7.424671552086563e-05,
+          "upper": 9.587923410680887e-05,
+          "pdf_xy": [
+            229.73036,
+            319.65022
+          ],
+          "pdf_band_y": [
+            317.1508,
+            322.04417
+          ],
+          "exact_over_reported": 1.003395272586503,
+          "contains_exact": true
+        },
+        {
+          "p": 0.007,
+          "point": 0.0002521190933060964,
+          "lower": 0.0002256505790902559,
+          "upper": 0.0002805780707984363,
+          "pdf_xy": [
+            302.17514,
+            340.5465
+          ],
+          "pdf_band_y": [
+            338.42389,
+            342.59326
+          ],
+          "exact_over_reported": 1.000154482888954,
+          "contains_exact": true
+        },
+        {
+          "p": 0.01,
+          "point": 0.0008807956002766337,
+          "lower": 0.0007997688247770772,
+          "upper": 0.0009670292894017957,
+          "pdf_xy": [
+            409.53712,
+            364.48601
+          ],
+          "pdf_band_y": [
+            362.63919,
+            366.27351
+          ],
+          "exact_over_reported": 0.9890018532372725,
+          "contains_exact": true
+        }
+      ]
+    },
+    {
+      "label": "Gidney-Shutty-Jones Statevector",
+      "interval": "95% Clopper-Pearson under the conditional binomial model for errors among kept shots",
+      "rows": [
+        {
+          "p": 0.001,
+          "shots": 505758066,
+          "kept": 347339102,
+          "errors": 338,
+          "discards": 158418964,
+          "point": 9.731124369636908e-07,
+          "lower": 8.72124137114168e-07,
+          "upper": 1.0825857468803105e-06,
+          "discard_fraction": 0.3132307216628751,
+          "strong_id": "06d94df8a7ce7be25febec6b6df51b3e50579cf9098389f0462df82a486cbf11",
+          "metadata": {
+            "b": "Y",
+            "c": "inject[unitary]+cultivate",
+            "d1": 3,
+            "g": "css",
+            "noise": "uniform",
+            "p": 0.001,
+            "q": 15,
+            "r": 4
+          },
+          "exact_over_reported": 0.9230989773710573,
+          "contains_exact": true
+        },
+        {
+          "p": 0.002,
+          "shots": 561960533,
+          "kept": 265390443,
+          "errors": 1555,
+          "discards": 296570090,
+          "point": 5.8592916249060255e-06,
+          "lower": 5.571653016881444e-06,
+          "upper": 6.157929246460681e-06,
+          "discard_fraction": 0.5277418476645939,
+          "strong_id": "87111214df98419829ac5263ed949f124bccfcb1b5e1cf71c06c4ed51a0821bc",
+          "metadata": {
+            "b": "Y",
+            "c": "inject[unitary]+cultivate",
+            "d1": 3,
+            "g": "css",
+            "noise": "uniform",
+            "p": 0.002,
+            "q": 15,
+            "r": 4
+          },
+          "exact_over_reported": 0.9714309401518193,
+          "contains_exact": true
+        },
+        {
+          "p": 0.003,
+          "shots": 169644385,
+          "kept": 55151891,
+          "errors": 1000,
+          "discards": 114492494,
+          "point": 1.8131744567017656e-05,
+          "lower": 1.7025228183253915e-05,
+          "upper": 1.9291297176983206e-05,
+          "discard_fraction": 0.6748970441904104,
+          "strong_id": "8e3b78d242c7f5085a48c41edc774b8eead024165db2c580970d9e73f054f928",
+          "metadata": {
+            "b": "Y",
+            "c": "inject[unitary]+cultivate",
+            "d1": 3,
+            "g": "css",
+            "noise": "uniform",
+            "p": 0.003,
+            "q": 15,
+            "r": 4
+          },
+          "exact_over_reported": 0.9968010451033175,
+          "contains_exact": true
+        },
+        {
+          "p": 0.005,
+          "shots": 73760419,
+          "kept": 11425806,
+          "errors": 1000,
+          "discards": 62334613,
+          "point": 8.752117793703131e-05,
+          "lower": 8.218024050110628e-05,
+          "upper": 9.311808360818281e-05,
+          "discard_fraction": 0.845095700988358,
+          "strong_id": "e68a9e0e5c6bbb0cbbcd4aad3aac7e60db65b63fb5d151b731b79c756248749f",
+          "metadata": {
+            "b": "Y",
+            "c": "inject[unitary]+cultivate",
+            "d1": 3,
+            "g": "css",
+            "noise": "uniform",
+            "p": 0.005,
+            "q": 15,
+            "r": 4
+          },
+          "exact_over_reported": 0.9699660535642592,
+          "contains_exact": true
+        },
+        {
+          "p": 0.007,
+          "shots": 51914716,
+          "kept": 3846930,
+          "errors": 1000,
+          "discards": 48067786,
+          "point": 0.0002599475425859062,
+          "lower": 0.0002440856331420438,
+          "upper": 0.00027656944415927517,
+          "discard_fraction": 0.9258990456578824,
+          "strong_id": "be4e1c59d65d79ed788ec0af6ceab1653404eb7900b60d7427b7a69fa422478c",
+          "metadata": {
+            "b": "Y",
+            "c": "inject[unitary]+cultivate",
+            "d1": 3,
+            "g": "css",
+            "noise": "uniform",
+            "p": 0.007,
+            "q": 15,
+            "r": 4
+          },
+          "exact_over_reported": 0.970034334172091,
+          "contains_exact": true
+        },
+        {
+          "p": 0.01,
+          "shots": 44049581,
+          "kept": 1098864,
+          "errors": 1000,
+          "discards": 42950717,
+          "point": 0.0009100307226371962,
+          "lower": 0.0008545176392421583,
+          "upper": 0.000968200950693812,
+          "discard_fraction": 0.9750539284357779,
+          "strong_id": "02a660644481068a784c6e285eeac78d8fcfadb3c22385fac5ccd85867a1c0d4",
+          "metadata": {
+            "b": "Y",
+            "c": "inject[unitary]+cultivate",
+            "d1": 3,
+            "g": "css",
+            "noise": "uniform",
+            "p": 0.01,
+            "q": 15,
+            "r": 4
+          },
+          "exact_over_reported": 0.957229749862097,
+          "contains_exact": true
+        }
+      ]
+    }
+  ],
+  "inputs": {
+    "inputs/msc_zenodo_d3_t_rows_20260907.json": "760d8a57b99184cd3fcd5f1502cf707a4d71d4a248264cab07f4e84862bf93cb"
+  },
+  "statevector_injection": "unitary",
+  "statevector_scope_caveat": "Original MSC intended injection+cultivation benchmark; its archived generator was not rerun for a literal circuit identity certificate.",
+  "statevector_rows_checked": 6,
+  "outputs": {
+    "figures/d3_comparison.pdf": "2e72128cc74b8e3cdba8e00d969deca22f353134db2f8830d1abfd0cdacc4a2b",
+    "figures/d3_comparison.png": "0dba569e8e563ff12f051ef9e61798ad96b820d711b3e2bb7d78bb2a37a7c53f"
+  },
+  "script_sha256": "dfa8ecc3f2e1f17bddc6d2e6ee30d9bb0c94fc5f2d9e21d81b365e5b9c74e3ea"
+}

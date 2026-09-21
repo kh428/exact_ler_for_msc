@@ -1,0 +1,32 @@
+{
+  "source": "rp2/inputs/magic_d5_v2.json",
+  "source_sha256": "9cc698fe04999fffbe87c818909a9c3878e9a679b079bc77e7d4e47240aed4f8",
+  "classes": 3256,
+  "physical_locations": 2405,
+  "denominator": 15,
+  "direct_quantum_bits": 54,
+  "profile_conversion_checks": 12973,
+  "signed_histogram_absolute_bound": "77931727847071089125386671394899000000",
+  "S1_squared": "1942265",
+  "S1_S2": "137322375",
+  "old_cache_hashes": {
+    "plan.json": "b0c28e0b20f685359f464413defc7781523852f94509faef58604892de4233a7",
+    "rows.json": "46f89945e8c232f38ef5792b46087be23d17f092b98f55f2b182ed11f09d4095",
+    "manifest.json": "d1d28d8c9f70e4913d3912a5e176d25dac31e88a621474ab1edbf04f2c4871d5"
+  },
+  "hashes": {
+    "plan.json": "4d05a499f7f09adb59c4c9759c1f1f956fe2ef317e5c5c8ba84089ee5972aef9",
+    "labels.json": "f2d4bea78c3f1b6cd18e1963473271c87424e057d4ed300a097ff59d742df3de",
+    "signatures.json": "a8d0534daa87e2ab76d15e686999993a2f720345746dabc60b32e1f25811bb5d",
+    "powers.npy": "ac242ceb47ee255b4e861b7cff705c8016001df41a56ea6674c3dca26c12b160"
+  },
+  "code_hashes": {
+    "phase_sixth_direct.cpp": "f6e9a269c5d6ba934e098081404c8d04908e4e7470a60846ff6538a0204cf7b8",
+    "phase_sixth_direct.py": "57dac9db3a9d9167acc255cd04d3171d56d63a1847e62280fdffc8584654b30b",
+    "phase_bulk_filter.cpp": "8375cc3bd5508f09dee237eeaff9a30c343db376dc2a4eb79cf0c55060fd274d",
+    "phase_gaussian_kernel.cpp": "c7cb5b5b3779df495356580ec48c275d429970b322302b9456d82adacd73b788",
+    "direct_bad_join_pilot.py": "4d1a15e8438b1c4514e06896484e08ef5339a60280410fa94dd46d64994c44ee",
+    "direct_bad_phase_pilot.py": "482f091774b5bfa8db224c15bcfa456cab9a452b6dba153982351ddbd11b5427"
+  },
+  "seconds": 4.801417917013168
+}

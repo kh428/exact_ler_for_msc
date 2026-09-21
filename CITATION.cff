@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper when using these calculations or data."
+title: "Exact logical error rates for magic state cultivation"
+type: software
+authors:
+  - family-names: Wan
+    given-names: Kwok Ho
+  - family-names: Zapirain
+    given-names: Ainhoa
+repository-code: "https://github.com/kh428/exact_ler_for_msc"
+url: "https://arxiv.org/abs/2609.18922"

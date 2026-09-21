@@ -1,0 +1,76 @@
+{
+  "status": "complete_exact_first_order",
+  "model": "rp2/inputs/magic_d5_v2.json",
+  "source_sha256": "9cc698fe04999fffbe87c818909a9c3878e9a679b079bc77e7d4e47240aed4f8",
+  "outputs": {
+    "A": {
+      "ideal": {
+        "real": {
+          "a": "1",
+          "b": "0",
+          "denominator_power_of_two": 0
+        },
+        "imag": {
+          "a": "0",
+          "b": "0",
+          "denominator_power_of_two": 0
+        }
+      },
+      "weighted_sum": {
+        "a": "1311",
+        "b": "0",
+        "denominator_power_of_two": 1
+      },
+      "rational": "437/10",
+      "sqrt2": "0",
+      "outcomes": 12973
+    },
+    "X": {
+      "ideal": {
+        "real": {
+          "a": "0",
+          "b": "1",
+          "denominator_power_of_two": 1
+        },
+        "imag": {
+          "a": "0",
+          "b": "0",
+          "denominator_power_of_two": 0
+        }
+      },
+      "weighted_sum": {
+        "a": "0",
+        "b": "1311",
+        "denominator_power_of_two": 2
+      },
+      "rational": "0",
+      "sqrt2": "437/20",
+      "outcomes": 12973
+    },
+    "Y": {
+      "ideal": {
+        "real": {
+          "a": "0",
+          "b": "1",
+          "denominator_power_of_two": 1
+        },
+        "imag": {
+          "a": "0",
+          "b": "0",
+          "denominator_power_of_two": 0
+        }
+      },
+      "weighted_sum": {
+        "a": "0",
+        "b": "1311",
+        "denominator_power_of_two": 2
+      },
+      "rational": "0",
+      "sqrt2": "437/20",
+      "outcomes": 12973
+    }
+  },
+  "a1": "437/10",
+  "e1": "0",
+  "seconds": 9.066302624996752
+}

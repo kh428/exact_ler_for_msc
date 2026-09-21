@@ -1,0 +1,14 @@
+{
+  "faultfree_flip0": 1.0,
+  "case": "d3",
+  "input_flip": false,
+  "tcount": 16,
+  "qubits": 15,
+  "measurements": 14,
+  "p_accept_good": 0.0,
+  "p_accept_bad": 0.25,
+  "expected_good": 0.0,
+  "expected_bad": 0.25,
+  "seconds": 12.7,
+  "tsim_version": "0.1.5"
+}

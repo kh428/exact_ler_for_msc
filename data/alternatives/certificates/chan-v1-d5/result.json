@@ -1,0 +1,398 @@
+{
+  "complete": true,
+  "stem": "d5a19f13",
+  "degree": 7,
+  "variable": "x=p/(1-p)",
+  "relevant_physical_locations": 2308,
+  "full_source_noise_locations": 5071,
+  "a": [
+    "1",
+    "172/3",
+    "29793/5",
+    "139424297/450",
+    "1030378986227/54000",
+    "4364201884813663/4860000",
+    "15905963669446385809/364500000",
+    "71575030593403065389/37968750"
+  ],
+  "e": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "53656/16875",
+    "15801070576999/24300000",
+    "29432219624654879/364500000",
+    "92163251706262825963/10935000000"
+  ],
+  "L": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "53656/16875",
+    "15796640737639/24300000",
+    "5280067584675593/121500000",
+    "22550691826538722573/10935000000"
+  ],
+  "leading_order": 4,
+  "expected_leading_order_five": false,
+  "certificate": {
+    "complete": true,
+    "degree": 7,
+    "relevant_physical_locations": 2308,
+    "stage_counts": [
+      474,
+      908,
+      926
+    ],
+    "quantum_denominator_power": 38,
+    "bounds": [
+      {
+        "order": 0,
+        "denominator": "274877906944",
+        "numerator_upper": "274877906944",
+        "numerator_bits": 39
+      },
+      {
+        "order": 1,
+        "denominator": "4123168604160",
+        "numerator_upper": "9516273138401280",
+        "numerator_bits": 54
+      },
+      {
+        "order": 2,
+        "denominator": "61847529062400",
+        "numerator_upper": "164655315977188147200",
+        "numerator_bits": 68
+      },
+      {
+        "order": 3,
+        "denominator": "927712935936000",
+        "numerator_upper": "1898475793216979337216000",
+        "numerator_bits": 81
+      },
+      {
+        "order": 4,
+        "denominator": "13915694039040000",
+        "numerator_upper": "16409950137619265146060800000",
+        "numerator_bits": 94
+      },
+      {
+        "order": 5,
+        "denominator": "208735410585600000",
+        "numerator_upper": "113425575351224360689572249600000",
+        "numerator_bits": 107
+      },
+      {
+        "order": 6,
+        "denominator": "3131031158784000000",
+        "numerator_upper": "653047750084674256670212227072000000",
+        "numerator_bits": 119
+      },
+      {
+        "order": 7,
+        "denominator": "46965467381760000000",
+        "numerator_upper": "3221391258631971726117489742970880000000",
+        "numerator_bits": 132
+      }
+    ],
+    "certificates": [
+      {
+        "prime": "2305940865748566017",
+        "odd_k": 2097241,
+        "power_of_two": 40,
+        "witness": 3,
+        "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+      },
+      {
+        "prime": "2305943064771821569",
+        "odd_k": 2097243,
+        "power_of_two": 40,
+        "witness": 7,
+        "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+      },
+      {
+        "prime": "2305954059888099329",
+        "odd_k": 2097253,
+        "power_of_two": 40,
+        "witness": 3,
+        "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+      }
+    ],
+    "prime_product": "12261607128023718508893602736868717198464940099466428417",
+    "prime_count": 3,
+    "proof": "First-stage tag weights have denominator dividing 2^8*15^j. The final response geometry uses only integer phase/constraint tensors, a 2^-19 ancilla normalization and a 2^-10 inverse Walsh transform. Include another factor 1/2 for B=(A-signed_response)/2, without assuming a cancellation; both final responses therefore have denominator dividing 2^30*15^k. Growth pushes forward the independent Pauli-fault distribution through linear labels and postselects zero compatibility: it introduces no physical-fault denominator beyond 15^k. Thus 2^38*15^k clears full raw a_k and e_k. Each is nonnegative and at most binomial(2308,k), since an event probability per fixed fault pattern is at most one and the conditional nonidentity outcomes at a location sum to one. Reconstruct a_k,e_k separately from nonnegative integer residues; obtain L_k only afterwards by rational quotient recursion.",
+    "limitation": "A sufficient bound, not the minimum denominator. The prime count certifies raw physical-fault coefficients, not conditional-series coefficients reconstructed directly."
+  },
+  "reconstruction": [
+    {
+      "order": 0,
+      "observable": "A",
+      "numerator": "274877906944",
+      "denominator": "274877906944",
+      "upper_bound": "274877906944",
+      "scaled_residues": [
+        "274877906944",
+        "274877906944",
+        "274877906944"
+      ]
+    },
+    {
+      "order": 0,
+      "observable": "B",
+      "numerator": "0",
+      "denominator": "274877906944",
+      "upper_bound": "274877906944",
+      "scaled_residues": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "order": 1,
+      "observable": "A",
+      "numerator": "236394999971840",
+      "denominator": "4123168604160",
+      "upper_bound": "9516273138401280",
+      "scaled_residues": [
+        "236394999971840",
+        "236394999971840",
+        "236394999971840"
+      ]
+    },
+    {
+      "order": 1,
+      "observable": "B",
+      "numerator": "0",
+      "denominator": "4123168604160",
+      "upper_bound": "9516273138401280",
+      "scaled_residues": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "order": 2,
+      "observable": "A",
+      "numerator": "368524686671216640",
+      "denominator": "61847529062400",
+      "upper_bound": "164655315977188147200",
+      "scaled_residues": [
+        "368524686671216640",
+        "368524686671216640",
+        "368524686671216640"
+      ]
+    },
+    {
+      "order": 2,
+      "observable": "B",
+      "numerator": "0",
+      "denominator": "61847529062400",
+      "upper_bound": "164655315977188147200",
+      "scaled_residues": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "order": 3,
+      "observable": "A",
+      "numerator": "287434942023739637760",
+      "denominator": "927712935936000",
+      "upper_bound": "1898475793216979337216000",
+      "scaled_residues": [
+        "1498274670917451652",
+        "1498001992033763204",
+        "1496638597615320964"
+      ]
+    },
+    {
+      "order": 3,
+      "observable": "B",
+      "numerator": "0",
+      "denominator": "927712935936000",
+      "upper_bound": "1898475793216979337216000",
+      "scaled_residues": [
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "order": 4,
+      "observable": "A",
+      "numerator": "265526642899835965931520",
+      "denominator": "13915694039040000",
+      "upper_bound": "16409950137619265146060800000",
+      "scaled_residues": [
+        "2164090620086206004",
+        "1910877490255904308",
+        "644811841104395828"
+      ]
+    },
+    {
+      "order": 4,
+      "observable": "B",
+      "numerator": "44246546924961792",
+      "denominator": "13915694039040000",
+      "upper_bound": "16409950137619265146060800000",
+      "scaled_residues": [
+        "44246546924961792",
+        "44246546924961792",
+        "44246546924961792"
+      ]
+    },
+    {
+      "order": 5,
+      "observable": "A",
+      "numerator": "187441043684162416389652480",
+      "denominator": "208735410585600000",
+      "upper_bound": "113425575351224360689572249600000",
+      "scaled_residues": [
+        "109498945589718015",
+        "1222934788619873357",
+        "2183351598412443089"
+      ]
+    },
+    {
+      "order": 5,
+      "observable": "B",
+      "numerator": "135730162739997109649408",
+      "denominator": "208735410585600000",
+      "upper_bound": "113425575351224360689572249600000",
+      "scaled_residues": [
+        "177441170765322771",
+        "48004462920276499",
+        "1706774983583144468"
+      ]
+    },
+    {
+      "order": 6,
+      "observable": "A",
+      "numerator": "136631187543272762950107004928",
+      "denominator": "3131031158784000000",
+      "upper_bound": "653047750084674256670212227072000000",
+      "scaled_residues": [
+        "1835813969744429966",
+        "717940497784627270",
+        "1162135498825019359"
+      ]
+    },
+    {
+      "order": 6,
+      "observable": "B",
+      "numerator": "252820841473164201183674368",
+      "denominator": "3131031158784000000",
+      "upper_bound": "653047750084674256670212227072000000",
+      "scaled_residues": [
+        "733975954765318915",
+        "1759487151457110892",
+        "2282061938394860919"
+      ]
+    },
+    {
+      "order": 7,
+      "observable": "A",
+      "numerator": "88534775695353304087268501225472",
+      "denominator": "46965467381760000000",
+      "upper_bound": "3221391258631971726117489742970880000000",
+      "scaled_residues": [
+        "548341518315724954",
+        "2104327493027450873",
+        "1776543285761194169"
+      ]
+    },
+    {
+      "order": 7,
+      "observable": "B",
+      "numerator": "395838151971415035891624706048",
+      "denominator": "46965467381760000000",
+      "upper_bound": "3221391258631971726117489742970880000000",
+      "scaled_residues": [
+        "1349053226426695689",
+        "1875597250340880254",
+        "1472062189296745665"
+      ]
+    }
+  ],
+  "series_points": [
+    {
+      "p": "1/10000",
+      "series": "750239465164194403468753/109273477959673132702037265439065000000",
+      "decimal": 6.865705010698633e-15,
+      "note": "Truncated series, not an all-orders LER"
+    },
+    {
+      "p": "1/5000",
+      "series": "184382765262357192118753/853101576745219709884507714065000000",
+      "decimal": 2.1613225234657306e-13,
+      "note": "Truncated series, not an all-orders LER"
+    },
+    {
+      "p": "3/10000",
+      "series": "81828502013673121668753/49895094452764172448755139065000000",
+      "decimal": 1.6400109652290647e-12,
+      "note": "Truncated series, not an all-orders LER"
+    },
+    {
+      "p": "1/2000",
+      "series": "29655749817420065308753/1394788462199460881613079065000000",
+      "decimal": 2.1261826162983532e-11,
+      "note": "Truncated series, not an all-orders LER"
+    },
+    {
+      "p": "7/10000",
+      "series": "12591076772413730953473451879/108815308899671786867500921607295000000",
+      "decimal": 1.1571052731213364e-10,
+      "note": "Truncated series, not an all-orders LER"
+    },
+    {
+      "p": "1/1000",
+      "series": "206114186949600622669/293477952774526903825245000000",
+      "decimal": 7.023157446786265e-10,
+      "note": "Truncated series, not an all-orders LER"
+    },
+    {
+      "p": "1/500",
+      "series": "2034019341497964403753/84240824096220754511565000000",
+      "decimal": 2.414529253862339e-08,
+      "note": "Truncated series, not an all-orders LER"
+    },
+    {
+      "p": "3/1000",
+      "series": "966853855471494858753/4895940289149510504065000000",
+      "decimal": 1.9748072859758062e-07,
+      "note": "Truncated series, not an all-orders LER"
+    },
+    {
+      "p": "1/200",
+      "series": "2004492210760106647/679105496947888935000000",
+      "decimal": 2.9516654183612373e-06,
+      "note": "Truncated series, not an all-orders LER"
+    },
+    {
+      "p": "7/1000",
+      "series": "191974976354524215964381879/10410306755397245992262295000000",
+      "decimal": 1.8440856822494147e-05,
+      "note": "Truncated series, not an all-orders LER"
+    },
+    {
+      "p": "1/100",
+      "series": "139300124558635495753/1019213457936293565000000",
+      "decimal": 0.00013667414168636548,
+      "note": "Truncated series, not an all-orders LER"
+    }
+  ],
+  "coefficient_modular_records_sha256": [
+    "6efe2914c5f6c2553bd39ebedef4efb642ebaeb06f75af3e1d3a3192036a57a3",
+    "a1cbf8a233791c633d88b5117e40723318800669f914314ded7e00a0c989c915",
+    "5e247fbb7719cca610da1f9e09de06624d5e9d83209e706d6ce5c7ff0397eae6"
+  ],
+  "scope": "Complete repaired injection, first double checking, growth, final double checking, all source detectors and noiseless terminal code/logical readout; no escape.",
+  "exactness": "All raw coefficients uniquely reconstructed within the proved integer height; every used prime checked; L obtained by rational quotient recursion.",
+  "limitation": "The coefficients through degree seven are exact. Their finite series evaluation omits higher orders; no all-orders repaired d5 fraction or remainder enclosure is claimed."
+}

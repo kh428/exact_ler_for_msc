@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "cases": [
+    {
+      "case": "rp2-d3",
+      "family": "RP2",
+      "distance": 3,
+      "degree": 5,
+      "fault_distance": 2,
+      "method": "polynomial tensor contraction",
+      "scope": "Full cultivation-only source after the documented S-to-T conversion; noiseless terminal projection; no escape."
+    },
+    {
+      "case": "fold-d3",
+      "family": "Fold-transversal",
+      "distance": 3,
+      "degree": 5,
+      "fault_distance": 3,
+      "method": "polynomial tensor contraction",
+      "scope": "Terminated native-T core with unitary injection; excludes the noisy pre-escape syndrome round and escape; noiseless terminal projection."
+    },
+    {
+      "case": "chan-v1-d3",
+      "family": "Chan arXiv v1 repair",
+      "distance": 3,
+      "degree": 10,
+      "fault_distance": 3,
+      "method": "polynomial tensor contraction",
+      "scope": "Flagged d3a6f2 source with actual T gates; injection and cultivation; noiseless terminal readout; no escape."
+    },
+    {
+      "case": "rp2-d5",
+      "family": "RP2",
+      "distance": 5,
+      "degree": 6,
+      "fault_distance": 3,
+      "method": "exact phase responses and compatible fault-class sums",
+      "scope": "Full cultivation-only source after the documented S-to-T conversion; noiseless terminal projection; no escape."
+    },
+    {
+      "case": "fold-d5",
+      "family": "Fold-transversal",
+      "distance": 5,
+      "degree": 6,
+      "fault_distance": 4,
+      "method": "exact phase responses and compatible fault-class sums",
+      "scope": "Updated native-T reconstruction with hook injection, (r1,r2)=(2,0), controlled-layer schedule 3,3,7,7; not an author-supplied noisy T circuit; noiseless terminal projection; no escape."
+    },
+    {
+      "case": "chan-v1-d5",
+      "family": "Chan arXiv v1 repair",
+      "distance": 5,
+      "degree": 7,
+      "fault_distance": 4,
+      "method": "polynomial endpoint and growth contraction",
+      "scope": "Flagged d5a19f13 source with actual T gates; injection, growth and both double-checking stages; noiseless terminal readout; no escape. Coefficients count 2308 relevant locations out of 5071 physical locations."
+    },
+    {
+      "case": "chan-four-round-d5",
+      "family": "Chan four-round repair",
+      "distance": 5,
+      "degree": 6,
+      "fault_distance": 5,
+      "method": "polynomial endpoints and exact Newton growth sums",
+      "scope": "Author-supplied d5a19r4f13 source, converted S-to-T; injection and cultivation; noiseless terminal readout; no escape. Four-round files referred to as arXiv v2 in the appendix; no new sampling data."
+    }
+  ]
+}

@@ -1,0 +1,550 @@
+{
+  "domain": "Actual full frozen SOFT circuit, three original CNOT-channel Pauli faults, other noise absent",
+  "reference_sha256": "82066b59cd4ddac0c7ef76fbccd93f91ef24f07cf8ed6aa24bb7b0a69f8b3674",
+  "witnesses_checked": 8,
+  "seconds": 5.969237333163619,
+  "results": [
+    {
+      "original_fault_items": [
+        {
+          "location": 19,
+          "outcome": 1,
+          "cut": 39,
+          "physical_x": 8,
+          "physical_z": 0,
+          "data_x": 3,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 4194304
+        },
+        {
+          "location": 20,
+          "outcome": 1,
+          "cut": 40,
+          "physical_x": 16384,
+          "physical_z": 0,
+          "data_x": 72,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 12582912
+        },
+        {
+          "location": 68,
+          "outcome": 12,
+          "cut": 90,
+          "physical_x": 8388608,
+          "physical_z": 8388608,
+          "data_x": 1024,
+          "data_z": 1024,
+          "flipped": 0,
+          "label": 8388608
+        }
+      ],
+      "full_operation_fault_cuts": [
+        647,
+        648,
+        698
+      ],
+      "zero_record_values": {
+        "A": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 129
+        },
+        "B": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 849
+        }
+      },
+      "independent_boundary_A": 0.06249999999999983,
+      "independent_boundary_B": 0.06249999999999982,
+      "full_record_sum_A": 0.0625,
+      "full_record_sum_B": 0.0625,
+      "maximum_error": 1.1275702593849246e-17
+    },
+    {
+      "original_fault_items": [
+        {
+          "location": 19,
+          "outcome": 1,
+          "cut": 39,
+          "physical_x": 8,
+          "physical_z": 0,
+          "data_x": 3,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 4194304
+        },
+        {
+          "location": 20,
+          "outcome": 1,
+          "cut": 40,
+          "physical_x": 16384,
+          "physical_z": 0,
+          "data_x": 72,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 12582912
+        },
+        {
+          "location": 68,
+          "outcome": 13,
+          "cut": 90,
+          "physical_x": 1082130432,
+          "physical_z": 8388608,
+          "data_x": 1024,
+          "data_z": 1024,
+          "flipped": 0,
+          "label": 8388608
+        }
+      ],
+      "full_operation_fault_cuts": [
+        647,
+        648,
+        698
+      ],
+      "zero_record_values": {
+        "A": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 129
+        },
+        "B": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 849
+        }
+      },
+      "independent_boundary_A": 0.06249999999999983,
+      "independent_boundary_B": 0.06249999999999982,
+      "full_record_sum_A": 0.0625,
+      "full_record_sum_B": 0.0625,
+      "maximum_error": 1.1275702593849246e-17
+    },
+    {
+      "original_fault_items": [
+        {
+          "location": 19,
+          "outcome": 1,
+          "cut": 39,
+          "physical_x": 8,
+          "physical_z": 0,
+          "data_x": 3,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 4194304
+        },
+        {
+          "location": 25,
+          "outcome": 4,
+          "cut": 45,
+          "physical_x": 16384,
+          "physical_z": 0,
+          "data_x": 72,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 12582912
+        },
+        {
+          "location": 68,
+          "outcome": 12,
+          "cut": 90,
+          "physical_x": 8388608,
+          "physical_z": 8388608,
+          "data_x": 1024,
+          "data_z": 1024,
+          "flipped": 0,
+          "label": 8388608
+        }
+      ],
+      "full_operation_fault_cuts": [
+        647,
+        653,
+        698
+      ],
+      "zero_record_values": {
+        "A": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 129
+        },
+        "B": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 849
+        }
+      },
+      "independent_boundary_A": 0.06249999999999983,
+      "independent_boundary_B": 0.06249999999999982,
+      "full_record_sum_A": 0.0625,
+      "full_record_sum_B": 0.0625,
+      "maximum_error": 1.1275702593849246e-17
+    },
+    {
+      "original_fault_items": [
+        {
+          "location": 19,
+          "outcome": 1,
+          "cut": 39,
+          "physical_x": 8,
+          "physical_z": 0,
+          "data_x": 3,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 4194304
+        },
+        {
+          "location": 25,
+          "outcome": 4,
+          "cut": 45,
+          "physical_x": 16384,
+          "physical_z": 0,
+          "data_x": 72,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 12582912
+        },
+        {
+          "location": 68,
+          "outcome": 13,
+          "cut": 90,
+          "physical_x": 1082130432,
+          "physical_z": 8388608,
+          "data_x": 1024,
+          "data_z": 1024,
+          "flipped": 0,
+          "label": 8388608
+        }
+      ],
+      "full_operation_fault_cuts": [
+        647,
+        653,
+        698
+      ],
+      "zero_record_values": {
+        "A": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 129
+        },
+        "B": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 849
+        }
+      },
+      "independent_boundary_A": 0.06249999999999983,
+      "independent_boundary_B": 0.06249999999999982,
+      "full_record_sum_A": 0.0625,
+      "full_record_sum_B": 0.0625,
+      "maximum_error": 1.1275702593849246e-17
+    },
+    {
+      "original_fault_items": [
+        {
+          "location": 19,
+          "outcome": 1,
+          "cut": 39,
+          "physical_x": 8,
+          "physical_z": 0,
+          "data_x": 3,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 4194304
+        },
+        {
+          "location": 46,
+          "outcome": 4,
+          "cut": 68,
+          "physical_x": 16384,
+          "physical_z": 0,
+          "data_x": 72,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 12582912
+        },
+        {
+          "location": 68,
+          "outcome": 12,
+          "cut": 90,
+          "physical_x": 8388608,
+          "physical_z": 8388608,
+          "data_x": 1024,
+          "data_z": 1024,
+          "flipped": 0,
+          "label": 8388608
+        }
+      ],
+      "full_operation_fault_cuts": [
+        647,
+        676,
+        698
+      ],
+      "zero_record_values": {
+        "A": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 129
+        },
+        "B": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 849
+        }
+      },
+      "independent_boundary_A": 0.06249999999999983,
+      "independent_boundary_B": 0.06249999999999982,
+      "full_record_sum_A": 0.0625,
+      "full_record_sum_B": 0.0625,
+      "maximum_error": 1.1275702593849246e-17
+    },
+    {
+      "original_fault_items": [
+        {
+          "location": 19,
+          "outcome": 1,
+          "cut": 39,
+          "physical_x": 8,
+          "physical_z": 0,
+          "data_x": 3,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 4194304
+        },
+        {
+          "location": 46,
+          "outcome": 4,
+          "cut": 68,
+          "physical_x": 16384,
+          "physical_z": 0,
+          "data_x": 72,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 12582912
+        },
+        {
+          "location": 68,
+          "outcome": 13,
+          "cut": 90,
+          "physical_x": 1082130432,
+          "physical_z": 8388608,
+          "data_x": 1024,
+          "data_z": 1024,
+          "flipped": 0,
+          "label": 8388608
+        }
+      ],
+      "full_operation_fault_cuts": [
+        647,
+        676,
+        698
+      ],
+      "zero_record_values": {
+        "A": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 129
+        },
+        "B": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 849
+        }
+      },
+      "independent_boundary_A": 0.06249999999999983,
+      "independent_boundary_B": 0.06249999999999982,
+      "full_record_sum_A": 0.0625,
+      "full_record_sum_B": 0.0625,
+      "maximum_error": 1.1275702593849246e-17
+    },
+    {
+      "original_fault_items": [
+        {
+          "location": 19,
+          "outcome": 1,
+          "cut": 39,
+          "physical_x": 8,
+          "physical_z": 0,
+          "data_x": 3,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 4194304
+        },
+        {
+          "location": 51,
+          "outcome": 5,
+          "cut": 73,
+          "physical_x": 49152,
+          "physical_z": 0,
+          "data_x": 72,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 12582912
+        },
+        {
+          "location": 68,
+          "outcome": 12,
+          "cut": 90,
+          "physical_x": 8388608,
+          "physical_z": 8388608,
+          "data_x": 1024,
+          "data_z": 1024,
+          "flipped": 0,
+          "label": 8388608
+        }
+      ],
+      "full_operation_fault_cuts": [
+        647,
+        681,
+        698
+      ],
+      "zero_record_values": {
+        "A": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 129
+        },
+        "B": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 849
+        }
+      },
+      "independent_boundary_A": 0.06249999999999983,
+      "independent_boundary_B": 0.06249999999999982,
+      "full_record_sum_A": 0.0625,
+      "full_record_sum_B": 0.0625,
+      "maximum_error": 1.1275702593849246e-17
+    },
+    {
+      "original_fault_items": [
+        {
+          "location": 19,
+          "outcome": 1,
+          "cut": 39,
+          "physical_x": 8,
+          "physical_z": 0,
+          "data_x": 3,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 4194304
+        },
+        {
+          "location": 51,
+          "outcome": 5,
+          "cut": 73,
+          "physical_x": 49152,
+          "physical_z": 0,
+          "data_x": 72,
+          "data_z": 0,
+          "flipped": 0,
+          "label": 12582912
+        },
+        {
+          "location": 68,
+          "outcome": 13,
+          "cut": 90,
+          "physical_x": 1082130432,
+          "physical_z": 8388608,
+          "data_x": 1024,
+          "data_z": 1024,
+          "flipped": 0,
+          "label": 8388608
+        }
+      ],
+      "full_operation_fault_cuts": [
+        647,
+        681,
+        698
+      ],
+      "zero_record_values": {
+        "A": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 129
+        },
+        "B": {
+          "value": 0.00390625,
+          "exact": {
+            "a": "1",
+            "b": "0",
+            "denominator_power_of_two": 8
+          },
+          "peak_terms": 849
+        }
+      },
+      "independent_boundary_A": 0.06249999999999983,
+      "independent_boundary_B": 0.06249999999999982,
+      "full_record_sum_A": 0.0625,
+      "full_record_sum_B": 0.0625,
+      "maximum_error": 1.1275702593849246e-17
+    }
+  ],
+  "conclusion": "Original physical weight-three accepted-error witnesses exist under this source circuit and logical readout convention",
+  "scope": "Existence gives an upper bound of three on the full circuit's fault distance under these conventions; no lower-bound assertion for faults elsewhere",
+  "limitations": [
+    "The independent dense oracle checks the boundary response, not the full 42-qubit prefix.",
+    "This is the frozen SOFT source; equivalence to other corrected circuit versions is not assumed."
+  ]
+}

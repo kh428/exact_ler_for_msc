@@ -1,0 +1,2 @@
+# Versions used with Python 3.11.13.
+numpy==2.4.6

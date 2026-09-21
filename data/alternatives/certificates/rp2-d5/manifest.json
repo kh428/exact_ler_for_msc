@@ -1,0 +1,22 @@
+{
+  "source_sha256": "9cc698fe04999fffbe87c818909a9c3878e9a679b079bc77e7d4e47240aed4f8",
+  "source_cache_sha256": "918125ca312c40f43c50fdfd31add5249e075919bec8742978d227f936462aa4",
+  "bits": 14,
+  "block": 2048,
+  "zero_counts": [
+    1884175,
+    18105
+  ],
+  "total_tasks": 17306,
+  "expected_distinct_six_class_count": "1274321786151",
+  "code_hashes": {
+    "phase_sixth_direct.cpp": "06a49559ceb302349a6324113e8d83dbf2e9bf82b84183e40187816acb32a048",
+    "phase_sixth_direct.py": "f5605d5e0370eedfcb3517f45d69a13e64beb94c0b55951dfc48e696981f2499",
+    "phase_bulk_filter.cpp": "8375cc3bd5508f09dee237eeaff9a30c343db376dc2a4eb79cf0c55060fd274d",
+    "phase_gaussian_kernel.cpp": "c7cb5b5b3779df495356580ec48c275d429970b322302b9456d82adacd73b788",
+    "direct_bad_join_pilot.py": "4d1a15e8438b1c4514e06896484e08ef5339a60280410fa94dd46d64994c44ee",
+    "direct_bad_phase_pilot.py": "482f091774b5bfa8db224c15bcfa456cab9a452b6dba153982351ddbd11b5427",
+    "phase_sixth_campaign.py": "c73c225f5c4186410658086a0a1986b06066f92cc7061d59f3882dfb3d921a68"
+  },
+  "native_library_sha256": "e75663eaf1346b7cf4ae73f477a79bd8272f26c5763b7a6453565709fc2c2439"
+}

@@ -1,0 +1,377 @@
+{
+  "complete": true,
+  "completed_at": "2026-09-09T06:54:23.575191+00:00",
+  "checks": [
+    {
+      "code_distance": 5,
+      "dyadic_power": 31,
+      "locations": 1996,
+      "reconstruction_primes": 3,
+      "checks": [
+        {
+          "observable": "A",
+          "order": 0,
+          "height_bits": 32,
+          "modulus_bits": 184,
+          "scaled_integer": "2147483648",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 0,
+          "height_bits": 32,
+          "modulus_bits": 184,
+          "scaled_integer": "0",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 1,
+          "height_bits": 46,
+          "modulus_bits": 184,
+          "scaled_integer": "1782411427840",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 1,
+          "height_bits": 46,
+          "modulus_bits": 184,
+          "scaled_integer": "0",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 2,
+          "height_bits": 60,
+          "modulus_bits": 184,
+          "scaled_integer": "2347084200017920",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 2,
+          "height_bits": 60,
+          "modulus_bits": 184,
+          "scaled_integer": "0",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 3,
+          "height_bits": 74,
+          "modulus_bits": 184,
+          "scaled_integer": "1724907212372967424",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 3,
+          "height_bits": 74,
+          "modulus_bits": 184,
+          "scaled_integer": "11093900525568",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 4,
+          "height_bits": 86,
+          "modulus_bits": 184,
+          "scaled_integer": "1394544970103720509440",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 4,
+          "height_bits": 86,
+          "modulus_bits": 184,
+          "scaled_integer": "139796383308709888",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 5,
+          "height_bits": 99,
+          "modulus_bits": 184,
+          "scaled_integer": "914516069023625032761344",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 5,
+          "height_bits": 99,
+          "modulus_bits": 184,
+          "scaled_integer": "1019156848747814584320",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 6,
+          "height_bits": 111,
+          "modulus_bits": 184,
+          "scaled_integer": "598495349182121942664085504",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 6,
+          "height_bits": 111,
+          "modulus_bits": 184,
+          "scaled_integer": "1672695695496376158781440",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 7,
+          "height_bits": 123,
+          "modulus_bits": 184,
+          "scaled_integer": "358728914189893288340590952448",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 7,
+          "height_bits": 123,
+          "modulus_bits": 184,
+          "scaled_integer": "2245153635512511025305878528",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 8,
+          "height_bits": 135,
+          "modulus_bits": 184,
+          "scaled_integer": "210340378305353001417547328782336",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 8,
+          "height_bits": 135,
+          "modulus_bits": 184,
+          "scaled_integer": "2370945427614994371913222979584",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 9,
+          "height_bits": 147,
+          "modulus_bits": 184,
+          "scaled_integer": "118297067976524972577393824852082688",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 9,
+          "height_bits": 147,
+          "modulus_bits": 184,
+          "scaled_integer": "2214076989215675959072569035849728",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 10,
+          "height_bits": 158,
+          "modulus_bits": 184,
+          "scaled_integer": "65190151826709372991261166558706139136",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 10,
+          "height_bits": 158,
+          "modulus_bits": 184,
+          "scaled_integer": "1850843655288166501893830889852370944",
+          "matches": true
+        }
+      ],
+      "result_sha256": "38548f4616f44bd1589cab78fe9336753029ff69fdbb0c6dda53985a115afc75"
+    },
+    {
+      "code_distance": 3,
+      "dyadic_power": 11,
+      "locations": 402,
+      "reconstruction_primes": 2,
+      "checks": [
+        {
+          "observable": "A",
+          "order": 0,
+          "height_bits": 12,
+          "modulus_bits": 123,
+          "scaled_integer": "2048",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 0,
+          "height_bits": 12,
+          "modulus_bits": 123,
+          "scaled_integer": "0",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 1,
+          "height_bits": 24,
+          "modulus_bits": 123,
+          "scaled_integer": "788480",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 1,
+          "height_bits": 24,
+          "modulus_bits": 123,
+          "scaled_integer": "0",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 2,
+          "height_bits": 36,
+          "modulus_bits": 123,
+          "scaled_integer": "504267264",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 2,
+          "height_bits": 36,
+          "modulus_bits": 123,
+          "scaled_integer": "196608",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 3,
+          "height_bits": 47,
+          "modulus_bits": 123,
+          "scaled_integer": "208647998464",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 3,
+          "height_bits": 47,
+          "modulus_bits": 123,
+          "scaled_integer": "3161577984",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 4,
+          "height_bits": 57,
+          "modulus_bits": 123,
+          "scaled_integer": "97798118182400",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 4,
+          "height_bits": 57,
+          "modulus_bits": 123,
+          "scaled_integer": "3509353701504",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 5,
+          "height_bits": 67,
+          "modulus_bits": 123,
+          "scaled_integer": "42816588839667200",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 5,
+          "height_bits": 67,
+          "modulus_bits": 123,
+          "scaled_integer": "3082497692929024",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 6,
+          "height_bits": 77,
+          "modulus_bits": 123,
+          "scaled_integer": "19084371171170892800",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 6,
+          "height_bits": 77,
+          "modulus_bits": 123,
+          "scaled_integer": "2112001978920560896",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 7,
+          "height_bits": 87,
+          "modulus_bits": 123,
+          "scaled_integer": "8353848179637909188096",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 7,
+          "height_bits": 87,
+          "modulus_bits": 123,
+          "scaled_integer": "1289354420525365906560",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 8,
+          "height_bits": 97,
+          "modulus_bits": 123,
+          "scaled_integer": "3602824182213881012719360",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 8,
+          "height_bits": 97,
+          "modulus_bits": 123,
+          "scaled_integer": "712471933267204094620672",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 9,
+          "height_bits": 106,
+          "modulus_bits": 123,
+          "scaled_integer": "1517299482993041136300161024",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 9,
+          "height_bits": 106,
+          "modulus_bits": 123,
+          "scaled_integer": "363623677093887915239049984",
+          "matches": true
+        },
+        {
+          "observable": "A",
+          "order": 10,
+          "height_bits": 115,
+          "modulus_bits": 123,
+          "scaled_integer": "620659828628306704077444253952",
+          "matches": true
+        },
+        {
+          "observable": "B",
+          "order": 10,
+          "height_bits": 115,
+          "modulus_bits": 123,
+          "scaled_integer": "172480440483944211585334649216",
+          "matches": true
+        }
+      ],
+      "result_sha256": "28d7496c47ea2dffd85165fe21d03eb78f87e6f22c24a52bf5e12ae578a4e494"
+    }
+  ],
+  "scope": "Same coefficients under the conservative extra-projector bounds; no new contraction or fault truncation."
+}

@@ -1,0 +1,28 @@
+{
+  "d3": {
+    "p": 0.001,
+    "LER": 8.326464340703482e-07,
+    "lower": 7.31296879422941e-07,
+    "upper": 9.429534295553807e-07,
+    "shots": 2000000000,
+    "errors": 856,
+    "discards": 971952602,
+    "source": "rp2_d3_proxy.csv",
+    "sha256": "453ba76c45e5ced98c6fb3990b19eb8856f2963ff342a733e0d6f1ab5ddbbb5c",
+    "interval": "Binomial likelihood at least 1/1000 of maximum, calculated from supplied raw counts",
+    "scope": "S-proxy cultivation only; not noisy true-T samples"
+  },
+  "d5": {
+    "p": 0.001,
+    "LER": 3.627572438789841e-10,
+    "lower": 2.261583994904668e-10,
+    "upper": 5.456618714031216e-10,
+    "shots": 2100000000000,
+    "errors": 72,
+    "discards": 1901520159239,
+    "source": "rp2_d5_proxy.csv",
+    "sha256": "879617dc451edf6eda29a9d99d31b7e23f916006e9b92e094e7c24422bdcb2b0",
+    "interval": "Binomial likelihood at least 1/1000 of maximum, calculated from supplied raw counts",
+    "scope": "S-proxy cultivation only; not noisy true-T samples"
+  }
+}

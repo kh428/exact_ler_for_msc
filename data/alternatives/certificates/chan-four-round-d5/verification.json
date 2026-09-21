@@ -1,0 +1,58 @@
+{
+  "complete": true,
+  "quotient_recursion": true,
+  "old_full_raw_orders_matched": 6,
+  "exhaustive_small_cases": 12,
+  "third_prime_certificate": {
+    "prime": "2305954059888099329",
+    "odd_k": 2097253,
+    "power_of_two": 40,
+    "witness": 3,
+    "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+  },
+  "third_prime_raw_e_residues": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    202842821850176390,
+    725576428878672217
+  ],
+  "signed_accumulator_absolute_bound": "157653781344295624507392000000",
+  "pair_uint64_bound": "1050197400000",
+  "all_absorbed_response_groups_covered": true,
+  "full_e6": "G0..G3 against all endpoint orders, plus G4*(W0*F2+W1*F1), plus G5*W0*F1; F0 identically zero.",
+  "source_sha256": "84451c222e5dfa8e91c944bf0ce7478ca6072db969a2057b7995a66fa08bb8c5",
+  "points": [
+    {
+      "p": 0.0005,
+      "new_S6": 2.102286806342891e-11,
+      "v1_S6": 2.1245658340809998e-11,
+      "v1_S7": 2.1261826162983532e-11,
+      "new_to_v1_same_order": 0.9895136091427613
+    },
+    {
+      "p": 0.0007,
+      "new_S6": 1.1464489872596089e-10,
+      "v1_S6": 1.1553985771989799e-10,
+      "v1_S7": 1.1571052731213364e-10,
+      "new_to_v1_same_order": 0.9922541102992637
+    },
+    {
+      "p": 0.001,
+      "new_S6": 6.962578931241273e-10,
+      "v1_S6": 7.002390021100211e-10,
+      "v1_S7": 7.023157446786265e-10,
+      "new_to_v1_same_order": 0.9943146426093127
+    },
+    {
+      "p": 0.002,
+      "new_S6": 2.3799048266926805e-08,
+      "v1_S6": 2.387759938547022e-08,
+      "v1_S7": 2.414529253862339e-08,
+      "new_to_v1_same_order": 0.996710258963838
+    }
+  ],
+  "scope": "Exact coefficients through x^6, not all-orders values or a truncation error certificate."
+}

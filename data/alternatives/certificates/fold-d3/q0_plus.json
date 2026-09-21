@@ -1,0 +1,5706 @@
+{
+  "degree": 5,
+  "source_sha256": "3a872108fe6874071006d7e05c994b03c325ed3179efcd58c825ab7304bb9368",
+  "prime_certificate": {
+    "prime": "2305940865748566017",
+    "odd_k": 2097241,
+    "power_of_two": 40,
+    "witness": 3,
+    "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+  },
+  "sqrt2_embedding": 704755387374596019,
+  "scope": "Injection plus two fold-transversal HXY measurements, followed by noiseless code projection and logical HXY readout. No noisy pre-escape syndrome round; no escape.",
+  "outputs": {
+    "A": {
+      "compilation": {
+        "original_variables": 239,
+        "original_factors": 607,
+        "remaining_variables": 145,
+        "remaining_factors": 259,
+        "fixed_variables": 72,
+        "merged_equalities": 22,
+        "removed_constants": 90,
+        "noise_locations": 374,
+        "affine_reduction": {
+          "original_variables": 145,
+          "eliminated": 80,
+          "residual_equations": 0,
+          "expanded_source_entries": 60828,
+          "cleanup": {
+            "original_variables": 65,
+            "original_factors": 170,
+            "remaining_variables": 65,
+            "remaining_factors": 162,
+            "fixed_variables": 0,
+            "merged_equalities": 0,
+            "removed_constants": 0
+          }
+        }
+      },
+      "slices": [
+        54,
+        77,
+        155
+      ],
+      "slice_count": 8,
+      "plan": {
+        "strategy": "randomised_scope_search",
+        "order": [
+          9,
+          13,
+          55,
+          40,
+          17,
+          7,
+          32,
+          35,
+          5,
+          179,
+          142,
+          139,
+          176,
+          132,
+          173,
+          136,
+          128,
+          129,
+          161,
+          124,
+          123,
+          122,
+          158,
+          121,
+          135,
+          126,
+          125,
+          160,
+          107,
+          157,
+          115,
+          147,
+          146,
+          138,
+          141,
+          144,
+          165,
+          184,
+          99,
+          162,
+          145,
+          133,
+          167,
+          130,
+          117,
+          104,
+          82,
+          170,
+          159,
+          109,
+          84,
+          143,
+          52,
+          100,
+          182,
+          156,
+          87,
+          166,
+          164,
+          127,
+          57,
+          119
+        ],
+        "output_variables": [],
+        "steps": [
+          {
+            "variable": 9,
+            "label": "5:reset32",
+            "product_scope_bits": 5,
+            "output_scope_bits": 4,
+            "input_factors": 2,
+            "product_scope": [
+              9,
+              84,
+              100,
+              104,
+              117
+            ]
+          },
+          {
+            "variable": 13,
+            "label": "7:reset56",
+            "product_scope_bits": 6,
+            "output_scope_bits": 5,
+            "input_factors": 8,
+            "product_scope": [
+              13,
+              17,
+              35,
+              40,
+              57,
+              117
+            ]
+          },
+          {
+            "variable": 55,
+            "label": "46:cx-z",
+            "product_scope_bits": 10,
+            "output_scope_bits": 9,
+            "input_factors": 12,
+            "product_scope": [
+              5,
+              7,
+              32,
+              35,
+              52,
+              55,
+              84,
+              100,
+              104,
+              117
+            ]
+          },
+          {
+            "variable": 40,
+            "label": "29:cx-z",
+            "product_scope_bits": 11,
+            "output_scope_bits": 10,
+            "input_factors": 8,
+            "product_scope": [
+              7,
+              17,
+              32,
+              35,
+              40,
+              57,
+              82,
+              84,
+              100,
+              104,
+              117
+            ]
+          },
+          {
+            "variable": 17,
+            "label": "9:reset64",
+            "product_scope_bits": 11,
+            "output_scope_bits": 10,
+            "input_factors": 9,
+            "product_scope": [
+              7,
+              17,
+              32,
+              35,
+              57,
+              82,
+              84,
+              100,
+              104,
+              117,
+              143
+            ]
+          },
+          {
+            "variable": 7,
+            "label": "4:reset28",
+            "product_scope_bits": 12,
+            "output_scope_bits": 11,
+            "input_factors": 10,
+            "product_scope": [
+              5,
+              7,
+              32,
+              35,
+              52,
+              57,
+              82,
+              84,
+              100,
+              104,
+              117,
+              143
+            ]
+          },
+          {
+            "variable": 32,
+            "label": "23:cx-z",
+            "product_scope_bits": 11,
+            "output_scope_bits": 10,
+            "input_factors": 9,
+            "product_scope": [
+              5,
+              32,
+              35,
+              52,
+              57,
+              82,
+              84,
+              100,
+              104,
+              117,
+              143
+            ]
+          },
+          {
+            "variable": 35,
+            "label": "26:cx-z",
+            "product_scope_bits": 10,
+            "output_scope_bits": 9,
+            "input_factors": 3,
+            "product_scope": [
+              5,
+              35,
+              52,
+              57,
+              82,
+              84,
+              100,
+              104,
+              117,
+              143
+            ]
+          },
+          {
+            "variable": 5,
+            "label": "3:reset8",
+            "product_scope_bits": 10,
+            "output_scope_bits": 9,
+            "input_factors": 5,
+            "product_scope": [
+              5,
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              117,
+              143
+            ]
+          },
+          {
+            "variable": 179,
+            "label": "128:CSX-z129",
+            "product_scope_bits": 9,
+            "output_scope_bits": 8,
+            "input_factors": 4,
+            "product_scope": [
+              143,
+              144,
+              159,
+              162,
+              165,
+              170,
+              176,
+              179,
+              182
+            ]
+          },
+          {
+            "variable": 142,
+            "label": "106:CSX-z129",
+            "product_scope_bits": 11,
+            "output_scope_bits": 10,
+            "input_factors": 4,
+            "product_scope": [
+              82,
+              84,
+              100,
+              104,
+              117,
+              133,
+              139,
+              142,
+              143,
+              144,
+              145
+            ]
+          },
+          {
+            "variable": 139,
+            "label": "105:CS_DAG_X-z128",
+            "product_scope_bits": 13,
+            "output_scope_bits": 12,
+            "input_factors": 4,
+            "product_scope": [
+              82,
+              84,
+              100,
+              104,
+              109,
+              117,
+              130,
+              133,
+              139,
+              141,
+              143,
+              144,
+              145
+            ]
+          },
+          {
+            "variable": 176,
+            "label": "127:CS_DAG_X-z128",
+            "product_scope_bits": 12,
+            "output_scope_bits": 11,
+            "input_factors": 4,
+            "product_scope": [
+              109,
+              141,
+              143,
+              144,
+              159,
+              162,
+              165,
+              166,
+              167,
+              170,
+              176,
+              182
+            ]
+          },
+          {
+            "variable": 132,
+            "label": "102:CSX-z0",
+            "product_scope_bits": 10,
+            "output_scope_bits": 9,
+            "input_factors": 4,
+            "product_scope": [
+              87,
+              107,
+              117,
+              121,
+              130,
+              132,
+              158,
+              160,
+              167,
+              184
+            ]
+          },
+          {
+            "variable": 173,
+            "label": "126:CSX-z130",
+            "product_scope_bits": 14,
+            "output_scope_bits": 13,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              87,
+              109,
+              138,
+              146,
+              147,
+              159,
+              162,
+              164,
+              166,
+              173,
+              182,
+              184
+            ]
+          },
+          {
+            "variable": 136,
+            "label": "104:CSX-z130",
+            "product_scope_bits": 15,
+            "output_scope_bits": 14,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              127,
+              136,
+              138,
+              145,
+              146,
+              147
+            ]
+          },
+          {
+            "variable": 128,
+            "label": "101:CCZ-z36",
+            "product_scope_bits": 14,
+            "output_scope_bits": 13,
+            "input_factors": 4,
+            "product_scope": [
+              57,
+              82,
+              84,
+              109,
+              117,
+              119,
+              127,
+              128,
+              129,
+              143,
+              156,
+              164,
+              165,
+              166
+            ]
+          },
+          {
+            "variable": 129,
+            "label": "101:CCZ-z60",
+            "product_scope_bits": 13,
+            "output_scope_bits": 12,
+            "input_factors": 2,
+            "product_scope": [
+              57,
+              82,
+              84,
+              109,
+              117,
+              119,
+              127,
+              129,
+              143,
+              156,
+              164,
+              165,
+              166
+            ]
+          },
+          {
+            "variable": 161,
+            "label": "122:CCZ-z129",
+            "product_scope_bits": 16,
+            "output_scope_bits": 15,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              87,
+              107,
+              109,
+              125,
+              126,
+              135,
+              157,
+              159,
+              160,
+              161,
+              162,
+              166,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 124,
+            "label": "100:CCZ-z129",
+            "product_scope_bits": 15,
+            "output_scope_bits": 14,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              107,
+              109,
+              115,
+              117,
+              119,
+              124,
+              125,
+              126,
+              133,
+              135
+            ]
+          },
+          {
+            "variable": 123,
+            "label": "99:CCZ-z28",
+            "product_scope_bits": 14,
+            "output_scope_bits": 13,
+            "input_factors": 4,
+            "product_scope": [
+              52,
+              99,
+              104,
+              107,
+              115,
+              117,
+              121,
+              122,
+              123,
+              156,
+              157,
+              158,
+              159,
+              160
+            ]
+          },
+          {
+            "variable": 122,
+            "label": "99:CCZ-z4",
+            "product_scope_bits": 13,
+            "output_scope_bits": 12,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              99,
+              104,
+              107,
+              115,
+              117,
+              121,
+              122,
+              156,
+              157,
+              158,
+              159,
+              160
+            ]
+          },
+          {
+            "variable": 158,
+            "label": "121:CCZ-z128",
+            "product_scope_bits": 16,
+            "output_scope_bits": 15,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              87,
+              99,
+              104,
+              107,
+              115,
+              117,
+              121,
+              130,
+              156,
+              157,
+              158,
+              159,
+              160,
+              167,
+              184
+            ]
+          },
+          {
+            "variable": 121,
+            "label": "99:CCZ-z128",
+            "product_scope_bits": 15,
+            "output_scope_bits": 14,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              87,
+              99,
+              104,
+              107,
+              115,
+              117,
+              121,
+              130,
+              156,
+              157,
+              159,
+              160,
+              167,
+              184
+            ]
+          },
+          {
+            "variable": 135,
+            "label": "103:CS_DAG_X-z16",
+            "product_scope_bits": 21,
+            "output_scope_bits": 20,
+            "input_factors": 4,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              107,
+              109,
+              115,
+              117,
+              119,
+              125,
+              126,
+              133,
+              135,
+              157,
+              159,
+              160,
+              162,
+              166,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 126,
+            "label": "100:CCZ-z44",
+            "product_scope_bits": 20,
+            "output_scope_bits": 19,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              107,
+              109,
+              115,
+              117,
+              119,
+              125,
+              126,
+              133,
+              157,
+              159,
+              160,
+              162,
+              166,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 125,
+            "label": "100:CCZ-z20",
+            "product_scope_bits": 19,
+            "output_scope_bits": 18,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              107,
+              109,
+              115,
+              117,
+              119,
+              125,
+              133,
+              157,
+              159,
+              160,
+              162,
+              166,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 160,
+            "label": "121:CCZ-z28",
+            "product_scope_bits": 22,
+            "output_scope_bits": 21,
+            "input_factors": 7,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              104,
+              107,
+              109,
+              115,
+              117,
+              119,
+              130,
+              133,
+              156,
+              157,
+              159,
+              160,
+              162,
+              166,
+              167,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 107,
+            "label": "89:cx-x",
+            "product_scope_bits": 21,
+            "output_scope_bits": 20,
+            "input_factors": 6,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              104,
+              107,
+              109,
+              115,
+              117,
+              119,
+              130,
+              133,
+              156,
+              157,
+              159,
+              162,
+              166,
+              167,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 157,
+            "label": "120:cx-z",
+            "product_scope_bits": 20,
+            "output_scope_bits": 19,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              104,
+              109,
+              115,
+              117,
+              119,
+              130,
+              133,
+              156,
+              157,
+              159,
+              162,
+              166,
+              167,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 115,
+            "label": "93:reset128",
+            "product_scope_bits": 19,
+            "output_scope_bits": 18,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              104,
+              109,
+              115,
+              117,
+              119,
+              130,
+              133,
+              156,
+              159,
+              162,
+              166,
+              167,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 147,
+            "label": "107:CCZ-z56",
+            "product_scope_bits": 20,
+            "output_scope_bits": 19,
+            "input_factors": 4,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              127,
+              138,
+              145,
+              146,
+              147,
+              159,
+              162,
+              164,
+              166,
+              182,
+              184
+            ]
+          },
+          {
+            "variable": 146,
+            "label": "107:CCZ-z8",
+            "product_scope_bits": 19,
+            "output_scope_bits": 18,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              127,
+              138,
+              145,
+              146,
+              159,
+              162,
+              164,
+              166,
+              182,
+              184
+            ]
+          },
+          {
+            "variable": 138,
+            "label": "104:CSX-z32",
+            "product_scope_bits": 18,
+            "output_scope_bits": 17,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              127,
+              138,
+              145,
+              159,
+              162,
+              164,
+              166,
+              182,
+              184
+            ]
+          },
+          {
+            "variable": 141,
+            "label": "105:CS_DAG_X-z48",
+            "product_scope_bits": 19,
+            "output_scope_bits": 18,
+            "input_factors": 3,
+            "product_scope": [
+              82,
+              84,
+              100,
+              104,
+              109,
+              117,
+              130,
+              133,
+              141,
+              143,
+              144,
+              145,
+              159,
+              162,
+              165,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 144,
+            "label": "106:CSX-z64",
+            "product_scope_bits": 18,
+            "output_scope_bits": 17,
+            "input_factors": 2,
+            "product_scope": [
+              82,
+              84,
+              100,
+              104,
+              109,
+              117,
+              130,
+              133,
+              143,
+              144,
+              145,
+              159,
+              162,
+              165,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 165,
+            "label": "123:CCZ-z36",
+            "product_scope_bits": 22,
+            "output_scope_bits": 21,
+            "input_factors": 4,
+            "product_scope": [
+              57,
+              82,
+              84,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              143,
+              145,
+              156,
+              159,
+              162,
+              164,
+              165,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 184,
+            "label": "129:CCZ-z56",
+            "product_scope_bits": 23,
+            "output_scope_bits": 22,
+            "input_factors": 4,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              145,
+              156,
+              159,
+              162,
+              164,
+              166,
+              167,
+              170,
+              182,
+              184
+            ]
+          },
+          {
+            "variable": 99,
+            "label": "80:reset20",
+            "product_scope_bits": 22,
+            "output_scope_bits": 21,
+            "input_factors": 5,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              145,
+              156,
+              159,
+              162,
+              164,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 162,
+            "label": "122:CCZ-z20",
+            "product_scope_bits": 23,
+            "output_scope_bits": 22,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              143,
+              145,
+              156,
+              159,
+              162,
+              164,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 145,
+            "label": "107:CCZ-z130",
+            "product_scope_bits": 22,
+            "output_scope_bits": 21,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              143,
+              145,
+              156,
+              159,
+              164,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 133,
+            "label": "103:CS_DAG_X-z129",
+            "product_scope_bits": 21,
+            "output_scope_bits": 20,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              143,
+              156,
+              159,
+              164,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 167,
+            "label": "124:CSX-z128",
+            "product_scope_bits": 20,
+            "output_scope_bits": 19,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              143,
+              156,
+              159,
+              164,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 130,
+            "label": "102:CSX-z128",
+            "product_scope_bits": 19,
+            "output_scope_bits": 18,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              143,
+              156,
+              159,
+              164,
+              166,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 117,
+            "label": "94:reset129",
+            "product_scope_bits": 18,
+            "output_scope_bits": 17,
+            "input_factors": 12,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              143,
+              156,
+              159,
+              164,
+              166,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 104,
+            "label": "87:cx-z",
+            "product_scope_bits": 17,
+            "output_scope_bits": 16,
+            "input_factors": 4,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              119,
+              127,
+              143,
+              156,
+              159,
+              164,
+              166,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 82,
+            "label": "63:cx-z",
+            "product_scope_bits": 16,
+            "output_scope_bits": 15,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              109,
+              119,
+              127,
+              143,
+              156,
+              159,
+              164,
+              166,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 170,
+            "label": "125:CS_DAG_X-z129",
+            "product_scope_bits": 15,
+            "output_scope_bits": 14,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              100,
+              109,
+              119,
+              127,
+              143,
+              156,
+              159,
+              164,
+              166,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 159,
+            "label": "121:CCZ-z4",
+            "product_scope_bits": 14,
+            "output_scope_bits": 13,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              100,
+              109,
+              119,
+              127,
+              143,
+              156,
+              159,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 109,
+            "label": "90:cx-x",
+            "product_scope_bits": 13,
+            "output_scope_bits": 12,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              100,
+              109,
+              119,
+              127,
+              143,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 84,
+            "label": "64:cx-z",
+            "product_scope_bits": 12,
+            "output_scope_bits": 11,
+            "input_factors": 5,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              100,
+              119,
+              127,
+              143,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 143,
+            "label": "106:csx-x",
+            "product_scope_bits": 11,
+            "output_scope_bits": 10,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              87,
+              100,
+              119,
+              127,
+              143,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 52,
+            "label": "43:cx-x",
+            "product_scope_bits": 10,
+            "output_scope_bits": 9,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              87,
+              100,
+              119,
+              127,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 100,
+            "label": "81:reset44",
+            "product_scope_bits": 9,
+            "output_scope_bits": 8,
+            "input_factors": 2,
+            "product_scope": [
+              57,
+              87,
+              100,
+              119,
+              127,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 182,
+            "label": "129:CCZ-z130",
+            "product_scope_bits": 8,
+            "output_scope_bits": 7,
+            "input_factors": 3,
+            "product_scope": [
+              57,
+              87,
+              119,
+              127,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 156,
+            "label": "117:reset130",
+            "product_scope_bits": 7,
+            "output_scope_bits": 6,
+            "input_factors": 3,
+            "product_scope": [
+              57,
+              87,
+              119,
+              127,
+              156,
+              164,
+              166
+            ]
+          },
+          {
+            "variable": 87,
+            "label": "65:cx-x",
+            "product_scope_bits": 6,
+            "output_scope_bits": 5,
+            "input_factors": 2,
+            "product_scope": [
+              57,
+              87,
+              119,
+              127,
+              164,
+              166
+            ]
+          },
+          {
+            "variable": 166,
+            "label": "123:CCZ-z60",
+            "product_scope_bits": 5,
+            "output_scope_bits": 4,
+            "input_factors": 1,
+            "product_scope": [
+              57,
+              119,
+              127,
+              164,
+              166
+            ]
+          },
+          {
+            "variable": 164,
+            "label": "123:CCZ-z130",
+            "product_scope_bits": 4,
+            "output_scope_bits": 3,
+            "input_factors": 1,
+            "product_scope": [
+              57,
+              119,
+              127,
+              164
+            ]
+          },
+          {
+            "variable": 127,
+            "label": "101:CCZ-z130",
+            "product_scope_bits": 3,
+            "output_scope_bits": 2,
+            "input_factors": 1,
+            "product_scope": [
+              57,
+              119,
+              127
+            ]
+          },
+          {
+            "variable": 57,
+            "label": "48:cx-x",
+            "product_scope_bits": 2,
+            "output_scope_bits": 1,
+            "input_factors": 1,
+            "product_scope": [
+              57,
+              119
+            ]
+          },
+          {
+            "variable": 119,
+            "label": "95:reset130",
+            "product_scope_bits": 1,
+            "output_scope_bits": 0,
+            "input_factors": 2,
+            "product_scope": [
+              119
+            ]
+          }
+        ],
+        "maximum_product_scope_bits": 23,
+        "maximum_product_entries": 8388608,
+        "estimated_element_multiplications": 183634816,
+        "estimated_peak_live_entries": 16778100,
+        "estimated_peak_complex_bytes": 268449600
+      },
+      "memory": {
+        "degree": 5,
+        "scratch_entries": 4194304,
+        "scratch_bytes": 201326592,
+        "pooled_array_bytes": 725483728,
+        "source_array_bytes": 239264,
+        "maximum_estimated_live_array_bytes": 725962304,
+        "elimination_coefficient_multiplications": 1957490860,
+        "elimination_branch_additions": 143771866,
+        "maximum_binary_product_bits": 23,
+        "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+      },
+      "total_coefficient_products": 15659926880,
+      "residues": [
+        1,
+        461188173149713289,
+        523272537199576524,
+        1667546351662914260,
+        652900523386891280,
+        865780791917388925
+      ],
+      "slice_results": [
+        {
+          "assignment": [
+            0,
+            0,
+            0
+          ],
+          "residues": [
+            2017698257529995265,
+            719233936697767032,
+            987549024008771111,
+            1074439328106235527,
+            842859563250764667,
+            1395917908396557981
+          ],
+          "profile": {
+            "seconds": 2.2767984170350246,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1
+          ],
+          "residues": [
+            2017698257529995265,
+            5490335394639454,
+            1978540038044379209,
+            265531926004003964,
+            1269827917976652045,
+            1356620410962992060
+          ],
+          "profile": {
+            "seconds": 2.287579875031952,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0
+          ],
+          "residues": [
+            2017698257529995265,
+            1238070631491194385,
+            1925917787732186205,
+            2247482951916806016,
+            854775897528619368,
+            2242690715087135772
+          ],
+          "profile": {
+            "seconds": 2.2764505420345813,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1
+          ],
+          "residues": [
+            2017698257529995265,
+            793353464525399509,
+            581447942220114002,
+            1323047358657687735,
+            1535546227003341019,
+            1153501099281907690
+          ],
+          "profile": {
+            "seconds": 2.2916072090156376,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0
+          ],
+          "residues": [
+            2017698257529995265,
+            2142145859808489315,
+            530503294389616418,
+            270496921559040324,
+            778921636415718723,
+            541312843575039036
+          ],
+          "profile": {
+            "seconds": 2.313288041972555,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1
+          ],
+          "residues": [
+            2017698257529995265,
+            1821876295121188478,
+            1308634876656862003,
+            2037245073453862279,
+            1132830386402002621,
+            1944417991158748094
+          ],
+          "profile": {
+            "seconds": 2.3327248339774087,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0
+          ],
+          "residues": [
+            2017698257529995265,
+            355041688853350651,
+            835049148543935880,
+            678879203813206563,
+            1476073209186464665,
+            1594943348029542152
+          ],
+          "profile": {
+            "seconds": 2.320123249955941,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1
+          ],
+          "residues": [
+            2017698257529995265,
+            303798558503382516,
+            1599393888597975764,
+            688246185397769903,
+            1985829148617592240,
+            2166080804168296225
+          ],
+          "profile": {
+            "seconds": 2.2870400410029106,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        }
+      ],
+      "status": "computed_modulo_one_prime",
+      "seconds": 19.132120583031792
+    },
+    "X": {
+      "compilation": {
+        "original_variables": 239,
+        "original_factors": 607,
+        "remaining_variables": 145,
+        "remaining_factors": 259,
+        "fixed_variables": 72,
+        "merged_equalities": 22,
+        "removed_constants": 90,
+        "noise_locations": 374,
+        "affine_reduction": {
+          "original_variables": 145,
+          "eliminated": 80,
+          "residual_equations": 0,
+          "expanded_source_entries": 60828,
+          "cleanup": {
+            "original_variables": 65,
+            "original_factors": 170,
+            "remaining_variables": 65,
+            "remaining_factors": 162,
+            "fixed_variables": 0,
+            "merged_equalities": 0,
+            "removed_constants": 0
+          }
+        }
+      },
+      "slices": [
+        54,
+        77,
+        155
+      ],
+      "slice_count": 8,
+      "plan": {
+        "strategy": "randomised_scope_search",
+        "order": [
+          9,
+          13,
+          55,
+          40,
+          17,
+          7,
+          32,
+          35,
+          5,
+          179,
+          142,
+          139,
+          176,
+          132,
+          173,
+          136,
+          128,
+          129,
+          161,
+          124,
+          123,
+          122,
+          158,
+          121,
+          135,
+          126,
+          125,
+          160,
+          107,
+          157,
+          115,
+          147,
+          146,
+          138,
+          141,
+          144,
+          165,
+          184,
+          99,
+          162,
+          145,
+          133,
+          167,
+          130,
+          117,
+          104,
+          82,
+          170,
+          159,
+          109,
+          84,
+          143,
+          52,
+          100,
+          182,
+          156,
+          87,
+          166,
+          164,
+          127,
+          57,
+          119
+        ],
+        "output_variables": [],
+        "steps": [
+          {
+            "variable": 9,
+            "label": "5:reset32",
+            "product_scope_bits": 5,
+            "output_scope_bits": 4,
+            "input_factors": 2,
+            "product_scope": [
+              9,
+              84,
+              100,
+              104,
+              117
+            ]
+          },
+          {
+            "variable": 13,
+            "label": "7:reset56",
+            "product_scope_bits": 6,
+            "output_scope_bits": 5,
+            "input_factors": 8,
+            "product_scope": [
+              13,
+              17,
+              35,
+              40,
+              57,
+              117
+            ]
+          },
+          {
+            "variable": 55,
+            "label": "46:cx-z",
+            "product_scope_bits": 10,
+            "output_scope_bits": 9,
+            "input_factors": 12,
+            "product_scope": [
+              5,
+              7,
+              32,
+              35,
+              52,
+              55,
+              84,
+              100,
+              104,
+              117
+            ]
+          },
+          {
+            "variable": 40,
+            "label": "29:cx-z",
+            "product_scope_bits": 11,
+            "output_scope_bits": 10,
+            "input_factors": 8,
+            "product_scope": [
+              7,
+              17,
+              32,
+              35,
+              40,
+              57,
+              82,
+              84,
+              100,
+              104,
+              117
+            ]
+          },
+          {
+            "variable": 17,
+            "label": "9:reset64",
+            "product_scope_bits": 11,
+            "output_scope_bits": 10,
+            "input_factors": 9,
+            "product_scope": [
+              7,
+              17,
+              32,
+              35,
+              57,
+              82,
+              84,
+              100,
+              104,
+              117,
+              143
+            ]
+          },
+          {
+            "variable": 7,
+            "label": "4:reset28",
+            "product_scope_bits": 12,
+            "output_scope_bits": 11,
+            "input_factors": 10,
+            "product_scope": [
+              5,
+              7,
+              32,
+              35,
+              52,
+              57,
+              82,
+              84,
+              100,
+              104,
+              117,
+              143
+            ]
+          },
+          {
+            "variable": 32,
+            "label": "23:cx-z",
+            "product_scope_bits": 11,
+            "output_scope_bits": 10,
+            "input_factors": 9,
+            "product_scope": [
+              5,
+              32,
+              35,
+              52,
+              57,
+              82,
+              84,
+              100,
+              104,
+              117,
+              143
+            ]
+          },
+          {
+            "variable": 35,
+            "label": "26:cx-z",
+            "product_scope_bits": 10,
+            "output_scope_bits": 9,
+            "input_factors": 3,
+            "product_scope": [
+              5,
+              35,
+              52,
+              57,
+              82,
+              84,
+              100,
+              104,
+              117,
+              143
+            ]
+          },
+          {
+            "variable": 5,
+            "label": "3:reset8",
+            "product_scope_bits": 10,
+            "output_scope_bits": 9,
+            "input_factors": 5,
+            "product_scope": [
+              5,
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              117,
+              143
+            ]
+          },
+          {
+            "variable": 179,
+            "label": "128:CSX-z129",
+            "product_scope_bits": 9,
+            "output_scope_bits": 8,
+            "input_factors": 4,
+            "product_scope": [
+              143,
+              144,
+              159,
+              162,
+              165,
+              170,
+              176,
+              179,
+              182
+            ]
+          },
+          {
+            "variable": 142,
+            "label": "106:CSX-z129",
+            "product_scope_bits": 11,
+            "output_scope_bits": 10,
+            "input_factors": 4,
+            "product_scope": [
+              82,
+              84,
+              100,
+              104,
+              117,
+              133,
+              139,
+              142,
+              143,
+              144,
+              145
+            ]
+          },
+          {
+            "variable": 139,
+            "label": "105:CS_DAG_X-z128",
+            "product_scope_bits": 13,
+            "output_scope_bits": 12,
+            "input_factors": 4,
+            "product_scope": [
+              82,
+              84,
+              100,
+              104,
+              109,
+              117,
+              130,
+              133,
+              139,
+              141,
+              143,
+              144,
+              145
+            ]
+          },
+          {
+            "variable": 176,
+            "label": "127:CS_DAG_X-z128",
+            "product_scope_bits": 12,
+            "output_scope_bits": 11,
+            "input_factors": 4,
+            "product_scope": [
+              109,
+              141,
+              143,
+              144,
+              159,
+              162,
+              165,
+              166,
+              167,
+              170,
+              176,
+              182
+            ]
+          },
+          {
+            "variable": 132,
+            "label": "102:CSX-z0",
+            "product_scope_bits": 10,
+            "output_scope_bits": 9,
+            "input_factors": 4,
+            "product_scope": [
+              87,
+              107,
+              117,
+              121,
+              130,
+              132,
+              158,
+              160,
+              167,
+              184
+            ]
+          },
+          {
+            "variable": 173,
+            "label": "126:CSX-z130",
+            "product_scope_bits": 14,
+            "output_scope_bits": 13,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              87,
+              109,
+              138,
+              146,
+              147,
+              159,
+              162,
+              164,
+              166,
+              173,
+              182,
+              184
+            ]
+          },
+          {
+            "variable": 136,
+            "label": "104:CSX-z130",
+            "product_scope_bits": 15,
+            "output_scope_bits": 14,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              127,
+              136,
+              138,
+              145,
+              146,
+              147
+            ]
+          },
+          {
+            "variable": 128,
+            "label": "101:CCZ-z36",
+            "product_scope_bits": 14,
+            "output_scope_bits": 13,
+            "input_factors": 4,
+            "product_scope": [
+              57,
+              82,
+              84,
+              109,
+              117,
+              119,
+              127,
+              128,
+              129,
+              143,
+              156,
+              164,
+              165,
+              166
+            ]
+          },
+          {
+            "variable": 129,
+            "label": "101:CCZ-z60",
+            "product_scope_bits": 13,
+            "output_scope_bits": 12,
+            "input_factors": 2,
+            "product_scope": [
+              57,
+              82,
+              84,
+              109,
+              117,
+              119,
+              127,
+              129,
+              143,
+              156,
+              164,
+              165,
+              166
+            ]
+          },
+          {
+            "variable": 161,
+            "label": "122:CCZ-z129",
+            "product_scope_bits": 16,
+            "output_scope_bits": 15,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              87,
+              107,
+              109,
+              125,
+              126,
+              135,
+              157,
+              159,
+              160,
+              161,
+              162,
+              166,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 124,
+            "label": "100:CCZ-z129",
+            "product_scope_bits": 15,
+            "output_scope_bits": 14,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              107,
+              109,
+              115,
+              117,
+              119,
+              124,
+              125,
+              126,
+              133,
+              135
+            ]
+          },
+          {
+            "variable": 123,
+            "label": "99:CCZ-z28",
+            "product_scope_bits": 14,
+            "output_scope_bits": 13,
+            "input_factors": 4,
+            "product_scope": [
+              52,
+              99,
+              104,
+              107,
+              115,
+              117,
+              121,
+              122,
+              123,
+              156,
+              157,
+              158,
+              159,
+              160
+            ]
+          },
+          {
+            "variable": 122,
+            "label": "99:CCZ-z4",
+            "product_scope_bits": 13,
+            "output_scope_bits": 12,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              99,
+              104,
+              107,
+              115,
+              117,
+              121,
+              122,
+              156,
+              157,
+              158,
+              159,
+              160
+            ]
+          },
+          {
+            "variable": 158,
+            "label": "121:CCZ-z128",
+            "product_scope_bits": 16,
+            "output_scope_bits": 15,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              87,
+              99,
+              104,
+              107,
+              115,
+              117,
+              121,
+              130,
+              156,
+              157,
+              158,
+              159,
+              160,
+              167,
+              184
+            ]
+          },
+          {
+            "variable": 121,
+            "label": "99:CCZ-z128",
+            "product_scope_bits": 15,
+            "output_scope_bits": 14,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              87,
+              99,
+              104,
+              107,
+              115,
+              117,
+              121,
+              130,
+              156,
+              157,
+              159,
+              160,
+              167,
+              184
+            ]
+          },
+          {
+            "variable": 135,
+            "label": "103:CS_DAG_X-z16",
+            "product_scope_bits": 21,
+            "output_scope_bits": 20,
+            "input_factors": 4,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              107,
+              109,
+              115,
+              117,
+              119,
+              125,
+              126,
+              133,
+              135,
+              157,
+              159,
+              160,
+              162,
+              166,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 126,
+            "label": "100:CCZ-z44",
+            "product_scope_bits": 20,
+            "output_scope_bits": 19,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              107,
+              109,
+              115,
+              117,
+              119,
+              125,
+              126,
+              133,
+              157,
+              159,
+              160,
+              162,
+              166,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 125,
+            "label": "100:CCZ-z20",
+            "product_scope_bits": 19,
+            "output_scope_bits": 18,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              107,
+              109,
+              115,
+              117,
+              119,
+              125,
+              133,
+              157,
+              159,
+              160,
+              162,
+              166,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 160,
+            "label": "121:CCZ-z28",
+            "product_scope_bits": 22,
+            "output_scope_bits": 21,
+            "input_factors": 7,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              104,
+              107,
+              109,
+              115,
+              117,
+              119,
+              130,
+              133,
+              156,
+              157,
+              159,
+              160,
+              162,
+              166,
+              167,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 107,
+            "label": "89:cx-x",
+            "product_scope_bits": 21,
+            "output_scope_bits": 20,
+            "input_factors": 6,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              104,
+              107,
+              109,
+              115,
+              117,
+              119,
+              130,
+              133,
+              156,
+              157,
+              159,
+              162,
+              166,
+              167,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 157,
+            "label": "120:cx-z",
+            "product_scope_bits": 20,
+            "output_scope_bits": 19,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              104,
+              109,
+              115,
+              117,
+              119,
+              130,
+              133,
+              156,
+              157,
+              159,
+              162,
+              166,
+              167,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 115,
+            "label": "93:reset128",
+            "product_scope_bits": 19,
+            "output_scope_bits": 18,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              104,
+              109,
+              115,
+              117,
+              119,
+              130,
+              133,
+              156,
+              159,
+              162,
+              166,
+              167,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 147,
+            "label": "107:CCZ-z56",
+            "product_scope_bits": 20,
+            "output_scope_bits": 19,
+            "input_factors": 4,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              127,
+              138,
+              145,
+              146,
+              147,
+              159,
+              162,
+              164,
+              166,
+              182,
+              184
+            ]
+          },
+          {
+            "variable": 146,
+            "label": "107:CCZ-z8",
+            "product_scope_bits": 19,
+            "output_scope_bits": 18,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              127,
+              138,
+              145,
+              146,
+              159,
+              162,
+              164,
+              166,
+              182,
+              184
+            ]
+          },
+          {
+            "variable": 138,
+            "label": "104:CSX-z32",
+            "product_scope_bits": 18,
+            "output_scope_bits": 17,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              127,
+              138,
+              145,
+              159,
+              162,
+              164,
+              166,
+              182,
+              184
+            ]
+          },
+          {
+            "variable": 141,
+            "label": "105:CS_DAG_X-z48",
+            "product_scope_bits": 19,
+            "output_scope_bits": 18,
+            "input_factors": 3,
+            "product_scope": [
+              82,
+              84,
+              100,
+              104,
+              109,
+              117,
+              130,
+              133,
+              141,
+              143,
+              144,
+              145,
+              159,
+              162,
+              165,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 144,
+            "label": "106:CSX-z64",
+            "product_scope_bits": 18,
+            "output_scope_bits": 17,
+            "input_factors": 2,
+            "product_scope": [
+              82,
+              84,
+              100,
+              104,
+              109,
+              117,
+              130,
+              133,
+              143,
+              144,
+              145,
+              159,
+              162,
+              165,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 165,
+            "label": "123:CCZ-z36",
+            "product_scope_bits": 22,
+            "output_scope_bits": 21,
+            "input_factors": 4,
+            "product_scope": [
+              57,
+              82,
+              84,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              143,
+              145,
+              156,
+              159,
+              162,
+              164,
+              165,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 184,
+            "label": "129:CCZ-z56",
+            "product_scope_bits": 23,
+            "output_scope_bits": 22,
+            "input_factors": 4,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              145,
+              156,
+              159,
+              162,
+              164,
+              166,
+              167,
+              170,
+              182,
+              184
+            ]
+          },
+          {
+            "variable": 99,
+            "label": "80:reset20",
+            "product_scope_bits": 22,
+            "output_scope_bits": 21,
+            "input_factors": 5,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              145,
+              156,
+              159,
+              162,
+              164,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 162,
+            "label": "122:CCZ-z20",
+            "product_scope_bits": 23,
+            "output_scope_bits": 22,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              143,
+              145,
+              156,
+              159,
+              162,
+              164,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 145,
+            "label": "107:CCZ-z130",
+            "product_scope_bits": 22,
+            "output_scope_bits": 21,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              143,
+              145,
+              156,
+              159,
+              164,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 133,
+            "label": "103:CS_DAG_X-z129",
+            "product_scope_bits": 21,
+            "output_scope_bits": 20,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              143,
+              156,
+              159,
+              164,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 167,
+            "label": "124:CSX-z128",
+            "product_scope_bits": 20,
+            "output_scope_bits": 19,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              143,
+              156,
+              159,
+              164,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 130,
+            "label": "102:CSX-z128",
+            "product_scope_bits": 19,
+            "output_scope_bits": 18,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              143,
+              156,
+              159,
+              164,
+              166,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 117,
+            "label": "94:reset129",
+            "product_scope_bits": 18,
+            "output_scope_bits": 17,
+            "input_factors": 12,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              143,
+              156,
+              159,
+              164,
+              166,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 104,
+            "label": "87:cx-z",
+            "product_scope_bits": 17,
+            "output_scope_bits": 16,
+            "input_factors": 4,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              119,
+              127,
+              143,
+              156,
+              159,
+              164,
+              166,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 82,
+            "label": "63:cx-z",
+            "product_scope_bits": 16,
+            "output_scope_bits": 15,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              109,
+              119,
+              127,
+              143,
+              156,
+              159,
+              164,
+              166,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 170,
+            "label": "125:CS_DAG_X-z129",
+            "product_scope_bits": 15,
+            "output_scope_bits": 14,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              100,
+              109,
+              119,
+              127,
+              143,
+              156,
+              159,
+              164,
+              166,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 159,
+            "label": "121:CCZ-z4",
+            "product_scope_bits": 14,
+            "output_scope_bits": 13,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              100,
+              109,
+              119,
+              127,
+              143,
+              156,
+              159,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 109,
+            "label": "90:cx-x",
+            "product_scope_bits": 13,
+            "output_scope_bits": 12,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              100,
+              109,
+              119,
+              127,
+              143,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 84,
+            "label": "64:cx-z",
+            "product_scope_bits": 12,
+            "output_scope_bits": 11,
+            "input_factors": 5,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              100,
+              119,
+              127,
+              143,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 143,
+            "label": "106:csx-x",
+            "product_scope_bits": 11,
+            "output_scope_bits": 10,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              87,
+              100,
+              119,
+              127,
+              143,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 52,
+            "label": "43:cx-x",
+            "product_scope_bits": 10,
+            "output_scope_bits": 9,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              87,
+              100,
+              119,
+              127,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 100,
+            "label": "81:reset44",
+            "product_scope_bits": 9,
+            "output_scope_bits": 8,
+            "input_factors": 2,
+            "product_scope": [
+              57,
+              87,
+              100,
+              119,
+              127,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 182,
+            "label": "129:CCZ-z130",
+            "product_scope_bits": 8,
+            "output_scope_bits": 7,
+            "input_factors": 3,
+            "product_scope": [
+              57,
+              87,
+              119,
+              127,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 156,
+            "label": "117:reset130",
+            "product_scope_bits": 7,
+            "output_scope_bits": 6,
+            "input_factors": 3,
+            "product_scope": [
+              57,
+              87,
+              119,
+              127,
+              156,
+              164,
+              166
+            ]
+          },
+          {
+            "variable": 87,
+            "label": "65:cx-x",
+            "product_scope_bits": 6,
+            "output_scope_bits": 5,
+            "input_factors": 2,
+            "product_scope": [
+              57,
+              87,
+              119,
+              127,
+              164,
+              166
+            ]
+          },
+          {
+            "variable": 166,
+            "label": "123:CCZ-z60",
+            "product_scope_bits": 5,
+            "output_scope_bits": 4,
+            "input_factors": 1,
+            "product_scope": [
+              57,
+              119,
+              127,
+              164,
+              166
+            ]
+          },
+          {
+            "variable": 164,
+            "label": "123:CCZ-z130",
+            "product_scope_bits": 4,
+            "output_scope_bits": 3,
+            "input_factors": 1,
+            "product_scope": [
+              57,
+              119,
+              127,
+              164
+            ]
+          },
+          {
+            "variable": 127,
+            "label": "101:CCZ-z130",
+            "product_scope_bits": 3,
+            "output_scope_bits": 2,
+            "input_factors": 1,
+            "product_scope": [
+              57,
+              119,
+              127
+            ]
+          },
+          {
+            "variable": 57,
+            "label": "48:cx-x",
+            "product_scope_bits": 2,
+            "output_scope_bits": 1,
+            "input_factors": 1,
+            "product_scope": [
+              57,
+              119
+            ]
+          },
+          {
+            "variable": 119,
+            "label": "95:reset130",
+            "product_scope_bits": 1,
+            "output_scope_bits": 0,
+            "input_factors": 2,
+            "product_scope": [
+              119
+            ]
+          }
+        ],
+        "maximum_product_scope_bits": 23,
+        "maximum_product_entries": 8388608,
+        "estimated_element_multiplications": 183634816,
+        "estimated_peak_live_entries": 16778100,
+        "estimated_peak_complex_bytes": 268449600
+      },
+      "memory": {
+        "degree": 5,
+        "scratch_entries": 4194304,
+        "scratch_bytes": 201326592,
+        "pooled_array_bytes": 725483728,
+        "source_array_bytes": 239264,
+        "maximum_estimated_live_array_bytes": 725962304,
+        "elimination_coefficient_multiplications": 1957490860,
+        "elimination_branch_additions": 143771866,
+        "maximum_binary_product_bits": 23,
+        "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+      },
+      "total_coefficient_products": 15659926880,
+      "residues": [
+        1505348126561581018,
+        1108675671200777799,
+        1953949999303050146,
+        1802806298131622177,
+        700446517419211302,
+        418499513478927353
+      ],
+      "slice_results": [
+        {
+          "assignment": [
+            0,
+            0,
+            0
+          ],
+          "residues": [
+            1917624165131622140,
+            1433603770436970051,
+            1121976907735566028,
+            1741416989582503318,
+            1820814480162077532,
+            1790350754677639346
+          ],
+          "profile": {
+            "seconds": 2.2815617920132354,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1
+          ],
+          "residues": [
+            1917624165131622140,
+            1548642007045507019,
+            2149012736499830032,
+            493677403471813412,
+            267191830513990672,
+            754475022032180082
+          ],
+          "profile": {
+            "seconds": 2.2827593340189196,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0
+          ],
+          "residues": [
+            1917624165131622140,
+            306988609311094012,
+            951894332486141953,
+            470491265426751040,
+            2142612981999742291,
+            71878668752058050
+          ],
+          "profile": {
+            "seconds": 2.284064583014697,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1
+          ],
+          "residues": [
+            1917624165131622140,
+            2215003978436224610,
+            775128434156959939,
+            805405438485358273,
+            1641865840869974239,
+            1227308184036748360
+          ],
+          "profile": {
+            "seconds": 2.288384292041883,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0
+          ],
+          "residues": [
+            1917624165131622140,
+            1408016513389468647,
+            2103707663327439688,
+            2226114341734972225,
+            2181411790710770162,
+            508853264179713344
+          ],
+          "profile": {
+            "seconds": 2.281953625031747,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1
+          ],
+          "residues": [
+            1917624165131622140,
+            83240033086450656,
+            2131410693097556390,
+            1856943271960581714,
+            1212931928896776473,
+            746596323717884024
+          ],
+          "profile": {
+            "seconds": 2.283000124967657,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0
+          ],
+          "residues": [
+            1917624165131622140,
+            281401352263592608,
+            652293898055093980,
+            1279947856186600,
+            1619449549914601275,
+            1399846083729880258
+          ],
+          "profile": {
+            "seconds": 2.279338916996494,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1
+          ],
+          "residues": [
+            1917624165131622140,
+            749602004477168247,
+            1292288796938726204,
+            1125300236859153646,
+            1343872443094108743,
+            837013809598521940
+          ],
+          "profile": {
+            "seconds": 2.2828471249667928,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        }
+      ],
+      "status": "computed_modulo_one_prime",
+      "seconds": 18.977792666992173
+    },
+    "Y": {
+      "compilation": {
+        "original_variables": 239,
+        "original_factors": 607,
+        "remaining_variables": 145,
+        "remaining_factors": 259,
+        "fixed_variables": 72,
+        "merged_equalities": 22,
+        "removed_constants": 90,
+        "noise_locations": 374,
+        "affine_reduction": {
+          "original_variables": 145,
+          "eliminated": 80,
+          "residual_equations": 0,
+          "expanded_source_entries": 60828,
+          "cleanup": {
+            "original_variables": 65,
+            "original_factors": 170,
+            "remaining_variables": 65,
+            "remaining_factors": 162,
+            "fixed_variables": 0,
+            "merged_equalities": 0,
+            "removed_constants": 0
+          }
+        }
+      },
+      "slices": [
+        54,
+        77,
+        155
+      ],
+      "slice_count": 8,
+      "plan": {
+        "strategy": "randomised_scope_search",
+        "order": [
+          9,
+          13,
+          55,
+          40,
+          17,
+          7,
+          32,
+          35,
+          5,
+          179,
+          142,
+          139,
+          176,
+          132,
+          173,
+          136,
+          128,
+          129,
+          161,
+          124,
+          123,
+          122,
+          158,
+          121,
+          135,
+          126,
+          125,
+          160,
+          107,
+          157,
+          115,
+          147,
+          146,
+          138,
+          141,
+          144,
+          165,
+          184,
+          99,
+          162,
+          145,
+          133,
+          167,
+          130,
+          117,
+          104,
+          82,
+          170,
+          159,
+          109,
+          84,
+          143,
+          52,
+          100,
+          182,
+          156,
+          87,
+          166,
+          164,
+          127,
+          57,
+          119
+        ],
+        "output_variables": [],
+        "steps": [
+          {
+            "variable": 9,
+            "label": "5:reset32",
+            "product_scope_bits": 5,
+            "output_scope_bits": 4,
+            "input_factors": 2,
+            "product_scope": [
+              9,
+              84,
+              100,
+              104,
+              117
+            ]
+          },
+          {
+            "variable": 13,
+            "label": "7:reset56",
+            "product_scope_bits": 6,
+            "output_scope_bits": 5,
+            "input_factors": 8,
+            "product_scope": [
+              13,
+              17,
+              35,
+              40,
+              57,
+              117
+            ]
+          },
+          {
+            "variable": 55,
+            "label": "46:cx-z",
+            "product_scope_bits": 10,
+            "output_scope_bits": 9,
+            "input_factors": 12,
+            "product_scope": [
+              5,
+              7,
+              32,
+              35,
+              52,
+              55,
+              84,
+              100,
+              104,
+              117
+            ]
+          },
+          {
+            "variable": 40,
+            "label": "29:cx-z",
+            "product_scope_bits": 11,
+            "output_scope_bits": 10,
+            "input_factors": 8,
+            "product_scope": [
+              7,
+              17,
+              32,
+              35,
+              40,
+              57,
+              82,
+              84,
+              100,
+              104,
+              117
+            ]
+          },
+          {
+            "variable": 17,
+            "label": "9:reset64",
+            "product_scope_bits": 11,
+            "output_scope_bits": 10,
+            "input_factors": 9,
+            "product_scope": [
+              7,
+              17,
+              32,
+              35,
+              57,
+              82,
+              84,
+              100,
+              104,
+              117,
+              143
+            ]
+          },
+          {
+            "variable": 7,
+            "label": "4:reset28",
+            "product_scope_bits": 12,
+            "output_scope_bits": 11,
+            "input_factors": 10,
+            "product_scope": [
+              5,
+              7,
+              32,
+              35,
+              52,
+              57,
+              82,
+              84,
+              100,
+              104,
+              117,
+              143
+            ]
+          },
+          {
+            "variable": 32,
+            "label": "23:cx-z",
+            "product_scope_bits": 11,
+            "output_scope_bits": 10,
+            "input_factors": 9,
+            "product_scope": [
+              5,
+              32,
+              35,
+              52,
+              57,
+              82,
+              84,
+              100,
+              104,
+              117,
+              143
+            ]
+          },
+          {
+            "variable": 35,
+            "label": "26:cx-z",
+            "product_scope_bits": 10,
+            "output_scope_bits": 9,
+            "input_factors": 3,
+            "product_scope": [
+              5,
+              35,
+              52,
+              57,
+              82,
+              84,
+              100,
+              104,
+              117,
+              143
+            ]
+          },
+          {
+            "variable": 5,
+            "label": "3:reset8",
+            "product_scope_bits": 10,
+            "output_scope_bits": 9,
+            "input_factors": 5,
+            "product_scope": [
+              5,
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              117,
+              143
+            ]
+          },
+          {
+            "variable": 179,
+            "label": "128:CSX-z129",
+            "product_scope_bits": 9,
+            "output_scope_bits": 8,
+            "input_factors": 4,
+            "product_scope": [
+              143,
+              144,
+              159,
+              162,
+              165,
+              170,
+              176,
+              179,
+              182
+            ]
+          },
+          {
+            "variable": 142,
+            "label": "106:CSX-z129",
+            "product_scope_bits": 11,
+            "output_scope_bits": 10,
+            "input_factors": 4,
+            "product_scope": [
+              82,
+              84,
+              100,
+              104,
+              117,
+              133,
+              139,
+              142,
+              143,
+              144,
+              145
+            ]
+          },
+          {
+            "variable": 139,
+            "label": "105:CS_DAG_X-z128",
+            "product_scope_bits": 13,
+            "output_scope_bits": 12,
+            "input_factors": 4,
+            "product_scope": [
+              82,
+              84,
+              100,
+              104,
+              109,
+              117,
+              130,
+              133,
+              139,
+              141,
+              143,
+              144,
+              145
+            ]
+          },
+          {
+            "variable": 176,
+            "label": "127:CS_DAG_X-z128",
+            "product_scope_bits": 12,
+            "output_scope_bits": 11,
+            "input_factors": 4,
+            "product_scope": [
+              109,
+              141,
+              143,
+              144,
+              159,
+              162,
+              165,
+              166,
+              167,
+              170,
+              176,
+              182
+            ]
+          },
+          {
+            "variable": 132,
+            "label": "102:CSX-z0",
+            "product_scope_bits": 10,
+            "output_scope_bits": 9,
+            "input_factors": 4,
+            "product_scope": [
+              87,
+              107,
+              117,
+              121,
+              130,
+              132,
+              158,
+              160,
+              167,
+              184
+            ]
+          },
+          {
+            "variable": 173,
+            "label": "126:CSX-z130",
+            "product_scope_bits": 14,
+            "output_scope_bits": 13,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              87,
+              109,
+              138,
+              146,
+              147,
+              159,
+              162,
+              164,
+              166,
+              173,
+              182,
+              184
+            ]
+          },
+          {
+            "variable": 136,
+            "label": "104:CSX-z130",
+            "product_scope_bits": 15,
+            "output_scope_bits": 14,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              127,
+              136,
+              138,
+              145,
+              146,
+              147
+            ]
+          },
+          {
+            "variable": 128,
+            "label": "101:CCZ-z36",
+            "product_scope_bits": 14,
+            "output_scope_bits": 13,
+            "input_factors": 4,
+            "product_scope": [
+              57,
+              82,
+              84,
+              109,
+              117,
+              119,
+              127,
+              128,
+              129,
+              143,
+              156,
+              164,
+              165,
+              166
+            ]
+          },
+          {
+            "variable": 129,
+            "label": "101:CCZ-z60",
+            "product_scope_bits": 13,
+            "output_scope_bits": 12,
+            "input_factors": 2,
+            "product_scope": [
+              57,
+              82,
+              84,
+              109,
+              117,
+              119,
+              127,
+              129,
+              143,
+              156,
+              164,
+              165,
+              166
+            ]
+          },
+          {
+            "variable": 161,
+            "label": "122:CCZ-z129",
+            "product_scope_bits": 16,
+            "output_scope_bits": 15,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              87,
+              107,
+              109,
+              125,
+              126,
+              135,
+              157,
+              159,
+              160,
+              161,
+              162,
+              166,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 124,
+            "label": "100:CCZ-z129",
+            "product_scope_bits": 15,
+            "output_scope_bits": 14,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              107,
+              109,
+              115,
+              117,
+              119,
+              124,
+              125,
+              126,
+              133,
+              135
+            ]
+          },
+          {
+            "variable": 123,
+            "label": "99:CCZ-z28",
+            "product_scope_bits": 14,
+            "output_scope_bits": 13,
+            "input_factors": 4,
+            "product_scope": [
+              52,
+              99,
+              104,
+              107,
+              115,
+              117,
+              121,
+              122,
+              123,
+              156,
+              157,
+              158,
+              159,
+              160
+            ]
+          },
+          {
+            "variable": 122,
+            "label": "99:CCZ-z4",
+            "product_scope_bits": 13,
+            "output_scope_bits": 12,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              99,
+              104,
+              107,
+              115,
+              117,
+              121,
+              122,
+              156,
+              157,
+              158,
+              159,
+              160
+            ]
+          },
+          {
+            "variable": 158,
+            "label": "121:CCZ-z128",
+            "product_scope_bits": 16,
+            "output_scope_bits": 15,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              87,
+              99,
+              104,
+              107,
+              115,
+              117,
+              121,
+              130,
+              156,
+              157,
+              158,
+              159,
+              160,
+              167,
+              184
+            ]
+          },
+          {
+            "variable": 121,
+            "label": "99:CCZ-z128",
+            "product_scope_bits": 15,
+            "output_scope_bits": 14,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              87,
+              99,
+              104,
+              107,
+              115,
+              117,
+              121,
+              130,
+              156,
+              157,
+              159,
+              160,
+              167,
+              184
+            ]
+          },
+          {
+            "variable": 135,
+            "label": "103:CS_DAG_X-z16",
+            "product_scope_bits": 21,
+            "output_scope_bits": 20,
+            "input_factors": 4,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              107,
+              109,
+              115,
+              117,
+              119,
+              125,
+              126,
+              133,
+              135,
+              157,
+              159,
+              160,
+              162,
+              166,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 126,
+            "label": "100:CCZ-z44",
+            "product_scope_bits": 20,
+            "output_scope_bits": 19,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              107,
+              109,
+              115,
+              117,
+              119,
+              125,
+              126,
+              133,
+              157,
+              159,
+              160,
+              162,
+              166,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 125,
+            "label": "100:CCZ-z20",
+            "product_scope_bits": 19,
+            "output_scope_bits": 18,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              107,
+              109,
+              115,
+              117,
+              119,
+              125,
+              133,
+              157,
+              159,
+              160,
+              162,
+              166,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 160,
+            "label": "121:CCZ-z28",
+            "product_scope_bits": 22,
+            "output_scope_bits": 21,
+            "input_factors": 7,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              104,
+              107,
+              109,
+              115,
+              117,
+              119,
+              130,
+              133,
+              156,
+              157,
+              159,
+              160,
+              162,
+              166,
+              167,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 107,
+            "label": "89:cx-x",
+            "product_scope_bits": 21,
+            "output_scope_bits": 20,
+            "input_factors": 6,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              104,
+              107,
+              109,
+              115,
+              117,
+              119,
+              130,
+              133,
+              156,
+              157,
+              159,
+              162,
+              166,
+              167,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 157,
+            "label": "120:cx-z",
+            "product_scope_bits": 20,
+            "output_scope_bits": 19,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              104,
+              109,
+              115,
+              117,
+              119,
+              130,
+              133,
+              156,
+              157,
+              159,
+              162,
+              166,
+              167,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 115,
+            "label": "93:reset128",
+            "product_scope_bits": 19,
+            "output_scope_bits": 18,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              87,
+              99,
+              100,
+              104,
+              109,
+              115,
+              117,
+              119,
+              130,
+              133,
+              156,
+              159,
+              162,
+              166,
+              167,
+              170,
+              184
+            ]
+          },
+          {
+            "variable": 147,
+            "label": "107:CCZ-z56",
+            "product_scope_bits": 20,
+            "output_scope_bits": 19,
+            "input_factors": 4,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              127,
+              138,
+              145,
+              146,
+              147,
+              159,
+              162,
+              164,
+              166,
+              182,
+              184
+            ]
+          },
+          {
+            "variable": 146,
+            "label": "107:CCZ-z8",
+            "product_scope_bits": 19,
+            "output_scope_bits": 18,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              127,
+              138,
+              145,
+              146,
+              159,
+              162,
+              164,
+              166,
+              182,
+              184
+            ]
+          },
+          {
+            "variable": 138,
+            "label": "104:CSX-z32",
+            "product_scope_bits": 18,
+            "output_scope_bits": 17,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              127,
+              138,
+              145,
+              159,
+              162,
+              164,
+              166,
+              182,
+              184
+            ]
+          },
+          {
+            "variable": 141,
+            "label": "105:CS_DAG_X-z48",
+            "product_scope_bits": 19,
+            "output_scope_bits": 18,
+            "input_factors": 3,
+            "product_scope": [
+              82,
+              84,
+              100,
+              104,
+              109,
+              117,
+              130,
+              133,
+              141,
+              143,
+              144,
+              145,
+              159,
+              162,
+              165,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 144,
+            "label": "106:CSX-z64",
+            "product_scope_bits": 18,
+            "output_scope_bits": 17,
+            "input_factors": 2,
+            "product_scope": [
+              82,
+              84,
+              100,
+              104,
+              109,
+              117,
+              130,
+              133,
+              143,
+              144,
+              145,
+              159,
+              162,
+              165,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 165,
+            "label": "123:CCZ-z36",
+            "product_scope_bits": 22,
+            "output_scope_bits": 21,
+            "input_factors": 4,
+            "product_scope": [
+              57,
+              82,
+              84,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              143,
+              145,
+              156,
+              159,
+              162,
+              164,
+              165,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 184,
+            "label": "129:CCZ-z56",
+            "product_scope_bits": 23,
+            "output_scope_bits": 22,
+            "input_factors": 4,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              145,
+              156,
+              159,
+              162,
+              164,
+              166,
+              167,
+              170,
+              182,
+              184
+            ]
+          },
+          {
+            "variable": 99,
+            "label": "80:reset20",
+            "product_scope_bits": 22,
+            "output_scope_bits": 21,
+            "input_factors": 5,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              99,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              145,
+              156,
+              159,
+              162,
+              164,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 162,
+            "label": "122:CCZ-z20",
+            "product_scope_bits": 23,
+            "output_scope_bits": 22,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              143,
+              145,
+              156,
+              159,
+              162,
+              164,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 145,
+            "label": "107:CCZ-z130",
+            "product_scope_bits": 22,
+            "output_scope_bits": 21,
+            "input_factors": 3,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              143,
+              145,
+              156,
+              159,
+              164,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 133,
+            "label": "103:CS_DAG_X-z129",
+            "product_scope_bits": 21,
+            "output_scope_bits": 20,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              133,
+              143,
+              156,
+              159,
+              164,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 167,
+            "label": "124:CSX-z128",
+            "product_scope_bits": 20,
+            "output_scope_bits": 19,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              143,
+              156,
+              159,
+              164,
+              166,
+              167,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 130,
+            "label": "102:CSX-z128",
+            "product_scope_bits": 19,
+            "output_scope_bits": 18,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              130,
+              143,
+              156,
+              159,
+              164,
+              166,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 117,
+            "label": "94:reset129",
+            "product_scope_bits": 18,
+            "output_scope_bits": 17,
+            "input_factors": 12,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              117,
+              119,
+              127,
+              143,
+              156,
+              159,
+              164,
+              166,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 104,
+            "label": "87:cx-z",
+            "product_scope_bits": 17,
+            "output_scope_bits": 16,
+            "input_factors": 4,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              104,
+              109,
+              119,
+              127,
+              143,
+              156,
+              159,
+              164,
+              166,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 82,
+            "label": "63:cx-z",
+            "product_scope_bits": 16,
+            "output_scope_bits": 15,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              82,
+              84,
+              87,
+              100,
+              109,
+              119,
+              127,
+              143,
+              156,
+              159,
+              164,
+              166,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 170,
+            "label": "125:CS_DAG_X-z129",
+            "product_scope_bits": 15,
+            "output_scope_bits": 14,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              100,
+              109,
+              119,
+              127,
+              143,
+              156,
+              159,
+              164,
+              166,
+              170,
+              182
+            ]
+          },
+          {
+            "variable": 159,
+            "label": "121:CCZ-z4",
+            "product_scope_bits": 14,
+            "output_scope_bits": 13,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              100,
+              109,
+              119,
+              127,
+              143,
+              156,
+              159,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 109,
+            "label": "90:cx-x",
+            "product_scope_bits": 13,
+            "output_scope_bits": 12,
+            "input_factors": 1,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              100,
+              109,
+              119,
+              127,
+              143,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 84,
+            "label": "64:cx-z",
+            "product_scope_bits": 12,
+            "output_scope_bits": 11,
+            "input_factors": 5,
+            "product_scope": [
+              52,
+              57,
+              84,
+              87,
+              100,
+              119,
+              127,
+              143,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 143,
+            "label": "106:csx-x",
+            "product_scope_bits": 11,
+            "output_scope_bits": 10,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              87,
+              100,
+              119,
+              127,
+              143,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 52,
+            "label": "43:cx-x",
+            "product_scope_bits": 10,
+            "output_scope_bits": 9,
+            "input_factors": 2,
+            "product_scope": [
+              52,
+              57,
+              87,
+              100,
+              119,
+              127,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 100,
+            "label": "81:reset44",
+            "product_scope_bits": 9,
+            "output_scope_bits": 8,
+            "input_factors": 2,
+            "product_scope": [
+              57,
+              87,
+              100,
+              119,
+              127,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 182,
+            "label": "129:CCZ-z130",
+            "product_scope_bits": 8,
+            "output_scope_bits": 7,
+            "input_factors": 3,
+            "product_scope": [
+              57,
+              87,
+              119,
+              127,
+              156,
+              164,
+              166,
+              182
+            ]
+          },
+          {
+            "variable": 156,
+            "label": "117:reset130",
+            "product_scope_bits": 7,
+            "output_scope_bits": 6,
+            "input_factors": 3,
+            "product_scope": [
+              57,
+              87,
+              119,
+              127,
+              156,
+              164,
+              166
+            ]
+          },
+          {
+            "variable": 87,
+            "label": "65:cx-x",
+            "product_scope_bits": 6,
+            "output_scope_bits": 5,
+            "input_factors": 2,
+            "product_scope": [
+              57,
+              87,
+              119,
+              127,
+              164,
+              166
+            ]
+          },
+          {
+            "variable": 166,
+            "label": "123:CCZ-z60",
+            "product_scope_bits": 5,
+            "output_scope_bits": 4,
+            "input_factors": 1,
+            "product_scope": [
+              57,
+              119,
+              127,
+              164,
+              166
+            ]
+          },
+          {
+            "variable": 164,
+            "label": "123:CCZ-z130",
+            "product_scope_bits": 4,
+            "output_scope_bits": 3,
+            "input_factors": 1,
+            "product_scope": [
+              57,
+              119,
+              127,
+              164
+            ]
+          },
+          {
+            "variable": 127,
+            "label": "101:CCZ-z130",
+            "product_scope_bits": 3,
+            "output_scope_bits": 2,
+            "input_factors": 1,
+            "product_scope": [
+              57,
+              119,
+              127
+            ]
+          },
+          {
+            "variable": 57,
+            "label": "48:cx-x",
+            "product_scope_bits": 2,
+            "output_scope_bits": 1,
+            "input_factors": 1,
+            "product_scope": [
+              57,
+              119
+            ]
+          },
+          {
+            "variable": 119,
+            "label": "95:reset130",
+            "product_scope_bits": 1,
+            "output_scope_bits": 0,
+            "input_factors": 2,
+            "product_scope": [
+              119
+            ]
+          }
+        ],
+        "maximum_product_scope_bits": 23,
+        "maximum_product_entries": 8388608,
+        "estimated_element_multiplications": 183634816,
+        "estimated_peak_live_entries": 16778100,
+        "estimated_peak_complex_bytes": 268449600
+      },
+      "memory": {
+        "degree": 5,
+        "scratch_entries": 4194304,
+        "scratch_bytes": 201326592,
+        "pooled_array_bytes": 725483728,
+        "source_array_bytes": 239264,
+        "maximum_estimated_live_array_bytes": 725962304,
+        "elimination_coefficient_multiplications": 1957490860,
+        "elimination_branch_additions": 143771866,
+        "maximum_binary_product_bits": 23,
+        "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+      },
+      "total_coefficient_products": 15659926880,
+      "residues": [
+        1505348126561581018,
+        1108675671200777799,
+        1953949999303050146,
+        1770808106778497423,
+        629551176229620953,
+        158029360678155300
+      ],
+      "slice_results": [
+        {
+          "assignment": [
+            0,
+            0,
+            0
+          ],
+          "residues": [
+            1917624165131622140,
+            1433603770436970051,
+            2028580710728679730,
+            582952795244051656,
+            1919475821924651148,
+            2102874014711881988
+          ],
+          "profile": {
+            "seconds": 2.2824424580321647,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            0,
+            0,
+            1
+          ],
+          "residues": [
+            1917624165131622140,
+            1548642007045507019,
+            1433095816500096244,
+            1315826413909871424,
+            634154863507550524,
+            1001348058604332034
+          ],
+          "profile": {
+            "seconds": 2.2879231669940054,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            0
+          ],
+          "residues": [
+            1917624165131622140,
+            306988609311094012,
+            1769545243038127888,
+            1048958442581059024,
+            2252068672896140867,
+            847661815384336062
+          ],
+          "profile": {
+            "seconds": 2.278554290998727,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            0,
+            1,
+            1
+          ],
+          "residues": [
+            1917624165131622140,
+            2215003978436224610,
+            821469312619255558,
+            957755989343849403,
+            1123801380565989810,
+            1681792191474650545
+          ],
+          "profile": {
+            "seconds": 2.283072499965783,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            0
+          ],
+          "residues": [
+            1917624165131622140,
+            1408016513389468647,
+            134950752142902480,
+            1167137031656850360,
+            1080504261945093926,
+            1291985459499579139
+          ],
+          "profile": {
+            "seconds": 2.287213707983028,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            1,
+            0,
+            1
+          ],
+          "residues": [
+            1917624165131622140,
+            83240033086450656,
+            2085069814635260771,
+            2044628406116921928,
+            1437426408419769750,
+            1574529611726398076
+          ],
+          "profile": {
+            "seconds": 2.2873677499592304,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            0
+          ],
+          "residues": [
+            1917624165131622140,
+            281401352263592608,
+            896796095694531551,
+            1138232244929780508,
+            1841019395451258752,
+            1861793251596455030
+          ],
+          "profile": {
+            "seconds": 2.280508292024024,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        },
+        {
+          "assignment": [
+            1,
+            1,
+            1
+          ],
+          "residues": [
+            1917624165131622140,
+            749602004477168247,
+            2008205716938459992,
+            433139380241811171,
+            1870804700261996261,
+            1325749286423352511
+          ],
+          "profile": {
+            "seconds": 2.283435165998526,
+            "pooled_array_bytes": 725483728,
+            "memory_plan": {
+              "degree": 5,
+              "scratch_entries": 4194304,
+              "scratch_bytes": 201326592,
+              "pooled_array_bytes": 725483728,
+              "source_array_bytes": 239264,
+              "maximum_estimated_live_array_bytes": 725962304,
+              "elimination_coefficient_multiplications": 1957490860,
+              "elimination_branch_additions": 143771866,
+              "maximum_binary_product_bits": 23,
+              "assumptions": "Exact pool schedule; two source copies and result included. Python/source-object overhead and allocator RSS measured separately."
+            },
+            "kernel": {
+              "sources": {
+                "modular_binary.cpp": "307f8b59807bb32c5ecde81b978d2d38b32a1c01956cdc409c4b44a1ada1d5de",
+                "modular_growth.cpp": "fe51c3ba00c27050a8d3fa9921b78f55a39dce8bf68e9d49c0cef9a54a914eaa",
+                "modular_polynomial.cpp": "4711f95019dfb4209b95c7420cae64e1c9cfd0b74faa2caa3dc3ab8936d17128",
+                "modular_polynomial_endpoints.cpp": "0858066bef83ecdb3139ce7b7c3e5156e5d28b8816abee1f0763c88d4ca6eedd",
+                "modular_polynomial_growth.cpp": "2ecb3f7f5fe2cb3179502c52a6c1474915fb2fc96a8b430b8004130004a5161d"
+              },
+              "binary_sha256": "45f3aba361db5939d3cfab8517176379abf0f421b6c69d95b710c83e019e9540"
+            },
+            "arithmetic": "All retained coefficients exact modulo q; Cauchy products truncated only above K"
+          }
+        }
+      ],
+      "status": "computed_modulo_one_prime",
+      "seconds": 18.996996042027604
+    }
+  },
+  "code_hashes": {
+    "pauli_polynomial.py": "9200634765a3b7898a937fecf320aeb74b95486fc9f138ae228ad9e790e076bc",
+    "order_search.py": "5deab6ba7377c5c3b3b5df204fc4df1a055574e5c345c0d92b2236251bb86cac",
+    "puri_sliced_pilot.py": "36f107d77e3c21f61ffa50fc5d668f2bfdd2b6f4a04b34eaa5c10cb7f4514d7f"
+  },
+  "B_residues": [
+    0,
+    0,
+    0,
+    1681512308748251311,
+    565207865786364139,
+    2144924511861841017
+  ],
+  "known_orders_zero_to_two_match": true,
+  "seconds": 57.112495749956
+}

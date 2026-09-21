@@ -1,0 +1,25 @@
+{
+  "model_sha256": "d695e09475aaad6c6cb3506e5772aacb6517103cd4ecde6f2713378fdb128bff",
+  "source_sha256": "347c2d2a302c42458f583c5d437470fc5ae9ce43a4ed70a86d8e3ddf736342b9",
+  "degree": 5,
+  "bits": 14,
+  "block": 2048,
+  "zero_counts": [
+    14657825,
+    77280
+  ],
+  "total_tasks": 23543,
+  "census_sha256": "c3b050cd61b437970a2f1dd9c9c88c1f8cc72e0dbadeff90da657cb2de568dc4",
+  "code_hashes": {
+    "updated_fold_higher.cpp": "eec5038a3c57eb9a176dc0a9fcc16e9c148103ae3be779eee01d092dd6d5344d",
+    "updated_fold_higher.py": "95b894b5ad445f38c00d798cb09fb5e38394173351cd593d463e531a10307720",
+    "phase_sixth_direct.cpp": "06a49559ceb302349a6324113e8d83dbf2e9bf82b84183e40187816acb32a048",
+    "phase_bulk_filter.cpp": "8375cc3bd5508f09dee237eeaff9a30c343db376dc2a4eb79cf0c55060fd274d",
+    "phase_gaussian_kernel.cpp": "c7cb5b5b3779df495356580ec48c275d429970b322302b9456d82adacd73b788",
+    "phase_kernel.py": "e27e1bae1563624f7c9454cfcb8f57c50618951ba4548589c3604746212413a8",
+    "direct_bad_join_pilot.py": "4d1a15e8438b1c4514e06896484e08ef5339a60280410fa94dd46d64994c44ee",
+    "direct_bad_phase_pilot.py": "482f091774b5bfa8db224c15bcfa456cab9a452b6dba153982351ddbd11b5427",
+    "updated_fold_higher_campaign.py": "ff6dd2220f6d0a553ee2684a3cc102b3d97d6140e14a6e89fe0257477d5c6ef9"
+  },
+  "library_sha256": "5283c081c4a2e59ea39748f058378ac8bb61784c3daf111b6b7fbab3db5e04f9"
+}

@@ -1,0 +1,46 @@
+{
+  "status": "complete_saved_certificate_verified",
+  "manifest_sha256": "739687b2bd965bea384fd9c5fe3b07aa6abcebd600030ffc74596fe37162fcba",
+  "done": 17306,
+  "total": 17306,
+  "compatible_counts": [
+    1884175,
+    178198299,
+    15512994420,
+    1274321786151
+  ],
+  "U6_EGF_parts": [
+    "51592086900",
+    "-6332056297732215/32",
+    "-207787659863630175/32",
+    "39001630707175593825/128"
+  ],
+  "lower_U_EGF": [
+    "31317/2",
+    "66157569759/128",
+    "8722173692165985/256"
+  ],
+  "shard_core_seconds": 45888.643391697165,
+  "scope": "Saved records and algebra; not a second independent simulation.",
+  "e": [
+    "0",
+    "0",
+    "0",
+    "10439/13500",
+    "22052523253/51840000",
+    "586668724054159/1555200000",
+    "445067526827067661/11664000000"
+  ],
+  "L": [
+    "0",
+    "0",
+    "0",
+    "10439/13500",
+    "20300775541/51840000",
+    "616219992737/1728000",
+    "428120035103643799/20736000000"
+  ],
+  "quotient_recursion": "L_k = e_k - sum_{j=1}^{k-3} a_j L_{k-j}",
+  "whole_source_noise_locations": 2405,
+  "all_three_lower_orders_reproduced": true
+}

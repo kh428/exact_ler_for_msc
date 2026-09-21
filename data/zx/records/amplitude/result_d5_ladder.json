@@ -1,0 +1,50 @@
+{
+  "case": "d5",
+  "method": "ladder",
+  "faultfree_flip0": {
+    "p": 0.9999999999999996,
+    "clifford_terms": 489,
+    "stats": {
+      "clifford_terms": 489,
+      "bss_leaves": 489,
+      "rounds": []
+    }
+  },
+  "input_flip": false,
+  "wires": 39,
+  "measurements": 39,
+  "good": {
+    "amplitude": [
+      2.6035750906189563e-17,
+      3.0574501264091225e-17
+    ],
+    "p": 1.6126604527970665e-33,
+    "clifford_terms": 383,
+    "bss_leaves": 383,
+    "stats": {
+      "clifford_terms": 383,
+      "bss_leaves": 383,
+      "rounds": []
+    },
+    "seconds": 0.5
+  },
+  "bad": {
+    "amplitude": [
+      0.24999999999999997,
+      -4.761887096440531e-17
+    ],
+    "p": 0.062499999999999986,
+    "clifford_terms": 390,
+    "bss_leaves": 390,
+    "stats": {
+      "clifford_terms": 390,
+      "bss_leaves": 390,
+      "rounds": []
+    },
+    "seconds": 0.5
+  },
+  "expected_good": 0.0,
+  "expected_bad": 0.0625,
+  "total_seconds": 1.5,
+  "pyzx_param": "0.9.0"
+}

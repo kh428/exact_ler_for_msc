@@ -1,0 +1,98 @@
+{
+  "status": "complete_third_order",
+  "model": "rp2/inputs/magic_d5_v2.json",
+  "source_sha256": "9cc698fe04999fffbe87c818909a9c3878e9a679b079bc77e7d4e47240aed4f8",
+  "constraints": "planning/rebasis_rp201_20260916.json",
+  "constraints_sha256": "8655e998b9c54b96ff5ddb1ef66f9b581ddeac8c2f82e2b86b89906b851cfb7a",
+  "workers": 14,
+  "pilot": false,
+  "total_tasks": 205842,
+  "selected_tasks": 205842,
+  "noise_denominator": 15,
+  "outputs": {
+    "A": {
+      "status": "complete",
+      "done": 205842,
+      "terms": 1396327,
+      "products": 2333503,
+      "core_seconds": 605.9139140000126,
+      "S1_cubed": {
+        "a": "279772607877",
+        "b": "0",
+        "denominator_power_of_two": 6
+      },
+      "S1_S2": {
+        "a": "288354747",
+        "b": "0",
+        "denominator_power_of_two": 1
+      },
+      "S3": {
+        "a": "2914041",
+        "b": "0",
+        "denominator_power_of_two": 1
+      },
+      "lower_terms": 10225,
+      "coefficient_rational": "28030783421/144000",
+      "coefficient_sqrt2": "0"
+    },
+    "X": {
+      "status": "complete",
+      "done": 205842,
+      "terms": 1396327,
+      "products": 2333503,
+      "core_seconds": 804.266268999997,
+      "S1_cubed": {
+        "a": "0",
+        "b": "279770603589",
+        "denominator_power_of_two": 7
+      },
+      "S1_S2": {
+        "a": "0",
+        "b": "288354747",
+        "denominator_power_of_two": 2
+      },
+      "S3": {
+        "a": "0",
+        "b": "2914041",
+        "denominator_power_of_two": 2
+      },
+      "lower_terms": 10225,
+      "coefficient_rational": "0",
+      "coefficient_sqrt2": "84091682167/864000"
+    },
+    "Y": {
+      "status": "complete",
+      "done": 205842,
+      "terms": 1396327,
+      "products": 2333503,
+      "core_seconds": 803.1393530000059,
+      "S1_cubed": {
+        "a": "0",
+        "b": "279770603589",
+        "denominator_power_of_two": 7
+      },
+      "S1_S2": {
+        "a": "0",
+        "b": "288354747",
+        "denominator_power_of_two": 2
+      },
+      "S3": {
+        "a": "0",
+        "b": "2914041",
+        "denominator_power_of_two": 2
+      },
+      "lower_terms": 10225,
+      "coefficient_rational": "0",
+      "coefficient_sqrt2": "84091682167/864000"
+    }
+  },
+  "jobs_running": 0,
+  "code_hashes": {
+    "phase_third_order.py": "330a54ec8aa984f66ff6a3f4e9610d76897fafe420cb759372e6e0acdf448433",
+    "phase_triple_census.py": "40f1bafecc3fad2ed8d44632f49c1f3884726fd23d5957763996e119785b5bd5",
+    "parameterized_phase.py": "180e22c426d8bfe2060de730f0ff7acfa2a1edb40a271ffbd34abe2155e9beab",
+    "phase_sum.py": "3ef6a1b493db79ebef1369ae1ae4fad19b6ef1e8b7c21187001e9c57f6a81f04",
+    "exact_phase_sum.py": "650e16b92f26a44f5c4de40ce92fb3597ff1607d657db5769071b60ca38faac1"
+  },
+  "wall_seconds": 195.8901374579873
+}

@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "accepted_records_per_case": 16,
+  "calculations": 48,
+  "fault_free_acceptance": 0.9999999999999999,
+  "old_fault_pattern_acceptance": 0.0,
+  "old_fault_pattern_accepted_error": 0.0,
+  "seconds": 11.143947917036712,
+  "arithmetic": "Rational ZX phases and complex floating scalar summation, tolerance 1e-12; separate from the exact coefficient certificate.",
+  "independence": "Every growth and final-stage source gate is used. No compiled growth labels or response table are used in these amplitude checks."
+}

@@ -1,0 +1,104 @@
+{
+  "proxy": [
+    {
+      "p": 0.001,
+      "paper_ordinate": 1.8000000152805614e-07,
+      "paper_lower": 9.68442510281102e-08,
+      "paper_upper": 2.63155748878442e-07,
+      "A": 0.76173421,
+      "B": 1.65e-07,
+      "PL": 2.1661098823433438e-07,
+      "shots": 200000000,
+      "accepted": 152346842,
+      "errors": 33,
+      "B_standard_error": 2.8722810863057954e-08,
+      "PL_standard_error": 3.770712900219027e-08
+    },
+    {
+      "p": 0.003,
+      "paper_ordinate": 2.8600001030398667e-06,
+      "paper_lower": 2.3912368993097936e-06,
+      "paper_upper": 3.328763199452981e-06,
+      "A": 0.44252041,
+      "B": 2.57e-06,
+      "PL": 5.807641731146366e-06,
+      "shots": 100000000,
+      "accepted": 44252041,
+      "errors": 257,
+      "B_standard_error": 1.6031198941751048e-07,
+      "PL_standard_error": 3.6226968582136133e-07
+    },
+    {
+      "p": 0.005,
+      "paper_ordinate": 6.700000137531777e-06,
+      "paper_lower": 5.095676465454317e-06,
+      "paper_upper": 8.304323969022904e-06,
+      "A": 0.25744802,
+      "B": 7.09e-06,
+      "PL": 2.7539539826330767e-05,
+      "shots": 100000000,
+      "accepted": 25744802,
+      "errors": 709,
+      "B_standard_error": 2.662695951831527e-07,
+      "PL_standard_error": 1.0342548861109323e-06
+    },
+    {
+      "p": 0.007,
+      "paper_ordinate": 1.3200000429498231e-05,
+      "paper_lower": 1.0948146733383527e-05,
+      "paper_upper": 1.5451854328155754e-05,
+      "A": 0.15007803,
+      "B": 1.1725e-05,
+      "PL": 7.81260255081973e-05,
+      "shots": 200000000,
+      "accepted": 30015606,
+      "errors": 2345,
+      "B_standard_error": 2.4212458078822773e-07,
+      "PL_standard_error": 1.6132710557320707e-06
+    }
+  ],
+  "native": [
+    {
+      "p": 0.001,
+      "paper_ordinate": 7.407407531469644e-08,
+      "paper_lower": 2.8162489219792624e-08,
+      "paper_upper": 1.199856575307701e-07,
+      "A": 0.7496169510944578,
+      "B": 7.196332718617526e-08,
+      "PL": 9.600013324286113e-08
+    },
+    {
+      "p": 0.003,
+      "paper_ordinate": 1e-06,
+      "paper_lower": 1.9983375626239803e-07,
+      "paper_upper": 1.8001662523150953e-06,
+      "A": 0.42177341555033343,
+      "B": 1.1481114854938745e-06,
+      "PL": 2.7221049102770246e-06
+    },
+    {
+      "p": 0.005,
+      "paper_ordinate": 4.143126241028701e-06,
+      "paper_lower": 2.411827621633148e-06,
+      "paper_upper": 5.8744249543185375e-06,
+      "A": 0.2377481918222195,
+      "B": 3.1578784434604934e-06,
+      "PL": 1.3282449886398521e-05
+    },
+    {
+      "p": 0.007,
+      "paper_ordinate": 1.358024747123773e-05,
+      "paper_lower": 5.554888556707192e-06,
+      "paper_upper": 2.160560592568576e-05,
+      "A": 0.13428219891780013,
+      "B": 5.17769184367467e-06,
+      "PL": 3.85582890763068e-05
+    }
+  ],
+  "conventions": {
+    "proxy": "Independent Y-proxy sampling: B=errors/shots, P_L=errors/accepted.",
+    "native": "All-orders binary64 diagnostic for the terminated native-T core; not an exact fraction or certified enclosure.",
+    "published": "Digitised Sahay et al. no-escape points; original plotting producer and raw counts unavailable.",
+    "scope": "Tests normalization conventions. Does not establish a bug in the authors code."
+  }
+}

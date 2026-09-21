@@ -1,0 +1,107 @@
+{
+  "distance": 3,
+  "degree": 5,
+  "variable": "x=p/(1-p)",
+  "scope": "Supplied cultivation-only circuit, including injection, morphing, recorded post-selection and noiseless terminal code/logical readout; no expansion, escape or decoding.",
+  "physical_locations": 678,
+  "phase_gates": 31,
+  "recorded_measurements": 46,
+  "denominator_power_of_two": 79,
+  "primes": [
+    "2305940865748566017",
+    "2305943064771821569",
+    "2305954059888099329"
+  ],
+  "CRT_modulus_bits": 184,
+  "coefficient_bounds": [
+    {
+      "k": 0,
+      "denominator": "604462909807314587353088",
+      "signed_numerator_bound": "604462909807314587353088",
+      "required_bits": 81
+    },
+    {
+      "k": 1,
+      "denominator": "9066943647109718810296320",
+      "signed_numerator_bound": "6147387792740389353380904960",
+      "required_bits": 94
+    },
+    {
+      "k": 2,
+      "denominator": "136004154706645782154444800",
+      "signed_numerator_bound": "31213361517639326941791544934400",
+      "required_bits": 106
+    },
+    {
+      "k": 3,
+      "denominator": "2040062320599686732316672000",
+      "signed_numerator_bound": "105501161929620925063255421878272000",
+      "required_bits": 118
+    },
+    {
+      "k": 4,
+      "denominator": "30600934808995300984750080000",
+      "signed_numerator_bound": "267049816134352966566365286629376000000",
+      "required_bits": 129
+    },
+    {
+      "k": 5,
+      "denominator": "459014022134929514771251200000",
+      "signed_numerator_bound": "539974728223661698397190609564598272000000",
+      "required_bits": 140
+    }
+  ],
+  "all_sqrt2_components_proved_zero": true,
+  "raw_acceptance": [
+    "1",
+    "361/30",
+    "999743/900",
+    "569890669/27000",
+    "231503373677/270000",
+    "64674668194319/3037500"
+  ],
+  "raw_accepted_error": [
+    "0",
+    "0",
+    "131/450",
+    "49559629/54000",
+    "465763021/10800",
+    "61371014030191/24300000"
+  ],
+  "conditional_LER": [
+    "0",
+    "0",
+    "131/450",
+    "9874093/10800",
+    "17172616651/540000",
+    "27243842363149/24300000"
+  ],
+  "source_sha256": "23c5735d189fa332d33a65d2e3d65687e0a67e4075ff3fb529104ddf33956b42",
+  "residue_records": [
+    {
+      "path": "rp2/polynomial/d3_k5_q0_plus.json",
+      "sha256": "62a5581796d32755dc3c127ac6e6c152280b1910bd0385fcad260827bae28993"
+    },
+    {
+      "path": "rp2/polynomial/d3_k5_q0_minus.json",
+      "sha256": "f4b59a4284c90dd121200d80eed226600088c5da5184e349637a9636a0ae5376"
+    },
+    {
+      "path": "rp2/polynomial/d3_k5_q1_plus.json",
+      "sha256": "f17143acae5ae29cdba0969cd43463b62ee5828f72c051935c0611aac197c1a5"
+    },
+    {
+      "path": "rp2/polynomial/d3_k5_q1_minus.json",
+      "sha256": "24dc2ce423df3c1ff8d49b4012417d191991d1ea7a65f29291f6860d98edbea0"
+    },
+    {
+      "path": "rp2/polynomial/d3_k5_q2_plus.json",
+      "sha256": "e037e1aa6c22f5792605bfed4716036954732b128666927323dd885d87cfd0d0"
+    },
+    {
+      "path": "rp2/polynomial/d3_k5_q2_minus.json",
+      "sha256": "3676d962a1faecc81bef8b3b044096ebc770ac3b8785059289ef202d6960e4e0"
+    }
+  ],
+  "qualification": "Exact reconstruction of this implementation; independent gate/noise and record tests plus ideal-target validation. No independent full RP2 noisy simulation yet."
+}

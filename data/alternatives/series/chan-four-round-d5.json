@@ -1,0 +1,38 @@
+{
+  "case": "chan-four-round-d5",
+  "family": "Chan four-round repair",
+  "distance": 5,
+  "degree": 6,
+  "fault_distance": 5,
+  "variable": "x=p/(1-p)",
+  "method": "polynomial endpoints and exact Newton growth sums",
+  "scope": "Author-supplied d5a19r4f13 source, converted S-to-T; injection and cultivation; noiseless terminal readout; no escape. Four-round files referred to as arXiv v2 in the appendix; no new sampling data.",
+  "locations_in_coefficient_convention": 2576,
+  "a": [
+    "1",
+    "914/15"
+  ],
+  "e": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "350644373171/540000",
+    "30240823879586477/364500000"
+  ],
+  "L": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "350644373171/540000",
+    "15818820811063247/364500000"
+  ],
+  "model": "inputs/chan-four-round-d5/model.json",
+  "model_sha256": "18587ca9d3363ee9dfd66b13a6a0cc9514c507a8cb250a5f9c500c6fbe162b8c",
+  "certificate": "certificates/chan-four-round-d5/result.json",
+  "all_orders_value": false,
+  "tail_bound": null
+}

@@ -1,0 +1,40 @@
+{
+  "case": "fold-d5",
+  "family": "Fold-transversal",
+  "distance": 5,
+  "degree": 6,
+  "fault_distance": 4,
+  "variable": "x=p/(1-p)",
+  "method": "exact phase responses and compatible fault-class sums",
+  "scope": "Updated native-T reconstruction with hook injection, (r1,r2)=(2,0), controlled-layer schedule 3,3,7,7; not an author-supplied noisy T circuit; noiseless terminal projection; no escape.",
+  "locations_in_coefficient_convention": 2116,
+  "a": [
+    "1",
+    "845/3",
+    "267924805507/6350400",
+    "989964639091007/222264000"
+  ],
+  "e": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "3493956797/17781120000",
+    "141047129810985390817/1411465305600000",
+    "2283720369401810712823951339/64024066262016000000"
+  ],
+  "L": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "3493956797/17781120000",
+    "140969009479148306917/1411465305600000",
+    "241056568979596536874210373/32012033131008000000"
+  ],
+  "model": "inputs/fold-d5/model.json",
+  "model_sha256": "d695e09475aaad6c6cb3506e5772aacb6517103cd4ecde6f2713378fdb128bff",
+  "certificate": "certificates/fold-d5/result.json",
+  "all_orders_value": false,
+  "tail_bound": null
+}

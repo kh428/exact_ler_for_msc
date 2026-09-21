@@ -1,0 +1,94 @@
+{
+  "complete": true,
+  "p": "1/1000",
+  "final_components": [
+    {
+      "component": 0,
+      "central": 0,
+      "factor_count": 552,
+      "denominator_bits": 6819,
+      "denominator_factors": {
+        "2": 844,
+        "3": 646,
+        "5": 2132
+      },
+      "scalar_denominator": "524288"
+    },
+    {
+      "component": 0,
+      "central": 1,
+      "factor_count": 552,
+      "denominator_bits": 6819,
+      "denominator_factors": {
+        "2": 844,
+        "3": 646,
+        "5": 2132
+      },
+      "scalar_denominator": "524288"
+    },
+    {
+      "component": 1,
+      "central": 0,
+      "factor_count": 552,
+      "denominator_bits": 6819,
+      "denominator_factors": {
+        "2": 844,
+        "3": 646,
+        "5": 2132
+      },
+      "scalar_denominator": "524288"
+    },
+    {
+      "component": 1,
+      "central": 1,
+      "factor_count": 552,
+      "denominator_bits": 6819,
+      "denominator_factors": {
+        "2": 844,
+        "3": 646,
+        "5": 2132
+      },
+      "scalar_denominator": "524288"
+    }
+  ],
+  "F_sufficient_denominator": {
+    "2": 855,
+    "3": 646,
+    "5": 2132
+  },
+  "F_sufficient_bits": 6830,
+  "W_exact_common_denominator": {
+    "2": 364,
+    "3": 355,
+    "5": 1242
+  },
+  "W_exact_common_bits": 3811,
+  "growth_channel_counts": {
+    "flip": 130,
+    "depol1": 456,
+    "depol2": 322
+  },
+  "growth_eigenvalue_denominator": {
+    "2": 716,
+    "3": 778,
+    "5": 3046
+  },
+  "global_character_normalization_bits": 75,
+  "candidate_denominator": {
+    "2": 2010,
+    "3": 1779,
+    "5": 6420
+  },
+  "candidate_bits": 19737,
+  "gcd_with_old_sufficient_denominator": {
+    "2": 2010,
+    "3": 1779,
+    "5": 6420
+  },
+  "new_sufficient_bits": 19737,
+  "new_sufficient_prime_count": 324,
+  "old_sufficient_prime_count": 392,
+  "independent_completed_A_B_divisibility_check": true,
+  "seconds": 0.22796308300166856,
+  "proof_scope": "Small F factors give a sufficient common denominator without final-response contraction. W is an already computed exact 256-entry first-stage table. Global 75-bit Walsh identity bounds the remaining full growth sum before contracting it. Completed A/B are used only for a check, never to choose this bound."
+}

@@ -1,0 +1,46 @@
+{
+  "case": "chan-v1-d5",
+  "family": "Chan arXiv v1 repair",
+  "distance": 5,
+  "degree": 7,
+  "fault_distance": 4,
+  "variable": "x=p/(1-p)",
+  "method": "polynomial endpoint and growth contraction",
+  "scope": "Flagged d5a19f13 source with actual T gates; injection, growth and both double-checking stages; noiseless terminal readout; no escape. Coefficients count 2308 relevant locations out of 5071 physical locations.",
+  "locations_in_coefficient_convention": 2308,
+  "a": [
+    "1",
+    "172/3",
+    "29793/5",
+    "139424297/450",
+    "1030378986227/54000",
+    "4364201884813663/4860000",
+    "15905963669446385809/364500000",
+    "71575030593403065389/37968750"
+  ],
+  "e": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "53656/16875",
+    "15801070576999/24300000",
+    "29432219624654879/364500000",
+    "92163251706262825963/10935000000"
+  ],
+  "L": [
+    "0",
+    "0",
+    "0",
+    "0",
+    "53656/16875",
+    "15796640737639/24300000",
+    "5280067584675593/121500000",
+    "22550691826538722573/10935000000"
+  ],
+  "model": "inputs/chan-v1-d5/model.json",
+  "model_sha256": "1c145d4b750345e57fcc64dabb87512903a0825543c55f323fef8e385c8ed393",
+  "certificate": "certificates/chan-v1-d5/result.json",
+  "all_orders_value": false,
+  "tail_bound": null
+}

@@ -1,0 +1,2324 @@
+{
+  "p": "1/1000",
+  "workers": 14,
+  "candidate": "k3_refined_gauge",
+  "reconstruction_primes": 324,
+  "verification_primes": 1,
+  "certificates": [
+    {
+      "prime": "2305940865748566017",
+      "odd_k": 2097241,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2305943064771821569",
+      "odd_k": 2097243,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2305954059888099329",
+      "odd_k": 2097253,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2305967254027632641",
+      "odd_k": 2097265,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2305980448167165953",
+      "odd_k": 2097277,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2305987045236932609",
+      "odd_k": 2097283,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306000239376465921",
+      "odd_k": 2097295,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306055214957854721",
+      "odd_k": 2097345,
+      "power_of_two": 40,
+      "witness": 17,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306072807143899137",
+      "odd_k": 2097361,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306132180771799041",
+      "odd_k": 2097415,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306134379795054593",
+      "odd_k": 2097417,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306165166120632321",
+      "odd_k": 2097445,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306259724120621057",
+      "odd_k": 2097531,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306264122167132161",
+      "odd_k": 2097535,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306286112399687681",
+      "odd_k": 2097555,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306303704585732097",
+      "odd_k": 2097571,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306310301655498753",
+      "odd_k": 2097577,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306369675283398657",
+      "odd_k": 2097631,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306424650864787457",
+      "odd_k": 2097681,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306462034260131841",
+      "odd_k": 2097715,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306497218632220673",
+      "odd_k": 2097747,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306563189329887233",
+      "odd_k": 2097807,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306582980539187201",
+      "odd_k": 2097825,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306673140492664833",
+      "odd_k": 2097907,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306688533655453697",
+      "odd_k": 2097921,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306695130725220353",
+      "odd_k": 2097927,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306805081887997953",
+      "odd_k": 2098027,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306833669190320129",
+      "odd_k": 2098053,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306860057469386753",
+      "odd_k": 2098077,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306937023283331073",
+      "odd_k": 2098147,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306970008632164353",
+      "odd_k": 2098177,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2306989799841464321",
+      "odd_k": 2098195,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307057969562386433",
+      "odd_k": 2098257,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307062367608897537",
+      "odd_k": 2098261,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307110746120519681",
+      "odd_k": 2098305,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307141532446097409",
+      "odd_k": 2098333,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307229493376319489",
+      "odd_k": 2098413,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307275672864686081",
+      "odd_k": 2098455,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307286667980963841",
+      "odd_k": 2098465,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307321852353052673",
+      "odd_k": 2098497,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307326250399563777",
+      "odd_k": 2098501,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307420808399552513",
+      "odd_k": 2098587,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307473584957685761",
+      "odd_k": 2098635,
+      "power_of_two": 40,
+      "witness": 13,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307517565422796801",
+      "odd_k": 2098675,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307596730259996673",
+      "odd_k": 2098747,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307616521469296641",
+      "odd_k": 2098765,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307625317562318849",
+      "odd_k": 2098773,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307656103887896577",
+      "odd_k": 2098801,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307662700957663233",
+      "odd_k": 2098807,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307722074585563137",
+      "odd_k": 2098861,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307735268725096449",
+      "odd_k": 2098873,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307880404259962881",
+      "odd_k": 2099005,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307882603283218433",
+      "odd_k": 2099007,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2307999151515762689",
+      "odd_k": 2099113,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308120097794818049",
+      "odd_k": 2099223,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308139889004118017",
+      "odd_k": 2099241,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308144287050629121",
+      "odd_k": 2099245,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308179471422717953",
+      "odd_k": 2099277,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308205859701784577",
+      "odd_k": 2099301,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308219053841317889",
+      "odd_k": 2099313,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308245442120384513",
+      "odd_k": 2099337,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308474140538961921",
+      "odd_k": 2099545,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308493931748261889",
+      "odd_k": 2099563,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308542310259884033",
+      "odd_k": 2099607,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308612679004061697",
+      "odd_k": 2099671,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308674251655217153",
+      "odd_k": 2099727,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308738023329628161",
+      "odd_k": 2099785,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308740222352883713",
+      "odd_k": 2099787,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308784202817994753",
+      "odd_k": 2099827,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308836979376128001",
+      "odd_k": 2099875,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308858969608683521",
+      "odd_k": 2099895,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308878760817983489",
+      "odd_k": 2099913,
+      "power_of_two": 40,
+      "witness": 13,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308924940306350081",
+      "odd_k": 2099955,
+      "power_of_two": 40,
+      "witness": 17,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308944731515650049",
+      "odd_k": 2099973,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2308971119794716673",
+      "odd_k": 2099997,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309034891469127681",
+      "odd_k": 2100055,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309076672910983169",
+      "odd_k": 2100093,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309136046538883073",
+      "odd_k": 2100147,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309155837748183041",
+      "odd_k": 2100165,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309353749841182721",
+      "odd_k": 2100345,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309404327376060417",
+      "odd_k": 2100391,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309549462910926849",
+      "odd_k": 2100523,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309617632631848961",
+      "odd_k": 2100585,
+      "power_of_two": 40,
+      "witness": 13,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309641821887660033",
+      "odd_k": 2100607,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309703394538815489",
+      "odd_k": 2100663,
+      "power_of_two": 40,
+      "witness": 13,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309723185748115457",
+      "odd_k": 2100681,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309780360352759809",
+      "odd_k": 2100733,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309802350585315329",
+      "odd_k": 2100753,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309828738864381953",
+      "odd_k": 2100777,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309835335934148609",
+      "odd_k": 2100783,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309848530073681921",
+      "odd_k": 2100795,
+      "power_of_two": 40,
+      "witness": 23,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2309960680259715073",
+      "odd_k": 2100897,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310059636306214913",
+      "odd_k": 2100987,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310123407980625921",
+      "odd_k": 2101045,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310211368910848001",
+      "odd_k": 2101125,
+      "power_of_two": 40,
+      "witness": 17,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310448863422447617",
+      "odd_k": 2101341,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310466455608492033",
+      "odd_k": 2101357,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310492843887558657",
+      "odd_k": 2101381,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310495042910814209",
+      "odd_k": 2101383,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310514834120114177",
+      "odd_k": 2101401,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310521431189880833",
+      "odd_k": 2101407,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310607193096847361",
+      "odd_k": 2101485,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310620387236380673",
+      "odd_k": 2101497,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310631382352658433",
+      "odd_k": 2101507,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310637979422425089",
+      "odd_k": 2101513,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310684158910791681",
+      "odd_k": 2101555,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310697353050324993",
+      "odd_k": 2101567,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310719343282880513",
+      "odd_k": 2101587,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310835891515424769",
+      "odd_k": 2101693,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310882071003791361",
+      "odd_k": 2101735,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310921653422391297",
+      "odd_k": 2101771,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310950240724713473",
+      "odd_k": 2101797,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310956837794480129",
+      "odd_k": 2101803,
+      "power_of_two": 40,
+      "witness": 13,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310961235840991233",
+      "odd_k": 2101807,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310976629003780097",
+      "odd_k": 2101821,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2310981027050291201",
+      "odd_k": 2101825,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311145953794457601",
+      "odd_k": 2101975,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311220720585146369",
+      "odd_k": 2102043,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311253705933979649",
+      "odd_k": 2102073,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311319676631646209",
+      "odd_k": 2102133,
+      "power_of_two": 40,
+      "witness": 31,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311343865887457281",
+      "odd_k": 2102155,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311357060026990593",
+      "odd_k": 2102167,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311383448306057217",
+      "odd_k": 2102191,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311390045375823873",
+      "odd_k": 2102197,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311438423887446017",
+      "odd_k": 2102241,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311449419003723777",
+      "odd_k": 2102251,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311464812166512641",
+      "odd_k": 2102265,
+      "power_of_two": 40,
+      "witness": 13,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311574763329290241",
+      "odd_k": 2102365,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311642933050212353",
+      "odd_k": 2102427,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311719898864156673",
+      "odd_k": 2102497,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311774874445545473",
+      "odd_k": 2102547,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311860636352512001",
+      "odd_k": 2102625,
+      "power_of_two": 40,
+      "witness": 19,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311904616817623041",
+      "odd_k": 2102665,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2311944199236222977",
+      "odd_k": 2102701,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312065145515278337",
+      "odd_k": 2102811,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312221276166422529",
+      "odd_k": 2102953,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312230072259444737",
+      "odd_k": 2102961,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312276251747811329",
+      "odd_k": 2103003,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312309237096644609",
+      "odd_k": 2103033,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312368610724544513",
+      "odd_k": 2103087,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312438979468722177",
+      "odd_k": 2103151,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312454372631511041",
+      "odd_k": 2103165,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312478561887322113",
+      "odd_k": 2103187,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312485158957088769",
+      "odd_k": 2103193,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312566522817544193",
+      "odd_k": 2103267,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312584115003588609",
+      "odd_k": 2103283,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312643488631488513",
+      "odd_k": 2103337,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312729250538455041",
+      "odd_k": 2103415,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312804017329143809",
+      "odd_k": 2103483,
+      "power_of_two": 40,
+      "witness": 17,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312880983143088129",
+      "odd_k": 2103553,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312913968491921409",
+      "odd_k": 2103583,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312916167515176961",
+      "odd_k": 2103585,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312955749933776897",
+      "odd_k": 2103621,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312966745050054657",
+      "odd_k": 2103631,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2312982138212843521",
+      "odd_k": 2103645,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313061303050043393",
+      "odd_k": 2103717,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313105283515154433",
+      "odd_k": 2103757,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313114079608176641",
+      "odd_k": 2103765,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313147064957009921",
+      "odd_k": 2103795,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313186647375609857",
+      "odd_k": 2103831,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313219632724443137",
+      "odd_k": 2103861,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313292200491876353",
+      "odd_k": 2103927,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313430738956976129",
+      "odd_k": 2104053,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313454928212787201",
+      "odd_k": 2104075,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313523097933709313",
+      "odd_k": 2104137,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313529695003475969",
+      "odd_k": 2104143,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313633049096486913",
+      "odd_k": 2104237,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313639646166253569",
+      "odd_k": 2104243,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313784781701120001",
+      "odd_k": 2104375,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313916723096453121",
+      "odd_k": 2104495,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313962902584819713",
+      "odd_k": 2104537,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313969499654586369",
+      "odd_k": 2104543,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313982693794119681",
+      "odd_k": 2104555,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2313984892817375233",
+      "odd_k": 2104557,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314028873282486273",
+      "odd_k": 2104597,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314050863515041793",
+      "odd_k": 2104617,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314090445933641729",
+      "odd_k": 2104653,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314127829328986113",
+      "odd_k": 2104687,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314154217608052737",
+      "odd_k": 2104711,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314167411747586049",
+      "odd_k": 2104723,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314202596119674881",
+      "odd_k": 2104755,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314213591235952641",
+      "odd_k": 2104765,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314222387328974849",
+      "odd_k": 2104773,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314248775608041473",
+      "odd_k": 2104797,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314266367794085889",
+      "odd_k": 2104813,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314341134584774657",
+      "odd_k": 2104881,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314453284770807809",
+      "odd_k": 2104983,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314464279887085569",
+      "odd_k": 2104993,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314484071096385537",
+      "odd_k": 2105011,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314530250584752129",
+      "odd_k": 2105053,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314545643747540993",
+      "odd_k": 2105067,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314563235933585409",
+      "odd_k": 2105083,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314598420305674241",
+      "odd_k": 2105115,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314655594910318593",
+      "odd_k": 2105167,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314684182212640769",
+      "odd_k": 2105193,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314695177328918529",
+      "odd_k": 2105203,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314787536305651713",
+      "odd_k": 2105287,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314879895282384897",
+      "odd_k": 2105371,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314895288445173761",
+      "odd_k": 2105385,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2314967856212606977",
+      "odd_k": 2105451,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315044822026551297",
+      "odd_k": 2105521,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315060215189340161",
+      "odd_k": 2105535,
+      "power_of_two": 40,
+      "witness": 19,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315145977096306689",
+      "odd_k": 2105613,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315159171235840001",
+      "odd_k": 2105625,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315209748770717697",
+      "odd_k": 2105671,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315222942910251009",
+      "odd_k": 2105683,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315231739003273217",
+      "odd_k": 2105691,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315238336073039873",
+      "odd_k": 2105697,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315269122398617601",
+      "odd_k": 2105725,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315324097980006401",
+      "odd_k": 2105775,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315337292119539713",
+      "odd_k": 2105787,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315409859886972929",
+      "odd_k": 2105853,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315429651096272897",
+      "odd_k": 2105871,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315546199328817153",
+      "odd_k": 2105977,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315552796398583809",
+      "odd_k": 2105983,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315605572956717057",
+      "odd_k": 2106031,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315678140724150273",
+      "odd_k": 2106097,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315697931933450241",
+      "odd_k": 2106115,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315706728026472449",
+      "odd_k": 2106123,
+      "power_of_two": 40,
+      "witness": 13,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315744111421816833",
+      "odd_k": 2106157,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315810082119483393",
+      "odd_k": 2106217,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315909038165983233",
+      "odd_k": 2106307,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2315915635235749889",
+      "odd_k": 2106313,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316036581514805249",
+      "odd_k": 2106423,
+      "power_of_two": 40,
+      "witness": 17,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316040979561316353",
+      "odd_k": 2106427,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316062969793871873",
+      "odd_k": 2106447,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316179518026416129",
+      "odd_k": 2106553,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316260881886871553",
+      "odd_k": 2106627,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316324653561282561",
+      "odd_k": 2106685,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316326852584538113",
+      "odd_k": 2106687,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316359837933371393",
+      "odd_k": 2106717,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316403818398482433",
+      "odd_k": 2106757,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316436803747315713",
+      "odd_k": 2106787,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316485182258937857",
+      "odd_k": 2106831,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316511570538004481",
+      "odd_k": 2106855,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316518167607771137",
+      "odd_k": 2106861,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316564347096137729",
+      "odd_k": 2106903,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316621521700782081",
+      "odd_k": 2106955,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316630317793804289",
+      "odd_k": 2106963,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316683094351937537",
+      "odd_k": 2107011,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316709482631004161",
+      "odd_k": 2107035,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316727074817048577",
+      "odd_k": 2107051,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316793045514715137",
+      "odd_k": 2107111,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316841424026337281",
+      "odd_k": 2107155,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316898598630981633",
+      "odd_k": 2107207,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2316971166398414849",
+      "odd_k": 2107273,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317030540026314753",
+      "odd_k": 2107327,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317103107793747969",
+      "odd_k": 2107393,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317204262863503361",
+      "odd_k": 2107485,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317221855049547777",
+      "odd_k": 2107501,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317250442351869953",
+      "odd_k": 2107527,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317388980816969729",
+      "odd_k": 2107653,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317446155421614081",
+      "odd_k": 2107705,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317454951514636289",
+      "odd_k": 2107713,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317481339793702913",
+      "odd_k": 2107737,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317540713421602817",
+      "odd_k": 2107791,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317573698770436097",
+      "odd_k": 2107821,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317646266537869313",
+      "odd_k": 2107887,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317652863607635969",
+      "odd_k": 2107893,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317663858723913729",
+      "odd_k": 2107903,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317685848956469249",
+      "odd_k": 2107923,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317743023561113601",
+      "odd_k": 2107975,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317776008909946881",
+      "odd_k": 2108005,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317795800119246849",
+      "odd_k": 2108023,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317811193282035713",
+      "odd_k": 2108037,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317855173747146753",
+      "odd_k": 2108077,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317863969840168961",
+      "odd_k": 2108085,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317927741514579969",
+      "odd_k": 2108143,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317929940537835521",
+      "odd_k": 2108145,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2317947532723879937",
+      "odd_k": 2108161,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318046488770379777",
+      "odd_k": 2108251,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318061881933168641",
+      "odd_k": 2108265,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318081673142468609",
+      "odd_k": 2108283,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318094867282001921",
+      "odd_k": 2108295,
+      "power_of_two": 40,
+      "witness": 17,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318114658491301889",
+      "odd_k": 2108313,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318147643840135169",
+      "odd_k": 2108343,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318185027235479553",
+      "odd_k": 2108377,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318207017468035073",
+      "odd_k": 2108397,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318422521747079169",
+      "odd_k": 2108593,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318503885607534593",
+      "odd_k": 2108667,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318640225049378817",
+      "odd_k": 2108791,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318719389886578689",
+      "odd_k": 2108863,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318745778165645313",
+      "odd_k": 2108887,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318761171328434177",
+      "odd_k": 2108901,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318893112723767297",
+      "odd_k": 2109021,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318917301979578369",
+      "odd_k": 2109043,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318930496119111681",
+      "odd_k": 2109055,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318932695142367233",
+      "odd_k": 2109057,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318959083421433857",
+      "odd_k": 2109081,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318972277560967169",
+      "odd_k": 2109093,
+      "power_of_two": 40,
+      "witness": 13,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2318985471700500481",
+      "odd_k": 2109105,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2319104218956300289",
+      "odd_k": 2109213,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2319148199421411329",
+      "odd_k": 2109253,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2319559416770199553",
+      "odd_k": 2109627,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2319618790398099457",
+      "odd_k": 2109681,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2319625387467866113",
+      "odd_k": 2109687,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2319631984537632769",
+      "odd_k": 2109693,
+      "power_of_two": 40,
+      "witness": 17,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2319664969886466049",
+      "odd_k": 2109723,
+      "power_of_two": 40,
+      "witness": 17,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2319708950351577089",
+      "odd_k": 2109763,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2319843090770165761",
+      "odd_k": 2109885,
+      "power_of_two": 40,
+      "witness": 7,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2319895867328299009",
+      "odd_k": 2109933,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2319926653653876737",
+      "odd_k": 2109961,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2319955240956198913",
+      "odd_k": 2109987,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2319981629235265537",
+      "odd_k": 2110011,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320008017514332161",
+      "odd_k": 2110035,
+      "power_of_two": 40,
+      "witness": 19,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320058595049209857",
+      "odd_k": 2110081,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320093779421298689",
+      "odd_k": 2110113,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320139958909665281",
+      "odd_k": 2110155,
+      "power_of_two": 40,
+      "witness": 17,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320186138398031873",
+      "odd_k": 2110197,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320190536444542977",
+      "odd_k": 2110201,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320203730584076289",
+      "odd_k": 2110213,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320216924723609601",
+      "odd_k": 2110225,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320219123746865153",
+      "odd_k": 2110227,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320351065142198273",
+      "odd_k": 2110347,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320362060258476033",
+      "odd_k": 2110357,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320447822165442561",
+      "odd_k": 2110435,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320480807514275841",
+      "odd_k": 2110465,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320483006537531393",
+      "odd_k": 2110467,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320509394816598017",
+      "odd_k": 2110491,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320515991886364673",
+      "odd_k": 2110497,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320579763560775681",
+      "odd_k": 2110555,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320581962584031233",
+      "odd_k": 2110557,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320654530351464449",
+      "odd_k": 2110623,
+      "power_of_two": 40,
+      "witness": 11,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320746889328197633",
+      "odd_k": 2110707,
+      "power_of_two": 40,
+      "witness": 5,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    },
+    {
+      "prime": "2320790869793308673",
+      "odd_k": 2110747,
+      "power_of_two": 40,
+      "witness": 3,
+      "certificate": "n=k*2^m+1, odd k<2^m, a^((n-1)/2)=-1 mod n (Proth)"
+    }
+  ],
+  "denominator_factors": {
+    "2": 2010,
+    "3": 1779,
+    "5": 6420
+  },
+  "denominator_bits": 19737,
+  "source_sha256": {
+    "sims/arxiv_repeat.py": "f92bc544e18cfcaca5565d1d2be5b4228a05da0c2d4cbb3760b1f49809a74d1e",
+    "sims/binary_factors.py": "4c3573520f37dd64a842a6d090324dbebd2d56dfef237f57fae6ea0cf470f2d1",
+    "sims/boundary_inputs.py": "2caeb69374fec417c76750203f7bec8a035860f09c1688014240dbcfe94b0801",
+    "sims/cached_exact_endpoint.py": "6c126509fe9bfbdd2e2daaf4587b0a55272b10d9662fcb077a7a1160ed79d3bd",
+    "sims/character_surrogate.py": "45918a02ea43abb965b5b98c67498b05571433518e96a45971b843fa4bbfaa69",
+    "sims/css_boundary.py": "75549a0d210c67949ada738622bce63ab93ec7276bb235bbb491b26ea3f3d763",
+    "sims/dyadic.py": "ee3621764b2494bb52da2e0d8cf56d61dc4689d9e8adabd8b5a008e9200ee256",
+    "sims/exact_channel_law.py": "b19104e1cf493fc179d55609c0176bac39054d7340142fdd9503c079a9dc5a66",
+    "sims/exact_d5_feasibility.py": "f6fb6e6a3e6f659c0a4f59ae6f42d98286b087e6030787b3ce1e0683e39b47fd",
+    "sims/fault_sets.py": "7fa6bae6146e54fb4fccc342d873b89b8b000dd87eff4a0b3e4d55a67b3dcff0",
+    "sims/global_growth_slicing.py": "90fec5e0bc75df1db85cb1679e33dfa3230b79a25d2beebd50a8c41b85480c67",
+    "sims/growth_float_plan.py": "5126ec3fe88a1a0a10f4ddd3aee442609b2cd9313a8f9bb5f898fe81b9363c58",
+    "sims/growth_order_benchmark.py": "35cdd05cd4139179fc8d089860fd9a6ad4c951012bc3d8ea8415d07d9278a69a",
+    "sims/harder_growth_executor.py": "2161bd17caed94568613b7888d36aa14dd78f6677ad7a77645deb3107c769fdc",
+    "sims/linear_contraction_routes.py": "a020c10fd3169027f47ec496fe29e78a689b64571b79dc1d1efe1682edf1c8bf",
+    "sims/modular_binary.cpp": "41c0887b5ecc158800c6f23a66690f4b586773567700da79adedff2f3378c06d",
+    "sims/modular_growth.cpp": "47e50c9eb77e04adc0f503b6f985a8865c495a31d19b17c93801d96e02f20d13",
+    "sims/modular_growth_factors.py": "5a87afb98fef1a37c0802d734a3748ef0cbb2ae11fa45ddbd6a1fecdd006e9a4",
+    "sims/modular_polynomial_growth.cpp": "33be7ed23a1282443fe73f6f6caae05c858a1ff3ec08eab22d0df12c18251a9a",
+    "sims/modular_subspace_join.py": "7577add508b86d02a85dcf0993310f8bab2c6a8109663fd83f195b1c9521c267",
+    "sims/modular_tensor_train.py": "15a2e34ea958b2c23f7ec65d8537a771555e5af9f6488066e480743f2a364b2b",
+    "sims/native_modular_binary.py": "d0656289d3171e92403c3f792f4dd24f74ee7d18ec7515e029122fedddda13e4",
+    "sims/native_modular_growth.py": "8f7a6d7bb3311708d68fb478471811241a6717347b3ff038d507cc94b0674f30",
+    "sims/native_modular_matrix.py": "a17e92160e190d4e438e21926bb7beda90c891c3b7b2f0926bb7c4a79c8c7e67",
+    "sims/native_polynomial_growth.py": "7c2d9b15708f227c78bff1d808fc6c474c669acc472f549cab76b88d609e5d2e",
+    "sims/rational_binary_network.py": "2cf6a3172e8044bd3e1f5f95abca6221e651f19071fa2df7214c46bfe7e97a7a",
+    "sims/reordered_growth_executor.py": "c316cf49a773651bf225f7106e8a44d24ac01947ad531064a921c1f7eb8ea437",
+    "sims/stream_modular_join.py": "489cb66c9ff184c15ae77223be3a4814135bfe5d1716899c357c3875b43fd096",
+    "tools/run.py": "78f9dc10b923ca5b439e950e435c928e58af9c28f6af3c8f7f4b7820b27ec9da",
+    "tools/run_arxiv_repeat.py": "107ce60f75a02f9b1f06ea0c5b4b9e6569f9cc6842cee8e0c55e2b380f735457"
+  },
+  "input_sha256": {},
+  "scope": "Fresh growth residues at every prime; reuse certified fixed-p exact F cache and exact W. No original growth residues used."
+}

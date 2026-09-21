@@ -1,0 +1,361 @@
+{
+  "complete": true,
+  "accepted_records": 16,
+  "cases": 3,
+  "totals": {
+    "reference": 0.9999999999999999,
+    "good": 3.0294024803940195e-33,
+    "bad": 0.2499999999999999
+  },
+  "A_given_pattern": 0.2499999999999999,
+  "B_given_pattern": 0.2499999999999999,
+  "rational_values_supported": {
+    "A": "1/4",
+    "B": "1/4",
+    "accepted_correct": "0",
+    "fault_free_A": "1"
+  },
+  "direct_gate_level": true,
+  "compiled_growth_labels_used": false,
+  "actual_cut_and_collect_verified": true,
+  "records": [
+    {
+      "case": "reference",
+      "record": 0,
+      "probability": 0.06249999999999997,
+      "result": "results/d5_zx_record00_reference.json",
+      "sha256": "0c5fa71e25907fa13dce56bf35d5863d9e8bc9e404dbcf45c0b138ba771734cf"
+    },
+    {
+      "case": "reference",
+      "record": 1,
+      "probability": 0.06249999999999997,
+      "result": "results/d5_zx_record01_reference.json",
+      "sha256": "548d6c043d2f40a04ab8a7389ea0b2cbba1cf91a7068111fbf241065cdf1a9f5"
+    },
+    {
+      "case": "reference",
+      "record": 2,
+      "probability": 0.062499999999999986,
+      "result": "results/d5_zx_record02_reference.json",
+      "sha256": "e9bdab3a59c0edf2b32be910847ef66fe6daba4c89d2ba9b4c8306fd517de689"
+    },
+    {
+      "case": "reference",
+      "record": 3,
+      "probability": 0.06249999999999997,
+      "result": "results/d5_zx_record03_reference.json",
+      "sha256": "998503a811e2c0de50973a006bde0ac97bf079ae5eda1c7d4317f8c7cbde4350"
+    },
+    {
+      "case": "reference",
+      "record": 4,
+      "probability": 0.06249999999999997,
+      "result": "results/d5_zx_record04_reference.json",
+      "sha256": "e0f7b0e158bc34caaa0faa456ddf2f978743cec679717125281927e79ea20db3"
+    },
+    {
+      "case": "reference",
+      "record": 5,
+      "probability": 0.06249999999999997,
+      "result": "results/d5_zx_record05_reference.json",
+      "sha256": "a9bc40d83eb11dc0d6eba3cdbde4505732e4c10f245ad48d63d69e45c5d79360"
+    },
+    {
+      "case": "reference",
+      "record": 6,
+      "probability": 0.06249999999999997,
+      "result": "results/d5_zx_record06_reference.json",
+      "sha256": "1bc41172204acff65d389a4a0b43f0a5e008a62da2c6e70b9720bb19ff2562bb"
+    },
+    {
+      "case": "reference",
+      "record": 7,
+      "probability": 0.06249999999999997,
+      "result": "results/d5_zx_record07_reference.json",
+      "sha256": "2a15ffc1719699133685405f917f61d97339fd25ce962f6b31f5016f35e52b55"
+    },
+    {
+      "case": "reference",
+      "record": 8,
+      "probability": 0.06249999999999997,
+      "result": "results/d5_zx_record08_reference.json",
+      "sha256": "b49e817c78b9118910c31a9abe8e8ea96c22bf7628e5c282467b298308274281"
+    },
+    {
+      "case": "reference",
+      "record": 9,
+      "probability": 0.06249999999999997,
+      "result": "results/d5_zx_record09_reference.json",
+      "sha256": "207af97da9d1d1adf34173c4d3993a32b5bc9932ef664a6b24ed322b68f3c665"
+    },
+    {
+      "case": "reference",
+      "record": 10,
+      "probability": 0.062499999999999986,
+      "result": "results/d5_zx_record10_reference.json",
+      "sha256": "2034bf9704767c487c13f63bdb982af11ea43d970f01a192f4d5e429f77cdab3"
+    },
+    {
+      "case": "reference",
+      "record": 11,
+      "probability": 0.06249999999999997,
+      "result": "results/d5_zx_record11_reference.json",
+      "sha256": "51f51ccb7bd237995926a3f13cf64e61754f738ab6be942c38f7aadebce935e3"
+    },
+    {
+      "case": "reference",
+      "record": 12,
+      "probability": 0.062499999999999986,
+      "result": "results/d5_zx_record12_reference.json",
+      "sha256": "a2bfdfd73a10a1f634209296e7c92a397f85f642170fc86c215a011c2880e086"
+    },
+    {
+      "case": "reference",
+      "record": 13,
+      "probability": 0.062499999999999986,
+      "result": "results/d5_zx_record13_reference.json",
+      "sha256": "607541398541bac82dd0bcca9ced2e5257068525cba0dc8154e27d8425896ee0"
+    },
+    {
+      "case": "reference",
+      "record": 14,
+      "probability": 0.06249999999999997,
+      "result": "results/d5_zx_record14_reference.json",
+      "sha256": "201d0a2f973028727213edcf0c7649d25660b77bc2cd0f89b721dcf617ebe72a"
+    },
+    {
+      "case": "reference",
+      "record": 15,
+      "probability": 0.06249999999999997,
+      "result": "results/d5_zx_record15_reference.json",
+      "sha256": "d0d0f68744dafde28b04c00cb4f023b7f9b12cdd85a7844fbae99ed61d296b6f"
+    },
+    {
+      "case": "good",
+      "record": 0,
+      "probability": 3.624829766040859e-34,
+      "result": "results/d5_zx_record00_good.json",
+      "sha256": "ef64f5bb0c7a2c21558b1fc5c5830106c6f9cc5390c3413ed89d6d645e069aaa"
+    },
+    {
+      "case": "good",
+      "record": 1,
+      "probability": 1.2067962850742199e-34,
+      "result": "results/d5_zx_record01_good.json",
+      "sha256": "f36d7f663fce1efaa8ca31c52fc6e13f62d87ce5db0cb85ae94cd542abe50ca2"
+    },
+    {
+      "case": "good",
+      "record": 2,
+      "probability": 1.3430465146712063e-35,
+      "result": "results/d5_zx_record02_good.json",
+      "sha256": "ea88b3e3ff725f6c09365a44b0ec8d3bfc76b23fc555f5092df5491e58bd9eda"
+    },
+    {
+      "case": "good",
+      "record": 3,
+      "probability": 2.081163894550747e-34,
+      "result": "results/d5_zx_record03_good.json",
+      "sha256": "d97891e3cc2bce0ff3cad34540b0b76c36174d6711fca3cd4b6fb384b106e000"
+    },
+    {
+      "case": "good",
+      "record": 4,
+      "probability": 1.2803015833128556e-35,
+      "result": "results/d5_zx_record04_good.json",
+      "sha256": "ebb1aac1c8f0ee245094c759a9b23e9e773842bef750b005bdf09c92106dec1e"
+    },
+    {
+      "case": "good",
+      "record": 5,
+      "probability": 6.845493981090178e-35,
+      "result": "results/d5_zx_record05_good.json",
+      "sha256": "1bb64f04ff3b6a42648d9a13103c1597f1eab3cd2421d467d927502a43215b2c"
+    },
+    {
+      "case": "good",
+      "record": 6,
+      "probability": 1.0034724224629888e-34,
+      "result": "results/d5_zx_record06_good.json",
+      "sha256": "f0d3e04c258779573d3f7f5b8d63f5b9604f2b2364285ebe07fc65fe99554459"
+    },
+    {
+      "case": "good",
+      "record": 7,
+      "probability": 1.7804019041974732e-34,
+      "result": "results/d5_zx_record07_good.json",
+      "sha256": "aab5e094fb807869b55d9c68da6eb37d44ce0a7b608281b1cbce35ca329a942b"
+    },
+    {
+      "case": "good",
+      "record": 8,
+      "probability": 1.4464537025243853e-34,
+      "result": "results/d5_zx_record08_good.json",
+      "sha256": "772b4771dc6fcd4ecb30c87e48bf54c4f657e0bce257b5244d18608e6b39cc95"
+    },
+    {
+      "case": "good",
+      "record": 9,
+      "probability": 4.27943345905944e-34,
+      "result": "results/d5_zx_record09_good.json",
+      "sha256": "ed3c8898ddeb8feae3e4a8eb3576c58ea2fdcc7d77d3068c34978bccfea5ec45"
+    },
+    {
+      "case": "good",
+      "record": 10,
+      "probability": 1.1575464631397288e-34,
+      "result": "results/d5_zx_record10_good.json",
+      "sha256": "924dee3f1367342b9b2a307f2768d378cdcf5180a4edf23052c4c24bde72dd7f"
+    },
+    {
+      "case": "good",
+      "record": 11,
+      "probability": 3.4688656130316366e-34,
+      "result": "results/d5_zx_record11_good.json",
+      "sha256": "28e49dd2de5be9922d67397452b132668a7fd926f3fca8d9ec616469ad81b611"
+    },
+    {
+      "case": "good",
+      "record": 12,
+      "probability": 1.4013508209259324e-35,
+      "result": "results/d5_zx_record12_good.json",
+      "sha256": "957f8ee7d122301624c0087576eb7ee1f480c532f2c1c30c0fedc6e0b07e8720"
+    },
+    {
+      "case": "good",
+      "record": 13,
+      "probability": 4.100528398809378e-35,
+      "result": "results/d5_zx_record13_good.json",
+      "sha256": "524139501da7ff7f691fef94c1ac70f1458b03da18526e32f4db027fbdc70e38"
+    },
+    {
+      "case": "good",
+      "record": 14,
+      "probability": 7.146818472368072e-34,
+      "result": "results/d5_zx_record14_good.json",
+      "sha256": "ff920cc3a82035265892fba36c60b4842d588811d3b44c9d595c31b69bd548a2"
+    },
+    {
+      "case": "good",
+      "record": 15,
+      "probability": 1.6011706916096907e-34,
+      "result": "results/d5_zx_record15_good.json",
+      "sha256": "10c823dea519c7802c4267e3205c9a583c8db2822e795025d3ab37d58e31fe7e"
+    },
+    {
+      "case": "bad",
+      "record": 0,
+      "probability": 0.015624999999999993,
+      "result": "results/d5_zx_record00_bad.json",
+      "sha256": "9ce902212fe4d832a8120eb78f05f715c1604cfaa2ee0f29d3ac3a1cf7e151b0"
+    },
+    {
+      "case": "bad",
+      "record": 1,
+      "probability": 0.01562499999999999,
+      "result": "results/d5_zx_record01_bad.json",
+      "sha256": "5c4a281b116a7b9cf07340885a439e33a418bdf7fd37fee592417cea7671e3b5"
+    },
+    {
+      "case": "bad",
+      "record": 2,
+      "probability": 0.015624999999999993,
+      "result": "results/d5_zx_record02_bad.json",
+      "sha256": "00907a1023f008ff0ccc49a75935ba189cdab7c335d83c9d44329f9e0d679ae4"
+    },
+    {
+      "case": "bad",
+      "record": 3,
+      "probability": 0.015624999999999986,
+      "result": "results/d5_zx_record03_bad.json",
+      "sha256": "d35b20056bb6796551a761511c6f51fc772f7c8b28edab38390dad6e917f8765"
+    },
+    {
+      "case": "bad",
+      "record": 4,
+      "probability": 0.015624999999999986,
+      "result": "results/d5_zx_record04_bad.json",
+      "sha256": "18590b093876a7e6ea5b24ef2ea97f11e0fbab46c48448ff343e76f25e848fe6"
+    },
+    {
+      "case": "bad",
+      "record": 5,
+      "probability": 0.015624999999999993,
+      "result": "results/d5_zx_record05_bad.json",
+      "sha256": "b998f45e6f240a181524858fccdd9349d4582c509b646c61465ef943184bd3ac"
+    },
+    {
+      "case": "bad",
+      "record": 6,
+      "probability": 0.015624999999999986,
+      "result": "results/d5_zx_record06_bad.json",
+      "sha256": "576bbe31eb11049e247d95c43219e0d6f9dfe6921eeceac5b2f0de346305712d"
+    },
+    {
+      "case": "bad",
+      "record": 7,
+      "probability": 0.015624999999999993,
+      "result": "results/d5_zx_record07_bad.json",
+      "sha256": "9babf7b8989af0ee7fc693b01629a83005de2058297caacdf9807843cf1bf7e0"
+    },
+    {
+      "case": "bad",
+      "record": 8,
+      "probability": 0.015624999999999993,
+      "result": "results/d5_zx_record08_bad.json",
+      "sha256": "688539f9039a499718e15d8f3eeddc1f906eeb26b93d3daf3555c98b05810f89"
+    },
+    {
+      "case": "bad",
+      "record": 9,
+      "probability": 0.015624999999999986,
+      "result": "results/d5_zx_record09_bad.json",
+      "sha256": "88e681c63e65c2498220c332fcbe913f0706af9f839c67c34e613701bd76f8a6"
+    },
+    {
+      "case": "bad",
+      "record": 10,
+      "probability": 0.015624999999999986,
+      "result": "results/d5_zx_record10_bad.json",
+      "sha256": "e25342d443fb2cda738f2dc24d26d5050ce61761b2e07d24e6dc1a31e7a0f0a9"
+    },
+    {
+      "case": "bad",
+      "record": 11,
+      "probability": 0.015624999999999993,
+      "result": "results/d5_zx_record11_bad.json",
+      "sha256": "ce07bb3b80688381bf7ae9c9309e0aa93b8b0336502a03a73b52ac435e069051"
+    },
+    {
+      "case": "bad",
+      "record": 12,
+      "probability": 0.015624999999999993,
+      "result": "results/d5_zx_record12_bad.json",
+      "sha256": "2648808de9e35c77ef868a6e2697c155a2896efe62bba63fe3d478b37288ba91"
+    },
+    {
+      "case": "bad",
+      "record": 13,
+      "probability": 0.01562499999999999,
+      "result": "results/d5_zx_record13_bad.json",
+      "sha256": "20e290eff58b15c4c25a6c46f8d0aaa67a5958cd6e4b9134dc1a33c7aa61d332"
+    },
+    {
+      "case": "bad",
+      "record": 14,
+      "probability": 0.015624999999999997,
+      "result": "results/d5_zx_record14_bad.json",
+      "sha256": "67fd3f065a16598d77b2880530605970bebe30fb47377069563f6278bee30312"
+    },
+    {
+      "case": "bad",
+      "record": 15,
+      "probability": 0.01562499999999999,
+      "result": "results/d5_zx_record15_bad.json",
+      "sha256": "1e0700c2de1ec4beb2189b322147fb0506efbdd3487074b9ef0bf6add3308831"
+    }
+  ],
+  "qualification": "All source growth/final gates and four physical fault insertions are used. The preceding fault-free first stage is replaced by its ideal encoded output. ZX phases are rational, but scalar sums use complex floating point; agreement is tested to 1e-12, not asserted as an independent exact-arithmetic certificate.",
+  "conclusion": "A four-fault accepted-error witness for the supplied full pre-escape circuit. Three faults are in growth, so this does not contradict a fault-distance-five result for the isolated final double-checking stage."
+}

@@ -1,0 +1,304 @@
+{
+  "T_rows": [
+    {
+      "p": 0.0005,
+      "p_exact": "1/2000",
+      "A": 0.37918413716720073,
+      "attempts_per_accepted_output": 2.6372411237209836,
+      "T_series_order10": 2.846165501063441e-10,
+      "T_all_orders_decimal": 2.8461655010721e-10,
+      "relative_series_residual": 3.042349451049126e-12,
+      "A_physical_order10": 0.3791841371672007,
+      "relative_acceptance_series_residual": 1.4639629085216786e-16
+    },
+    {
+      "p": 0.00075,
+      "p_exact": "3/4000",
+      "A": 0.23359989624291191,
+      "attempts_per_accepted_output": 4.280823819202971,
+      "T_series_order10": 1.1655278890185185e-09,
+      "T_all_orders_decimal": 1.1655278890941093e-09,
+      "relative_series_residual": 6.485547622643737e-11,
+      "A_physical_order10": 0.23359989624291191,
+      "relative_acceptance_series_residual": 0.0
+    },
+    {
+      "p": 0.001,
+      "p_exact": "1/1000",
+      "A": 0.1439555840959422,
+      "attempts_per_accepted_output": 6.946587076007619,
+      "T_series_order10": 3.3284253696116496e-09,
+      "T_all_orders_decimal": 3.3284253714180433e-09,
+      "relative_series_residual": 5.427172045023966e-10,
+      "A_physical_order10": 0.14395558409594195,
+      "relative_acceptance_series_residual": 1.7352587057281201e-15
+    },
+    {
+      "p": 0.0015,
+      "p_exact": "3/2000",
+      "A": 0.05471997493655105,
+      "attempts_per_accepted_output": 18.274862171620526,
+      "T_series_order10": 1.591266790611601e-08,
+      "T_all_orders_decimal": 1.5912668065295677e-08,
+      "relative_series_residual": 1.0003329749214285e-08,
+      "A_physical_order10": 0.054719974936542286,
+      "relative_acceptance_series_residual": 1.6015765743307932e-13
+    },
+    {
+      "p": 0.002,
+      "p_exact": "1/500",
+      "A": 0.020826364192177416,
+      "attempts_per_accepted_output": 48.01606227435558,
+      "T_series_order10": 5.175101982141852e-08,
+      "T_all_orders_decimal": 5.175102366142221e-08,
+      "relative_series_residual": 7.420150207869993e-08,
+      "A_physical_order10": 0.02082636419209908,
+      "relative_acceptance_series_residual": 3.761417115599306e-12
+    }
+  ],
+  "S_rows_and_ratios": [
+    {
+      "p": 0.0005,
+      "p_exact": "1/2000",
+      "shots": 1000000000000,
+      "discards": 620811691699,
+      "kept": 379188308301,
+      "errors": 0,
+      "S_A_sample": 0.379188308301,
+      "S_attempts_per_accepted_output": 2.6372121136345776,
+      "S_LER_sample": 0.0,
+      "S_likelihood_lower": 0.0,
+      "S_likelihood_upper": 1.8217215899588957e-11,
+      "T_series_order10": 2.846165501063441e-10,
+      "T_over_S_point": null,
+      "T_over_S_likelihood_lower": 15.623493275543053,
+      "T_over_S_likelihood_upper": null,
+      "metadata": {
+        "b": "Y",
+        "c": "inject[unitary]+cultivate",
+        "d1": 5,
+        "g": "css",
+        "noise": "uniform",
+        "p": 0.0005,
+        "q": 42,
+        "r": 10
+      },
+      "decoder": "perfectionist",
+      "strong_id": "be20029d3cb4e02521a81090b1dee5fa98bbbd0a1f0f93295b4914091239ea81"
+    },
+    {
+      "p": 0.001,
+      "p_exact": "1/1000",
+      "shots": 1000000000000,
+      "discards": 856037097464,
+      "kept": 143962902536,
+      "errors": 50,
+      "S_A_sample": 0.143962902536,
+      "S_attempts_per_accepted_output": 6.946233942108353,
+      "S_LER_sample": 3.473116971054177e-10,
+      "S_likelihood_lower": 1.9523300165172775e-10,
+      "S_likelihood_upper": 5.631720353109489e-10,
+      "T_series_order10": 3.3284253696116496e-09,
+      "T_over_S_point": 9.583395541675033,
+      "T_over_S_likelihood_lower": 5.910139639255878,
+      "T_over_S_likelihood_upper": 17.04847716037866,
+      "metadata": {
+        "b": "Y",
+        "c": "inject[unitary]+cultivate",
+        "d1": 5,
+        "g": "css",
+        "noise": "uniform",
+        "p": 0.001,
+        "q": 42,
+        "r": 10
+      },
+      "decoder": "perfectionist",
+      "strong_id": "625ec3315f4d582004e8ac1ae81f9b2a6bba0c6fb666a4cf82ecbd57713e580b"
+    },
+    {
+      "p": 0.002,
+      "p_exact": "1/500",
+      "shots": 1000000000000,
+      "discards": 979169240903,
+      "kept": 20830759097,
+      "errors": 263,
+      "S_A_sample": 0.020830759097,
+      "S_attempts_per_accepted_output": 48.00593177346177,
+      "S_LER_sample": 1.2625560056420445e-08,
+      "S_likelihood_lower": 9.948564059168054e-09,
+      "S_likelihood_upper": 1.5744449159032176e-08,
+      "T_series_order10": 5.175101982141852e-08,
+      "T_over_S_point": 4.098908847619928,
+      "T_over_S_likelihood_lower": 3.286937465940517,
+      "T_over_S_likelihood_upper": 5.201858229351964,
+      "metadata": {
+        "b": "Y",
+        "c": "inject[unitary]+cultivate",
+        "d1": 5,
+        "g": "css",
+        "noise": "uniform",
+        "p": 0.002,
+        "q": 42,
+        "r": 10
+      },
+      "decoder": "perfectionist",
+      "strong_id": "af95a7c26d6f09db35bb35756e0045aa1f9efd01045c765fd086740da34cf7a0"
+    }
+  ],
+  "T_series_coefficients": [
+    "0",
+    "0",
+    "0",
+    "574/375",
+    "972959741/810000",
+    "2678166036893/4860000",
+    "46204605652071071/1458000000",
+    "20165667601860828941/14580000000",
+    "34708968532201339967/656100000",
+    "12146976079587122943200741/6561000000000",
+    "28153927149162391481472671659/472392000000000"
+  ],
+  "T_acceptance_raw_coefficients": [
+    "1",
+    "166/3",
+    "874357/180",
+    "803222513/3375",
+    "461785319813/36000",
+    "6813675679442473/12150000",
+    "35673102687723752419/1458000000",
+    "7127303166983391609601/7290000000",
+    "25074527061623692681497017/656100000000",
+    "7051054714711008821570505193/4920750000000",
+    "7771271684969588874728818721617/147622500000000"
+  ],
+  "T_scatter_points": [
+    {
+      "p": 0.0001,
+      "T_series_order10": 1.6568377386824504e-12,
+      "attempts_per_accepted_output": 1.2141482413930513,
+      "A_uses_exact_fixed_p_result": false
+    },
+    {
+      "p": 0.0002,
+      "T_series_order10": 1.4354682626542527e-11,
+      "attempts_per_accepted_output": 1.474085384916371,
+      "A_uses_exact_fixed_p_result": false
+    },
+    {
+      "p": 0.0003,
+      "T_series_order10": 5.2471043236868075e-11,
+      "attempts_per_accepted_output": 1.789586488334434,
+      "A_uses_exact_fixed_p_result": false
+    },
+    {
+      "p": 0.0005,
+      "T_series_order10": 2.846165501063441e-10,
+      "attempts_per_accepted_output": 2.6372411237209836,
+      "A_uses_exact_fixed_p_result": true
+    },
+    {
+      "p": 0.00075,
+      "T_series_order10": 1.1655278890185185e-09,
+      "attempts_per_accepted_output": 4.280823819202971,
+      "A_uses_exact_fixed_p_result": true
+    },
+    {
+      "p": 0.001,
+      "T_series_order10": 3.3284253696116496e-09,
+      "attempts_per_accepted_output": 6.946587076007619,
+      "A_uses_exact_fixed_p_result": true
+    },
+    {
+      "p": 0.0015,
+      "T_series_order10": 1.591266790611601e-08,
+      "attempts_per_accepted_output": 18.274862171620526,
+      "A_uses_exact_fixed_p_result": true
+    },
+    {
+      "p": 0.002,
+      "T_series_order10": 5.175101982141852e-08,
+      "attempts_per_accepted_output": 48.01606227435558,
+      "A_uses_exact_fixed_p_result": true
+    }
+  ],
+  "T_legend": "T exact series: O(x^11), meaning exact coefficients through degree ten with an order-eleven remainder",
+  "T_smooth_curve": {
+    "points": 907,
+    "p_range": [
+      0.0001,
+      0.002
+    ],
+    "LER": "sum_{k=0}^{10} L_k (p/(1-p))^k",
+    "acceptance": "(1-p)^1996 sum_{k=0}^{10} a_k (p/(1-p))^k",
+    "fixed_grid_max_relative_A_error": 3.761417115599306e-12
+  },
+  "Gidney_enumeration_estimates_plotted": [
+    {
+      "p": 0.0001,
+      "LER_estimate": 3.3274810793292793e-15,
+      "A_estimate": 0.8236230153267832,
+      "weight_cutoff": 5,
+      "weight_basis": "detector error model mechanisms",
+      "not_actual_shot_counts": true
+    },
+    {
+      "p": 0.0002,
+      "LER_estimate": 9.807822908306551e-14,
+      "A_estimate": 0.6783878606092018,
+      "weight_cutoff": 5,
+      "weight_basis": "detector error model mechanisms",
+      "not_actual_shot_counts": true
+    },
+    {
+      "p": 0.0003,
+      "LER_estimate": 7.236714067150579e-13,
+      "A_estimate": 0.5587902136904835,
+      "weight_cutoff": 5,
+      "weight_basis": "detector error model mechanisms",
+      "not_actual_shot_counts": true
+    },
+    {
+      "p": 0.0005,
+      "LER_estimate": 9.092875493131587e-12,
+      "A_estimate": 0.37918720019914653,
+      "weight_cutoff": 5,
+      "weight_basis": "detector error model mechanisms",
+      "not_actual_shot_counts": true
+    },
+    {
+      "p": 0.001,
+      "LER_estimate": 2.861794184106297e-10,
+      "A_estimate": 0.1439581767577936,
+      "weight_cutoff": 5,
+      "weight_basis": "detector error model mechanisms",
+      "not_actual_shot_counts": true
+    },
+    {
+      "p": 0.002,
+      "LER_estimate": 9.103835179901436e-09,
+      "A_estimate": 0.020825412610562293,
+      "weight_cutoff": 5,
+      "weight_basis": "detector error model mechanisms",
+      "not_actual_shot_counts": true
+    }
+  ],
+  "enumeration_acceptance_convention": "The archived reporter uses the product of (1-error_probability) over detector-error-model mechanisms as its keep_rate approximation.",
+  "zero_event_ratio_annotation_displayed": false,
+  "PFSR_points_plotted": 0,
+  "ratio_label_background": "transparent",
+  "ratio_label_p002_offset_points": [
+    -10,
+    -7
+  ],
+  "plot_footer_displayed": false,
+  "archive_url": "https://zenodo.org/records/13777072",
+  "interval_definition": "Gidney et al. sampling: binomial likelihood relative to its maximum >= 1/1000, not a 95% confidence interval.",
+  "scope": "Complete SOFT T source, including unitary injection and both double checking stages, versus the original archived Gidney et al. unitary-injection S-proxy benchmark; no escape. T uses exact coefficients through degree ten with an O(x^11) remainder. Five markers use exact fixed-p A; the other three markers and the smooth curve use the physical-order-ten acceptance expansion for 1/A.",
+  "source_equivalence_caveat": "The archived S-proxy generator was inspected but not rerun. These are comparisons to the published benchmark, not a new proof of literal circuit equivalence or exact T/S ratios.",
+  "plot_interpolation": "The T curve evaluates the finite LER and acceptance expansions at over 900 p values; it is not interpolation and is not an all-orders claim. Blue S segments and bands connect the two nonzero sampled points as visual guides. The separate green dashed curve joins all six archived enumeration estimates, with no artificial sampling intervals.",
+  "plot_outputs": {
+    ".png": "55d35ee65bbcde91639d9d3807bcb294fe3c898b8f65e83e222d347510f82330",
+    ".pdf": "d3c56d36e47655e222abde4113b975b46f8811ce7ac31da0d62687da573e4954"
+  },
+  "manuscript_sources_unchanged": true
+}

@@ -1,0 +1,40 @@
+{
+  "case": "rp2-d5",
+  "family": "RP2",
+  "distance": 5,
+  "degree": 6,
+  "fault_distance": 3,
+  "variable": "x=p/(1-p)",
+  "method": "exact phase responses and compatible fault-class sums",
+  "scope": "Full cultivation-only source after the documented S-to-T conversion; noiseless terminal projection; no escape.",
+  "locations_in_coefficient_convention": 2405,
+  "a": [
+    "1",
+    "437/10",
+    "16334221/3600",
+    "28030783421/144000"
+  ],
+  "e": [
+    "0",
+    "0",
+    "0",
+    "10439/13500",
+    "22052523253/51840000",
+    "586668724054159/1555200000",
+    "445067526827067661/11664000000"
+  ],
+  "L": [
+    "0",
+    "0",
+    "0",
+    "10439/13500",
+    "20300775541/51840000",
+    "616219992737/1728000",
+    "428120035103643799/20736000000"
+  ],
+  "model": "inputs/rp2-d5/model.json",
+  "model_sha256": "9cc698fe04999fffbe87c818909a9c3878e9a679b079bc77e7d4e47240aed4f8",
+  "certificate": "certificates/rp2-d5/result.json",
+  "all_orders_value": false,
+  "tail_bound": null
+}

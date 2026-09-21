@@ -1,0 +1,6860 @@
+{
+  "events": [
+    {
+      "name": "R",
+      "support": [
+        0
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        4
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        8
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        28
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        32
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        36
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        56
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        60
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        64
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        16
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        20
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        44
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        48
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 0
+    },
+    {
+      "name": "NOISE",
+      "location": 1
+    },
+    {
+      "name": "NOISE",
+      "location": 2
+    },
+    {
+      "name": "NOISE",
+      "location": 3
+    },
+    {
+      "name": "NOISE",
+      "location": 4
+    },
+    {
+      "name": "NOISE",
+      "location": 5
+    },
+    {
+      "name": "NOISE",
+      "location": 6
+    },
+    {
+      "name": "NOISE",
+      "location": 7
+    },
+    {
+      "name": "NOISE",
+      "location": 8
+    },
+    {
+      "name": "NOISE",
+      "location": 9
+    },
+    {
+      "name": "NOISE",
+      "location": 10
+    },
+    {
+      "name": "NOISE",
+      "location": 11
+    },
+    {
+      "name": "NOISE",
+      "location": 12
+    },
+    {
+      "name": "NOISE",
+      "location": 13
+    },
+    {
+      "name": "NOISE",
+      "location": 14
+    },
+    {
+      "name": "NOISE",
+      "location": 15
+    },
+    {
+      "name": "NOISE",
+      "location": 16
+    },
+    {
+      "name": "INJECT_HXY",
+      "support": [
+        32
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        8
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        28
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        56
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        64
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        16
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        48
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 17
+    },
+    {
+      "name": "NOISE",
+      "location": 18
+    },
+    {
+      "name": "NOISE",
+      "location": 19
+    },
+    {
+      "name": "NOISE",
+      "location": 20
+    },
+    {
+      "name": "NOISE",
+      "location": 21
+    },
+    {
+      "name": "NOISE",
+      "location": 22
+    },
+    {
+      "name": "NOISE",
+      "location": 23
+    },
+    {
+      "name": "NOISE",
+      "location": 24
+    },
+    {
+      "name": "NOISE",
+      "location": 25
+    },
+    {
+      "name": "NOISE",
+      "location": 26
+    },
+    {
+      "name": "NOISE",
+      "location": 27
+    },
+    {
+      "name": "NOISE",
+      "location": 28
+    },
+    {
+      "name": "NOISE",
+      "location": 29
+    },
+    {
+      "name": "NOISE",
+      "location": 30
+    },
+    {
+      "name": "NOISE",
+      "location": 31
+    },
+    {
+      "name": "NOISE",
+      "location": 32
+    },
+    {
+      "name": "NOISE",
+      "location": 33
+    },
+    {
+      "name": "CX",
+      "support": [
+        8,
+        4
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        28,
+        0
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        32,
+        60
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        64,
+        36
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 34
+    },
+    {
+      "name": "NOISE",
+      "location": 35
+    },
+    {
+      "name": "NOISE",
+      "location": 36
+    },
+    {
+      "name": "NOISE",
+      "location": 37
+    },
+    {
+      "name": "NOISE",
+      "location": 38
+    },
+    {
+      "name": "NOISE",
+      "location": 39
+    },
+    {
+      "name": "NOISE",
+      "location": 40
+    },
+    {
+      "name": "NOISE",
+      "location": 41
+    },
+    {
+      "name": "NOISE",
+      "location": 42
+    },
+    {
+      "name": "NOISE",
+      "location": 43
+    },
+    {
+      "name": "NOISE",
+      "location": 44
+    },
+    {
+      "name": "NOISE",
+      "location": 45
+    },
+    {
+      "name": "NOISE",
+      "location": 46
+    },
+    {
+      "name": "CX",
+      "support": [
+        28,
+        32
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        60,
+        4
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 47
+    },
+    {
+      "name": "NOISE",
+      "location": 48
+    },
+    {
+      "name": "NOISE",
+      "location": 49
+    },
+    {
+      "name": "NOISE",
+      "location": 50
+    },
+    {
+      "name": "NOISE",
+      "location": 51
+    },
+    {
+      "name": "NOISE",
+      "location": 52
+    },
+    {
+      "name": "NOISE",
+      "location": 53
+    },
+    {
+      "name": "NOISE",
+      "location": 54
+    },
+    {
+      "name": "NOISE",
+      "location": 55
+    },
+    {
+      "name": "NOISE",
+      "location": 56
+    },
+    {
+      "name": "NOISE",
+      "location": 57
+    },
+    {
+      "name": "NOISE",
+      "location": 58
+    },
+    {
+      "name": "NOISE",
+      "location": 59
+    },
+    {
+      "name": "NOISE",
+      "location": 60
+    },
+    {
+      "name": "NOISE",
+      "location": 61
+    },
+    {
+      "name": "CX",
+      "support": [
+        28,
+        4
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        56,
+        60
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        64,
+        32
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 62
+    },
+    {
+      "name": "NOISE",
+      "location": 63
+    },
+    {
+      "name": "NOISE",
+      "location": 64
+    },
+    {
+      "name": "NOISE",
+      "location": 65
+    },
+    {
+      "name": "NOISE",
+      "location": 66
+    },
+    {
+      "name": "NOISE",
+      "location": 67
+    },
+    {
+      "name": "NOISE",
+      "location": 68
+    },
+    {
+      "name": "NOISE",
+      "location": 69
+    },
+    {
+      "name": "NOISE",
+      "location": 70
+    },
+    {
+      "name": "NOISE",
+      "location": 71
+    },
+    {
+      "name": "NOISE",
+      "location": 72
+    },
+    {
+      "name": "NOISE",
+      "location": 73
+    },
+    {
+      "name": "NOISE",
+      "location": 74
+    },
+    {
+      "name": "NOISE",
+      "location": 75
+    },
+    {
+      "name": "CX",
+      "support": [
+        64,
+        60
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 76
+    },
+    {
+      "name": "NOISE",
+      "location": 77
+    },
+    {
+      "name": "NOISE",
+      "location": 78
+    },
+    {
+      "name": "NOISE",
+      "location": 79
+    },
+    {
+      "name": "NOISE",
+      "location": 80
+    },
+    {
+      "name": "NOISE",
+      "location": 81
+    },
+    {
+      "name": "NOISE",
+      "location": 82
+    },
+    {
+      "name": "NOISE",
+      "location": 83
+    },
+    {
+      "name": "NOISE",
+      "location": 84
+    },
+    {
+      "name": "NOISE",
+      "location": 85
+    },
+    {
+      "name": "NOISE",
+      "location": 86
+    },
+    {
+      "name": "NOISE",
+      "location": 87
+    },
+    {
+      "name": "NOISE",
+      "location": 88
+    },
+    {
+      "name": "NOISE",
+      "location": 89
+    },
+    {
+      "name": "NOISE",
+      "location": 90
+    },
+    {
+      "name": "NOISE",
+      "location": 91
+    },
+    {
+      "name": "R",
+      "support": [
+        16
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        20
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        44
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        48
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        6
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        14
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        50
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        58
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 92
+    },
+    {
+      "name": "NOISE",
+      "location": 93
+    },
+    {
+      "name": "NOISE",
+      "location": 94
+    },
+    {
+      "name": "NOISE",
+      "location": 95
+    },
+    {
+      "name": "NOISE",
+      "location": 96
+    },
+    {
+      "name": "NOISE",
+      "location": 97
+    },
+    {
+      "name": "NOISE",
+      "location": 98
+    },
+    {
+      "name": "NOISE",
+      "location": 99
+    },
+    {
+      "name": "NOISE",
+      "location": 100
+    },
+    {
+      "name": "NOISE",
+      "location": 101
+    },
+    {
+      "name": "NOISE",
+      "location": 102
+    },
+    {
+      "name": "NOISE",
+      "location": 103
+    },
+    {
+      "name": "NOISE",
+      "location": 104
+    },
+    {
+      "name": "NOISE",
+      "location": 105
+    },
+    {
+      "name": "NOISE",
+      "location": 106
+    },
+    {
+      "name": "NOISE",
+      "location": 107
+    },
+    {
+      "name": "NOISE",
+      "location": 108
+    },
+    {
+      "name": "H",
+      "support": [
+        6
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        58
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        16
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        48
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 109
+    },
+    {
+      "name": "NOISE",
+      "location": 110
+    },
+    {
+      "name": "NOISE",
+      "location": 111
+    },
+    {
+      "name": "NOISE",
+      "location": 112
+    },
+    {
+      "name": "NOISE",
+      "location": 113
+    },
+    {
+      "name": "NOISE",
+      "location": 114
+    },
+    {
+      "name": "NOISE",
+      "location": 115
+    },
+    {
+      "name": "NOISE",
+      "location": 116
+    },
+    {
+      "name": "NOISE",
+      "location": 117
+    },
+    {
+      "name": "NOISE",
+      "location": 118
+    },
+    {
+      "name": "NOISE",
+      "location": 119
+    },
+    {
+      "name": "NOISE",
+      "location": 120
+    },
+    {
+      "name": "NOISE",
+      "location": 121
+    },
+    {
+      "name": "NOISE",
+      "location": 122
+    },
+    {
+      "name": "NOISE",
+      "location": 123
+    },
+    {
+      "name": "NOISE",
+      "location": 124
+    },
+    {
+      "name": "NOISE",
+      "location": 125
+    },
+    {
+      "name": "CX",
+      "support": [
+        16,
+        0
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        48,
+        32
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        4,
+        20
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        28,
+        44
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        36,
+        50
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        58,
+        56
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 126
+    },
+    {
+      "name": "NOISE",
+      "location": 127
+    },
+    {
+      "name": "NOISE",
+      "location": 128
+    },
+    {
+      "name": "NOISE",
+      "location": 129
+    },
+    {
+      "name": "NOISE",
+      "location": 130
+    },
+    {
+      "name": "NOISE",
+      "location": 131
+    },
+    {
+      "name": "NOISE",
+      "location": 132
+    },
+    {
+      "name": "NOISE",
+      "location": 133
+    },
+    {
+      "name": "NOISE",
+      "location": 134
+    },
+    {
+      "name": "NOISE",
+      "location": 135
+    },
+    {
+      "name": "NOISE",
+      "location": 136
+    },
+    {
+      "name": "CX",
+      "support": [
+        16,
+        4
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        48,
+        36
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        32,
+        20
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        56,
+        44
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        58,
+        60
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        64,
+        50
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 137
+    },
+    {
+      "name": "NOISE",
+      "location": 138
+    },
+    {
+      "name": "NOISE",
+      "location": 139
+    },
+    {
+      "name": "NOISE",
+      "location": 140
+    },
+    {
+      "name": "NOISE",
+      "location": 141
+    },
+    {
+      "name": "NOISE",
+      "location": 142
+    },
+    {
+      "name": "NOISE",
+      "location": 143
+    },
+    {
+      "name": "NOISE",
+      "location": 144
+    },
+    {
+      "name": "NOISE",
+      "location": 145
+    },
+    {
+      "name": "NOISE",
+      "location": 146
+    },
+    {
+      "name": "NOISE",
+      "location": 147
+    },
+    {
+      "name": "CX",
+      "support": [
+        16,
+        28
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        48,
+        60
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        8,
+        20
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        32,
+        44
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        6,
+        4
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        0,
+        14
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 148
+    },
+    {
+      "name": "NOISE",
+      "location": 149
+    },
+    {
+      "name": "NOISE",
+      "location": 150
+    },
+    {
+      "name": "NOISE",
+      "location": 151
+    },
+    {
+      "name": "NOISE",
+      "location": 152
+    },
+    {
+      "name": "NOISE",
+      "location": 153
+    },
+    {
+      "name": "NOISE",
+      "location": 154
+    },
+    {
+      "name": "NOISE",
+      "location": 155
+    },
+    {
+      "name": "NOISE",
+      "location": 156
+    },
+    {
+      "name": "NOISE",
+      "location": 157
+    },
+    {
+      "name": "NOISE",
+      "location": 158
+    },
+    {
+      "name": "CX",
+      "support": [
+        16,
+        32
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        48,
+        64
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        36,
+        20
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        60,
+        44
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        6,
+        8
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        28,
+        14
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 159
+    },
+    {
+      "name": "NOISE",
+      "location": 160
+    },
+    {
+      "name": "NOISE",
+      "location": 161
+    },
+    {
+      "name": "NOISE",
+      "location": 162
+    },
+    {
+      "name": "NOISE",
+      "location": 163
+    },
+    {
+      "name": "NOISE",
+      "location": 164
+    },
+    {
+      "name": "NOISE",
+      "location": 165
+    },
+    {
+      "name": "NOISE",
+      "location": 166
+    },
+    {
+      "name": "NOISE",
+      "location": 167
+    },
+    {
+      "name": "NOISE",
+      "location": 168
+    },
+    {
+      "name": "NOISE",
+      "location": 169
+    },
+    {
+      "name": "H",
+      "support": [
+        6
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        58
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        16
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        48
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 170
+    },
+    {
+      "name": "NOISE",
+      "location": 171
+    },
+    {
+      "name": "NOISE",
+      "location": 172
+    },
+    {
+      "name": "NOISE",
+      "location": 173
+    },
+    {
+      "name": "NOISE",
+      "location": 174
+    },
+    {
+      "name": "NOISE",
+      "location": 175
+    },
+    {
+      "name": "NOISE",
+      "location": 176
+    },
+    {
+      "name": "NOISE",
+      "location": 177
+    },
+    {
+      "name": "NOISE",
+      "location": 178
+    },
+    {
+      "name": "NOISE",
+      "location": 179
+    },
+    {
+      "name": "NOISE",
+      "location": 180
+    },
+    {
+      "name": "NOISE",
+      "location": 181
+    },
+    {
+      "name": "NOISE",
+      "location": 182
+    },
+    {
+      "name": "NOISE",
+      "location": 183
+    },
+    {
+      "name": "NOISE",
+      "location": 184
+    },
+    {
+      "name": "NOISE",
+      "location": 185
+    },
+    {
+      "name": "NOISE",
+      "location": 186
+    },
+    {
+      "name": "NOISE",
+      "location": 187
+    },
+    {
+      "name": "NOISE",
+      "location": 188
+    },
+    {
+      "name": "NOISE",
+      "location": 189
+    },
+    {
+      "name": "NOISE",
+      "location": 190
+    },
+    {
+      "name": "NOISE",
+      "location": 191
+    },
+    {
+      "name": "NOISE",
+      "location": 192
+    },
+    {
+      "name": "NOISE",
+      "location": 193
+    },
+    {
+      "name": "NOISE",
+      "location": 194
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        16
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        20
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        44
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        48
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        6
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        14
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        50
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        58
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 195
+    },
+    {
+      "name": "NOISE",
+      "location": 196
+    },
+    {
+      "name": "NOISE",
+      "location": 197
+    },
+    {
+      "name": "NOISE",
+      "location": 198
+    },
+    {
+      "name": "NOISE",
+      "location": 199
+    },
+    {
+      "name": "NOISE",
+      "location": 200
+    },
+    {
+      "name": "NOISE",
+      "location": 201
+    },
+    {
+      "name": "NOISE",
+      "location": 202
+    },
+    {
+      "name": "NOISE",
+      "location": 203
+    },
+    {
+      "name": "R",
+      "support": [
+        16
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        20
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        44
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        48
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 204
+    },
+    {
+      "name": "NOISE",
+      "location": 205
+    },
+    {
+      "name": "NOISE",
+      "location": 206
+    },
+    {
+      "name": "NOISE",
+      "location": 207
+    },
+    {
+      "name": "NOISE",
+      "location": 208
+    },
+    {
+      "name": "NOISE",
+      "location": 209
+    },
+    {
+      "name": "NOISE",
+      "location": 210
+    },
+    {
+      "name": "NOISE",
+      "location": 211
+    },
+    {
+      "name": "NOISE",
+      "location": 212
+    },
+    {
+      "name": "NOISE",
+      "location": 213
+    },
+    {
+      "name": "NOISE",
+      "location": 214
+    },
+    {
+      "name": "NOISE",
+      "location": 215
+    },
+    {
+      "name": "NOISE",
+      "location": 216
+    },
+    {
+      "name": "NOISE",
+      "location": 217
+    },
+    {
+      "name": "NOISE",
+      "location": 218
+    },
+    {
+      "name": "NOISE",
+      "location": 219
+    },
+    {
+      "name": "NOISE",
+      "location": 220
+    },
+    {
+      "name": "H",
+      "support": [
+        16
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        48
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 221
+    },
+    {
+      "name": "NOISE",
+      "location": 222
+    },
+    {
+      "name": "NOISE",
+      "location": 223
+    },
+    {
+      "name": "NOISE",
+      "location": 224
+    },
+    {
+      "name": "NOISE",
+      "location": 225
+    },
+    {
+      "name": "NOISE",
+      "location": 226
+    },
+    {
+      "name": "NOISE",
+      "location": 227
+    },
+    {
+      "name": "NOISE",
+      "location": 228
+    },
+    {
+      "name": "NOISE",
+      "location": 229
+    },
+    {
+      "name": "NOISE",
+      "location": 230
+    },
+    {
+      "name": "NOISE",
+      "location": 231
+    },
+    {
+      "name": "NOISE",
+      "location": 232
+    },
+    {
+      "name": "NOISE",
+      "location": 233
+    },
+    {
+      "name": "NOISE",
+      "location": 234
+    },
+    {
+      "name": "NOISE",
+      "location": 235
+    },
+    {
+      "name": "NOISE",
+      "location": 236
+    },
+    {
+      "name": "NOISE",
+      "location": 237
+    },
+    {
+      "name": "CX",
+      "support": [
+        16,
+        0
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        4,
+        20
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        28,
+        44
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        48,
+        32
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 238
+    },
+    {
+      "name": "NOISE",
+      "location": 239
+    },
+    {
+      "name": "NOISE",
+      "location": 240
+    },
+    {
+      "name": "NOISE",
+      "location": 241
+    },
+    {
+      "name": "NOISE",
+      "location": 242
+    },
+    {
+      "name": "NOISE",
+      "location": 243
+    },
+    {
+      "name": "NOISE",
+      "location": 244
+    },
+    {
+      "name": "NOISE",
+      "location": 245
+    },
+    {
+      "name": "NOISE",
+      "location": 246
+    },
+    {
+      "name": "NOISE",
+      "location": 247
+    },
+    {
+      "name": "NOISE",
+      "location": 248
+    },
+    {
+      "name": "NOISE",
+      "location": 249
+    },
+    {
+      "name": "NOISE",
+      "location": 250
+    },
+    {
+      "name": "CX",
+      "support": [
+        16,
+        4
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        48,
+        36
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        32,
+        20
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        56,
+        44
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 251
+    },
+    {
+      "name": "NOISE",
+      "location": 252
+    },
+    {
+      "name": "NOISE",
+      "location": 253
+    },
+    {
+      "name": "NOISE",
+      "location": 254
+    },
+    {
+      "name": "NOISE",
+      "location": 255
+    },
+    {
+      "name": "NOISE",
+      "location": 256
+    },
+    {
+      "name": "NOISE",
+      "location": 257
+    },
+    {
+      "name": "NOISE",
+      "location": 258
+    },
+    {
+      "name": "NOISE",
+      "location": 259
+    },
+    {
+      "name": "NOISE",
+      "location": 260
+    },
+    {
+      "name": "NOISE",
+      "location": 261
+    },
+    {
+      "name": "NOISE",
+      "location": 262
+    },
+    {
+      "name": "NOISE",
+      "location": 263
+    },
+    {
+      "name": "R",
+      "support": [
+        128
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        129
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        130
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 264
+    },
+    {
+      "name": "NOISE",
+      "location": 265
+    },
+    {
+      "name": "NOISE",
+      "location": 266
+    },
+    {
+      "name": "H",
+      "support": [
+        129
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 267
+    },
+    {
+      "name": "NOISE",
+      "location": 268
+    },
+    {
+      "name": "NOISE",
+      "location": 269
+    },
+    {
+      "name": "CX",
+      "support": [
+        129,
+        130
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 270
+    },
+    {
+      "name": "NOISE",
+      "location": 271
+    },
+    {
+      "name": "CX",
+      "support": [
+        129,
+        128
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 272
+    },
+    {
+      "name": "NOISE",
+      "location": 273
+    },
+    {
+      "name": "CCZ",
+      "support": [
+        128,
+        4,
+        28
+      ]
+    },
+    {
+      "name": "CCZ",
+      "support": [
+        129,
+        20,
+        44
+      ]
+    },
+    {
+      "name": "CCZ",
+      "support": [
+        130,
+        36,
+        60
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 274
+    },
+    {
+      "name": "NOISE",
+      "location": 275
+    },
+    {
+      "name": "NOISE",
+      "location": 276
+    },
+    {
+      "name": "NOISE",
+      "location": 277
+    },
+    {
+      "name": "NOISE",
+      "location": 278
+    },
+    {
+      "name": "NOISE",
+      "location": 279
+    },
+    {
+      "name": "NOISE",
+      "location": 280
+    },
+    {
+      "name": "NOISE",
+      "location": 281
+    },
+    {
+      "name": "NOISE",
+      "location": 282
+    },
+    {
+      "name": "NOISE",
+      "location": 283
+    },
+    {
+      "name": "CSX",
+      "support": [
+        128,
+        0
+      ]
+    },
+    {
+      "name": "CS_DAG_X",
+      "support": [
+        129,
+        16
+      ]
+    },
+    {
+      "name": "CSX",
+      "support": [
+        130,
+        32
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 284
+    },
+    {
+      "name": "NOISE",
+      "location": 285
+    },
+    {
+      "name": "NOISE",
+      "location": 286
+    },
+    {
+      "name": "NOISE",
+      "location": 287
+    },
+    {
+      "name": "NOISE",
+      "location": 288
+    },
+    {
+      "name": "NOISE",
+      "location": 289
+    },
+    {
+      "name": "NOISE",
+      "location": 290
+    },
+    {
+      "name": "NOISE",
+      "location": 291
+    },
+    {
+      "name": "NOISE",
+      "location": 292
+    },
+    {
+      "name": "NOISE",
+      "location": 293
+    },
+    {
+      "name": "NOISE",
+      "location": 294
+    },
+    {
+      "name": "NOISE",
+      "location": 295
+    },
+    {
+      "name": "NOISE",
+      "location": 296
+    },
+    {
+      "name": "CS_DAG_X",
+      "support": [
+        128,
+        48
+      ]
+    },
+    {
+      "name": "CSX",
+      "support": [
+        129,
+        64
+      ]
+    },
+    {
+      "name": "CCZ",
+      "support": [
+        130,
+        8,
+        56
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 297
+    },
+    {
+      "name": "NOISE",
+      "location": 298
+    },
+    {
+      "name": "NOISE",
+      "location": 299
+    },
+    {
+      "name": "NOISE",
+      "location": 300
+    },
+    {
+      "name": "NOISE",
+      "location": 301
+    },
+    {
+      "name": "NOISE",
+      "location": 302
+    },
+    {
+      "name": "NOISE",
+      "location": 303
+    },
+    {
+      "name": "NOISE",
+      "location": 304
+    },
+    {
+      "name": "NOISE",
+      "location": 305
+    },
+    {
+      "name": "NOISE",
+      "location": 306
+    },
+    {
+      "name": "NOISE",
+      "location": 307
+    },
+    {
+      "name": "NOISE",
+      "location": 308
+    },
+    {
+      "name": "CX",
+      "support": [
+        129,
+        128
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 309
+    },
+    {
+      "name": "NOISE",
+      "location": 310
+    },
+    {
+      "name": "CX",
+      "support": [
+        129,
+        130
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 311
+    },
+    {
+      "name": "NOISE",
+      "location": 312
+    },
+    {
+      "name": "T_DAG",
+      "support": [
+        129
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        129
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 313
+    },
+    {
+      "name": "NOISE",
+      "location": 314
+    },
+    {
+      "name": "NOISE",
+      "location": 315
+    },
+    {
+      "name": "NOISE",
+      "location": 316
+    },
+    {
+      "name": "NOISE",
+      "location": 317
+    },
+    {
+      "name": "NOISE",
+      "location": 318
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        128
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        129
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        130
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        128
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        129
+      ]
+    },
+    {
+      "name": "R",
+      "support": [
+        130
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 319
+    },
+    {
+      "name": "NOISE",
+      "location": 320
+    },
+    {
+      "name": "NOISE",
+      "location": 321
+    },
+    {
+      "name": "H",
+      "support": [
+        129
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 322
+    },
+    {
+      "name": "NOISE",
+      "location": 323
+    },
+    {
+      "name": "NOISE",
+      "location": 324
+    },
+    {
+      "name": "CX",
+      "support": [
+        129,
+        130
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 325
+    },
+    {
+      "name": "NOISE",
+      "location": 326
+    },
+    {
+      "name": "CX",
+      "support": [
+        129,
+        128
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 327
+    },
+    {
+      "name": "NOISE",
+      "location": 328
+    },
+    {
+      "name": "CCZ",
+      "support": [
+        128,
+        4,
+        28
+      ]
+    },
+    {
+      "name": "CCZ",
+      "support": [
+        129,
+        20,
+        44
+      ]
+    },
+    {
+      "name": "CCZ",
+      "support": [
+        130,
+        36,
+        60
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 329
+    },
+    {
+      "name": "NOISE",
+      "location": 330
+    },
+    {
+      "name": "NOISE",
+      "location": 331
+    },
+    {
+      "name": "NOISE",
+      "location": 332
+    },
+    {
+      "name": "NOISE",
+      "location": 333
+    },
+    {
+      "name": "NOISE",
+      "location": 334
+    },
+    {
+      "name": "NOISE",
+      "location": 335
+    },
+    {
+      "name": "NOISE",
+      "location": 336
+    },
+    {
+      "name": "NOISE",
+      "location": 337
+    },
+    {
+      "name": "NOISE",
+      "location": 338
+    },
+    {
+      "name": "CSX",
+      "support": [
+        128,
+        0
+      ]
+    },
+    {
+      "name": "CS_DAG_X",
+      "support": [
+        129,
+        16
+      ]
+    },
+    {
+      "name": "CSX",
+      "support": [
+        130,
+        32
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 339
+    },
+    {
+      "name": "NOISE",
+      "location": 340
+    },
+    {
+      "name": "NOISE",
+      "location": 341
+    },
+    {
+      "name": "NOISE",
+      "location": 342
+    },
+    {
+      "name": "NOISE",
+      "location": 343
+    },
+    {
+      "name": "NOISE",
+      "location": 344
+    },
+    {
+      "name": "NOISE",
+      "location": 345
+    },
+    {
+      "name": "NOISE",
+      "location": 346
+    },
+    {
+      "name": "NOISE",
+      "location": 347
+    },
+    {
+      "name": "NOISE",
+      "location": 348
+    },
+    {
+      "name": "NOISE",
+      "location": 349
+    },
+    {
+      "name": "NOISE",
+      "location": 350
+    },
+    {
+      "name": "NOISE",
+      "location": 351
+    },
+    {
+      "name": "CS_DAG_X",
+      "support": [
+        128,
+        48
+      ]
+    },
+    {
+      "name": "CSX",
+      "support": [
+        129,
+        64
+      ]
+    },
+    {
+      "name": "CCZ",
+      "support": [
+        130,
+        8,
+        56
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 352
+    },
+    {
+      "name": "NOISE",
+      "location": 353
+    },
+    {
+      "name": "NOISE",
+      "location": 354
+    },
+    {
+      "name": "NOISE",
+      "location": 355
+    },
+    {
+      "name": "NOISE",
+      "location": 356
+    },
+    {
+      "name": "NOISE",
+      "location": 357
+    },
+    {
+      "name": "NOISE",
+      "location": 358
+    },
+    {
+      "name": "NOISE",
+      "location": 359
+    },
+    {
+      "name": "NOISE",
+      "location": 360
+    },
+    {
+      "name": "NOISE",
+      "location": 361
+    },
+    {
+      "name": "NOISE",
+      "location": 362
+    },
+    {
+      "name": "NOISE",
+      "location": 363
+    },
+    {
+      "name": "CX",
+      "support": [
+        129,
+        128
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 364
+    },
+    {
+      "name": "NOISE",
+      "location": 365
+    },
+    {
+      "name": "CX",
+      "support": [
+        129,
+        130
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 366
+    },
+    {
+      "name": "NOISE",
+      "location": 367
+    },
+    {
+      "name": "T_DAG",
+      "support": [
+        129
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        129
+      ]
+    },
+    {
+      "name": "NOISE",
+      "location": 368
+    },
+    {
+      "name": "NOISE",
+      "location": 369
+    },
+    {
+      "name": "NOISE",
+      "location": 370
+    },
+    {
+      "name": "NOISE",
+      "location": 371
+    },
+    {
+      "name": "NOISE",
+      "location": 372
+    },
+    {
+      "name": "NOISE",
+      "location": 373
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        128
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        129
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        130
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        64,
+        60
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        56,
+        44
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        48,
+        36
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        16,
+        4
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        32,
+        20
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        56,
+        60
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        28,
+        44
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        48,
+        32
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        16,
+        0
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        4,
+        20
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        64,
+        32
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        28,
+        4
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        60,
+        4
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        64,
+        36
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        28,
+        32
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        32,
+        60
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        28,
+        0
+      ]
+    },
+    {
+      "name": "CX",
+      "support": [
+        8,
+        4
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        56
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        64
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        28
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        8
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        48
+      ]
+    },
+    {
+      "name": "H",
+      "support": [
+        16
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        0
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        4
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        8
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        16
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        20
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        28
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        36
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        44
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        48
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        56
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        60
+      ]
+    },
+    {
+      "name": "POST_Z",
+      "support": [
+        64
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "kind": "flip",
+      "support": [
+        0
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 1,
+      "event_index": 13,
+      "location": 0,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        4
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 1,
+      "event_index": 14,
+      "location": 1,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        8
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 1,
+      "event_index": 15,
+      "location": 2,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        28
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 1,
+      "event_index": 16,
+      "location": 3,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        32
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 1,
+      "event_index": 17,
+      "location": 4,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        36
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 1,
+      "event_index": 18,
+      "location": 5,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        56
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 1,
+      "event_index": 19,
+      "location": 6,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        60
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 1,
+      "event_index": 20,
+      "location": 7,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        64
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 1,
+      "event_index": 21,
+      "location": 8,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        16
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 1,
+      "event_index": 22,
+      "location": 9,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        20
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 1,
+      "event_index": 23,
+      "location": 10,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        44
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 1,
+      "event_index": 24,
+      "location": 11,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        48
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 1,
+      "event_index": 25,
+      "location": 12,
+      "axis": "X"
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        6
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 2,
+      "event_index": 26,
+      "location": 13
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        14
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 2,
+      "event_index": 27,
+      "location": 14
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        50
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 2,
+      "event_index": 28,
+      "location": 15
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        58
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 2,
+      "event_index": 29,
+      "location": 16
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        32
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 37,
+      "location": 17
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 38,
+      "location": 18
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        28
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 39,
+      "location": 19
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 40,
+      "location": 20
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 41,
+      "location": 21
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        16
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 42,
+      "location": 22
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        48
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 43,
+      "location": 23
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 44,
+      "location": 24
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        4
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 45,
+      "location": 25
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        6
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 46,
+      "location": 26
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        14
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 47,
+      "location": 27
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        20
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 48,
+      "location": 28
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 49,
+      "location": 29
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        44
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 50,
+      "location": 30
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        50
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 51,
+      "location": 31
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        58
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 52,
+      "location": 32
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        60
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 6,
+      "event_index": 53,
+      "location": 33
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        8,
+        4
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 9,
+      "event_index": 58,
+      "location": 34
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        28,
+        0
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 9,
+      "event_index": 59,
+      "location": 35
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        32,
+        60
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 9,
+      "event_index": 60,
+      "location": 36
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        64,
+        36
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 9,
+      "event_index": 61,
+      "location": 37
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        6
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 10,
+      "event_index": 62,
+      "location": 38
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        14
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 10,
+      "event_index": 63,
+      "location": 39
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        16
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 10,
+      "event_index": 64,
+      "location": 40
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        20
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 10,
+      "event_index": 65,
+      "location": 41
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        44
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 10,
+      "event_index": 66,
+      "location": 42
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        48
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 10,
+      "event_index": 67,
+      "location": 43
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        50
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 10,
+      "event_index": 68,
+      "location": 44
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 10,
+      "event_index": 69,
+      "location": 45
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        58
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 10,
+      "event_index": 70,
+      "location": 46
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        28,
+        32
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 13,
+      "event_index": 73,
+      "location": 47
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        60,
+        4
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 13,
+      "event_index": 74,
+      "location": 48
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 14,
+      "event_index": 75,
+      "location": 49
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        6
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 14,
+      "event_index": 76,
+      "location": 50
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 14,
+      "event_index": 77,
+      "location": 51
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        14
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 14,
+      "event_index": 78,
+      "location": 52
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        16
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 14,
+      "event_index": 79,
+      "location": 53
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        20
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 14,
+      "event_index": 80,
+      "location": 54
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 14,
+      "event_index": 81,
+      "location": 55
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        44
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 14,
+      "event_index": 82,
+      "location": 56
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        48
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 14,
+      "event_index": 83,
+      "location": 57
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        50
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 14,
+      "event_index": 84,
+      "location": 58
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 14,
+      "event_index": 85,
+      "location": 59
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        58
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 14,
+      "event_index": 86,
+      "location": 60
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 14,
+      "event_index": 87,
+      "location": 61
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        28,
+        4
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 17,
+      "event_index": 91,
+      "location": 62
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        56,
+        60
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 17,
+      "event_index": 92,
+      "location": 63
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        64,
+        32
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 17,
+      "event_index": 93,
+      "location": 64
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 18,
+      "event_index": 94,
+      "location": 65
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        6
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 18,
+      "event_index": 95,
+      "location": 66
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 18,
+      "event_index": 96,
+      "location": 67
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        14
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 18,
+      "event_index": 97,
+      "location": 68
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        16
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 18,
+      "event_index": 98,
+      "location": 69
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        20
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 18,
+      "event_index": 99,
+      "location": 70
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 18,
+      "event_index": 100,
+      "location": 71
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        44
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 18,
+      "event_index": 101,
+      "location": 72
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        48
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 18,
+      "event_index": 102,
+      "location": 73
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        50
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 18,
+      "event_index": 103,
+      "location": 74
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        58
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 18,
+      "event_index": 104,
+      "location": 75
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        64,
+        60
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 21,
+      "event_index": 106,
+      "location": 76
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 22,
+      "event_index": 107,
+      "location": 77
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        4
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 22,
+      "event_index": 108,
+      "location": 78
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        6
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 22,
+      "event_index": 109,
+      "location": 79
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 22,
+      "event_index": 110,
+      "location": 80
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        14
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 22,
+      "event_index": 111,
+      "location": 81
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        16
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 22,
+      "event_index": 112,
+      "location": 82
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        20
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 22,
+      "event_index": 113,
+      "location": 83
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        28
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 22,
+      "event_index": 114,
+      "location": 84
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        32
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 22,
+      "event_index": 115,
+      "location": 85
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 22,
+      "event_index": 116,
+      "location": 86
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        44
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 22,
+      "event_index": 117,
+      "location": 87
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        48
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 22,
+      "event_index": 118,
+      "location": 88
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        50
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 22,
+      "event_index": 119,
+      "location": 89
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 22,
+      "event_index": 120,
+      "location": 90
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        58
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 22,
+      "event_index": 121,
+      "location": 91
+    },
+    {
+      "kind": "flip",
+      "support": [
+        16
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 25,
+      "event_index": 130,
+      "location": 92,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        20
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 25,
+      "event_index": 131,
+      "location": 93,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        44
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 25,
+      "event_index": 132,
+      "location": 94,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        48
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 25,
+      "event_index": 133,
+      "location": 95,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        6
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 25,
+      "event_index": 134,
+      "location": 96,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        14
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 25,
+      "event_index": 135,
+      "location": 97,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        50
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 25,
+      "event_index": 136,
+      "location": 98,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        58
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 25,
+      "event_index": 137,
+      "location": 99,
+      "axis": "X"
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 26,
+      "event_index": 138,
+      "location": 100
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        4
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 26,
+      "event_index": 139,
+      "location": 101
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 26,
+      "event_index": 140,
+      "location": 102
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        28
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 26,
+      "event_index": 141,
+      "location": 103
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        32
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 26,
+      "event_index": 142,
+      "location": 104
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 26,
+      "event_index": 143,
+      "location": 105
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 26,
+      "event_index": 144,
+      "location": 106
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        60
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 26,
+      "event_index": 145,
+      "location": 107
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 26,
+      "event_index": 146,
+      "location": 108
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        6
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 151,
+      "location": 109
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        58
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 152,
+      "location": 110
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        16
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 153,
+      "location": 111
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        48
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 154,
+      "location": 112
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 155,
+      "location": 113
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        4
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 156,
+      "location": 114
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 157,
+      "location": 115
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        14
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 158,
+      "location": 116
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        20
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 159,
+      "location": 117
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        28
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 160,
+      "location": 118
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        32
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 161,
+      "location": 119
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 162,
+      "location": 120
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        44
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 163,
+      "location": 121
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        50
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 164,
+      "location": 122
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 165,
+      "location": 123
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        60
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 166,
+      "location": 124
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 29,
+      "event_index": 167,
+      "location": 125
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        16,
+        0
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 32,
+      "event_index": 174,
+      "location": 126
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        48,
+        32
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 32,
+      "event_index": 175,
+      "location": 127
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        4,
+        20
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 32,
+      "event_index": 176,
+      "location": 128
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        28,
+        44
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 32,
+      "event_index": 177,
+      "location": 129
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        36,
+        50
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 32,
+      "event_index": 178,
+      "location": 130
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        58,
+        56
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 32,
+      "event_index": 179,
+      "location": 131
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        6
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 33,
+      "event_index": 180,
+      "location": 132
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 33,
+      "event_index": 181,
+      "location": 133
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        14
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 33,
+      "event_index": 182,
+      "location": 134
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        60
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 33,
+      "event_index": 183,
+      "location": 135
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 33,
+      "event_index": 184,
+      "location": 136
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        16,
+        4
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 36,
+      "event_index": 191,
+      "location": 137
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        48,
+        36
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 36,
+      "event_index": 192,
+      "location": 138
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        32,
+        20
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 36,
+      "event_index": 193,
+      "location": 139
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        56,
+        44
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 36,
+      "event_index": 194,
+      "location": 140
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        58,
+        60
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 36,
+      "event_index": 195,
+      "location": 141
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        64,
+        50
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 36,
+      "event_index": 196,
+      "location": 142
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 37,
+      "event_index": 197,
+      "location": 143
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        6
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 37,
+      "event_index": 198,
+      "location": 144
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 37,
+      "event_index": 199,
+      "location": 145
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        14
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 37,
+      "event_index": 200,
+      "location": 146
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        28
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 37,
+      "event_index": 201,
+      "location": 147
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        16,
+        28
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 40,
+      "event_index": 208,
+      "location": 148
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        48,
+        60
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 40,
+      "event_index": 209,
+      "location": 149
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        8,
+        20
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 40,
+      "event_index": 210,
+      "location": 150
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        32,
+        44
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 40,
+      "event_index": 211,
+      "location": 151
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        6,
+        4
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 40,
+      "event_index": 212,
+      "location": 152
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        0,
+        14
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 40,
+      "event_index": 213,
+      "location": 153
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 41,
+      "event_index": 214,
+      "location": 154
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        50
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 41,
+      "event_index": 215,
+      "location": 155
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 41,
+      "event_index": 216,
+      "location": 156
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        58
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 41,
+      "event_index": 217,
+      "location": 157
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 41,
+      "event_index": 218,
+      "location": 158
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        16,
+        32
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 44,
+      "event_index": 225,
+      "location": 159
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        48,
+        64
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 44,
+      "event_index": 226,
+      "location": 160
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        36,
+        20
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 44,
+      "event_index": 227,
+      "location": 161
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        60,
+        44
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 44,
+      "event_index": 228,
+      "location": 162
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        6,
+        8
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 44,
+      "event_index": 229,
+      "location": 163
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        28,
+        14
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 44,
+      "event_index": 230,
+      "location": 164
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 45,
+      "event_index": 231,
+      "location": 165
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        4
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 45,
+      "event_index": 232,
+      "location": 166
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        50
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 45,
+      "event_index": 233,
+      "location": 167
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 45,
+      "event_index": 234,
+      "location": 168
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        58
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 45,
+      "event_index": 235,
+      "location": 169
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        6
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 240,
+      "location": 170
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        58
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 241,
+      "location": 171
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        16
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 242,
+      "location": 172
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        48
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 243,
+      "location": 173
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 244,
+      "location": 174
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        4
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 245,
+      "location": 175
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 246,
+      "location": 176
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        14
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 247,
+      "location": 177
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        20
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 248,
+      "location": 178
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        28
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 249,
+      "location": 179
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        32
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 250,
+      "location": 180
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 251,
+      "location": 181
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        44
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 252,
+      "location": 182
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        50
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 253,
+      "location": 183
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 254,
+      "location": 184
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        60
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 255,
+      "location": 185
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 48,
+      "event_index": 256,
+      "location": 186
+    },
+    {
+      "kind": "flip",
+      "support": [
+        16
+      ],
+      "denominator": 1,
+      "role": "measurement X flip",
+      "source_instruction": 50,
+      "event_index": 257,
+      "location": 187
+    },
+    {
+      "kind": "flip",
+      "support": [
+        20
+      ],
+      "denominator": 1,
+      "role": "measurement X flip",
+      "source_instruction": 50,
+      "event_index": 258,
+      "location": 188
+    },
+    {
+      "kind": "flip",
+      "support": [
+        44
+      ],
+      "denominator": 1,
+      "role": "measurement X flip",
+      "source_instruction": 50,
+      "event_index": 259,
+      "location": 189
+    },
+    {
+      "kind": "flip",
+      "support": [
+        48
+      ],
+      "denominator": 1,
+      "role": "measurement X flip",
+      "source_instruction": 50,
+      "event_index": 260,
+      "location": 190
+    },
+    {
+      "kind": "flip",
+      "support": [
+        6
+      ],
+      "denominator": 1,
+      "role": "measurement X flip",
+      "source_instruction": 50,
+      "event_index": 261,
+      "location": 191
+    },
+    {
+      "kind": "flip",
+      "support": [
+        14
+      ],
+      "denominator": 1,
+      "role": "measurement X flip",
+      "source_instruction": 50,
+      "event_index": 262,
+      "location": 192
+    },
+    {
+      "kind": "flip",
+      "support": [
+        50
+      ],
+      "denominator": 1,
+      "role": "measurement X flip",
+      "source_instruction": 50,
+      "event_index": 263,
+      "location": 193
+    },
+    {
+      "kind": "flip",
+      "support": [
+        58
+      ],
+      "denominator": 1,
+      "role": "measurement X flip",
+      "source_instruction": 50,
+      "event_index": 264,
+      "location": 194
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 52,
+      "event_index": 273,
+      "location": 195
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        4
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 52,
+      "event_index": 274,
+      "location": 196
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 52,
+      "event_index": 275,
+      "location": 197
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        28
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 52,
+      "event_index": 276,
+      "location": 198
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        32
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 52,
+      "event_index": 277,
+      "location": 199
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 52,
+      "event_index": 278,
+      "location": 200
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 52,
+      "event_index": 279,
+      "location": 201
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        60
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 52,
+      "event_index": 280,
+      "location": 202
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 52,
+      "event_index": 281,
+      "location": 203
+    },
+    {
+      "kind": "flip",
+      "support": [
+        16
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 55,
+      "event_index": 286,
+      "location": 204,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        20
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 55,
+      "event_index": 287,
+      "location": 205,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        44
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 55,
+      "event_index": 288,
+      "location": 206,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        48
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 55,
+      "event_index": 289,
+      "location": 207,
+      "axis": "X"
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 56,
+      "event_index": 290,
+      "location": 208
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        4
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 56,
+      "event_index": 291,
+      "location": 209
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        6
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 56,
+      "event_index": 292,
+      "location": 210
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 56,
+      "event_index": 293,
+      "location": 211
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        14
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 56,
+      "event_index": 294,
+      "location": 212
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        28
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 56,
+      "event_index": 295,
+      "location": 213
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        32
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 56,
+      "event_index": 296,
+      "location": 214
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 56,
+      "event_index": 297,
+      "location": 215
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        50
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 56,
+      "event_index": 298,
+      "location": 216
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 56,
+      "event_index": 299,
+      "location": 217
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        58
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 56,
+      "event_index": 300,
+      "location": 218
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        60
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 56,
+      "event_index": 301,
+      "location": 219
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 56,
+      "event_index": 302,
+      "location": 220
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        16
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 305,
+      "location": 221
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        48
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 306,
+      "location": 222
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 307,
+      "location": 223
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        4
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 308,
+      "location": 224
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        6
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 309,
+      "location": 225
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 310,
+      "location": 226
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        14
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 311,
+      "location": 227
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        20
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 312,
+      "location": 228
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        28
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 313,
+      "location": 229
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        32
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 314,
+      "location": 230
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 315,
+      "location": 231
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        44
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 316,
+      "location": 232
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        50
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 317,
+      "location": 233
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 318,
+      "location": 234
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        58
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 319,
+      "location": 235
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        60
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 320,
+      "location": 236
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 59,
+      "event_index": 321,
+      "location": 237
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        16,
+        0
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 62,
+      "event_index": 326,
+      "location": 238
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        4,
+        20
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 62,
+      "event_index": 327,
+      "location": 239
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        28,
+        44
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 62,
+      "event_index": 328,
+      "location": 240
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        48,
+        32
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 62,
+      "event_index": 329,
+      "location": 241
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        6
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 63,
+      "event_index": 330,
+      "location": 242
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 63,
+      "event_index": 331,
+      "location": 243
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        14
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 63,
+      "event_index": 332,
+      "location": 244
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 63,
+      "event_index": 333,
+      "location": 245
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        50
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 63,
+      "event_index": 334,
+      "location": 246
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 63,
+      "event_index": 335,
+      "location": 247
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        58
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 63,
+      "event_index": 336,
+      "location": 248
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        60
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 63,
+      "event_index": 337,
+      "location": 249
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 63,
+      "event_index": 338,
+      "location": 250
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        16,
+        4
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 66,
+      "event_index": 343,
+      "location": 251
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        48,
+        36
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 66,
+      "event_index": 344,
+      "location": 252
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        32,
+        20
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 66,
+      "event_index": 345,
+      "location": 253
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        56,
+        44
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 66,
+      "event_index": 346,
+      "location": 254
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 67,
+      "event_index": 347,
+      "location": 255
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        6
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 67,
+      "event_index": 348,
+      "location": 256
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 67,
+      "event_index": 349,
+      "location": 257
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        14
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 67,
+      "event_index": 350,
+      "location": 258
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        28
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 67,
+      "event_index": 351,
+      "location": 259
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        50
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 67,
+      "event_index": 352,
+      "location": 260
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        58
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 67,
+      "event_index": 353,
+      "location": 261
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        60
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 67,
+      "event_index": 354,
+      "location": 262
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 67,
+      "event_index": 355,
+      "location": 263
+    },
+    {
+      "kind": "flip",
+      "support": [
+        128
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 70,
+      "event_index": 359,
+      "location": 264,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        129
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 70,
+      "event_index": 360,
+      "location": 265,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        130
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 70,
+      "event_index": 361,
+      "location": 266,
+      "axis": "X"
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        129
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 73,
+      "event_index": 363,
+      "location": 267
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        128
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 73,
+      "event_index": 364,
+      "location": 268
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        130
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 73,
+      "event_index": 365,
+      "location": 269
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        128
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 77,
+      "event_index": 367,
+      "location": 270
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        129,
+        130
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 78,
+      "event_index": 368,
+      "location": 271
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        130
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 82,
+      "event_index": 370,
+      "location": 272
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        129,
+        128
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 83,
+      "event_index": 371,
+      "location": 273
+    },
+    {
+      "kind": "depol3",
+      "support": [
+        128,
+        4,
+        28
+      ],
+      "denominator": 63,
+      "role": "new controlled-gate noise",
+      "source_instruction": 85,
+      "event_index": 375,
+      "location": 274
+    },
+    {
+      "kind": "depol3",
+      "support": [
+        129,
+        20,
+        44
+      ],
+      "denominator": 63,
+      "role": "new controlled-gate noise",
+      "source_instruction": 85,
+      "event_index": 376,
+      "location": 275
+    },
+    {
+      "kind": "depol3",
+      "support": [
+        130,
+        36,
+        60
+      ],
+      "denominator": 63,
+      "role": "new controlled-gate noise",
+      "source_instruction": 85,
+      "event_index": 377,
+      "location": 276
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 85,
+      "event_index": 378,
+      "location": 277
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        16
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 85,
+      "event_index": 379,
+      "location": 278
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        32
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 85,
+      "event_index": 380,
+      "location": 279
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        48
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 85,
+      "event_index": 381,
+      "location": 280
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 85,
+      "event_index": 382,
+      "location": 281
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 85,
+      "event_index": 383,
+      "location": 282
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 85,
+      "event_index": 384,
+      "location": 283
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        128,
+        0
+      ],
+      "denominator": 15,
+      "role": "new controlled-gate noise",
+      "source_instruction": 87,
+      "event_index": 388,
+      "location": 284
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        129,
+        16
+      ],
+      "denominator": 15,
+      "role": "new controlled-gate noise",
+      "source_instruction": 87,
+      "event_index": 389,
+      "location": 285
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        130,
+        32
+      ],
+      "denominator": 15,
+      "role": "new controlled-gate noise",
+      "source_instruction": 87,
+      "event_index": 390,
+      "location": 286
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        4
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 87,
+      "event_index": 391,
+      "location": 287
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        28
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 87,
+      "event_index": 392,
+      "location": 288
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        20
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 87,
+      "event_index": 393,
+      "location": 289
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        44
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 87,
+      "event_index": 394,
+      "location": 290
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 87,
+      "event_index": 395,
+      "location": 291
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        60
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 87,
+      "event_index": 396,
+      "location": 292
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 87,
+      "event_index": 397,
+      "location": 293
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 87,
+      "event_index": 398,
+      "location": 294
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        48
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 87,
+      "event_index": 399,
+      "location": 295
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 87,
+      "event_index": 400,
+      "location": 296
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        128,
+        48
+      ],
+      "denominator": 15,
+      "role": "new controlled-gate noise",
+      "source_instruction": 89,
+      "event_index": 404,
+      "location": 297
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        129,
+        64
+      ],
+      "denominator": 15,
+      "role": "new controlled-gate noise",
+      "source_instruction": 89,
+      "event_index": 405,
+      "location": 298
+    },
+    {
+      "kind": "depol3",
+      "support": [
+        130,
+        8,
+        56
+      ],
+      "denominator": 63,
+      "role": "new controlled-gate noise",
+      "source_instruction": 89,
+      "event_index": 406,
+      "location": 299
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        4
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 89,
+      "event_index": 407,
+      "location": 300
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        28
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 89,
+      "event_index": 408,
+      "location": 301
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        20
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 89,
+      "event_index": 409,
+      "location": 302
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        44
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 89,
+      "event_index": 410,
+      "location": 303
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 89,
+      "event_index": 411,
+      "location": 304
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        60
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 89,
+      "event_index": 412,
+      "location": 305
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 89,
+      "event_index": 413,
+      "location": 306
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        16
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 89,
+      "event_index": 414,
+      "location": 307
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        32
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 89,
+      "event_index": 415,
+      "location": 308
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        130
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 93,
+      "event_index": 417,
+      "location": 309
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        129,
+        128
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 94,
+      "event_index": 418,
+      "location": 310
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        128
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 98,
+      "event_index": 420,
+      "location": 311
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        129,
+        130
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 99,
+      "event_index": 421,
+      "location": 312
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        129
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 102,
+      "event_index": 424,
+      "location": 313
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        128
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 102,
+      "event_index": 425,
+      "location": 314
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        130
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 102,
+      "event_index": 426,
+      "location": 315
+    },
+    {
+      "kind": "flip",
+      "support": [
+        128
+      ],
+      "denominator": 1,
+      "role": "measurement X flip",
+      "source_instruction": 104,
+      "event_index": 427,
+      "location": 316
+    },
+    {
+      "kind": "flip",
+      "support": [
+        129
+      ],
+      "denominator": 1,
+      "role": "measurement X flip",
+      "source_instruction": 104,
+      "event_index": 428,
+      "location": 317
+    },
+    {
+      "kind": "flip",
+      "support": [
+        130
+      ],
+      "denominator": 1,
+      "role": "measurement X flip",
+      "source_instruction": 104,
+      "event_index": 429,
+      "location": 318
+    },
+    {
+      "kind": "flip",
+      "support": [
+        128
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 108,
+      "event_index": 436,
+      "location": 319,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        129
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 108,
+      "event_index": 437,
+      "location": 320,
+      "axis": "X"
+    },
+    {
+      "kind": "flip",
+      "support": [
+        130
+      ],
+      "denominator": 1,
+      "role": "X_ERROR",
+      "source_instruction": 108,
+      "event_index": 438,
+      "location": 321,
+      "axis": "X"
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        129
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 111,
+      "event_index": 440,
+      "location": 322
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        128
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 111,
+      "event_index": 441,
+      "location": 323
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        130
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 111,
+      "event_index": 442,
+      "location": 324
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        128
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 115,
+      "event_index": 444,
+      "location": 325
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        129,
+        130
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 116,
+      "event_index": 445,
+      "location": 326
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        130
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 120,
+      "event_index": 447,
+      "location": 327
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        129,
+        128
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 121,
+      "event_index": 448,
+      "location": 328
+    },
+    {
+      "kind": "depol3",
+      "support": [
+        128,
+        4,
+        28
+      ],
+      "denominator": 63,
+      "role": "new controlled-gate noise",
+      "source_instruction": 123,
+      "event_index": 452,
+      "location": 329
+    },
+    {
+      "kind": "depol3",
+      "support": [
+        129,
+        20,
+        44
+      ],
+      "denominator": 63,
+      "role": "new controlled-gate noise",
+      "source_instruction": 123,
+      "event_index": 453,
+      "location": 330
+    },
+    {
+      "kind": "depol3",
+      "support": [
+        130,
+        36,
+        60
+      ],
+      "denominator": 63,
+      "role": "new controlled-gate noise",
+      "source_instruction": 123,
+      "event_index": 454,
+      "location": 331
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 123,
+      "event_index": 455,
+      "location": 332
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        16
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 123,
+      "event_index": 456,
+      "location": 333
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        32
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 123,
+      "event_index": 457,
+      "location": 334
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        48
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 123,
+      "event_index": 458,
+      "location": 335
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 123,
+      "event_index": 459,
+      "location": 336
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 123,
+      "event_index": 460,
+      "location": 337
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 123,
+      "event_index": 461,
+      "location": 338
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        128,
+        0
+      ],
+      "denominator": 15,
+      "role": "new controlled-gate noise",
+      "source_instruction": 125,
+      "event_index": 465,
+      "location": 339
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        129,
+        16
+      ],
+      "denominator": 15,
+      "role": "new controlled-gate noise",
+      "source_instruction": 125,
+      "event_index": 466,
+      "location": 340
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        130,
+        32
+      ],
+      "denominator": 15,
+      "role": "new controlled-gate noise",
+      "source_instruction": 125,
+      "event_index": 467,
+      "location": 341
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        4
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 125,
+      "event_index": 468,
+      "location": 342
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        28
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 125,
+      "event_index": 469,
+      "location": 343
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        20
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 125,
+      "event_index": 470,
+      "location": 344
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        44
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 125,
+      "event_index": 471,
+      "location": 345
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 125,
+      "event_index": 472,
+      "location": 346
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        60
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 125,
+      "event_index": 473,
+      "location": 347
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        8
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 125,
+      "event_index": 474,
+      "location": 348
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        56
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 125,
+      "event_index": 475,
+      "location": 349
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        48
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 125,
+      "event_index": 476,
+      "location": 350
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        64
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 125,
+      "event_index": 477,
+      "location": 351
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        128,
+        48
+      ],
+      "denominator": 15,
+      "role": "new controlled-gate noise",
+      "source_instruction": 127,
+      "event_index": 481,
+      "location": 352
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        129,
+        64
+      ],
+      "denominator": 15,
+      "role": "new controlled-gate noise",
+      "source_instruction": 127,
+      "event_index": 482,
+      "location": 353
+    },
+    {
+      "kind": "depol3",
+      "support": [
+        130,
+        8,
+        56
+      ],
+      "denominator": 63,
+      "role": "new controlled-gate noise",
+      "source_instruction": 127,
+      "event_index": 483,
+      "location": 354
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        4
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 127,
+      "event_index": 484,
+      "location": 355
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        28
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 127,
+      "event_index": 485,
+      "location": 356
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        20
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 127,
+      "event_index": 486,
+      "location": 357
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        44
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 127,
+      "event_index": 487,
+      "location": 358
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        36
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 127,
+      "event_index": 488,
+      "location": 359
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        60
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 127,
+      "event_index": 489,
+      "location": 360
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        0
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 127,
+      "event_index": 490,
+      "location": 361
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        16
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 127,
+      "event_index": 491,
+      "location": 362
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        32
+      ],
+      "denominator": 3,
+      "role": "replacement-layer idle noise",
+      "source_instruction": 127,
+      "event_index": 492,
+      "location": 363
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        130
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 131,
+      "event_index": 494,
+      "location": 364
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        129,
+        128
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 132,
+      "event_index": 495,
+      "location": 365
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        128
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 136,
+      "event_index": 497,
+      "location": 366
+    },
+    {
+      "kind": "depol2",
+      "support": [
+        129,
+        130
+      ],
+      "denominator": 15,
+      "role": "DEPOLARIZE2",
+      "source_instruction": 137,
+      "event_index": 498,
+      "location": 367
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        129
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 140,
+      "event_index": 501,
+      "location": 368
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        128
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 140,
+      "event_index": 502,
+      "location": 369
+    },
+    {
+      "kind": "depol1",
+      "support": [
+        130
+      ],
+      "denominator": 3,
+      "role": "DEPOLARIZE1",
+      "source_instruction": 140,
+      "event_index": 503,
+      "location": 370
+    },
+    {
+      "kind": "flip",
+      "support": [
+        128
+      ],
+      "denominator": 1,
+      "role": "measurement X flip",
+      "source_instruction": 142,
+      "event_index": 504,
+      "location": 371
+    },
+    {
+      "kind": "flip",
+      "support": [
+        129
+      ],
+      "denominator": 1,
+      "role": "measurement X flip",
+      "source_instruction": 142,
+      "event_index": 505,
+      "location": 372
+    },
+    {
+      "kind": "flip",
+      "support": [
+        130
+      ],
+      "denominator": 1,
+      "role": "measurement X flip",
+      "source_instruction": 142,
+      "event_index": 506,
+      "location": 373
+    }
+  ],
+  "logical": 32,
+  "ghz_root": 129,
+  "conversion_counts": {
+    "CY_layers": 6,
+    "CCZ": 8,
+    "controlled_SX_or_SdagX": 10,
+    "ancilla_Tdag": 2,
+    "injection": 1
+  },
+  "source_messages": "WARNING: not adding noise after check\nWARNING: not adding noise after check\n",
+  "scope": "Injection plus two fold-transversal HXY measurements, followed by noiseless code projection and logical HXY readout. No noisy pre-escape syndrome round; no escape."
+}
