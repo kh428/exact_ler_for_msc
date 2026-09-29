@@ -69,6 +69,38 @@ python3 -B pauli_semiwebs/compute_basis.py --check
 python3 -B pauli_semiwebs/draw_diagrams.py --check
 ```
 
+## Pauli webs of the declared detectors
+
+The [whole-circuit check code](pauli_semiwebs_check/) extends the semiweb code to the
+complete noiseless d=3 and d=5 circuits. Of the declared detectors, 16 of 20 at d=3 and
+93 of 107 at d=5 are Pauli webs of the circuits with actual T gates. The others are
+Pauli semiwebs with defects on T spiders. Every declared detector gets a drawn web, as in
+Appendix J of the paper.
+
+<p align="center">
+  <a href="assets/detector_web_d3_det007.png">
+    <img src="assets/detector_web_d3_det007.png" width="1000" alt="The web of the d=3 detector r5 + r6 + r7 = 0 across the injection and the start of the double check. Red, green and blue overlays carry X, Z and Y labels, and numbered violet stars mark phase defects at T-dagger gates.">
+  </a>
+</p>
+
+<p align="center">
+  The d=3 detector r<sub>5</sub> ⊕ r<sub>6</sub> ⊕ r<sub>7</sub> = 0 compares the central readout of the double check with two injection readouts.<br>
+  It is not a Pauli web of the T circuit. Its semiweb has defects at the injection T<sup>†</sup> and the seven entry T<sup>†</sup> gates.<br>
+  <a href="assets/detector_web_d3_det007.tex">Figure source</a> ·
+  <a href="pauli_semiwebs_check/detector_webs/figures/d3_det007_web.tikz">TikZ diagram</a> ·
+  <a href="pauli_semiwebs_check/README.md">Reproduce the check bases and the drawings</a>
+</p>
+
+Both guides are also available as PDFs: the
+[Pauli semiweb bases](assets/pauli_semiwebs.pdf) (355 A3 pages) and the
+[detector webs](assets/detector_webs.pdf) (132 A3 pages).
+With `stim` and `numpy` from `requirements-zx.txt` installed, check everything with:
+
+```sh
+cd pauli_semiwebs_check
+python3 -B verify.py
+```
+
 ## Additional cultivation circuits
 
 All series use `x = p/(1-p)`. The coefficients are exact; evaluating a finite
@@ -270,7 +302,8 @@ All output directories must be new. The distributed data remain unchanged.
 | `data/alternatives/comparisons/` | Supplied counts, digitised points and labelled diagnostic estimates |
 | `alternatives/` | Fraction arithmetic, certificate checks and calculation adapters |
 | `pauli_semiwebs/` | Semiweb bases, TikZ drawings and exact phase-identity checks |
-| `assets/` | README images and the semiweb figure source |
+| `pauli_semiwebs_check/` | Whole-circuit Pauli-web checks, detector-web drawings and their guide |
+| `assets/` | README images, figure sources and both guide PDFs |
 
 See [numerical conventions](docs/NUMERICS.md), [ZX graph format](docs/ZX.md),
 [calculation guide](docs/CALCULATION.md) and [sources](docs/SOURCES.md).

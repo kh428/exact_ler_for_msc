@@ -1,0 +1,282 @@
+\documentclass[11pt]{article}
+\usepackage[a3paper,landscape,margin=12mm]{geometry}
+\usepackage{amsmath,amssymb,bm,tikz,graphicx,adjustbox,booktabs,caption,longtable,hyperref}
+\usetikzlibrary{calc,backgrounds}
+\definecolor{highlight}{RGB}{0,0,0}
+\input{drawings/preamble.tex}
+\input{drawings/legend.tex}
+\pdfinfoomitdate=1
+\pdftrailerid{}
+\pdfsuppressptexinfo=15
+\hypersetup{pdftitle={Pauli webs of every declared detector},
+ pdfauthor={},pdfsubject={},pdfkeywords={},pdfcreator={},pdfproducer={},
+ colorlinks=true,allcolors=highlight,bookmarksopen=false}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\begin{document}
+\begin{semiwebaddition}
+\pdfbookmark[0]{Reading the diagrams}{guide}
+{\LARGE Pauli webs of every declared detector}\par
+\medskip
+{\large Whole-circuit ZX diagrams of the $d=3$ and $d=5$ cultivation circuits}
+\bigskip
+
+\begin{minipage}[t]{.47\linewidth}
+\textbf{Contents}
+
+Each page after the detector lists shows one declared detector. The whole
+noiseless circuit is one ZX diagram, and the page overlays a closed web whose
+records are exactly that detector's records.
+
+\medskip
+\begin{tabular}{lrrrrr}
+\toprule
+ & Records & Declared & Pauli webs & Semiwebs with $T$ defects & Pages\\
+\midrule
+$d=3$ & 21 & 20 & 16 & 4 & \pageref*{d3_det000}--\pageref*{d3_det019}\\
+$d=5$ & 112 & 107 & 93 & 14 & \pageref*{d5_det000}--\pageref*{d5_det106}\\
+\bottomrule
+\end{tabular}
+
+\medskip
+\textbf{Why 16 of the 20}
+
+At $d=3$, 16 of the 20 declared detectors are Pauli webs, and at $d=5$, 93 of the 107.
+The others, detectors 7, 14, 16 and 18 at $d=3$, and 7, 19, 20, 23, 69, 89, 91, 93, 95, 97, 99, 101, 103 and 105 at $d=5$, are Pauli semiwebs with defects on $T$ spiders.
+
+\medskip
+\textbf{How each web was chosen}
+
+Each detector is a closed Pauli web of the $S$ proxy, the circuit with each
+$T$ replaced by $S$ and each $T^\dagger$ by $S^\dagger$. The proxy has the
+same nodes and edges, so its webs can be drawn on the $T$ circuit. There they
+keep every spider's phase except at $T$ spiders, where an $X$ that turns into
+$Y$ is a defect of $\frac{\pi}{2}$ at $T$ and $-\frac{\pi}{2}$ at $T^\dagger$.
+Two webs with the same records differ by one of $2^6=64$ record-free webs,
+which certify the six qubits reset mid-injection in $|+\rangle$. The page shows
+the web with the fewest defects, then the fewest labelled edges. A detector is
+phase-independent exactly when that minimum is zero.
+
+\medskip
+\textbf{Sources}
+
+Definitions and drawing styles: Kissinger and van de Wetering,
+\emph{ZX-Flow}, \href{https://arxiv.org/abs/2603.09580}{arXiv:2603.09580}.
+Circuits: the paper's inputs, SOFT's $d=3$ and $d=5$ cultivation circuits,
+\texttt{data/inputs/clifft\_d3\_p001.stim} and \texttt{data/inputs/soft\_cultivation\_d5\_p0005.stim} in the companion code. They follow the construction of Gidney, Shutty and Jones,
+\href{https://arxiv.org/abs/2409.17595}{arXiv:2409.17595}.
+\end{minipage}\hfill
+\begin{minipage}[t]{.49\linewidth}
+\textbf{Reading a diagram}
+
+Time runs to the right and each qubit is a row. Data qubits of the final code
+have black labels, other qubits grey. Shaded bands mark the stages of the circuit.
+At $d=3$ every page shows the whole circuit. At $d=5$ each page shows the columns
+its web uses, and wires crossing the edge of the window are cut.
+
+\textbf{Legend}\quad
+\semiwebinput[.84\linewidth]{drawings/examples/reading_legend.tikz}
+
+\mbox{\semiwebCaptionGate{\frac{\pi}{4}} ${}=T$ ($-\pi/4$: $T^\dagger$)};
+\mbox{\semiwebCaptionGate{\frac{\pi}{2}} ${}=S$};
+\mbox{\semiwebCaptionCnot ${}={\rm CNOT}$};
+preparations \mbox{\semiwebCaptionState{X} ${}=|0\rangle$}
+and \mbox{\semiwebCaptionState{Z} ${}=|+\rangle$}.
+Measurements are effects drawn at outcome 0:
+\mbox{\semiwebCaptionEffect{Z} ${}=\langle+|$ (MX)},
+\mbox{\semiwebCaptionEffect{X} ${}=\langle0|$ (M)}.
+Outcome $r_k$ adds a phase $r_k\pi$ to that spider, and $r_k$ is printed next to
+it; the detector's own records are in bold blue. A qubit measured and then used
+again without reset restarts from a second spider with the same record. A Pauli
+product measurement joins one spider per qubit to a central spider carrying
+$r_k\pi$; a $Y$ product has $S^\dagger$ and $S$ around it. A record-controlled
+Pauli ($d=5$ corrections) is a two-legged spider of phase $r_k\pi$. A qubit reset
+while in use ends in \semiwebCaptionEffect{Z}, the effect $\langle+|$: the circuit
+has put it in $|+\rangle$ for every angle at the earlier $T$ gate.
+
+\textbf{The final MPP $Y_L$}
+
+Both circuits end with a noiseless layer of $T$ gates ($T$ and $T^\dagger$ at $d=5$)
+followed by MPP $Y_L$, and because $T^\dagger YT=TXT^\dagger=(X+Y)/\sqrt2$ this
+measures the same transversal operator as the last double check, a noiseless
+projection onto the magic state. It is deterministic in the noiseless circuit,
+by a statevector run at $d=3$ and by $a_0=1$ and $e_0=0$ in the exact series at
+both distances, and it enters no declared detector.
+
+\textbf{The identity on each page}
+
+Write $D_{\boldsymbol r}$ for the diagram with records $\boldsymbol r$ and open
+outputs, and $R$ for the records whose spiders the web meets in the opposite
+colour. At every spider the labels satisfy
+$w_v|v(\theta_v)\rangle=\lambda_v|v(\theta_v+\delta_v)\rangle$, and the product
+over the diagram is
+\[
+ D_{\boldsymbol r}=\lambda(\boldsymbol r)\,D_{\boldsymbol r,\boldsymbol\delta},
+ \qquad \lambda(\boldsymbol r)=\lambda_0\,(-1)^{\sum_{i\in R} r_i}.
+\]
+$D_{\boldsymbol r,\boldsymbol\delta}$ has the marked phases changed. With no
+defects, $D_{\boldsymbol r}=\lambda(\boldsymbol r)D_{\boldsymbol r}$, so
+$D_{\boldsymbol r}=0$ unless $\sum_{i\in R}r_i=b$, where $\lambda_0=(-1)^b$:
+the records obey the check in every noiseless run. Every web drawn here has
+$\lambda_0=1$. With defects, $D_{\boldsymbol r,\boldsymbol\delta}$ is a different
+circuit, and the check needs the $T$ angles.
+
+Numbered violet stars $\ast_n$ mark defects, listed under each diagram with the
+gate, qubit and source line. The phases printed in spiders are the original
+phases. Each TikZ file records every defect in a comment.
+\end{minipage}
+\vfill
+\small The drawings suppress common ZX normalisation factors, which cancel between the two sides of each identity.
+\newpage
+\pdfbookmark[0]{Detector list, d=3}{list3}
+{\Large $d=3$: all 20 declared detectors}\par\medskip
+{\large\setlength{\LTleft}{0pt}\setlength{\LTright}{\fill}
+\begin{longtable}{rp{.3\linewidth}p{.43\linewidth}lr}
+\toprule
+Det. & Check & Records & Drawn as & Page\\
+\midrule
+\endhead
+0 & $r_{0}$ & $r_{0}$ M $q_{6}$, l.\,119 & Pauli web & \hyperref[d3_det000]{\pageref*{d3_det000}}\\
+1 & $r_{1}$ & $r_{1}$ M $q_{14}$, l.\,119 & Pauli web & \hyperref[d3_det001]{\pageref*{d3_det001}}\\
+2 & $r_{2}$ & $r_{2}$ M $q_{8}$, l.\,119 & Pauli web & \hyperref[d3_det002]{\pageref*{d3_det002}}\\
+3 & $r_{3}$ & $r_{3}$ M $q_{5}$, l.\,119 & Pauli web & \hyperref[d3_det003]{\pageref*{d3_det003}}\\
+4 & $r_{4}$ & $r_{4}$ MX $q_{2}$, l.\,120 & Pauli web & \hyperref[d3_det004]{\pageref*{d3_det004}}\\
+5 & $r_{5}$ & $r_{5}$ MX $q_{11}$, l.\,120 & Pauli web & \hyperref[d3_det005]{\pageref*{d3_det005}}\\
+6 & $r_{6}$ & $r_{6}$ MX $q_{4}$, l.\,120 & Pauli web & \hyperref[d3_det006]{\pageref*{d3_det006}}\\
+7 & $r_{5}\oplus r_{6}\oplus r_{7}$ & $r_{5}$ MX $q_{11}$, l.\,120; $r_{6}$ MX $q_{4}$, l.\,120; $r_{7}$ MX $q_{7}$, l.\,154 & \textbf{semiweb, 8 $T$ defects} & \hyperref[d3_det007]{\pageref*{d3_det007}}\\
+8 & $r_{8}$ & $r_{8}$ MX $q_{14}$, l.\,180 & Pauli web & \hyperref[d3_det008]{\pageref*{d3_det008}}\\
+9 & $r_{9}$ & $r_{9}$ MX $q_{11}$, l.\,180 & Pauli web & \hyperref[d3_det009]{\pageref*{d3_det009}}\\
+10 & $r_{7}\oplus r_{10}$ & $r_{7}$ MX $q_{7}$, l.\,154; $r_{10}$ MX $q_{6}$, l.\,180 & Pauli web & \hyperref[d3_det010]{\pageref*{d3_det010}}\\
+11 & $r_{11}$ & $r_{11}$ MX $q_{2}$, l.\,180 & Pauli web & \hyperref[d3_det011]{\pageref*{d3_det011}}\\
+12 & $r_{12}$ & $r_{12}$ MX $q_{8}$, l.\,180 & Pauli web & \hyperref[d3_det012]{\pageref*{d3_det012}}\\
+13 & $r_{13}$ & $r_{13}$ MX $q_{1}$, l.\,180 & Pauli web & \hyperref[d3_det013]{\pageref*{d3_det013}}\\
+14 & $r_{7}\oplus r_{15}$ & $r_{7}$ MX $q_{7}$, l.\,154; $r_{15}$ MPP $X_{0}X_{3}X_{7}X_{10}$, l.\,196 & \textbf{semiweb, 16 $T$ defects} & \hyperref[d3_det014]{\pageref*{d3_det014}}\\
+15 & $r_{16}$ & $r_{16}$ MPP $Z_{0}Z_{3}Z_{7}Z_{10}$, l.\,196 & Pauli web & \hyperref[d3_det015]{\pageref*{d3_det015}}\\
+16 & $r_{7}\oplus r_{17}$ & $r_{7}$ MX $q_{7}$, l.\,154; $r_{17}$ MPP $X_{3}X_{7}X_{9}X_{12}$, l.\,196 & \textbf{semiweb, 16 $T$ defects} & \hyperref[d3_det016]{\pageref*{d3_det016}}\\
+17 & $r_{18}$ & $r_{18}$ MPP $Z_{3}Z_{7}Z_{9}Z_{12}$, l.\,196 & Pauli web & \hyperref[d3_det017]{\pageref*{d3_det017}}\\
+18 & $r_{7}\oplus r_{19}$ & $r_{7}$ MX $q_{7}$, l.\,154; $r_{19}$ MPP $X_{7}X_{10}X_{12}X_{13}$, l.\,196 & \textbf{semiweb, 16 $T$ defects} & \hyperref[d3_det018]{\pageref*{d3_det018}}\\
+19 & $r_{20}$ & $r_{20}$ MPP $Z_{7}Z_{10}Z_{12}Z_{13}$, l.\,196 & Pauli web & \hyperref[d3_det019]{\pageref*{d3_det019}}\\
+\bottomrule
+\end{longtable}}
+\newpage
+\pdfbookmark[0]{Detector list, d=5}{list5}
+{\Large $d=5$: all 107 declared detectors}\par\medskip
+{\small\setlength{\LTleft}{0pt}\setlength{\LTright}{\fill}
+\begin{longtable}{rp{.3\linewidth}p{.43\linewidth}lr}
+\toprule
+Det. & Check & Records & Drawn as & Page\\
+\midrule
+\endhead
+0 & $r_{0}$ & $r_{0}$ M $q_{6}$, l.\,126 & Pauli web & \hyperref[d5_det000]{\pageref*{d5_det000}}\\
+1 & $r_{1}$ & $r_{1}$ M $q_{18}$, l.\,126 & Pauli web & \hyperref[d5_det001]{\pageref*{d5_det001}}\\
+2 & $r_{2}$ & $r_{2}$ M $q_{8}$, l.\,126 & Pauli web & \hyperref[d5_det002]{\pageref*{d5_det002}}\\
+3 & $r_{3}$ & $r_{3}$ M $q_{5}$, l.\,126 & Pauli web & \hyperref[d5_det003]{\pageref*{d5_det003}}\\
+4 & $r_{4}$ & $r_{4}$ MX $q_{2}$, l.\,127 & Pauli web & \hyperref[d5_det004]{\pageref*{d5_det004}}\\
+5 & $r_{5}$ & $r_{5}$ MX $q_{12}$, l.\,127 & Pauli web & \hyperref[d5_det005]{\pageref*{d5_det005}}\\
+6 & $r_{6}$ & $r_{6}$ MX $q_{4}$, l.\,127 & Pauli web & \hyperref[d5_det006]{\pageref*{d5_det006}}\\
+7 & $r_{5}\oplus r_{6}\oplus r_{7}$ & $r_{5}$ MX $q_{12}$, l.\,127; $r_{6}$ MX $q_{4}$, l.\,127; $r_{7}$ MX $q_{7}$, l.\,157 & \textbf{semiweb, 8 $T$ defects} & \hyperref[d5_det007]{\pageref*{d5_det007}}\\
+8 & $r_{8}$ & $r_{8}$ MX $q_{18}$, l.\,176 & Pauli web & \hyperref[d5_det008]{\pageref*{d5_det008}}\\
+9 & $r_{9}$ & $r_{9}$ MX $q_{12}$, l.\,176 & Pauli web & \hyperref[d5_det009]{\pageref*{d5_det009}}\\
+10 & $r_{7}\oplus r_{10}$ & $r_{7}$ MX $q_{7}$, l.\,157; $r_{10}$ MX $q_{6}$, l.\,176 & Pauli web & \hyperref[d5_det010]{\pageref*{d5_det010}}\\
+11 & $r_{11}$ & $r_{11}$ MX $q_{2}$, l.\,176 & Pauli web & \hyperref[d5_det011]{\pageref*{d5_det011}}\\
+12 & $r_{12}$ & $r_{12}$ MX $q_{8}$, l.\,176 & Pauli web & \hyperref[d5_det012]{\pageref*{d5_det012}}\\
+13 & $r_{13}$ & $r_{13}$ MX $q_{1}$, l.\,176 & Pauli web & \hyperref[d5_det013]{\pageref*{d5_det013}}\\
+14 & $r_{14}$ & $r_{14}$ M $q_{26}$, l.\,203 & Pauli web & \hyperref[d5_det014]{\pageref*{d5_det014}}\\
+15 & $r_{15}$ & $r_{15}$ M $q_{33}$, l.\,203 & Pauli web & \hyperref[d5_det015]{\pageref*{d5_det015}}\\
+16 & $r_{16}$ & $r_{16}$ M $q_{28}$, l.\,203 & Pauli web & \hyperref[d5_det016]{\pageref*{d5_det016}}\\
+17 & $r_{17}$ & $r_{17}$ M $q_{22}$, l.\,203 & Pauli web & \hyperref[d5_det017]{\pageref*{d5_det017}}\\
+18 & $r_{18}$ & $r_{18}$ M $q_{16}$, l.\,203 & Pauli web & \hyperref[d5_det018]{\pageref*{d5_det018}}\\
+19 & $r_{7}\oplus r_{36}$ & $r_{7}$ MX $q_{7}$, l.\,157; $r_{36}$ MX $q_{2}$, l.\,251 & \textbf{semiweb, 8 $T$ defects} & \hyperref[d5_det019]{\pageref*{d5_det019}}\\
+20 & $r_{7}\oplus r_{35}$ & $r_{7}$ MX $q_{7}$, l.\,157; $r_{35}$ MX $q_{4}$, l.\,251 & \textbf{semiweb, 8 $T$ defects} & \hyperref[d5_det020]{\pageref*{d5_det020}}\\
+21 & $r_{27}$ & $r_{27}$ M $q_{6}$, l.\,250 & Pauli web & \hyperref[d5_det021]{\pageref*{d5_det021}}\\
+22 & $r_{26}$ & $r_{26}$ M $q_{8}$, l.\,250 & Pauli web & \hyperref[d5_det022]{\pageref*{d5_det022}}\\
+23 & $r_{7}\oplus r_{34}$ & $r_{7}$ MX $q_{7}$, l.\,157; $r_{34}$ MX $q_{12}$, l.\,251 & \textbf{semiweb, 8 $T$ defects} & \hyperref[d5_det023]{\pageref*{d5_det023}}\\
+24 & $r_{32}$ & $r_{32}$ MX $q_{16}$, l.\,251 & Pauli web & \hyperref[d5_det024]{\pageref*{d5_det024}}\\
+25 & $r_{25}$ & $r_{25}$ M $q_{18}$, l.\,250 & Pauli web & \hyperref[d5_det025]{\pageref*{d5_det025}}\\
+26 & $r_{23}$ & $r_{23}$ M $q_{22}$, l.\,250 & Pauli web & \hyperref[d5_det026]{\pageref*{d5_det026}}\\
+27 & $r_{30}$ & $r_{30}$ MX $q_{26}$, l.\,251 & Pauli web & \hyperref[d5_det027]{\pageref*{d5_det027}}\\
+28 & $r_{29}$ & $r_{29}$ MX $q_{28}$, l.\,251 & Pauli web & \hyperref[d5_det028]{\pageref*{d5_det028}}\\
+29 & $r_{21}$ & $r_{21}$ M $q_{33}$, l.\,250 & Pauli web & \hyperref[d5_det029]{\pageref*{d5_det029}}\\
+30 & $r_{20}$ & $r_{20}$ M $q_{35}$, l.\,250 & Pauli web & \hyperref[d5_det030]{\pageref*{d5_det030}}\\
+31 & $r_{28}$ & $r_{28}$ MX $q_{37}$, l.\,251 & Pauli web & \hyperref[d5_det031]{\pageref*{d5_det031}}\\
+32 & $r_{19}$ & $r_{19}$ M $q_{41}$, l.\,250 & Pauli web & \hyperref[d5_det032]{\pageref*{d5_det032}}\\
+33 & $r_{36}\oplus r_{54}$ & $r_{36}$ MX $q_{2}$, l.\,251; $r_{54}$ MX $q_{2}$, l.\,310 & Pauli web & \hyperref[d5_det033]{\pageref*{d5_det033}}\\
+34 & $r_{35}\oplus r_{53}$ & $r_{35}$ MX $q_{4}$, l.\,251; $r_{53}$ MX $q_{4}$, l.\,310 & Pauli web & \hyperref[d5_det034]{\pageref*{d5_det034}}\\
+35 & $r_{26}\oplus r_{27}\oplus r_{45}$ & $r_{26}$ M $q_{8}$, l.\,250; $r_{27}$ M $q_{6}$, l.\,250; $r_{45}$ M $q_{6}$, l.\,309 & Pauli web & \hyperref[d5_det035]{\pageref*{d5_det035}}\\
+36 & $r_{27}\oplus r_{44}$ & $r_{27}$ M $q_{6}$, l.\,250; $r_{44}$ M $q_{8}$, l.\,309 & Pauli web & \hyperref[d5_det036]{\pageref*{d5_det036}}\\
+37 & $r_{34}\oplus r_{52}$ & $r_{34}$ MX $q_{12}$, l.\,251; $r_{52}$ MX $q_{12}$, l.\,310 & Pauli web & \hyperref[d5_det037]{\pageref*{d5_det037}}\\
+38 & $r_{51}$ & $r_{51}$ MX $q_{14}$, l.\,310 & Pauli web & \hyperref[d5_det038]{\pageref*{d5_det038}}\\
+39 & $r_{32}\oplus r_{50}$ & $r_{32}$ MX $q_{16}$, l.\,251; $r_{50}$ MX $q_{16}$, l.\,310 & Pauli web & \hyperref[d5_det039]{\pageref*{d5_det039}}\\
+40 & $r_{43}$ & $r_{43}$ M $q_{18}$, l.\,309 & Pauli web & \hyperref[d5_det040]{\pageref*{d5_det040}}\\
+41 & $r_{42}$ & $r_{42}$ M $q_{20}$, l.\,309 & Pauli web & \hyperref[d5_det041]{\pageref*{d5_det041}}\\
+42 & $r_{41}$ & $r_{41}$ M $q_{22}$, l.\,309 & Pauli web & \hyperref[d5_det042]{\pageref*{d5_det042}}\\
+43 & $r_{49}$ & $r_{49}$ MX $q_{24}$, l.\,310 & Pauli web & \hyperref[d5_det043]{\pageref*{d5_det043}}\\
+44 & $r_{30}\oplus r_{48}$ & $r_{30}$ MX $q_{26}$, l.\,251; $r_{48}$ MX $q_{26}$, l.\,310 & Pauli web & \hyperref[d5_det044]{\pageref*{d5_det044}}\\
+45 & $r_{29}\oplus r_{47}$ & $r_{29}$ MX $q_{28}$, l.\,251; $r_{47}$ MX $q_{28}$, l.\,310 & Pauli web & \hyperref[d5_det045]{\pageref*{d5_det045}}\\
+46 & $r_{40}$ & $r_{40}$ M $q_{31}$, l.\,309 & Pauli web & \hyperref[d5_det046]{\pageref*{d5_det046}}\\
+47 & $r_{39}$ & $r_{39}$ M $q_{33}$, l.\,309 & Pauli web & \hyperref[d5_det047]{\pageref*{d5_det047}}\\
+48 & $r_{21}\oplus r_{38}$ & $r_{21}$ M $q_{33}$, l.\,250; $r_{38}$ M $q_{35}$, l.\,309 & Pauli web & \hyperref[d5_det048]{\pageref*{d5_det048}}\\
+49 & $r_{28}\oplus r_{46}$ & $r_{28}$ MX $q_{37}$, l.\,251; $r_{46}$ MX $q_{37}$, l.\,310 & Pauli web & \hyperref[d5_det049]{\pageref*{d5_det049}}\\
+50 & $r_{37}$ & $r_{37}$ M $q_{41}$, l.\,309 & Pauli web & \hyperref[d5_det050]{\pageref*{d5_det050}}\\
+51 & $r_{54}\oplus r_{72}$ & $r_{54}$ MX $q_{2}$, l.\,310; $r_{72}$ MX $q_{2}$, l.\,362 & Pauli web & \hyperref[d5_det051]{\pageref*{d5_det051}}\\
+52 & $r_{53}\oplus r_{71}$ & $r_{53}$ MX $q_{4}$, l.\,310; $r_{71}$ MX $q_{4}$, l.\,362 & Pauli web & \hyperref[d5_det052]{\pageref*{d5_det052}}\\
+53 & $r_{44}\oplus r_{45}\oplus r_{63}$ & $r_{44}$ M $q_{8}$, l.\,309; $r_{45}$ M $q_{6}$, l.\,309; $r_{63}$ M $q_{6}$, l.\,361 & Pauli web & \hyperref[d5_det053]{\pageref*{d5_det053}}\\
+54 & $r_{45}\oplus r_{62}$ & $r_{45}$ M $q_{6}$, l.\,309; $r_{62}$ M $q_{8}$, l.\,361 & Pauli web & \hyperref[d5_det054]{\pageref*{d5_det054}}\\
+55 & $r_{52}\oplus r_{70}$ & $r_{52}$ MX $q_{12}$, l.\,310; $r_{70}$ MX $q_{12}$, l.\,362 & Pauli web & \hyperref[d5_det055]{\pageref*{d5_det055}}\\
+56 & $r_{51}\oplus r_{69}$ & $r_{51}$ MX $q_{14}$, l.\,310; $r_{69}$ MX $q_{14}$, l.\,362 & Pauli web & \hyperref[d5_det056]{\pageref*{d5_det056}}\\
+57 & $r_{50}\oplus r_{68}$ & $r_{50}$ MX $q_{16}$, l.\,310; $r_{68}$ MX $q_{16}$, l.\,362 & Pauli web & \hyperref[d5_det057]{\pageref*{d5_det057}}\\
+58 & $r_{42}\oplus r_{61}$ & $r_{42}$ M $q_{20}$, l.\,309; $r_{61}$ M $q_{18}$, l.\,361 & Pauli web & \hyperref[d5_det058]{\pageref*{d5_det058}}\\
+59 & $r_{41}\oplus r_{43}\oplus r_{60}$ & $r_{41}$ M $q_{22}$, l.\,309; $r_{43}$ M $q_{18}$, l.\,309; $r_{60}$ M $q_{20}$, l.\,361 & Pauli web & \hyperref[d5_det059]{\pageref*{d5_det059}}\\
+60 & $r_{42}\oplus r_{59}$ & $r_{42}$ M $q_{20}$, l.\,309; $r_{59}$ M $q_{22}$, l.\,361 & Pauli web & \hyperref[d5_det060]{\pageref*{d5_det060}}\\
+61 & $r_{49}\oplus r_{67}$ & $r_{49}$ MX $q_{24}$, l.\,310; $r_{67}$ MX $q_{24}$, l.\,362 & Pauli web & \hyperref[d5_det061]{\pageref*{d5_det061}}\\
+62 & $r_{48}\oplus r_{66}$ & $r_{48}$ MX $q_{26}$, l.\,310; $r_{66}$ MX $q_{26}$, l.\,362 & Pauli web & \hyperref[d5_det062]{\pageref*{d5_det062}}\\
+63 & $r_{47}\oplus r_{65}$ & $r_{47}$ MX $q_{28}$, l.\,310; $r_{65}$ MX $q_{28}$, l.\,362 & Pauli web & \hyperref[d5_det063]{\pageref*{d5_det063}}\\
+64 & $r_{39}\oplus r_{40}\oplus r_{58}$ & $r_{39}$ M $q_{33}$, l.\,309; $r_{40}$ M $q_{31}$, l.\,309; $r_{58}$ M $q_{31}$, l.\,361 & Pauli web & \hyperref[d5_det064]{\pageref*{d5_det064}}\\
+65 & $r_{38}\oplus r_{40}\oplus r_{57}$ & $r_{38}$ M $q_{35}$, l.\,309; $r_{40}$ M $q_{31}$, l.\,309; $r_{57}$ M $q_{33}$, l.\,361 & Pauli web & \hyperref[d5_det065]{\pageref*{d5_det065}}\\
+66 & $r_{39}\oplus r_{56}$ & $r_{39}$ M $q_{33}$, l.\,309; $r_{56}$ M $q_{35}$, l.\,361 & Pauli web & \hyperref[d5_det066]{\pageref*{d5_det066}}\\
+67 & $r_{46}\oplus r_{64}$ & $r_{46}$ MX $q_{37}$, l.\,310; $r_{64}$ MX $q_{37}$, l.\,362 & Pauli web & \hyperref[d5_det067]{\pageref*{d5_det067}}\\
+68 & $r_{55}$ & $r_{55}$ M $q_{41}$, l.\,361 & Pauli web & \hyperref[d5_det068]{\pageref*{d5_det068}}\\
+69 & $r_{8}\oplus r_{9}\oplus r_{12}\oplus r_{13}\oplus r_{19}\oplus r_{20}\oplus r_{21}\oplus r_{23}\oplus r_{25}\oplus r_{26}\oplus r_{37}\oplus r_{38}\oplus r_{39}\oplus r_{41}\oplus r_{42}\oplus r_{43}\oplus r_{44}\oplus r_{55}\oplus r_{56}\oplus r_{57}\oplus r_{59}\oplus r_{60}\oplus r_{61}\oplus r_{62}\oplus r_{73}$ & $r_{8}$ MX $q_{18}$, l.\,176; $r_{9}$ MX $q_{12}$, l.\,176; $r_{12}$ MX $q_{8}$, l.\,176; $r_{13}$ MX $q_{1}$, l.\,176; $r_{19}$ M $q_{41}$, l.\,250; $r_{20}$ M $q_{35}$, l.\,250; $r_{21}$ M $q_{33}$, l.\,250; $r_{23}$ M $q_{22}$, l.\,250; $r_{25}$ M $q_{18}$, l.\,250; $r_{26}$ M $q_{8}$, l.\,250; $r_{37}$ M $q_{41}$, l.\,309; $r_{38}$ M $q_{35}$, l.\,309; $r_{39}$ M $q_{33}$, l.\,309; $r_{41}$ M $q_{22}$, l.\,309; $r_{42}$ M $q_{20}$, l.\,309; $r_{43}$ M $q_{18}$, l.\,309; $r_{44}$ M $q_{8}$, l.\,309; $r_{55}$ M $q_{41}$, l.\,361; $r_{56}$ M $q_{35}$, l.\,361; $r_{57}$ M $q_{33}$, l.\,361; $r_{59}$ M $q_{22}$, l.\,361; $r_{60}$ M $q_{20}$, l.\,361; $r_{61}$ M $q_{18}$, l.\,361; $r_{62}$ M $q_{8}$, l.\,361; $r_{73}$ MX $q_{25}$, l.\,415 & \textbf{semiweb, 26 $T$ defects} & \hyperref[d5_det069]{\pageref*{d5_det069}}\\
+70 & $r_{74}$ & $r_{74}$ MX $q_{20}$, l.\,444 & Pauli web & \hyperref[d5_det070]{\pageref*{d5_det070}}\\
+71 & $r_{75}$ & $r_{75}$ MX $q_{22}$, l.\,444 & Pauli web & \hyperref[d5_det071]{\pageref*{d5_det071}}\\
+72 & $r_{76}$ & $r_{76}$ MX $q_{8}$, l.\,444 & Pauli web & \hyperref[d5_det072]{\pageref*{d5_det072}}\\
+73 & $r_{77}$ & $r_{77}$ MX $q_{10}$, l.\,444 & Pauli web & \hyperref[d5_det073]{\pageref*{d5_det073}}\\
+74 & $r_{78}$ & $r_{78}$ MX $q_{2}$, l.\,444 & Pauli web & \hyperref[d5_det074]{\pageref*{d5_det074}}\\
+75 & $r_{79}$ & $r_{79}$ MX $q_{6}$, l.\,444 & Pauli web & \hyperref[d5_det075]{\pageref*{d5_det075}}\\
+76 & $r_{73}\oplus r_{80}$ & $r_{73}$ MX $q_{25}$, l.\,415; $r_{80}$ MX $q_{24}$, l.\,444 & Pauli web & \hyperref[d5_det076]{\pageref*{d5_det076}}\\
+77 & $r_{81}$ & $r_{81}$ MX $q_{31}$, l.\,444 & Pauli web & \hyperref[d5_det077]{\pageref*{d5_det077}}\\
+78 & $r_{82}$ & $r_{82}$ MX $q_{39}$, l.\,444 & Pauli web & \hyperref[d5_det078]{\pageref*{d5_det078}}\\
+79 & $r_{83}$ & $r_{83}$ MX $q_{1}$, l.\,444 & Pauli web & \hyperref[d5_det079]{\pageref*{d5_det079}}\\
+80 & $r_{84}$ & $r_{84}$ MX $q_{12}$, l.\,444 & Pauli web & \hyperref[d5_det080]{\pageref*{d5_det080}}\\
+81 & $r_{85}$ & $r_{85}$ MX $q_{18}$, l.\,444 & Pauli web & \hyperref[d5_det081]{\pageref*{d5_det081}}\\
+82 & $r_{86}$ & $r_{86}$ MX $q_{37}$, l.\,444 & Pauli web & \hyperref[d5_det082]{\pageref*{d5_det082}}\\
+83 & $r_{87}$ & $r_{87}$ MX $q_{33}$, l.\,444 & Pauli web & \hyperref[d5_det083]{\pageref*{d5_det083}}\\
+84 & $r_{88}$ & $r_{88}$ MX $q_{14}$, l.\,444 & Pauli web & \hyperref[d5_det084]{\pageref*{d5_det084}}\\
+85 & $r_{89}$ & $r_{89}$ MX $q_{26}$, l.\,444 & Pauli web & \hyperref[d5_det085]{\pageref*{d5_det085}}\\
+86 & $r_{90}$ & $r_{90}$ MX $q_{28}$, l.\,444 & Pauli web & \hyperref[d5_det086]{\pageref*{d5_det086}}\\
+87 & $r_{91}$ & $r_{91}$ MX $q_{30}$, l.\,444 & Pauli web & \hyperref[d5_det087]{\pageref*{d5_det087}}\\
+88 & $r_{92}$ & $r_{92}$ MX $q_{41}$, l.\,444 & Pauli web & \hyperref[d5_det088]{\pageref*{d5_det088}}\\
+89 & $r_{72}\oplus r_{93}$ & $r_{72}$ MX $q_{2}$, l.\,362; $r_{93}$ MPP $X_{0}X_{3}X_{7}X_{11}$, l.\,470 & \textbf{semiweb, 8 $T$ defects} & \hyperref[d5_det089]{\pageref*{d5_det089}}\\
+90 & $r_{62}\oplus r_{63}\oplus r_{96}$ & $r_{62}$ M $q_{8}$, l.\,361; $r_{63}$ M $q_{6}$, l.\,361; $r_{96}$ MPP $Z_{0}Z_{3}Z_{7}Z_{11}$, l.\,470 & Pauli web & \hyperref[d5_det090]{\pageref*{d5_det090}}\\
+91 & $r_{71}\oplus r_{99}$ & $r_{71}$ MX $q_{4}$, l.\,362; $r_{99}$ MPP $X_{3}X_{7}X_{9}X_{13}$, l.\,470 & \textbf{semiweb, 8 $T$ defects} & \hyperref[d5_det091]{\pageref*{d5_det091}}\\
+92 & $r_{63}\oplus r_{102}$ & $r_{63}$ M $q_{6}$, l.\,361; $r_{102}$ MPP $Z_{3}Z_{7}Z_{9}Z_{13}$, l.\,470 & Pauli web & \hyperref[d5_det092]{\pageref*{d5_det092}}\\
+93 & $r_{70}\oplus r_{73}\oplus r_{105}$ & $r_{70}$ MX $q_{12}$, l.\,362; $r_{73}$ MX $q_{25}$, l.\,415; $r_{105}$ MPP $X_{7}X_{11}X_{13}X_{17}X_{19}X_{25}$, l.\,470 & \textbf{semiweb, 12 $T$ defects} & \hyperref[d5_det093]{\pageref*{d5_det093}}\\
+94 & $r_{60}\oplus r_{108}$ & $r_{60}$ M $q_{20}$, l.\,361; $r_{108}$ MPP $Z_{7}Z_{11}Z_{13}Z_{17}Z_{19}Z_{25}$, l.\,470 & Pauli web & \hyperref[d5_det094]{\pageref*{d5_det094}}\\
+95 & $r_{69}\oplus r_{94}$ & $r_{69}$ MX $q_{14}$, l.\,362; $r_{94}$ MPP $X_{9}X_{13}X_{15}X_{19}X_{21}X_{27}$, l.\,470 & \textbf{semiweb, 12 $T$ defects} & \hyperref[d5_det095]{\pageref*{d5_det095}}\\
+96 & $r_{59}\oplus r_{61}\oplus r_{97}$ & $r_{59}$ M $q_{22}$, l.\,361; $r_{61}$ M $q_{18}$, l.\,361; $r_{97}$ MPP $Z_{9}Z_{13}Z_{15}Z_{19}Z_{21}Z_{27}$, l.\,470 & Pauli web & \hyperref[d5_det096]{\pageref*{d5_det096}}\\
+97 & $r_{68}\oplus r_{100}$ & $r_{68}$ MX $q_{16}$, l.\,362; $r_{100}$ MPP $X_{15}X_{21}X_{23}X_{29}$, l.\,470 & \textbf{semiweb, 8 $T$ defects} & \hyperref[d5_det097]{\pageref*{d5_det097}}\\
+98 & $r_{60}\oplus r_{103}$ & $r_{60}$ M $q_{20}$, l.\,361; $r_{103}$ MPP $Z_{15}Z_{21}Z_{23}Z_{29}$, l.\,470 & Pauli web & \hyperref[d5_det098]{\pageref*{d5_det098}}\\
+99 & $r_{67}\oplus r_{73}\oplus r_{95}$ & $r_{67}$ MX $q_{24}$, l.\,362; $r_{73}$ MX $q_{25}$, l.\,415; $r_{95}$ MPP $X_{17}X_{25}X_{32}X_{36}$, l.\,470 & \textbf{semiweb, 8 $T$ defects} & \hyperref[d5_det099]{\pageref*{d5_det099}}\\
+100 & $r_{57}\oplus r_{58}\oplus r_{98}$ & $r_{57}$ M $q_{33}$, l.\,361; $r_{58}$ M $q_{31}$, l.\,361; $r_{98}$ MPP $Z_{17}Z_{25}Z_{32}Z_{36}$, l.\,470 & Pauli web & \hyperref[d5_det100]{\pageref*{d5_det100}}\\
+101 & $r_{66}\oplus r_{73}\oplus r_{101}$ & $r_{66}$ MX $q_{26}$, l.\,362; $r_{73}$ MX $q_{25}$, l.\,415; $r_{101}$ MPP $X_{19}X_{25}X_{27}X_{32}X_{34}X_{38}$, l.\,470 & \textbf{semiweb, 12 $T$ defects} & \hyperref[d5_det101]{\pageref*{d5_det101}}\\
+102 & $r_{56}\oplus r_{58}\oplus r_{104}$ & $r_{56}$ M $q_{35}$, l.\,361; $r_{58}$ M $q_{31}$, l.\,361; $r_{104}$ MPP $Z_{19}Z_{25}Z_{27}Z_{32}Z_{34}Z_{38}$, l.\,470 & Pauli web & \hyperref[d5_det102]{\pageref*{d5_det102}}\\
+103 & $r_{65}\oplus r_{106}$ & $r_{65}$ MX $q_{28}$, l.\,362; $r_{106}$ MPP $X_{21}X_{27}X_{29}X_{34}$, l.\,470 & \textbf{semiweb, 8 $T$ defects} & \hyperref[d5_det103]{\pageref*{d5_det103}}\\
+104 & $r_{57}\oplus r_{109}$ & $r_{57}$ M $q_{33}$, l.\,361; $r_{109}$ MPP $Z_{21}Z_{27}Z_{29}Z_{34}$, l.\,470 & Pauli web & \hyperref[d5_det104]{\pageref*{d5_det104}}\\
+105 & $r_{64}\oplus r_{107}$ & $r_{64}$ MX $q_{37}$, l.\,362; $r_{107}$ MPP $X_{32}X_{36}X_{38}X_{40}$, l.\,470 & \textbf{semiweb, 8 $T$ defects} & \hyperref[d5_det105]{\pageref*{d5_det105}}\\
+106 & $r_{110}$ & $r_{110}$ MPP $Z_{32}Z_{36}Z_{38}Z_{40}$, l.\,470 & Pauli web & \hyperref[d5_det106]{\pageref*{d5_det106}}\\
+\bottomrule
+\end{longtable}}
+\newpage
+\input{detector_webs/pages.tex}
+\end{semiwebaddition}
+\end{document}

@@ -1,0 +1,21 @@
+{
+  "paper": "https://arxiv.org/abs/2609.18922",
+  "definition": "https://arxiv.org/abs/2603.09580",
+  "circuit_family": "https://arxiv.org/abs/2409.17595",
+  "circuit_source": "https://arxiv.org/abs/2512.23037",
+  "reuses": "../pauli_semiwebs: src/ and drawings/, read in place and unchanged",
+  "circuits": [
+    {
+      "distance": 3,
+      "file": "../data/inputs/clifft_d3_p001.stim",
+      "sha256": "094ae095e249c90ac7b0cf82ef187afdf634a0ef8a82331a81b4b9100a902798",
+      "scope": "Whole noiseless circuit with its noiseless code and logical readout, and all declared detectors."
+    },
+    {
+      "distance": 5,
+      "file": "../data/inputs/soft_cultivation_d5_p0005.stim",
+      "sha256": "859d925c74712efaae8bab1d944f9e5be4e042e226eeafcc6d7bef9d6fbfbae5",
+      "scope": "Whole noiseless circuit with its noiseless code and logical readout, and all declared detectors."
+    }
+  ]
+}
