@@ -1,0 +1,18 @@
+% The two-leg Z spider is the T gate, with input below and output above.
+\begin{tikzpicture}[x=1cm,y=.65cm]
+\tikzset{Z phase dot/.append style={shape=circle,rounded corners=0pt,scale=1,
+font=\small,minimum size=6.5mm,text width=5mm,align=center,
+inner sep=.1mm,outer sep=0pt}}
+\path[use as bounding box] (-.45,-2.55) rectangle (.45,3.1);
+\begin{pgfonlayer}{nodelayer}
+\node [style=none] (1) at (0,-2) {};
+\node [style=Z phase dot] (3) at (0,0) {$\frac\pi4$};
+\node [style=none] (4) at (0,2.7) {};
+\node [style=none] at (0,-2.38) {$i$};
+\node [style=none] at (0,3.05) {$o$};
+\end{pgfonlayer}
+\begin{pgfonlayer}{edgelayer}
+\draw (1.center) to (3.center);
+\draw (3.center) to (4.center);
+\end{pgfonlayer}
+\end{tikzpicture}

@@ -1,0 +1,39 @@
+% Teleportation example from the short Pauli-semiweb note.
+% An output S-dagger correction is added to the supplied example.
+% At node 9, the incident X/Y labels give no defect; the local scalar is -1.
+\begin{tikzpicture}[x=1cm,y=.65cm]
+\tikzset{Z dot/.append style={minimum size=2.5mm},
+X dot/.append style={minimum size=2.5mm},
+Z phase dot/.append style={shape=circle,rounded corners=0pt,scale=1,
+font=\small,minimum size=7mm,text width=5.5mm,align=center,
+inner sep=.1mm,outer sep=0pt}}
+\path[use as bounding box] (-.7,-2.55) rectangle (6.45,3.1);
+\begin{pgfonlayer}{nodelayer}
+\node [style=Z dot] (0) at (0,0) {};
+\node [style=Z dot] (6) at (2,0) {};
+\node [style=X dot] (5) at (4,0) {};
+\node [style=X dot] (8) at (4,2) {};
+\node [style=Z phase dot] (3) at (2,-2) {$\frac\pi4$};
+\node [style=Z phase dot] (2) at (6,-2) {$\frac\pi2$};
+\node [style=none] (7) at (6,0) {};
+\node [style=none] (1) at (0,-2) {};
+\node [style=Z phase dot] (9) at (0,1.35) {$-\frac\pi2$};
+\node [style=none] (4) at (0,2.7) {};
+% defect: {"marker":1,"node":"3","phase_pi_over_4":1,"delta_pi_over_4":-2}
+\node [style=none,text=violet!85!black,font=\small,anchor=west]
+(defect-resource) at ($(3.center)+(.30,.42)$) {$\ast_1$};
+\node [style=none] at (0,-2.38) {$i$};
+\node [style=none] at (0,3.05) {$o$};
+\end{pgfonlayer}
+\begin{pgfonlayer}{edgelayer}
+\draw [style=Y Web] (5.center) to (6.center);
+\draw [style=Y Web] (5.center) to (7.center);
+\draw [style=Z Web] (5.center) to (8.center);
+\draw [style=Y Web] (2.center) to (7.center);
+\draw [style=X Web] (3.center) to (6.center);
+\draw [style=Y Web] (0.center) to (1.center);
+\draw [style=X Web] (0.center) to (9.center);
+\draw [style=Y Web] (9.center) to (4.center);
+\draw [style=Y Web] (0.center) to (6.center);
+\end{pgfonlayer}
+\end{tikzpicture}

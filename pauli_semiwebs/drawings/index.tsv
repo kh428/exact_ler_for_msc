@@ -1,0 +1,355 @@
+page	id	category	label	defects	pauli_web
+2	d3_001	Incoming Paulis	X0	2	False
+3	d3_002	Incoming Paulis	Z0	2	False
+4	d3_003	Incoming Paulis	X3	2	False
+5	d3_004	Incoming Paulis	Z3	2	False
+6	d3_005	Incoming Paulis	X7	7	False
+7	d3_006	Incoming Paulis	Z7	2	False
+8	d3_007	Incoming Paulis	X9	2	False
+9	d3_008	Incoming Paulis	Z9	2	False
+10	d3_009	Incoming Paulis	X10	2	False
+11	d3_010	Incoming Paulis	Z10	2	False
+12	d3_011	Incoming Paulis	X12	2	False
+13	d3_012	Incoming Paulis	Z12	2	False
+14	d3_013	Incoming Paulis	X13	2	False
+15	d3_014	Incoming Paulis	Z13	2	False
+16	d3_015	Additional output support	Output 1	1	False
+17	d3_016	Additional output support	Output 2	1	False
+18	d3_017	Additional output support	Output 3	1	False
+19	d3_018	Additional output support	Output 4	1	False
+20	d3_019	Additional output support	Output 5	1	False
+21	d3_020	Additional output support	Output 6	1	False
+22	d3_021	Additional output support	Output 7	1	False
+23	d3_022	Additional output support	Output 8	2	False
+24	d3_023	Additional output support	Output 9	2	False
+25	d3_024	Additional output support	Output 10	2	False
+26	d3_025	Additional output support	Output 11	2	False
+27	d3_026	Additional output support	Output 12	2	False
+28	d3_027	Additional output support	Output 13	2	False
+29	d3_028	Additional output support	Output 14	2	False
+30	d3_029	No boundary support	No boundary support 1	0	True
+31	d3_030	No boundary support	No boundary support 2	0	True
+32	d3_031	No boundary support	No boundary support 3	0	True
+33	d3_032	No boundary support	No boundary support 4	0	True
+34	d3_033	No boundary support	No boundary support 5	0	True
+35	d3_034	No boundary support	No boundary support 6	0	True
+36	d3_035	No boundary support	No boundary support 7	2	False
+37	d3_036	No boundary support	No boundary support 8	2	False
+38	d3_037	No boundary support	No boundary support 9	2	False
+39	d3_038	No boundary support	No boundary support 10	2	False
+40	d3_039	No boundary support	No boundary support 11	2	False
+41	d3_040	No boundary support	No boundary support 12	2	False
+42	d3_041	No boundary support	No boundary support 13	2	False
+43	d3_042	No boundary support	No boundary support 14	2	False
+44	d3_043	No boundary support	No boundary support 15	2	False
+45	d3_044	No boundary support	No boundary support 16	2	False
+46	d3_045	No boundary support	No boundary support 17	2	False
+47	d3_046	No boundary support	No boundary support 18	2	False
+48	d3_047	No boundary support	No boundary support 19	2	False
+49	d3_048	No boundary support	No boundary support 20	2	False
+50	d3_049	No boundary support	No boundary support 21	2	False
+51	d3_050	No boundary support	No boundary support 22	2	False
+52	d3_051	No boundary support	No boundary support 23	2	False
+53	d3_052	No boundary support	No boundary support 24	2	False
+54	d3_053	No boundary support	No boundary support 25	2	False
+55	d3_054	No boundary support	No boundary support 26	2	False
+56	d3_055	No boundary support	No boundary support 27	2	False
+57	d3_056	No boundary support	No boundary support 28	2	False
+58	d3_057	No boundary support	No boundary support 29	2	False
+59	d3_058	No boundary support	No boundary support 30	2	False
+60	d3_059	No boundary support	No boundary support 31	2	False
+61	d3_060	No boundary support	No boundary support 32	2	False
+62	d3_061	No boundary support	No boundary support 33	2	False
+63	d3_062	No boundary support	No boundary support 34	2	False
+64	d3_063	No boundary support	No boundary support 35	2	False
+65	d3_064	No boundary support	No boundary support 36	2	False
+66	d3_065	No boundary support	No boundary support 37	2	False
+67	d3_066	No boundary support	No boundary support 38	2	False
+68	d3_067	No boundary support	No boundary support 39	2	False
+69	d3_068	No boundary support	No boundary support 40	2	False
+70	d3_069	No boundary support	No boundary support 41	3	False
+71	d3_070	No boundary support	No boundary support 42	2	False
+72	d3_071	No boundary support	No boundary support 43	3	False
+73	d3_072	No boundary support	No boundary support 44	2	False
+74	d3_073	No boundary support	No boundary support 45	2	False
+75	d3_074	No boundary support	No boundary support 46	3	False
+76	d3_075	No boundary support	No boundary support 47	3	False
+77	d3_076	No boundary support	No boundary support 48	3	False
+78	d3_077	No boundary support	No boundary support 49	3	False
+79	d3_078	No boundary support	No boundary support 50	4	False
+80	d3_079	No boundary support	No boundary support 51	4	False
+81	d3_080	No boundary support	No boundary support 52	4	False
+82	d3_081	No boundary support	No boundary support 53	4	False
+83	d3_082	No boundary support	No boundary support 54	4	False
+84	d3_083	No boundary support	No boundary support 55	4	False
+85	d3_084	No boundary support	No boundary support 56	4	False
+86	d3_085	No boundary support	No boundary support 57	4	False
+87	d3_086	No boundary support	No boundary support 58	4	False
+88	d3_087	No boundary support	No boundary support 59	4	False
+89	d3_088	No boundary support	No boundary support 60	2	False
+90	d3_089	No boundary support	No boundary support 61	4	False
+91	d3_090	No boundary support	No boundary support 62	4	False
+92	d5_001	Incoming Paulis	X0	2	False
+93	d5_002	Incoming Paulis	Z0	2	False
+94	d5_003	Incoming Paulis	X3	2	False
+95	d5_004	Incoming Paulis	Z3	2	False
+96	d5_005	Incoming Paulis	X7	2	False
+97	d5_006	Incoming Paulis	Z7	2	False
+98	d5_007	Incoming Paulis	X9	2	False
+99	d5_008	Incoming Paulis	Z9	2	False
+100	d5_009	Incoming Paulis	X11	2	False
+101	d5_010	Incoming Paulis	Z11	2	False
+102	d5_011	Incoming Paulis	X13	2	False
+103	d5_012	Incoming Paulis	Z13	2	False
+104	d5_013	Incoming Paulis	X15	2	False
+105	d5_014	Incoming Paulis	Z15	2	False
+106	d5_015	Incoming Paulis	X17	2	False
+107	d5_016	Incoming Paulis	Z17	2	False
+108	d5_017	Incoming Paulis	X19	2	False
+109	d5_018	Incoming Paulis	Z19	2	False
+110	d5_019	Incoming Paulis	X21	2	False
+111	d5_020	Incoming Paulis	Z21	2	False
+112	d5_021	Incoming Paulis	X23	2	False
+113	d5_022	Incoming Paulis	Z23	2	False
+114	d5_023	Incoming Paulis	X25	19	False
+115	d5_024	Incoming Paulis	Z25	2	False
+116	d5_025	Incoming Paulis	X27	2	False
+117	d5_026	Incoming Paulis	Z27	2	False
+118	d5_027	Incoming Paulis	X29	2	False
+119	d5_028	Incoming Paulis	Z29	2	False
+120	d5_029	Incoming Paulis	X32	2	False
+121	d5_030	Incoming Paulis	Z32	2	False
+122	d5_031	Incoming Paulis	X34	2	False
+123	d5_032	Incoming Paulis	Z34	2	False
+124	d5_033	Incoming Paulis	X36	2	False
+125	d5_034	Incoming Paulis	Z36	2	False
+126	d5_035	Incoming Paulis	X38	2	False
+127	d5_036	Incoming Paulis	Z38	2	False
+128	d5_037	Incoming Paulis	X40	2	False
+129	d5_038	Incoming Paulis	Z40	2	False
+130	d5_039	Additional output support	Output 1	1	False
+131	d5_040	Additional output support	Output 2	1	False
+132	d5_041	Additional output support	Output 3	1	False
+133	d5_042	Additional output support	Output 4	1	False
+134	d5_043	Additional output support	Output 5	1	False
+135	d5_044	Additional output support	Output 6	1	False
+136	d5_045	Additional output support	Output 7	1	False
+137	d5_046	Additional output support	Output 8	1	False
+138	d5_047	Additional output support	Output 9	1	False
+139	d5_048	Additional output support	Output 10	1	False
+140	d5_049	Additional output support	Output 11	1	False
+141	d5_050	Additional output support	Output 12	1	False
+142	d5_051	Additional output support	Output 13	1	False
+143	d5_052	Additional output support	Output 14	1	False
+144	d5_053	Additional output support	Output 15	1	False
+145	d5_054	Additional output support	Output 16	1	False
+146	d5_055	Additional output support	Output 17	1	False
+147	d5_056	Additional output support	Output 18	1	False
+148	d5_057	Additional output support	Output 19	1	False
+149	d5_058	Additional output support	Output 20	2	False
+150	d5_059	Additional output support	Output 21	2	False
+151	d5_060	Additional output support	Output 22	2	False
+152	d5_061	Additional output support	Output 23	2	False
+153	d5_062	Additional output support	Output 24	2	False
+154	d5_063	Additional output support	Output 25	2	False
+155	d5_064	Additional output support	Output 26	2	False
+156	d5_065	Additional output support	Output 27	2	False
+157	d5_066	Additional output support	Output 28	2	False
+158	d5_067	Additional output support	Output 29	2	False
+159	d5_068	Additional output support	Output 30	2	False
+160	d5_069	Additional output support	Output 31	2	False
+161	d5_070	Additional output support	Output 32	2	False
+162	d5_071	Additional output support	Output 33	2	False
+163	d5_072	Additional output support	Output 34	2	False
+164	d5_073	Additional output support	Output 35	2	False
+165	d5_074	Additional output support	Output 36	2	False
+166	d5_075	Additional output support	Output 37	2	False
+167	d5_076	Additional output support	Output 38	2	False
+168	d5_077	No boundary support	No boundary support 1	0	True
+169	d5_078	No boundary support	No boundary support 2	0	True
+170	d5_079	No boundary support	No boundary support 3	0	True
+171	d5_080	No boundary support	No boundary support 4	0	True
+172	d5_081	No boundary support	No boundary support 5	0	True
+173	d5_082	No boundary support	No boundary support 6	0	True
+174	d5_083	No boundary support	No boundary support 7	0	True
+175	d5_084	No boundary support	No boundary support 8	0	True
+176	d5_085	No boundary support	No boundary support 9	0	True
+177	d5_086	No boundary support	No boundary support 10	0	True
+178	d5_087	No boundary support	No boundary support 11	0	True
+179	d5_088	No boundary support	No boundary support 12	0	True
+180	d5_089	No boundary support	No boundary support 13	0	True
+181	d5_090	No boundary support	No boundary support 14	0	True
+182	d5_091	No boundary support	No boundary support 15	0	True
+183	d5_092	No boundary support	No boundary support 16	0	True
+184	d5_093	No boundary support	No boundary support 17	0	True
+185	d5_094	No boundary support	No boundary support 18	0	True
+186	d5_095	No boundary support	No boundary support 19	0	True
+187	d5_096	No boundary support	No boundary support 20	2	False
+188	d5_097	No boundary support	No boundary support 21	2	False
+189	d5_098	No boundary support	No boundary support 22	2	False
+190	d5_099	No boundary support	No boundary support 23	2	False
+191	d5_100	No boundary support	No boundary support 24	2	False
+192	d5_101	No boundary support	No boundary support 25	2	False
+193	d5_102	No boundary support	No boundary support 26	2	False
+194	d5_103	No boundary support	No boundary support 27	2	False
+195	d5_104	No boundary support	No boundary support 28	2	False
+196	d5_105	No boundary support	No boundary support 29	2	False
+197	d5_106	No boundary support	No boundary support 30	2	False
+198	d5_107	No boundary support	No boundary support 31	2	False
+199	d5_108	No boundary support	No boundary support 32	2	False
+200	d5_109	No boundary support	No boundary support 33	2	False
+201	d5_110	No boundary support	No boundary support 34	2	False
+202	d5_111	No boundary support	No boundary support 35	2	False
+203	d5_112	No boundary support	No boundary support 36	2	False
+204	d5_113	No boundary support	No boundary support 37	2	False
+205	d5_114	No boundary support	No boundary support 38	2	False
+206	d5_115	No boundary support	No boundary support 39	2	False
+207	d5_116	No boundary support	No boundary support 40	2	False
+208	d5_117	No boundary support	No boundary support 41	2	False
+209	d5_118	No boundary support	No boundary support 42	2	False
+210	d5_119	No boundary support	No boundary support 43	2	False
+211	d5_120	No boundary support	No boundary support 44	2	False
+212	d5_121	No boundary support	No boundary support 45	2	False
+213	d5_122	No boundary support	No boundary support 46	2	False
+214	d5_123	No boundary support	No boundary support 47	2	False
+215	d5_124	No boundary support	No boundary support 48	2	False
+216	d5_125	No boundary support	No boundary support 49	2	False
+217	d5_126	No boundary support	No boundary support 50	2	False
+218	d5_127	No boundary support	No boundary support 51	2	False
+219	d5_128	No boundary support	No boundary support 52	2	False
+220	d5_129	No boundary support	No boundary support 53	2	False
+221	d5_130	No boundary support	No boundary support 54	2	False
+222	d5_131	No boundary support	No boundary support 55	2	False
+223	d5_132	No boundary support	No boundary support 56	2	False
+224	d5_133	No boundary support	No boundary support 57	2	False
+225	d5_134	No boundary support	No boundary support 58	2	False
+226	d5_135	No boundary support	No boundary support 59	2	False
+227	d5_136	No boundary support	No boundary support 60	2	False
+228	d5_137	No boundary support	No boundary support 61	2	False
+229	d5_138	No boundary support	No boundary support 62	2	False
+230	d5_139	No boundary support	No boundary support 63	2	False
+231	d5_140	No boundary support	No boundary support 64	2	False
+232	d5_141	No boundary support	No boundary support 65	2	False
+233	d5_142	No boundary support	No boundary support 66	2	False
+234	d5_143	No boundary support	No boundary support 67	2	False
+235	d5_144	No boundary support	No boundary support 68	2	False
+236	d5_145	No boundary support	No boundary support 69	2	False
+237	d5_146	No boundary support	No boundary support 70	2	False
+238	d5_147	No boundary support	No boundary support 71	2	False
+239	d5_148	No boundary support	No boundary support 72	2	False
+240	d5_149	No boundary support	No boundary support 73	2	False
+241	d5_150	No boundary support	No boundary support 74	2	False
+242	d5_151	No boundary support	No boundary support 75	2	False
+243	d5_152	No boundary support	No boundary support 76	2	False
+244	d5_153	No boundary support	No boundary support 77	2	False
+245	d5_154	No boundary support	No boundary support 78	2	False
+246	d5_155	No boundary support	No boundary support 79	2	False
+247	d5_156	No boundary support	No boundary support 80	2	False
+248	d5_157	No boundary support	No boundary support 81	2	False
+249	d5_158	No boundary support	No boundary support 82	2	False
+250	d5_159	No boundary support	No boundary support 83	2	False
+251	d5_160	No boundary support	No boundary support 84	2	False
+252	d5_161	No boundary support	No boundary support 85	2	False
+253	d5_162	No boundary support	No boundary support 86	2	False
+254	d5_163	No boundary support	No boundary support 87	2	False
+255	d5_164	No boundary support	No boundary support 88	2	False
+256	d5_165	No boundary support	No boundary support 89	2	False
+257	d5_166	No boundary support	No boundary support 90	2	False
+258	d5_167	No boundary support	No boundary support 91	2	False
+259	d5_168	No boundary support	No boundary support 92	2	False
+260	d5_169	No boundary support	No boundary support 93	2	False
+261	d5_170	No boundary support	No boundary support 94	2	False
+262	d5_171	No boundary support	No boundary support 95	2	False
+263	d5_172	No boundary support	No boundary support 96	2	False
+264	d5_173	No boundary support	No boundary support 97	2	False
+265	d5_174	No boundary support	No boundary support 98	2	False
+266	d5_175	No boundary support	No boundary support 99	2	False
+267	d5_176	No boundary support	No boundary support 100	2	False
+268	d5_177	No boundary support	No boundary support 101	2	False
+269	d5_178	No boundary support	No boundary support 102	2	False
+270	d5_179	No boundary support	No boundary support 103	2	False
+271	d5_180	No boundary support	No boundary support 104	2	False
+272	d5_181	No boundary support	No boundary support 105	2	False
+273	d5_182	No boundary support	No boundary support 106	2	False
+274	d5_183	No boundary support	No boundary support 107	2	False
+275	d5_184	No boundary support	No boundary support 108	2	False
+276	d5_185	No boundary support	No boundary support 109	2	False
+277	d5_186	No boundary support	No boundary support 110	2	False
+278	d5_187	No boundary support	No boundary support 111	2	False
+279	d5_188	No boundary support	No boundary support 112	2	False
+280	d5_189	No boundary support	No boundary support 113	2	False
+281	d5_190	No boundary support	No boundary support 114	2	False
+282	d5_191	No boundary support	No boundary support 115	2	False
+283	d5_192	No boundary support	No boundary support 116	2	False
+284	d5_193	No boundary support	No boundary support 117	2	False
+285	d5_194	No boundary support	No boundary support 118	2	False
+286	d5_195	No boundary support	No boundary support 119	2	False
+287	d5_196	No boundary support	No boundary support 120	2	False
+288	d5_197	No boundary support	No boundary support 121	2	False
+289	d5_198	No boundary support	No boundary support 122	2	False
+290	d5_199	No boundary support	No boundary support 123	3	False
+291	d5_200	No boundary support	No boundary support 124	2	False
+292	d5_201	No boundary support	No boundary support 125	3	False
+293	d5_202	No boundary support	No boundary support 126	2	False
+294	d5_203	No boundary support	No boundary support 127	2	False
+295	d5_204	No boundary support	No boundary support 128	3	False
+296	d5_205	No boundary support	No boundary support 129	3	False
+297	d5_206	No boundary support	No boundary support 130	3	False
+298	d5_207	No boundary support	No boundary support 131	3	False
+299	d5_208	No boundary support	No boundary support 132	3	False
+300	d5_209	No boundary support	No boundary support 133	3	False
+301	d5_210	No boundary support	No boundary support 134	3	False
+302	d5_211	No boundary support	No boundary support 135	3	False
+303	d5_212	No boundary support	No boundary support 136	3	False
+304	d5_213	No boundary support	No boundary support 137	3	False
+305	d5_214	No boundary support	No boundary support 138	3	False
+306	d5_215	No boundary support	No boundary support 139	3	False
+307	d5_216	No boundary support	No boundary support 140	3	False
+308	d5_217	No boundary support	No boundary support 141	3	False
+309	d5_218	No boundary support	No boundary support 142	3	False
+310	d5_219	No boundary support	No boundary support 143	3	False
+311	d5_220	No boundary support	No boundary support 144	3	False
+312	d5_221	No boundary support	No boundary support 145	3	False
+313	d5_222	No boundary support	No boundary support 146	3	False
+314	d5_223	No boundary support	No boundary support 147	3	False
+315	d5_224	No boundary support	No boundary support 148	3	False
+316	d5_225	No boundary support	No boundary support 149	3	False
+317	d5_226	No boundary support	No boundary support 150	3	False
+318	d5_227	No boundary support	No boundary support 151	3	False
+319	d5_228	No boundary support	No boundary support 152	3	False
+320	d5_229	No boundary support	No boundary support 153	3	False
+321	d5_230	No boundary support	No boundary support 154	3	False
+322	d5_231	No boundary support	No boundary support 155	3	False
+323	d5_232	No boundary support	No boundary support 156	3	False
+324	d5_233	No boundary support	No boundary support 157	4	False
+325	d5_234	No boundary support	No boundary support 158	4	False
+326	d5_235	No boundary support	No boundary support 159	4	False
+327	d5_236	No boundary support	No boundary support 160	4	False
+328	d5_237	No boundary support	No boundary support 161	4	False
+329	d5_238	No boundary support	No boundary support 162	4	False
+330	d5_239	No boundary support	No boundary support 163	4	False
+331	d5_240	No boundary support	No boundary support 164	4	False
+332	d5_241	No boundary support	No boundary support 165	4	False
+333	d5_242	No boundary support	No boundary support 166	4	False
+334	d5_243	No boundary support	No boundary support 167	4	False
+335	d5_244	No boundary support	No boundary support 168	4	False
+336	d5_245	No boundary support	No boundary support 169	4	False
+337	d5_246	No boundary support	No boundary support 170	4	False
+338	d5_247	No boundary support	No boundary support 171	4	False
+339	d5_248	No boundary support	No boundary support 172	4	False
+340	d5_249	No boundary support	No boundary support 173	4	False
+341	d5_250	No boundary support	No boundary support 174	4	False
+342	d5_251	No boundary support	No boundary support 175	4	False
+343	d5_252	No boundary support	No boundary support 176	4	False
+344	d5_253	No boundary support	No boundary support 177	4	False
+345	d5_254	No boundary support	No boundary support 178	4	False
+346	d5_255	No boundary support	No boundary support 179	4	False
+347	d5_256	No boundary support	No boundary support 180	4	False
+348	d5_257	No boundary support	No boundary support 181	4	False
+349	d5_258	No boundary support	No boundary support 182	4	False
+350	d5_259	No boundary support	No boundary support 183	2	False
+351	d5_260	No boundary support	No boundary support 184	4	False
+352	d5_261	No boundary support	No boundary support 185	4	False
+353	d5_262	No boundary support	No boundary support 186	4	False
+354	d5_263	No boundary support	No boundary support 187	6	False
+355	d5_264	No boundary support	No boundary support 188	6	False

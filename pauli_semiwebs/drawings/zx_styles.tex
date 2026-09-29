@@ -1,0 +1,19 @@
+% Diagram styles used in Kissinger and van de Wetering, ZX-Flow,
+% arXiv:2603.09580. Loaded within a group to preserve the paper's other styles.
+\definecolor{zxred}{RGB}{232,165,165}
+\definecolor{zxgreen}{RGB}{216,248,216}
+\pgfkeys{/tikz/tikzit fill/.initial=0}
+\pgfkeys{/tikz/tikzit draw/.initial=0}
+\pgfkeys{/tikz/tikzit shape/.initial=0}
+\pgfkeys{/tikz/tikzit category/.initial=0}
+\tikzset{
+ none/.style={inner sep=0mm},
+ Z dot/.style={inner sep=0mm,minimum size=2mm,shape=circle,draw=black,fill=zxgreen,tikzit fill={rgb,255:red,221;green,255;blue,221},tikzit category=zx},
+ X dot/.style={Z dot,fill=zxred,tikzit fill={rgb,255:red,255;green,136;blue,136}},
+ Z phase dot/.style={minimum size=5mm,font={\footnotesize\boldmath},shape=rectangle,rounded corners=2mm,inner sep=.2mm,outer sep=-2mm,scale=.8,tikzit shape=circle,draw=black,fill=zxgreen,tikzit fill={rgb,255:red,221;green,255;blue,221},tikzit draw=blue,tikzit category=zx},
+ X phase dot/.style={Z phase dot,fill=zxred,tikzit fill={rgb,255:red,255;green,136;blue,136}},
+ hadamard/.style={fill=yellow,draw=black,shape=rectangle,inner sep=.6mm,minimum height=1.5mm,minimum width=1.5mm,tikzit category=zx},
+ X Web/.style={-,preaction={line width=1.5mm,draw={rgb,255:red,255;green,150;blue,150},dashed,dash pattern=on 2.25pt off .5pt},shorten <=-.25mm,shorten >=-.25mm,tikzit draw=red},
+ Y Web/.style={-,preaction={line width=1.5mm,draw={rgb,255:red,150;green,150;blue,255},dashed,dash pattern=on 1.2pt off .5pt},shorten <=-.25mm,shorten >=-.25mm,tikzit draw=blue},
+ Z Web/.style={-,preaction={line width=1.5mm,draw={rgb,255:red,120;green,200;blue,120}},shorten <=-.25mm,shorten >=-.25mm,tikzit draw={rgb,255:red,0;green,141;blue,0}}
+}

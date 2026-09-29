@@ -1,0 +1,14 @@
+\pgfdeclarelayer{edgelayer}
+\pgfdeclarelayer{nodelayer}
+\newenvironment{semiwebaddition}{%
+  \par\begingroup\color{black}\hypersetup{allcolors=black}%
+}{\par\endgroup}
+\newcommand{\semiwebinput}[2][.98\linewidth]{%
+  \begingroup\color{black}%
+  \input{drawings/zx_styles.tex}%
+  \pgfsetlayers{background,edgelayer,nodelayer,main}%
+  \begin{adjustbox}{max width=#1}\input{#2}\end{adjustbox}%
+  \endgroup}
+\newcommand{\semiwebcaption}[1]{%
+  \captionsetup{font+={color=black},labelfont+={color=black}}%
+  \caption{#1}}

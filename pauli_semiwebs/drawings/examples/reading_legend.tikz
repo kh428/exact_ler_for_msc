@@ -1,0 +1,18 @@
+\begin{tikzpicture}[x=1cm,y=1cm,baseline=-.5ex]
+\begin{pgfonlayer}{nodelayer}
+\node at (0,0) {$I$};
+\node at (2,0) {$X$};
+\node at (4,0) {$Y$};
+\node at (6,0) {$Z$};
+\node at (8.4,0) {$Z$ spider};
+\node [Z dot,minimum size=3mm] at (9.35,0) {};
+\node at (11,0) {$X$ spider};
+\node [X dot,minimum size=3mm] at (11.95,0) {};
+\end{pgfonlayer}
+\begin{pgfonlayer}{edgelayer}
+\draw (.3,0)--(1.2,0);
+\draw [X Web] (2.3,0)--(3.2,0);
+\draw [Y Web] (4.3,0)--(5.2,0);
+\draw [Z Web] (6.3,0)--(7.2,0);
+\end{pgfonlayer}
+\end{tikzpicture}
