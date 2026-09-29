@@ -1,0 +1,82 @@
+{
+ "3": {
+  "web_checks": 16,
+  "detectors_outside_web_span": [
+   7,
+   14,
+   16,
+   18
+  ],
+  "pauli_determinism": {
+   "substitutions": 22,
+   "identical_maps": 22,
+   "fault_events_flipping_some_web_check": 1848
+  },
+  "invisible_pairs": {
+   "proxy_fault_events": 1955,
+   "web_checks": 16,
+   "single_faults_flipping_logical_but_no_web_check": 29,
+   "invisible_logical_pairs": 4515,
+   "undetected_by_all_detectors": 0,
+   "distinct_catching_sets": 15,
+   "detectors_used_to_catch": [
+    7,
+    14,
+    16,
+    18
+   ],
+   "catchers_are_all_outside_web_span": true
+  },
+  "cpu_seconds": 0.36
+ },
+ "5": {
+  "web_checks": 93,
+  "detectors_outside_web_span": [
+   7,
+   19,
+   20,
+   23,
+   69,
+   89,
+   91,
+   93,
+   95,
+   97,
+   99,
+   101,
+   103,
+   105
+  ],
+  "pauli_determinism": {
+   "substitutions": 22,
+   "identical_maps": 22,
+   "fault_events_flipping_some_web_check": 10465
+  },
+  "invisible_pairs": {
+   "proxy_fault_events": 10876,
+   "web_checks": 93,
+   "single_faults_flipping_logical_but_no_web_check": 76,
+   "invisible_logical_pairs": 33797,
+   "undetected_by_all_detectors": 0,
+   "distinct_catching_sets": 452,
+   "detectors_used_to_catch": [
+    7,
+    19,
+    20,
+    23,
+    69,
+    89,
+    91,
+    93,
+    95,
+    97,
+    99,
+    101,
+    103,
+    105
+   ],
+   "catchers_are_all_outside_web_span": true
+  },
+  "cpu_seconds": 3.11
+ }
+}

@@ -1,0 +1,1058 @@
+[
+ {
+  "distance": 3,
+  "source": "data/inputs/clifft_d3_p001.stim",
+  "source_sha256": "094ae095e249c90ac7b0cf82ef187afdf634a0ef8a82331a81b4b9100a902798",
+  "records": 21,
+  "declared_detectors": 20,
+  "t_sites": 29,
+  "discarded_known_states": {
+   "op39:q2@line81": "X+1",
+   "op40:q11@line81": "X+1",
+   "op41:q4@line81": "X+1",
+   "op42:q6@line82": "X+1",
+   "op43:q14@line82": "X+1",
+   "op44:q8@line82": "X+1"
+  },
+  "graph": {
+   "nodes": 297,
+   "edges": 375,
+   "constraint_rows": 786,
+   "closed_defect_free_webs": 22,
+   "record_free_webs": 6
+  },
+  "web_check_rank": 16,
+  "oracle": {
+   "rank": 16,
+   "assignments": 389,
+   "shots_per_assignment": 64
+  },
+  "web_checks_sound": true,
+  "web_checks_complete": true,
+  "detectors_in_web_span": 16,
+  "detectors_outside": [
+   {
+    "index": 7,
+    "records": [
+     5,
+     6,
+     7
+    ],
+    "value": 0,
+    "text": "rec5:MX 11@120 + rec6:MX 4@120 + rec7:MX 7@154 = 0"
+   },
+   {
+    "index": 14,
+    "records": [
+     7,
+     15
+    ],
+    "value": 0,
+    "text": "rec7:MX 7@154 + rec15:MPP X0*X3*X7*X10@196 = 0"
+   },
+   {
+    "index": 16,
+    "records": [
+     7,
+     17
+    ],
+    "value": 0,
+    "text": "rec7:MX 7@154 + rec17:MPP X3*X7*X9*X12@196 = 0"
+   },
+   {
+    "index": 18,
+    "records": [
+     7,
+     19
+    ],
+    "value": 0,
+    "text": "rec7:MX 7@154 + rec19:MPP X7*X10*X12*X13@196 = 0"
+   }
+  ],
+  "stage_webs": {
+   "equations": 6,
+   "all_in_full_span": true
+  },
+  "proxy": {
+   "web_check_rank": 20,
+   "deterministic_rank": 20,
+   "equal": true,
+   "declared_detectors_in_web_span": 20
+  },
+  "check_basis": [
+   {
+    "records": [
+     20
+    ],
+    "value": 0,
+    "text": "rec20:MPP Z7*Z10*Z12*Z13@196 = 0"
+   },
+   {
+    "records": [
+     18
+    ],
+    "value": 0,
+    "text": "rec18:MPP Z3*Z7*Z9*Z12@196 = 0"
+   },
+   {
+    "records": [
+     16
+    ],
+    "value": 0,
+    "text": "rec16:MPP Z0*Z3*Z7*Z10@196 = 0"
+   },
+   {
+    "records": [
+     13
+    ],
+    "value": 0,
+    "text": "rec13:MX 1@180 = 0"
+   },
+   {
+    "records": [
+     12
+    ],
+    "value": 0,
+    "text": "rec12:MX 8@180 = 0"
+   },
+   {
+    "records": [
+     11
+    ],
+    "value": 0,
+    "text": "rec11:MX 2@180 = 0"
+   },
+   {
+    "records": [
+     7,
+     10
+    ],
+    "value": 0,
+    "text": "rec7:MX 7@154 + rec10:MX 6@180 = 0"
+   },
+   {
+    "records": [
+     9
+    ],
+    "value": 0,
+    "text": "rec9:MX 11@180 = 0"
+   },
+   {
+    "records": [
+     8
+    ],
+    "value": 0,
+    "text": "rec8:MX 14@180 = 0"
+   },
+   {
+    "records": [
+     6
+    ],
+    "value": 0,
+    "text": "rec6:MX 4@120 = 0"
+   },
+   {
+    "records": [
+     5
+    ],
+    "value": 0,
+    "text": "rec5:MX 11@120 = 0"
+   },
+   {
+    "records": [
+     4
+    ],
+    "value": 0,
+    "text": "rec4:MX 2@120 = 0"
+   },
+   {
+    "records": [
+     3
+    ],
+    "value": 0,
+    "text": "rec3:M 5@119 = 0"
+   },
+   {
+    "records": [
+     2
+    ],
+    "value": 0,
+    "text": "rec2:M 8@119 = 0"
+   },
+   {
+    "records": [
+     1
+    ],
+    "value": 0,
+    "text": "rec1:M 14@119 = 0"
+   },
+   {
+    "records": [
+     0
+    ],
+    "value": 0,
+    "text": "rec0:M 6@119 = 0"
+   }
+  ],
+  "cpu_seconds": 0.13
+ },
+ {
+  "distance": 5,
+  "source": "data/inputs/soft_cultivation_d5_p0005.stim",
+  "source_sha256": "859d925c74712efaae8bab1d944f9e5be4e042e226eeafcc6d7bef9d6fbfbae5",
+  "records": 112,
+  "declared_detectors": 107,
+  "t_sites": 72,
+  "discarded_known_states": {
+   "op39:q2@line97": "X+1",
+   "op40:q12@line97": "X+1",
+   "op41:q4@line97": "X+1",
+   "op42:q6@line98": "X+1",
+   "op43:q18@line98": "X+1",
+   "op44:q8@line98": "X+1"
+  },
+  "graph": {
+   "nodes": 1439,
+   "edges": 1882,
+   "constraint_rows": 3855,
+   "closed_defect_free_webs": 99,
+   "record_free_webs": 6
+  },
+  "web_check_rank": 93,
+  "oracle": {
+   "rank": 93,
+   "assignments": 518,
+   "shots_per_assignment": 64
+  },
+  "web_checks_sound": true,
+  "web_checks_complete": true,
+  "detectors_in_web_span": 93,
+  "detectors_outside": [
+   {
+    "index": 7,
+    "records": [
+     5,
+     6,
+     7
+    ],
+    "value": 0,
+    "text": "rec5:MX 12@127 + rec6:MX 4@127 + rec7:MX 7@157 = 0"
+   },
+   {
+    "index": 19,
+    "records": [
+     7,
+     36
+    ],
+    "value": 0,
+    "text": "rec7:MX 7@157 + rec36:MX 2@251 = 0"
+   },
+   {
+    "index": 20,
+    "records": [
+     7,
+     35
+    ],
+    "value": 0,
+    "text": "rec7:MX 7@157 + rec35:MX 4@251 = 0"
+   },
+   {
+    "index": 23,
+    "records": [
+     7,
+     34
+    ],
+    "value": 0,
+    "text": "rec7:MX 7@157 + rec34:MX 12@251 = 0"
+   },
+   {
+    "index": 69,
+    "records": [
+     8,
+     9,
+     12,
+     13,
+     19,
+     20,
+     21,
+     23,
+     25,
+     26,
+     37,
+     38,
+     39,
+     41,
+     42,
+     43,
+     44,
+     55,
+     56,
+     57,
+     59,
+     60,
+     61,
+     62,
+     73
+    ],
+    "value": 0,
+    "text": "rec8:MX 18@176 + rec9:MX 12@176 + rec12:MX 8@176 + rec13:MX 1@176 + rec19:M 41@250 + rec20:M 35@250 + rec21:M 33@250 + rec23:M 22@250 + rec25:M 18@250 + rec26:M 8@250 + rec37:M 41@309 + rec38:M 35@309 + rec39:M 33@309 + rec41:M 22@309 + rec42:M 20@309 + rec43:M 18@309 + rec44:M 8@309 + rec55:M 41@361 + rec56:M 35@361 + rec57:M 33@361 + rec59:M 22@361 + rec60:M 20@361 + rec61:M 18@361 + rec62:M 8@361 + rec73:MX 25@415 = 0"
+   },
+   {
+    "index": 89,
+    "records": [
+     72,
+     93
+    ],
+    "value": 0,
+    "text": "rec72:MX 2@362 + rec93:MPP X0*X3*X7*X11@470 = 0"
+   },
+   {
+    "index": 91,
+    "records": [
+     71,
+     99
+    ],
+    "value": 0,
+    "text": "rec71:MX 4@362 + rec99:MPP X3*X7*X9*X13@470 = 0"
+   },
+   {
+    "index": 93,
+    "records": [
+     70,
+     73,
+     105
+    ],
+    "value": 0,
+    "text": "rec70:MX 12@362 + rec73:MX 25@415 + rec105:MPP X7*X11*X13*X17*X19*X25@470 = 0"
+   },
+   {
+    "index": 95,
+    "records": [
+     69,
+     94
+    ],
+    "value": 0,
+    "text": "rec69:MX 14@362 + rec94:MPP X9*X13*X15*X19*X21*X27@470 = 0"
+   },
+   {
+    "index": 97,
+    "records": [
+     68,
+     100
+    ],
+    "value": 0,
+    "text": "rec68:MX 16@362 + rec100:MPP X15*X21*X23*X29@470 = 0"
+   },
+   {
+    "index": 99,
+    "records": [
+     67,
+     73,
+     95
+    ],
+    "value": 0,
+    "text": "rec67:MX 24@362 + rec73:MX 25@415 + rec95:MPP X17*X25*X32*X36@470 = 0"
+   },
+   {
+    "index": 101,
+    "records": [
+     66,
+     73,
+     101
+    ],
+    "value": 0,
+    "text": "rec66:MX 26@362 + rec73:MX 25@415 + rec101:MPP X19*X25*X27*X32*X34*X38@470 = 0"
+   },
+   {
+    "index": 103,
+    "records": [
+     65,
+     106
+    ],
+    "value": 0,
+    "text": "rec65:MX 28@362 + rec106:MPP X21*X27*X29*X34@470 = 0"
+   },
+   {
+    "index": 105,
+    "records": [
+     64,
+     107
+    ],
+    "value": 0,
+    "text": "rec64:MX 37@362 + rec107:MPP X32*X36*X38*X40@470 = 0"
+   }
+  ],
+  "stage_webs": {
+   "equations": 19,
+   "all_in_full_span": true
+  },
+  "proxy": {
+   "web_check_rank": 107,
+   "deterministic_rank": 107,
+   "equal": true,
+   "declared_detectors_in_web_span": 107
+  },
+  "check_basis": [
+   {
+    "records": [
+     110
+    ],
+    "value": 0,
+    "text": "rec110:MPP Z32*Z36*Z38*Z40@470 = 0"
+   },
+   {
+    "records": [
+     109
+    ],
+    "value": 0,
+    "text": "rec109:MPP Z21*Z27*Z29*Z34@470 = 0"
+   },
+   {
+    "records": [
+     108
+    ],
+    "value": 0,
+    "text": "rec108:MPP Z7*Z11*Z13*Z17*Z19*Z25@470 = 0"
+   },
+   {
+    "records": [
+     104
+    ],
+    "value": 0,
+    "text": "rec104:MPP Z19*Z25*Z27*Z32*Z34*Z38@470 = 0"
+   },
+   {
+    "records": [
+     103
+    ],
+    "value": 0,
+    "text": "rec103:MPP Z15*Z21*Z23*Z29@470 = 0"
+   },
+   {
+    "records": [
+     102
+    ],
+    "value": 0,
+    "text": "rec102:MPP Z3*Z7*Z9*Z13@470 = 0"
+   },
+   {
+    "records": [
+     98
+    ],
+    "value": 0,
+    "text": "rec98:MPP Z17*Z25*Z32*Z36@470 = 0"
+   },
+   {
+    "records": [
+     97
+    ],
+    "value": 0,
+    "text": "rec97:MPP Z9*Z13*Z15*Z19*Z21*Z27@470 = 0"
+   },
+   {
+    "records": [
+     96
+    ],
+    "value": 0,
+    "text": "rec96:MPP Z0*Z3*Z7*Z11@470 = 0"
+   },
+   {
+    "records": [
+     92
+    ],
+    "value": 0,
+    "text": "rec92:MX 41@444 = 0"
+   },
+   {
+    "records": [
+     91
+    ],
+    "value": 0,
+    "text": "rec91:MX 30@444 = 0"
+   },
+   {
+    "records": [
+     90
+    ],
+    "value": 0,
+    "text": "rec90:MX 28@444 = 0"
+   },
+   {
+    "records": [
+     89
+    ],
+    "value": 0,
+    "text": "rec89:MX 26@444 = 0"
+   },
+   {
+    "records": [
+     88
+    ],
+    "value": 0,
+    "text": "rec88:MX 14@444 = 0"
+   },
+   {
+    "records": [
+     87
+    ],
+    "value": 0,
+    "text": "rec87:MX 33@444 = 0"
+   },
+   {
+    "records": [
+     86
+    ],
+    "value": 0,
+    "text": "rec86:MX 37@444 = 0"
+   },
+   {
+    "records": [
+     85
+    ],
+    "value": 0,
+    "text": "rec85:MX 18@444 = 0"
+   },
+   {
+    "records": [
+     84
+    ],
+    "value": 0,
+    "text": "rec84:MX 12@444 = 0"
+   },
+   {
+    "records": [
+     83
+    ],
+    "value": 0,
+    "text": "rec83:MX 1@444 = 0"
+   },
+   {
+    "records": [
+     82
+    ],
+    "value": 0,
+    "text": "rec82:MX 39@444 = 0"
+   },
+   {
+    "records": [
+     81
+    ],
+    "value": 0,
+    "text": "rec81:MX 31@444 = 0"
+   },
+   {
+    "records": [
+     73,
+     80
+    ],
+    "value": 0,
+    "text": "rec73:MX 25@415 + rec80:MX 24@444 = 0"
+   },
+   {
+    "records": [
+     79
+    ],
+    "value": 0,
+    "text": "rec79:MX 6@444 = 0"
+   },
+   {
+    "records": [
+     78
+    ],
+    "value": 0,
+    "text": "rec78:MX 2@444 = 0"
+   },
+   {
+    "records": [
+     77
+    ],
+    "value": 0,
+    "text": "rec77:MX 10@444 = 0"
+   },
+   {
+    "records": [
+     76
+    ],
+    "value": 0,
+    "text": "rec76:MX 8@444 = 0"
+   },
+   {
+    "records": [
+     75
+    ],
+    "value": 0,
+    "text": "rec75:MX 22@444 = 0"
+   },
+   {
+    "records": [
+     74
+    ],
+    "value": 0,
+    "text": "rec74:MX 20@444 = 0"
+   },
+   {
+    "records": [
+     36,
+     72
+    ],
+    "value": 0,
+    "text": "rec36:MX 2@251 + rec72:MX 2@362 = 0"
+   },
+   {
+    "records": [
+     35,
+     71
+    ],
+    "value": 0,
+    "text": "rec35:MX 4@251 + rec71:MX 4@362 = 0"
+   },
+   {
+    "records": [
+     34,
+     70
+    ],
+    "value": 0,
+    "text": "rec34:MX 12@251 + rec70:MX 12@362 = 0"
+   },
+   {
+    "records": [
+     69
+    ],
+    "value": 0,
+    "text": "rec69:MX 14@362 = 0"
+   },
+   {
+    "records": [
+     68
+    ],
+    "value": 0,
+    "text": "rec68:MX 16@362 = 0"
+   },
+   {
+    "records": [
+     67
+    ],
+    "value": 0,
+    "text": "rec67:MX 24@362 = 0"
+   },
+   {
+    "records": [
+     66
+    ],
+    "value": 0,
+    "text": "rec66:MX 26@362 = 0"
+   },
+   {
+    "records": [
+     65
+    ],
+    "value": 0,
+    "text": "rec65:MX 28@362 = 0"
+   },
+   {
+    "records": [
+     64
+    ],
+    "value": 0,
+    "text": "rec64:MX 37@362 = 0"
+   },
+   {
+    "records": [
+     63
+    ],
+    "value": 0,
+    "text": "rec63:M 6@361 = 0"
+   },
+   {
+    "records": [
+     62
+    ],
+    "value": 0,
+    "text": "rec62:M 8@361 = 0"
+   },
+   {
+    "records": [
+     61
+    ],
+    "value": 0,
+    "text": "rec61:M 18@361 = 0"
+   },
+   {
+    "records": [
+     60
+    ],
+    "value": 0,
+    "text": "rec60:M 20@361 = 0"
+   },
+   {
+    "records": [
+     59
+    ],
+    "value": 0,
+    "text": "rec59:M 22@361 = 0"
+   },
+   {
+    "records": [
+     58
+    ],
+    "value": 0,
+    "text": "rec58:M 31@361 = 0"
+   },
+   {
+    "records": [
+     57
+    ],
+    "value": 0,
+    "text": "rec57:M 33@361 = 0"
+   },
+   {
+    "records": [
+     56
+    ],
+    "value": 0,
+    "text": "rec56:M 35@361 = 0"
+   },
+   {
+    "records": [
+     55
+    ],
+    "value": 0,
+    "text": "rec55:M 41@361 = 0"
+   },
+   {
+    "records": [
+     36,
+     54
+    ],
+    "value": 0,
+    "text": "rec36:MX 2@251 + rec54:MX 2@310 = 0"
+   },
+   {
+    "records": [
+     35,
+     53
+    ],
+    "value": 0,
+    "text": "rec35:MX 4@251 + rec53:MX 4@310 = 0"
+   },
+   {
+    "records": [
+     34,
+     52
+    ],
+    "value": 0,
+    "text": "rec34:MX 12@251 + rec52:MX 12@310 = 0"
+   },
+   {
+    "records": [
+     51
+    ],
+    "value": 0,
+    "text": "rec51:MX 14@310 = 0"
+   },
+   {
+    "records": [
+     50
+    ],
+    "value": 0,
+    "text": "rec50:MX 16@310 = 0"
+   },
+   {
+    "records": [
+     49
+    ],
+    "value": 0,
+    "text": "rec49:MX 24@310 = 0"
+   },
+   {
+    "records": [
+     48
+    ],
+    "value": 0,
+    "text": "rec48:MX 26@310 = 0"
+   },
+   {
+    "records": [
+     47
+    ],
+    "value": 0,
+    "text": "rec47:MX 28@310 = 0"
+   },
+   {
+    "records": [
+     46
+    ],
+    "value": 0,
+    "text": "rec46:MX 37@310 = 0"
+   },
+   {
+    "records": [
+     45
+    ],
+    "value": 0,
+    "text": "rec45:M 6@309 = 0"
+   },
+   {
+    "records": [
+     44
+    ],
+    "value": 0,
+    "text": "rec44:M 8@309 = 0"
+   },
+   {
+    "records": [
+     43
+    ],
+    "value": 0,
+    "text": "rec43:M 18@309 = 0"
+   },
+   {
+    "records": [
+     42
+    ],
+    "value": 0,
+    "text": "rec42:M 20@309 = 0"
+   },
+   {
+    "records": [
+     41
+    ],
+    "value": 0,
+    "text": "rec41:M 22@309 = 0"
+   },
+   {
+    "records": [
+     40
+    ],
+    "value": 0,
+    "text": "rec40:M 31@309 = 0"
+   },
+   {
+    "records": [
+     39
+    ],
+    "value": 0,
+    "text": "rec39:M 33@309 = 0"
+   },
+   {
+    "records": [
+     38
+    ],
+    "value": 0,
+    "text": "rec38:M 35@309 = 0"
+   },
+   {
+    "records": [
+     37
+    ],
+    "value": 0,
+    "text": "rec37:M 41@309 = 0"
+   },
+   {
+    "records": [
+     32
+    ],
+    "value": 0,
+    "text": "rec32:MX 16@251 = 0"
+   },
+   {
+    "records": [
+     30
+    ],
+    "value": 0,
+    "text": "rec30:MX 26@251 = 0"
+   },
+   {
+    "records": [
+     29
+    ],
+    "value": 0,
+    "text": "rec29:MX 28@251 = 0"
+   },
+   {
+    "records": [
+     28
+    ],
+    "value": 0,
+    "text": "rec28:MX 37@251 = 0"
+   },
+   {
+    "records": [
+     27
+    ],
+    "value": 0,
+    "text": "rec27:M 6@250 = 0"
+   },
+   {
+    "records": [
+     26
+    ],
+    "value": 0,
+    "text": "rec26:M 8@250 = 0"
+   },
+   {
+    "records": [
+     25
+    ],
+    "value": 0,
+    "text": "rec25:M 18@250 = 0"
+   },
+   {
+    "records": [
+     23
+    ],
+    "value": 0,
+    "text": "rec23:M 22@250 = 0"
+   },
+   {
+    "records": [
+     21
+    ],
+    "value": 0,
+    "text": "rec21:M 33@250 = 0"
+   },
+   {
+    "records": [
+     20
+    ],
+    "value": 0,
+    "text": "rec20:M 35@250 = 0"
+   },
+   {
+    "records": [
+     19
+    ],
+    "value": 0,
+    "text": "rec19:M 41@250 = 0"
+   },
+   {
+    "records": [
+     18
+    ],
+    "value": 0,
+    "text": "rec18:M 16@203 = 0"
+   },
+   {
+    "records": [
+     17
+    ],
+    "value": 0,
+    "text": "rec17:M 22@203 = 0"
+   },
+   {
+    "records": [
+     16
+    ],
+    "value": 0,
+    "text": "rec16:M 28@203 = 0"
+   },
+   {
+    "records": [
+     15
+    ],
+    "value": 0,
+    "text": "rec15:M 33@203 = 0"
+   },
+   {
+    "records": [
+     14
+    ],
+    "value": 0,
+    "text": "rec14:M 26@203 = 0"
+   },
+   {
+    "records": [
+     13
+    ],
+    "value": 0,
+    "text": "rec13:MX 1@176 = 0"
+   },
+   {
+    "records": [
+     12
+    ],
+    "value": 0,
+    "text": "rec12:MX 8@176 = 0"
+   },
+   {
+    "records": [
+     11
+    ],
+    "value": 0,
+    "text": "rec11:MX 2@176 = 0"
+   },
+   {
+    "records": [
+     7,
+     10
+    ],
+    "value": 0,
+    "text": "rec7:MX 7@157 + rec10:MX 6@176 = 0"
+   },
+   {
+    "records": [
+     9
+    ],
+    "value": 0,
+    "text": "rec9:MX 12@176 = 0"
+   },
+   {
+    "records": [
+     8
+    ],
+    "value": 0,
+    "text": "rec8:MX 18@176 = 0"
+   },
+   {
+    "records": [
+     6
+    ],
+    "value": 0,
+    "text": "rec6:MX 4@127 = 0"
+   },
+   {
+    "records": [
+     5
+    ],
+    "value": 0,
+    "text": "rec5:MX 12@127 = 0"
+   },
+   {
+    "records": [
+     4
+    ],
+    "value": 0,
+    "text": "rec4:MX 2@127 = 0"
+   },
+   {
+    "records": [
+     3
+    ],
+    "value": 0,
+    "text": "rec3:M 5@126 = 0"
+   },
+   {
+    "records": [
+     2
+    ],
+    "value": 0,
+    "text": "rec2:M 8@126 = 0"
+   },
+   {
+    "records": [
+     1
+    ],
+    "value": 0,
+    "text": "rec1:M 18@126 = 0"
+   },
+   {
+    "records": [
+     0
+    ],
+    "value": 0,
+    "text": "rec0:M 6@126 = 0"
+   }
+  ],
+  "cpu_seconds": 1.27
+ }
+]
