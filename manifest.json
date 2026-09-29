@@ -15,7 +15,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "7fa10bae210745126a89adda92b4b0e4bc6584aaab9f0beb4d147dccccf39684"
+      "sha256": "d78feffc3b9c646be78c72dd373d6201834f0ac97f3f11e756d14feed7142dd1"
     },
     {
       "path": "alternatives/__init__.py",
@@ -100,6 +100,18 @@
     {
       "path": "alternatives/verification.py",
       "sha256": "d915488979dd1deac2107d3a8c4f2b1ca6ac32c10fcedbbc2c07ab2986b0d5f0"
+    },
+    {
+      "path": "assets/msc_overview.png",
+      "sha256": "5535427b467b750f2bf5e837ec9e03a096ed08f934d1d9fe339c564d0295ade3"
+    },
+    {
+      "path": "assets/pauli_semiweb_x7.png",
+      "sha256": "d040e98b011862e9e0268f585d53a0cb76b07f649c7559c42d25241eab69187c"
+    },
+    {
+      "path": "assets/pauli_semiweb_x7.tex",
+      "sha256": "5d4ebdbeae5320cddc1f23b2bbd7788757c9b8657065b663ea86ddda14ae9678"
     },
     {
       "path": "calculation/__init__.py",
@@ -750,6 +762,18 @@
       "sha256": "d42b0e080cf4a9f8047743dc7e5ca89cdbeae2e91eea59bd7f069645cadf2bae"
     },
     {
+      "path": "data/alternatives/certificates/fold-d5-fifth/batches.jsonl.gz",
+      "sha256": "42ddc7c54a67058bcfe3009a48b4fae890a80504831841faea49d978fcf01661"
+    },
+    {
+      "path": "data/alternatives/certificates/fold-d5-fifth/manifest.json",
+      "sha256": "c064b973c14dcd1ddf1147eeb47a0032e4a429023b7a40c7788e59c8f27b9322"
+    },
+    {
+      "path": "data/alternatives/certificates/fold-d5-fifth/summary.json",
+      "sha256": "7c569fd01b6a1756743169bd9ef4a871c2fe6a47281cb7f537f5abcea2e568ab"
+    },
+    {
       "path": "data/alternatives/certificates/fold-d5/batches.jsonl.gz",
       "sha256": "b997a2458a356e39e31662989468476d2805eff536d3eb60f5f4d9a9d2ce37c2"
     },
@@ -772,18 +796,6 @@
     {
       "path": "data/alternatives/certificates/fold-d5/summary.json",
       "sha256": "f1c90437b9d2236e92056e4fc91f2d78ef0c30743a5f582f3ed411b854855309"
-    },
-    {
-      "path": "data/alternatives/certificates/fold-d5-fifth/batches.jsonl.gz",
-      "sha256": "42ddc7c54a67058bcfe3009a48b4fae890a80504831841faea49d978fcf01661"
-    },
-    {
-      "path": "data/alternatives/certificates/fold-d5-fifth/manifest.json",
-      "sha256": "c064b973c14dcd1ddf1147eeb47a0032e4a429023b7a40c7788e59c8f27b9322"
-    },
-    {
-      "path": "data/alternatives/certificates/fold-d5-fifth/summary.json",
-      "sha256": "7c569fd01b6a1756743169bd9ef4a871c2fe6a47281cb7f537f5abcea2e568ab"
     },
     {
       "path": "data/alternatives/certificates/rp2-d3/q0_minus.json",
@@ -1520,6 +1532,1586 @@
     {
       "path": "licenses/accel-cutting-Apache-2.0.txt",
       "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "pauli_semiwebs/.gitignore",
+      "sha256": "f4b5af40cc144e4895c6ebc97da0e56536b2ec9b982dd5671f327261fa462ed2"
+    },
+    {
+      "path": "pauli_semiwebs/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "pauli_semiwebs/NOTICE.md",
+      "sha256": "fd296a434985fc7c6e04d2f19be8a5c7381a9335d2a146e9167003b0ac117d32"
+    },
+    {
+      "path": "pauli_semiwebs/README.md",
+      "sha256": "890c5296a0fc083fc579a1371ec920bf60a3aa1cf748f5b04d8316d955fa06b6"
+    },
+    {
+      "path": "pauli_semiwebs/circuits/d3_native_t.txt",
+      "sha256": "f969091f809cd108c9b1a0498b49bef82f364f9d4ca59ac069f4e3bd004d4da9"
+    },
+    {
+      "path": "pauli_semiwebs/circuits/d5_native_t.stim",
+      "sha256": "859d925c74712efaae8bab1d944f9e5be4e042e226eeafcc6d7bef9d6fbfbae5"
+    },
+    {
+      "path": "pauli_semiwebs/compute_basis.py",
+      "sha256": "d478ee9e24160adb8fa89bcea280daeeb8ac5b7fcf626a8cbd4c4161f1e0154a"
+    },
+    {
+      "path": "pauli_semiwebs/data/basis.json",
+      "sha256": "0db4d7bd031d4384f97596acc7aa815bc450f297f2047f7bc00c1d7916ffc2a7"
+    },
+    {
+      "path": "pauli_semiwebs/docs/algorithm.md",
+      "sha256": "893e1750dbc0d71fc1a2ba7ff8be20f3d07be304ae296c064af97216880abd21"
+    },
+    {
+      "path": "pauli_semiwebs/draw_diagrams.py",
+      "sha256": "3d60e1ce0d2d154deef11a6ca553460f46a082426c581939a44172f49d2774ce"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_001.tikz",
+      "sha256": "397d4f5158f79ed82cde025665859f4467249633c0c8136f3d25e60f0d03db31"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_002.tikz",
+      "sha256": "2264c4fe975b2ec72b7e62661231d10fc4842725dfe015a40c6f3cd3d6c763b2"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_003.tikz",
+      "sha256": "d451d06e71fc3251d758ef76f72ce4580ef5804801c34efc2d95786e3f8d1448"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_004.tikz",
+      "sha256": "efa82dc3aee2d2fad1c8da6e07231ae023b3bd18f0292b8120a83946f18b51a2"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_005.tikz",
+      "sha256": "7d688dbbf50b8acc748b61380c414e89d5771d2035cd702dd103660d8669a91a"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_006.tikz",
+      "sha256": "027426de0cd6b0498213b9f529494621882e3d6566c058a28435de71e70f72e1"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_007.tikz",
+      "sha256": "0489b48dd1e5c8d910c69e62b4323dd79422a366452410ac40bb797551a37886"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_008.tikz",
+      "sha256": "4fd6c8d83ffeffc0cf57a3c79e25f5bfa8aadfc7a9337ed157f709818a6cf3e8"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_009.tikz",
+      "sha256": "d8bfefffb4d836db0866f320584de7769f27dc704e093b997000f234fe4cec51"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_010.tikz",
+      "sha256": "0467f07929fb06c7d515d2a4dee4cb6739055bb5e2a1ccb22033d4574503ea6b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_011.tikz",
+      "sha256": "d727141f49f9d0cc579b08719a60a6278adab69b27b7efc8df574f66ffdda0a3"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_012.tikz",
+      "sha256": "f28cae695c14fbfb9d88edb01661536451262303bbd786ba6a55eaefba8c8506"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_013.tikz",
+      "sha256": "7c721f52d7199e4524dfe42f4188f9c8a0d2266680d07fbd4c77c66ab99316ec"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_014.tikz",
+      "sha256": "c5e98d5d3529556ec880b9de29135942f4ae0f2936795b039ad09028b0b338aa"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_015.tikz",
+      "sha256": "fccad0bd9749b38bc3f7519e67f41fedf7a00de52a61422c635dba24423c2b0b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_016.tikz",
+      "sha256": "4b997b184da2efca9df4bcf9a9d8576053c24bb18c02d7796921c0f3d2e0943f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_017.tikz",
+      "sha256": "41b59e0085ff2d9dbbe4ff132984082672db2685b0ec6d814cc2830bc23d83db"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_018.tikz",
+      "sha256": "fe4fe2b08dad100cbd17db2f9c460ca4b70110b8d86d1c3ae8ea5e2bb385a456"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_019.tikz",
+      "sha256": "0545e6a5fb9a3ebb9a5aa26f36afd884e9987c9bb4a41a949c9479da0b36395b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_020.tikz",
+      "sha256": "b6bc468238649ee48de741014bfa0db9a6efba6cf71b7118ce24ff50c7e93278"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_021.tikz",
+      "sha256": "049d8e22360622a7d0d8f965a2fc78fc31749012778c23a190a72d6e63aa394e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_022.tikz",
+      "sha256": "08e7823c90f85c293c2b372b0b743551285c92e7e6be36416ed31112430355a7"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_023.tikz",
+      "sha256": "adbc0954176bd0d59bea51a435c3d5432c41724805e2a58c012f6eb45e1c8598"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_024.tikz",
+      "sha256": "cd87eefb0ff568fa7465a140e6bde61abd0f2ae1336f229d61678eb4a2a44dbe"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_025.tikz",
+      "sha256": "0d793dcc6f417083ea5f978e7a1a6f9524bfef53f9d1ec7f6e9af84bbc03e27f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_026.tikz",
+      "sha256": "f25c42342210e488888be1bc2fffa1266769ca35413a1ce3dc17a92a1bd6d1e5"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_027.tikz",
+      "sha256": "79ae5d64b3f7c160bca972ea58a0fd11d0dd7affeb8698141aac2b31cb38bd18"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_028.tikz",
+      "sha256": "d4bde6bcb2e9e623771b8c1be11877069e30f1bee9af79c7b61c1ffc563dad9d"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_029.tikz",
+      "sha256": "3c2072b38137b8fe5159a03aea0dd9ef42beb3bddff59cbb0fd5baa29ac8704c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_030.tikz",
+      "sha256": "532eb0d6705f15a67c08e14151691c73e9d43193ae1f1f8d257a96890be57872"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_031.tikz",
+      "sha256": "f0621cbc69fb5a15ace31b8e42ea53ca0e8351534b0d6ee37f7ffef6b3b0c2bf"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_032.tikz",
+      "sha256": "454db7f8b79de711c9449fa76ec91036f98cb8c9be2831e1196cc456a567fed6"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_033.tikz",
+      "sha256": "aa586aad3cc2a9024db193145f6ed158169117dfe6c16eebf709e3863efc9614"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_034.tikz",
+      "sha256": "962c80e88d9e0e03838aeda8a06eeacc68007ad52720b6d0bf00582fb34cc5db"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_035.tikz",
+      "sha256": "387c78b852531dc470fc7e6502626e2efb1fbb531aabdc5a91467f7137113053"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_036.tikz",
+      "sha256": "3dbdac6b64b003b2f474489a19f6115532542a3f70ddd5ab4cc8fb301d0ff04f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_037.tikz",
+      "sha256": "f73216acc77d0bbb984aae2822474a8cd114f7fdffd88a9ea495e0a594773925"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_038.tikz",
+      "sha256": "6d53a3e54710f399e900ba0246d870e2f1e96b9c6b857a9bb1fc85a6ad083720"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_039.tikz",
+      "sha256": "78e58ff026f53bc8dd8e65994a58ec073aa5835383772bf3172d4d4bebd78322"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_040.tikz",
+      "sha256": "99058fa76957c79fc04c97688b462b92b909d146d9306c0046bef9e091aae361"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_041.tikz",
+      "sha256": "6150cd7a6b7998bcbb9ed77d221a4affc011a51c1cd01bcf727a89b068373af9"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_042.tikz",
+      "sha256": "9a0109befde3efd0f5935ed537cc1ff0f378ca66730e71341fd11d9b9933f941"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_043.tikz",
+      "sha256": "ed4af8f84da11efe2ca2bd929810c65ee9eecf9645db7df012a5a084eea78057"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_044.tikz",
+      "sha256": "2f061c0f619f320ef5fa922675233948d5301c7029455c3c8ea61404e793e8dd"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_045.tikz",
+      "sha256": "ac617663fdd00b4ea76d2e953c24b290b8a816ea0d03deacd4a4a330346f8149"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_046.tikz",
+      "sha256": "e75cedb0ee6cef70fa2f476e2cad9b9ef9aa6e05e2a4a158d0eed3a8d44a55af"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_047.tikz",
+      "sha256": "0d28f3c92f292f1b4cc82adae1b8ec89a7bf54467878516bbbcf652b6b52f67a"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_048.tikz",
+      "sha256": "80caa14c9d4fe93e443a8f6d7968d43921a8b0310e0b0b1d8ff3f0235e2cbb2a"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_049.tikz",
+      "sha256": "cf6198a846d77f6c9cd87db11faac6a209bb7ffa957bee9aa8908ee195ba1d2b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_050.tikz",
+      "sha256": "940e0e4b35f20a8164360e9ce91e1e7b9d79ae507fb4e5ca5a180e1ecb179cfb"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_051.tikz",
+      "sha256": "3b2d478bfa16a07fc782bf777751d3387b750a67b49487f9006ae75af61f77e2"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_052.tikz",
+      "sha256": "fe5991176f3a01763307ee03c345b19ad1754a85c6b3865b1905f990e6748ab8"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_053.tikz",
+      "sha256": "84350620ad04fe1cc1f0d285e0397bebc749bbf43d65667683c0cdc3f1807c0f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_054.tikz",
+      "sha256": "7fde77012772349617ec477951586c961d3727983165cf4dfecad4011e010010"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_055.tikz",
+      "sha256": "bcc66070962bb5f83b2fc2df1a1293b9790b509121e872ff1d5a31e7baa77a70"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_056.tikz",
+      "sha256": "f8499ca7abd7ae1d2281b35d19897a04bf68078eb1debe23306eb8962e07c35f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_057.tikz",
+      "sha256": "ece61d6e90f3ce77b8ddf49fbe955db7f2f2851a0a08e6e0c899c2b20bb9979e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_058.tikz",
+      "sha256": "9108b48ccf1bb393cf9c0d26a714b0613c3f2fefb881c39b6bbe2768cac4fab4"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_059.tikz",
+      "sha256": "0a9534d43af5f711b284e8db4d7d725f270ba6fa32afbe0fe54f287c1363c6ce"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_060.tikz",
+      "sha256": "393b5cb2f69a56932d751bb758d313d8625382519f6048a21e96b5bf87492785"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_061.tikz",
+      "sha256": "3540de68491c70c5341b4e5abf3c0fb83f3205c5002f7c99fb82c7f89c67bdc3"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_062.tikz",
+      "sha256": "7f973f970ae3a4199d48104d19a4751b9cd4b68f31468670175482797e22c171"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_063.tikz",
+      "sha256": "40bdec0e276dc5f7e8569880df2c5fb9100e1dea76c12ec0bf52fac47ce0e487"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_064.tikz",
+      "sha256": "8fb4df42c34aeea5d6eb5d9f16a5b180e20a1536459a9e8b3d22c1f2aadb83a6"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_065.tikz",
+      "sha256": "7bbf236b08449cc27543cc5e045e5c9581411f50a72e06a21b54595cba3a2e8a"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_066.tikz",
+      "sha256": "e269893ed202022841eb44cd381afeaf64eda0ce1797262c4633a667a7ab2bce"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_067.tikz",
+      "sha256": "1f0732a21437c36056e8a65def8fffd69363f057d326769b42e15907459ce802"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_068.tikz",
+      "sha256": "3ee3e97505b3c66aa6b2a40892abfca716e82bc851fba980d391bb2ef2599729"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_069.tikz",
+      "sha256": "00e9f27d23c91c24c3190511dd4c36dbee4cf563d2da024e9029006f23aab179"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_070.tikz",
+      "sha256": "bcdecfb64353dc2dd5992fe1138159fc3b56cfc6b6ee1d56e71cc25f96a2d05a"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_071.tikz",
+      "sha256": "c953fd5f94d705d254843d1d1890da106563f0573666bb63980198046526a3ad"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_072.tikz",
+      "sha256": "112b3be449fca9adf4e1a94f6a08e4668e49ae6f4a4ee2932818f0bccfd90dac"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_073.tikz",
+      "sha256": "30c5de5ca53151264622b3798ea00a1807f82aa034cc54c2bbdcad63cdbf51ed"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_074.tikz",
+      "sha256": "ce14eead02e7ead1717984676744a259a50a9fc5bc066ed7a293d8f1c63dfa36"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_075.tikz",
+      "sha256": "06d6f55874aa702e21785f79eb5cda8199f22dd5a51bc5f07c4fb17745919b39"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_076.tikz",
+      "sha256": "9100a0dd0604fc1014b682fafa6b453d54f6a67217c8a8447e61767a2ea58c23"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_077.tikz",
+      "sha256": "f2f8ec83c95e8036fabd8805c18c021bfce7388ad12fe26833ae6daf82f9077e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_078.tikz",
+      "sha256": "f8231b09f04de9903b677ebc77595a2d1ed4c6fbd7f00a245dbcda9a3294197d"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_079.tikz",
+      "sha256": "e0494ad2a457cf9a6f6e9649f7e22417075c77abb6958ad62c9d74c565ea0071"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_080.tikz",
+      "sha256": "12b20b14b07f1ce7e2d2c9df1d02da01068191cba3ca916c64c42237c11d2239"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_081.tikz",
+      "sha256": "3d155ed9f3fabcb981f32d506cbe9f74271d3161de32c72732d0f322a143ef79"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_082.tikz",
+      "sha256": "33c5cb10d16cd66dbeedd17daa82aa7580292d0c390393ba1cd32a793a92935e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_083.tikz",
+      "sha256": "b2ae0a5511f5768041d20af75fac06db61fd6afb9a8e2576085b181ee1aac0ab"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_084.tikz",
+      "sha256": "af9f52c84fbf64fa9969c2b503cd476ba4fc73d049d419df2735f6f567df1ec7"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_085.tikz",
+      "sha256": "57fa949b3d03ff6a0ebeb7a6e2cea69cb25fe819a6dc6b9688b5d0338ec2033e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_086.tikz",
+      "sha256": "dd263cd4ba82c84bfd87d36eb55f0152cb91e0dff800054514bc9af756ebd276"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_087.tikz",
+      "sha256": "cadde7610287b2d83a7de4b4d18859625bdb21895f4c319b3d0fe5dc31044b5d"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_088.tikz",
+      "sha256": "ae228dbd505a6bbebf76b6c36550a5158e8f26405bcfbb01ad71e04437bb71c8"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_089.tikz",
+      "sha256": "1bd088ec1160d7452d3feafb5d9ef0a0f829b10766e3fa4e8fb630659da04df7"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d3_090.tikz",
+      "sha256": "2fed645e7fa50eba82e441ee0b11c9cae24c13d729d0cee762633d90c7d60a23"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_001.tikz",
+      "sha256": "4d33c34073bec911634d53836a025f5fa1d0dd912843b99d1b403c73ff562ed4"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_002.tikz",
+      "sha256": "197cb21b32397c5f09d59b05e1aa61dd8e417884fca410efeaeee186f9b8ba0f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_003.tikz",
+      "sha256": "3fe2d5daa3494b1e79866f4bf4be145b36ffa65231f775f2815c4cc17f9e5ff4"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_004.tikz",
+      "sha256": "a85e88709df1d93d66d028c9f7386f814816bfc95ce0268c065810496515acf6"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_005.tikz",
+      "sha256": "7a17dccc0f8cd239b93f3f911a63a34977c5ef43fbb7d8433a87381876329853"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_006.tikz",
+      "sha256": "aa91c9d85b33765815c10d8e9fd3c19e604d046da9f590f01c60ae9ae319af79"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_007.tikz",
+      "sha256": "d56e203da6c8cc1810539c1082632209c03110efe37f8d14c8d5759771a65949"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_008.tikz",
+      "sha256": "8515af47c6297da80b6ec7c2c043b6eed26f40794bb3faa586ccbba85aed695a"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_009.tikz",
+      "sha256": "fa237d9a9699d3b23f345824b76068677f8258a51b6928b67c38712e29c37000"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_010.tikz",
+      "sha256": "0ef977342d96486c93e6b1ffc24d5665d243bbc837d34ba468dff7f396288058"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_011.tikz",
+      "sha256": "362e7dddbcfd688c0e0f68fa12b63048868d9579989c35f0a35b0c549beb8b91"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_012.tikz",
+      "sha256": "789b7899dbfb195ad48754452ab72d30fdb68ebcf8d6c25f0a55b310ef862de2"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_013.tikz",
+      "sha256": "04ae130383cef4d7d9e69bfe014069511731d029eab0a90ca220f9376ba2ce02"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_014.tikz",
+      "sha256": "0e2ffb06e8d956c537d9d75317f8fd0542fbb27913878b1025807d5b8ad3538c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_015.tikz",
+      "sha256": "ee7fa0bc77c97655d9b324fd06702dee1956e65d499325315a0372bd97f3f2e5"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_016.tikz",
+      "sha256": "6e16f22086a47ed0158e9d88472b3b4914736c4cba0dee21f30b9f895b168d92"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_017.tikz",
+      "sha256": "1892a0d4f70a5b5633dacf9dd7084e15e39656d2944d4717ee7e36182f48d33c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_018.tikz",
+      "sha256": "f61eb38eb28e436f8db12ffe54e9359eafe82c4c2ecc6927843020e05412176c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_019.tikz",
+      "sha256": "d65ec4f6f8d0987b488c3b292af206ec96a0c387f3768625abd30b66c6573745"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_020.tikz",
+      "sha256": "fb48497624601699224de40a6dc4ef62e6fc530c93970857dc964cd77d900d55"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_021.tikz",
+      "sha256": "55c2f34b9073ce9328d928d4a69c97596ca7bf15fc280e5a45bd1251fb8ca8af"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_022.tikz",
+      "sha256": "3f5d12a1778429f167a09b3f284244ab65733b873a633ba79bdf9c26909de4c1"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_023.tikz",
+      "sha256": "92ab06141ff7ae96fba2dac97b008023c11f28bd0bd8382fc1f6764a13e57f86"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_024.tikz",
+      "sha256": "a26468f8644d7c759ac2cb018d7fc08da5ec0637891b84e1e931eda8bb78d75d"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_025.tikz",
+      "sha256": "19f76e8d79972d64baed72facd394877aa0a299682b52d41aac687e2166af2a4"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_026.tikz",
+      "sha256": "1f2d912cf9830bdebe04276d9ff42cca429e6f3bbe2d973dab3c7d26d6de3d51"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_027.tikz",
+      "sha256": "d3cc405bbffd7e6ca9dea34086cf368fc7cf437ec6ee30daf79786eee08c6eb0"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_028.tikz",
+      "sha256": "596c465a22400528ba0d4c54f69b14de27f4e907e5e7cd0815fdf0867cba7e4b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_029.tikz",
+      "sha256": "7ddc5a3a9d9251c84c4925335cf3ce68fb1f29889d999b3937ea2486fc91c33e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_030.tikz",
+      "sha256": "5530865308cb5f1c8b7ec43670042272f216213735fb94cb4d6fc390f423888e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_031.tikz",
+      "sha256": "379cec5a1b133e4079121c8851022aebb37a620e7ca3ac25bbe0fff7c4b2b4e6"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_032.tikz",
+      "sha256": "7ec6f890dcd069e17dd12da1ec66007cab63189976a41a270813fbe075ee704f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_033.tikz",
+      "sha256": "68e2b1f8af1ab13ce617962df83f863be2f167d1e1a99fac4a00310920872660"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_034.tikz",
+      "sha256": "8076af83b23150aca1cc2a5fb861249b2759e9c54f52ba9ff1d8fb896a4869fa"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_035.tikz",
+      "sha256": "4029957ee53a562ed0768d1b043195875bad5754cd6b1e385ab6faa434e452d0"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_036.tikz",
+      "sha256": "1edbb47cc048c47fc889a7962702f1227b27fc5ad49068493f99a813a3606b70"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_037.tikz",
+      "sha256": "0fcbbbb876f92b59dcba3301ff5d3f9b3a3cc8cef63c478410a7ca73fdea2344"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_038.tikz",
+      "sha256": "e6a78192e968f0cdbfb59ea1564cb31f080ce01fd4b0403fff5e89c45617bbff"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_039.tikz",
+      "sha256": "1b36177f3672754ce6859a395d73ce971a3616d53b1af380438778f853896dab"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_040.tikz",
+      "sha256": "6ba7c06635e04e23d35687399339d932bb1d339022c8b619b695414733eab35f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_041.tikz",
+      "sha256": "f959f182cdc0fa61942d780ff0036aa58019deb7f335e8bd94e117cdc8c9e99d"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_042.tikz",
+      "sha256": "47feb1158276219edcc842cbf07b8aa505353a70cd0ccb66778931f69a5c3b42"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_043.tikz",
+      "sha256": "8254e3c933d37a0ced6a7c7f905c0c778eaee6cb93e1928c1c4fb9951b44004b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_044.tikz",
+      "sha256": "8a1feac0cac9e8f3423db1468b42647cfcb7bfeb4fb41dae681771df4de3cd67"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_045.tikz",
+      "sha256": "89d91066c9525440b35b359f73ec6dcf577c1d6a8f35dac88f4d9014468787a7"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_046.tikz",
+      "sha256": "3ff9a6069e49f213e1a087710020ec1fd6b4f781b7a34a28b27bf9974b0a1860"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_047.tikz",
+      "sha256": "52f7b62013cb4ff5ae5cfd6c0c7252a9a3d4dff92e938378aa09db10077cbea3"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_048.tikz",
+      "sha256": "72d4bcac8c0a019b1f9eb926d505933227963ce37e16d3b6c002899ab04efdf7"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_049.tikz",
+      "sha256": "d939369ae8b1ab00b326a0543643e3183e2353bc78c2da872d5614de21a04fd9"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_050.tikz",
+      "sha256": "df886aa9c14cb490668189cac520b9a498e173b0728d1d9e9a94b6939b8138fb"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_051.tikz",
+      "sha256": "946d3971e3c6d2a49fd1b54102eec06eb08d65789054d06448509892a8181b4e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_052.tikz",
+      "sha256": "08636d979e0aba59e1780c513e83bf9814325f0f76aa52ec28a8f5f33a9e99b1"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_053.tikz",
+      "sha256": "27257d7b29b19c57c82f22184688db7d1d34214770ffc2ef9b88cf4367ec5cba"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_054.tikz",
+      "sha256": "ea93cbe1f3469496205ea5910400ab068d71d0d4681a9e53440bf617fe498a9c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_055.tikz",
+      "sha256": "5026e3709c0e42b25a1997ee006829951a8dfc20f657f9d025b70e183cd4c96e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_056.tikz",
+      "sha256": "fce395f2c82e9b9a6b98ac4a84ddbb753aac19ccf0f1dcee22edeb6274e70438"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_057.tikz",
+      "sha256": "e19727ba24b7918872719b146dbfafc5d152a199823f513ee801f66b7f0f8581"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_058.tikz",
+      "sha256": "f6acbea3a89a700e46a58a626c0577c0470621de5a7f0cb6f386eb9ea1901c9d"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_059.tikz",
+      "sha256": "0135410e71243b298135c1ba05da6d7b8865152b0d6c74b3bba219978ca98c01"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_060.tikz",
+      "sha256": "f15be3a4f65694a4220c6bafa54d59fcdea6a06def3e04d8c8fd4d8de531522f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_061.tikz",
+      "sha256": "0a16803af9d62770b312f1f4b065d7d23854213bb2b06301adbbc252bcd02bce"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_062.tikz",
+      "sha256": "022703a8844501d25811093b3b5f6d2f7fd67db11be600f7ccbe52139a0f091b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_063.tikz",
+      "sha256": "74c01b1e1c6288c19c3031444c1ce963ce2bd1bc51151eebc1440bf247cbb09d"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_064.tikz",
+      "sha256": "7ae3444f1cbd06d037c2fe03406c96b33fb9e5abc5c65ee893cf7941baf33520"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_065.tikz",
+      "sha256": "936b4c2360a5c1bf617cb9804cfa2039fe4a67d7a591e98c218142b957a4ec03"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_066.tikz",
+      "sha256": "870d6f1bcb06f1ed3acb3b1eddb97717e8fe0755799444ce626bd303294ca20d"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_067.tikz",
+      "sha256": "54cbcbf1bfe769aacd76460c11f9be815701696f50544777807deeb4c02166b8"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_068.tikz",
+      "sha256": "fc8f27251b2f54d0385023259073dc45cc74c8803edd7889e6f65f0cfa8d9b3c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_069.tikz",
+      "sha256": "cb91924088d669687e26c9a2f1886d5ccad5662c961f103445d079400f36b575"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_070.tikz",
+      "sha256": "797346a5c40fba0f942ee53137e2159982e1cf11f4a55b46a6dfa666f8ada148"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_071.tikz",
+      "sha256": "514de0d922a0b9cd13abbbfd092c3facf1ede2039f8ebed857a9cdd4a4e05aef"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_072.tikz",
+      "sha256": "57e4d6beeb6963bc4f7e4a2bb5beacba4b234419bb6fa899eb18212c33a7f575"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_073.tikz",
+      "sha256": "d0a89775978d62106863fb11ce91749d8da6200999c1b9e74f165e22fd199355"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_074.tikz",
+      "sha256": "6f7c7855213b05060cd52e352534f4b2c1276eff59a57ae127ee452eef8d24b2"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_075.tikz",
+      "sha256": "3e032786b17c36e949d38594fa9d490f9ef68c64f31ed2f42b1d7d38ce792a28"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_076.tikz",
+      "sha256": "f293ed42eb737cee9efd0c87812db019654e93dfb5270b1eb7c32366132cf924"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_077.tikz",
+      "sha256": "64e8420c2e735341aa426d999b67bf97f81715acc118ad5518a1012814ef912f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_078.tikz",
+      "sha256": "4d6a178d2d322d2a911181b2bde196acffc4866c2a2b10f92608b1dc653ef70b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_079.tikz",
+      "sha256": "55968242646f20cd5fb00d30fa9a42fa22f4190ec96e1d540227fc5c26cbb8df"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_080.tikz",
+      "sha256": "806dffa8a24b5b394133b9f78711d8d8278c6bbd1cff46c489fd38af1a3f5728"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_081.tikz",
+      "sha256": "250b98d8157878bf0673fb628813322c76f83fbbade46d17a1d4e6cb5ee6e6e9"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_082.tikz",
+      "sha256": "38e8df335868e8dffef1a6c03814c7b4fec2ada1631f5e074998b7ea7533915b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_083.tikz",
+      "sha256": "5b56e9a0d6e5d7343bb22e0830281f594502055df2caffe4f349379695c04f08"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_084.tikz",
+      "sha256": "f5a15ccb6c43c48f8f92b3573ccb44a11bf4f693873a20649fa3a7c3fe3d1f48"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_085.tikz",
+      "sha256": "47ff7f8e59dea91e2f124be0ec8293d98f0e47b055fdc8b9ca964ccf20873059"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_086.tikz",
+      "sha256": "d2b3c0f5dfc179513c05c2ffdcc2fa36185566d2b8025a1e699d4161eafcdb96"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_087.tikz",
+      "sha256": "2368bb0fb212dc0b7b23bfca9ea4e1c5313e326cf28efc9ca5e079ccfbdfa82f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_088.tikz",
+      "sha256": "4f7b4177fe0b2f6a3847978eed15d6be63bbda97a2d5164357d76194c31b2d3c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_089.tikz",
+      "sha256": "ed68b820014437e34b540c2f0df9194b2e706a0908d5afec2e39f4e154149e50"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_090.tikz",
+      "sha256": "311a65c99ea02abc5513adaefcc2d81bcdc410f03a13beebe534ca68b580fb34"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_091.tikz",
+      "sha256": "05f59c867cb7d8607a3d80b52dc3f07b63caaff909da627eee08ee8bb81a1146"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_092.tikz",
+      "sha256": "69e396c1a611aad749b3b50677d1a1290b42d428eaa5cda5a4c1c11dd4a9b327"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_093.tikz",
+      "sha256": "f28f5fdaeec409faf48c4914f6824d3ad4699769089ca850bb19b6498e53ba0b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_094.tikz",
+      "sha256": "c36540b4c2ab6ba75bd37e1f8c6164b160b5552921b131d6aa72614b00c40419"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_095.tikz",
+      "sha256": "4a6d6bec60c41ec5f97846dffc4c459b85e6b14540108e73690ee35b62c981ca"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_096.tikz",
+      "sha256": "aa396c15c18012a6fcb047fe1a779b8807977200bf51a30046d2fc602c7ba01c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_097.tikz",
+      "sha256": "a3e05fc41a5dccd2729274b17b4a4cabcb28370748af7213c8605abb1d8a86b9"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_098.tikz",
+      "sha256": "13ba0b7a732bbed74f9f33d9802a0049b04776e1ff40870b12dd23d9e0ab7801"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_099.tikz",
+      "sha256": "bbc3ac0c1ed6619b9ada03415e9673e0c5b3471bed76c66ec13acd77c098ee06"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_100.tikz",
+      "sha256": "c699dc9c7bfaac5385b5990fa62e811050bab3414bdc2caad252c5ac599e26f3"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_101.tikz",
+      "sha256": "e35ff341882ffd364e779b4a44a2cd0319cac36f15bdabe54d00a2f0d1981da0"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_102.tikz",
+      "sha256": "15febdeef67ccb8d2ffa5c67250d37ff174c83466d08ae687163702102461b2b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_103.tikz",
+      "sha256": "8fec9a38b1e9ed4deee71be37100d78f091a92caa0d0a634ed80e9c3015d676d"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_104.tikz",
+      "sha256": "cd095352ed201927f33b3bcf4d572273bf265162e7f7cdaecf8ad8c02a89855e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_105.tikz",
+      "sha256": "9f2b2705fd7184e31b1e4fb224f10151109182ddcfc781a412000e167bb95097"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_106.tikz",
+      "sha256": "f4de3b54c72fb71448c029f03fcb40fbcf0ba056d3052ede8d2956f6f82581ed"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_107.tikz",
+      "sha256": "382a2417cc1f9673864f2f35228552660864a7374968f13d0114f08e244087e4"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_108.tikz",
+      "sha256": "12a0101c9cf488762e6af33e900892cb83ec1820159983fd6cdae43d382f6776"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_109.tikz",
+      "sha256": "72cf9eae44d09cd593525e451b6e51e8207706d3c6676775eee520f74706b7d2"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_110.tikz",
+      "sha256": "6b6b6e5f8cb31a30a7602307581fd0e2036987ac9972600df8f3aa7c3995c8d8"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_111.tikz",
+      "sha256": "f2797581297551ad77a2f1a3d42fc8b3cb6e6c7387a2d6d90d229b8353944106"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_112.tikz",
+      "sha256": "e3f29ff8ca8db37fe8db0fe693976f85440f4a564dc52e837442654593ecd700"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_113.tikz",
+      "sha256": "b4b785ac6b42d4af911e7964f43351403ef679ce47e29d6a0af3f857c972b4ac"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_114.tikz",
+      "sha256": "a9b68bb2bad189b8d31a0f6fc0ff06b7e2601fb8c4781a1eae419662cbd675ea"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_115.tikz",
+      "sha256": "29c77140685ff10bdd07872fde7dc6cd5fbcdf6606f6212882b746cc776c068b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_116.tikz",
+      "sha256": "e4e97d032fb37aa5395fab08f7b3ff452920ff007af347f90b4588a09fd38886"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_117.tikz",
+      "sha256": "12f31c6f70a21b736aadf11a8069efe376a8aa6085aec3de27a8d872a5e6d2c3"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_118.tikz",
+      "sha256": "26d7961aff34e91e7175fe46c31ce77f3d48a7b24687a0e4033d1ebfe812ba6b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_119.tikz",
+      "sha256": "d21f46b6d823c7a71dcea6b6cb11ee54654fc94bcafc255c74630924ebb3fa5e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_120.tikz",
+      "sha256": "c2ee106bc1833559fba447e4a5db02a64dde3ab48d58f0d61d10b830441331c8"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_121.tikz",
+      "sha256": "babde650b83ecfd4a9de4d03fd8d71b035291cefbbe4920fa2b4027940719a04"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_122.tikz",
+      "sha256": "d8fe6ae8d6f4080bed8c67db0b6e64c5058207e27e1fad966617cb60b74999a1"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_123.tikz",
+      "sha256": "622814e8073e08b88911b43a1c28953f978f5909552c5fc33ee9244860247a8d"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_124.tikz",
+      "sha256": "921812c0b36fe0fa831ff4a1016fd4e01394c3c04f7dd45677adcf0399d75b55"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_125.tikz",
+      "sha256": "124ab758703e85287926eeeca575fd5c3104c664bef218b7565996f908eb300e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_126.tikz",
+      "sha256": "df9401eea0125366af9bc6d1bdedb55e97b4efcfbf550b386b7a4b060aae187a"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_127.tikz",
+      "sha256": "5da5d57b0ad1d4d03462fa6772e301dbb3faf41ed8fae2f79f98caaf7c525c26"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_128.tikz",
+      "sha256": "dae48232947cfdd090d90d3e0474e17e7ea2868f595e315734569a3de5e24a6e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_129.tikz",
+      "sha256": "f871e4bf951c0a81a57bb26682065f60298e696bbadbeec16009102a1a214717"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_130.tikz",
+      "sha256": "97910d2dcae365f038d81e6194d9dde8777335b69c355838e29dd4f7395016dc"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_131.tikz",
+      "sha256": "f29ad597f608fa0452d75c7433febcc9f35d4f773221b1adb72db3d0cfd09d53"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_132.tikz",
+      "sha256": "3af86e1206e98d351deb6d234ae65570814bac584d18eb8b3802fbb9721698f8"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_133.tikz",
+      "sha256": "ef392f165846f6172e086618440e1c42cb8645fcea13f881fc8dbe6b3cb04c6d"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_134.tikz",
+      "sha256": "2286e1cc27e52886c667bbbf1274624727391c89ce404fefb797b2d9c35b0460"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_135.tikz",
+      "sha256": "f135fe2e4a1553867150cae029fdea480ff0bea6716e500ff2058fb482b1e6df"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_136.tikz",
+      "sha256": "81e9d0f96f7ca3b49fe87b4803c006cedfeee68985a8730fef972924036efbfa"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_137.tikz",
+      "sha256": "edad44ba55609b8b84c6ffdadadcc7c664420eeeb6d97c7d754248054192bb9f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_138.tikz",
+      "sha256": "852095f70a7e9fa6fcf3b0cd95e77cc5529dc1ccde543d586ef517f5f3f76f03"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_139.tikz",
+      "sha256": "962a2e8c64d9675b4d85bcbe3f3c57642fcafe4cab546df48bc49d832d2625b9"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_140.tikz",
+      "sha256": "6d25c52c1c9ff12f014722c42c1bcb4342e4395837454d1feb45d85ec1f30d5e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_141.tikz",
+      "sha256": "897e48e7e2def777e877c6344431a115d19c1c822daa6c5ab7c03621f71ef11c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_142.tikz",
+      "sha256": "d4e9bd7d8e8d8f9c477981587b1746f26db95817e38d45fc0a09ecc93cb3124e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_143.tikz",
+      "sha256": "4a55ee8b9d135aad3e1130e1867a4a117fd7e197984deb7c585813a283a878b3"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_144.tikz",
+      "sha256": "49dc0c6e48a51ba52a1fdb1a10f89a8ab24e2e4d7215f3557aebf8a239d73aa7"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_145.tikz",
+      "sha256": "8e204e33c1bdda2c10e877838778eea9d6800e647a2937b5f4a2df768dc15366"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_146.tikz",
+      "sha256": "3f8b184e9bf7b11ee97e23bf055dc8a19248bc46fdb09250d12d5582ad52fe87"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_147.tikz",
+      "sha256": "e8815dbe7e08aa0a2a76ace8a53b12203f4606c8798922ede65796a9b9dfbe15"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_148.tikz",
+      "sha256": "842ccf99ffe0b63d1d398aa1617a4cedab13b4d124f0744eb9d2c8b0bc5235b3"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_149.tikz",
+      "sha256": "5832936f83b62406ea80856ca0e2ff39cd64bf70bcf9e626a632710bb92bbf02"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_150.tikz",
+      "sha256": "88da2407362165d68d1b2df421f792ce3cde8586ed690d776948620d5a37c7c7"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_151.tikz",
+      "sha256": "69f981b970655be770d5ad52695fc3d9bdf33cdcd6ee32aa00cf1fa36563d2ef"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_152.tikz",
+      "sha256": "26cd88b7160cee64c7c96465d7658b0020804c54ad7f423e79dd6e3bc28ff7fd"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_153.tikz",
+      "sha256": "c1ea0a30808fde411d9d1311c3dfaf986ba46de99f3ed50d8e2457d010701355"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_154.tikz",
+      "sha256": "a6db693b4643682bd0d65b42a213e4b94c83d803a25269f3b4d6c01964814dae"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_155.tikz",
+      "sha256": "c327660bbdb08be24c2a3af9a580dc4f751ed70d9613b0c0fd30a4308fdfff85"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_156.tikz",
+      "sha256": "1090f13b77500d56b30129be427b97d8de2bf43fa9b4f99479ae8dd0ba476d0e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_157.tikz",
+      "sha256": "10c1fdf45422de9cd5d2e6d3c23fd754315b63a4b209eb1a3c69ddf64a8983c8"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_158.tikz",
+      "sha256": "58fe7ca15498e95331e489ed38cd5375eecc27adcb1b2bf53e0955885a314d97"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_159.tikz",
+      "sha256": "41f049c58f752392325500367e0ef142f46045babec0407f2cf8879aa6eddb17"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_160.tikz",
+      "sha256": "1bc49cff1e8f7d0ce241794eeee5594f85c8e565341ac9e596133f4a3540f33b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_161.tikz",
+      "sha256": "9ebfa30abf82c66fb123bfa4cd5d1dc1630d4c0703675aca42080f90c0e4d6c6"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_162.tikz",
+      "sha256": "f79f09bca65349d845bb6a5a23ade5ad34c457d0364908d9f0d75aaeb27f7807"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_163.tikz",
+      "sha256": "1ffb26e6655c7a3b807c7f48ec2c05f2a9c974c14b96f6a00154ed3d878427f9"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_164.tikz",
+      "sha256": "5c076d45bab5562fc027cf7a3780bc109d3073366d6d14a80a82a56d215eb731"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_165.tikz",
+      "sha256": "484d2465aa46db888451f7515f40ec787ad07481913ef7708a419aeac3dad68f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_166.tikz",
+      "sha256": "eca48963ddaa87119dff9e8b43c88a8f92d8bca6343aaf7a0ee0f662595e4d53"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_167.tikz",
+      "sha256": "acefc4c073ce6fa75877641fb9c089c84cf05c25948035fa99a54dc102508f55"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_168.tikz",
+      "sha256": "c6ae7a53a2d9836c177a1ad2c33bd105476fa1311a04c4bc7dfb0a2ab0869fb9"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_169.tikz",
+      "sha256": "4fe05c4b6b3f55aede8d7c71281e8f44de888ba29392908e444fd39fc33c2e16"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_170.tikz",
+      "sha256": "84ff8917e9ba50e32afa4fcd447d7a3908a24073fe104e5880844e34aadc5120"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_171.tikz",
+      "sha256": "331bb11678a14d0da33766ff7ef4968f37c0ed5efb84ea89bea2a87843ce35e6"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_172.tikz",
+      "sha256": "ead92ae04db1c310ae3dc52f4c41f23928372d2649af90e046225d8149b7ed9c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_173.tikz",
+      "sha256": "dc256d272bc5a0ec4d5e35cf24746c5457367ecbad6e4008351c7eab0db44f82"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_174.tikz",
+      "sha256": "b3cbf0626e52282da33aa4393353d93e6a6155a65ada56fca429f2324881681b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_175.tikz",
+      "sha256": "2d978fadb879a19c8ce5e3e699090afdc4093112bd9bb96e2090c47009905546"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_176.tikz",
+      "sha256": "e54ebe9fffdaecc3ac29f54bb053cd2e89c62b03c3b1f0976b30f804ecccbad1"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_177.tikz",
+      "sha256": "56d050d1e4715c5c93611202b6e03295d30871da898f1ee5cb2f2974a72381e3"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_178.tikz",
+      "sha256": "99d1767dd06002a72c8cc21c65228fa8a32fabceb8a20cd3fbffa478f8b3fd96"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_179.tikz",
+      "sha256": "113ee2f6633428adb7a0bffcf2ac91e1c906c00f0c45aa2285cf0e80eb9a69a2"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_180.tikz",
+      "sha256": "d4b4ba274f51c9bc0c509095a9039c23c03826a723d701b442e204b77df9940b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_181.tikz",
+      "sha256": "454ca603c4d722c447092b130b2d4d736b06dc6a5f9a35b337635654d85ebd17"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_182.tikz",
+      "sha256": "ea326c8ba482ec4e6e53be35235d21dde19caad647a2c507dd700435d9c46db8"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_183.tikz",
+      "sha256": "f36efbfa8b8c316d661e3662d993d2c27524444c50c57a7a7a0fe9dde0eca7f5"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_184.tikz",
+      "sha256": "87029b73f6bbd5c6d83eb89a32c06957faf05b59c51d2e476238ac3a05f93e14"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_185.tikz",
+      "sha256": "86cf3033410bb628193f4e288e521d67b6d7a076382447996c566c312bd4641f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_186.tikz",
+      "sha256": "fbde5b05c624bffec45c320c5055e2fcbaae5a2c2c1f30dff37b6b0b4b3152ea"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_187.tikz",
+      "sha256": "05db967a98f68a0cebcf180e55761dbd440937f287c3d43e33084dd7c0a1d153"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_188.tikz",
+      "sha256": "f68c9f0d8af8e46d02826ff8cdc2a836f0308a0778476129477ddeeacc853bf3"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_189.tikz",
+      "sha256": "19d454c427081faa327c43acde26a80064c1e80606803af8afc0e37c9f4f1716"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_190.tikz",
+      "sha256": "3db895ca7819ea19aea1d0ff1fdc47589fd9fc461b2d4a0af86ca65c5175e45e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_191.tikz",
+      "sha256": "2e3e6bc66eb8aba2ef1c239a85f845a07ad901e907275493b0479cc23e67e047"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_192.tikz",
+      "sha256": "7a27a0e3f10179eec15c9cfb3293f145833d455638e55a20e1aa146790629e54"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_193.tikz",
+      "sha256": "aee974fbdf7f778b1689283c123a194c51b2386b62cd1ddce09333dec362798b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_194.tikz",
+      "sha256": "15ff45b3a7f768881a13e5f2a9876a55a34b294c9ca86e9f0667c5106ec633c7"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_195.tikz",
+      "sha256": "a6f3e23f71f633de3244a3432420313da9141cbd8373b8f86c3de854c2a6afdc"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_196.tikz",
+      "sha256": "a6fd99dc7a9e109113a802093e5bb1414750156a9b9f6ecb375204e76c561222"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_197.tikz",
+      "sha256": "026a902a789ceeef87262d1ddb3abc12d89f7c18fe500c09706dec76d033b67f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_198.tikz",
+      "sha256": "f838bd635d9406574593d7124a4a9dc75819c2da0332a781abb74f2a35d0435b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_199.tikz",
+      "sha256": "326fe69782b648f1f828ec1f1488c2e1d8585e0e1f6f113cb878a54b32a99ca1"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_200.tikz",
+      "sha256": "7faf6da91b8f76b9d782129477822b06515a55fe9037274135b4a824f7e1088f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_201.tikz",
+      "sha256": "36308a2e90e3aca2e9e6d8ea69467e81d2d4f642c4e29ded18daf5abfc73cea1"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_202.tikz",
+      "sha256": "6cafd5f2535bd0ba6380517e3f7e37f1a6e301530d11c654a4972c1f0b4968a5"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_203.tikz",
+      "sha256": "58b997ee3da57e3ce4b9978d7ab2a48440d12e20cf86aef5ebeb1eea225cdc58"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_204.tikz",
+      "sha256": "6de8543fc5f6df490081a195ef69931e17786e729e3962e41652815b8488e21b"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_205.tikz",
+      "sha256": "4bffb26c02cf7e65f398479c18ae571bc91a91f56f4cfac19ea8cff3646efb05"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_206.tikz",
+      "sha256": "505fd2609baf6af028854fcb9b553af74f18657be3bf7932061c7be53b32a616"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_207.tikz",
+      "sha256": "9676cf9dbfbff7bc37674454ba6f169e165a6cb253ea7bd97027ab4dd7e62ed9"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_208.tikz",
+      "sha256": "219ca962696b1e2f9bd943e0b31c2e246fd5b7e47862808a2ce44fcaa6aa7167"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_209.tikz",
+      "sha256": "15bdbb0237ce7525ebaf504fe302479ea824370a642907ac73bffc437d00fdd0"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_210.tikz",
+      "sha256": "f5811e037b26ca6e3cc12610c7f880a0d55257f4b92eecb147e15bd5a24f8360"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_211.tikz",
+      "sha256": "c86909e397c2b265e7c67bae497ad3d2b72b296bc1a94c20f84d3ef00a9bb0dc"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_212.tikz",
+      "sha256": "d9cc69a533339a55fbf56da5ac5be95eb9de9669b33b27a652f88c781eac862c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_213.tikz",
+      "sha256": "883e5469a9621daa505b7e0f2a71b4425ee05ec184bb1ea6a30dfaf96feef57c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_214.tikz",
+      "sha256": "b5c03ed55959487d25138e9f3c3374b1466505b7046b04350c86618d5f6ef6da"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_215.tikz",
+      "sha256": "f45cb960de042af204874f6ae31e027bd93616e91bb23fa6731dbdbb66203373"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_216.tikz",
+      "sha256": "4cd1e08bcb84fdc6767d44f6b27206db067a88fe6a821fd513056d5169c86a2a"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_217.tikz",
+      "sha256": "9a5a3c9d6470b4942856ea59914f2502b717d25230be9d37fddb9b53fc66b5c7"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_218.tikz",
+      "sha256": "305cddf291c6fd5c903d8cf28a68adc7b76325c7352eaffffb75607ae572974c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_219.tikz",
+      "sha256": "dd27a9c3eec05b8b5422cfd9a15cdebb97f68bff7bd156d06c1857948cd26282"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_220.tikz",
+      "sha256": "b2053c467a157f8d350dc3bd554c468e0830e9bce80ef28c46dd21cfd7ac471a"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_221.tikz",
+      "sha256": "4ea7f35315acd4e75a5dd283b934dcae6494caaeb275ea7f04b6f58eac547997"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_222.tikz",
+      "sha256": "e12a7fe8212516e78863183f821bb3b4f3aa92e79e5a2b34867070d6e370ae10"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_223.tikz",
+      "sha256": "7b29e7e0b04554fd27a24aaab7b9381e01194b44b027e425201059d276ca4736"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_224.tikz",
+      "sha256": "1e6ff9d3b9e9cd32ad52d0af5ede365dfd0574e9ac09f8c9c8ca2900e7f64042"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_225.tikz",
+      "sha256": "4f2fe788ad54f43317abae668514f1dfc78b7ae42e5c6b57290eeffefeaaa8b6"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_226.tikz",
+      "sha256": "8c73c8b9cc1d1de4a90ca5b28ef8aa646fa3b9da74d65f5cea80d25c8fabb36d"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_227.tikz",
+      "sha256": "8cbe46918bdec4c7224c66309020893fcadfec1378745facaebc0af5af00dc16"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_228.tikz",
+      "sha256": "1cf5c9ad5b5ed8700f6c8179bb797c1aa0f050560427255fd46d2186da3c80c8"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_229.tikz",
+      "sha256": "a8b347087f7b324d443f5caba677bec5ac6f43e59c3fdb063f684321358db97c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_230.tikz",
+      "sha256": "c955c78fb6cac57354727d2d4f58c783c7cfa5106745354f733301fe2ab32633"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_231.tikz",
+      "sha256": "0605e248cbf83a7481e9a5078cab998b22c7c0be1d507fbf08dbf25cc5ef8bbb"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_232.tikz",
+      "sha256": "f30af70f1772bd7e23d242b3275781deb40ac86a93dd9fc7eeeaafd8ec0eb70d"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_233.tikz",
+      "sha256": "57526773c565ea367f3039374e1b1fce617afeffeef07fd4b6be182f76ad8cf4"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_234.tikz",
+      "sha256": "bae9ed7e3987940f5366b1e895689c05807e9c81ba6404b03c82aabe877bb2dc"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_235.tikz",
+      "sha256": "3aec135022d84b1b0eeadd8f7294373bc69469f11db2b530bc4bc542d1058363"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_236.tikz",
+      "sha256": "c3e5413d2fcffe80e0fe1f5275051dab7d6e2934a7403fb9068f1c43bca242af"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_237.tikz",
+      "sha256": "d6ab97f4a0b8d71359d4934f0c56e6641fec1fe91ddb9a5bc0605e27b49a1e3f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_238.tikz",
+      "sha256": "60d1f0d1cb05d7bac595c7b78d46f82c99144d30b622d675d8325b4aad67b50c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_239.tikz",
+      "sha256": "ee655a455f99b59eb77df50365d5628174a0409a2b45c6c058d313bea4569b7f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_240.tikz",
+      "sha256": "91edf365c8ce41dbdd8dd3875dbefa8baca80245033a73f8b082d7ab313f4ac4"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_241.tikz",
+      "sha256": "2ee9a034ea844e249d2a1ed48eab0285ad757ac519862ae5b345cbb5fb1bee89"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_242.tikz",
+      "sha256": "d6ddfd38b5bd0602b2805abee6342507286e454f2444127a57f925fb28662924"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_243.tikz",
+      "sha256": "f054290946fa9e023d9b0051cb7de5c81c6109788a0a8d7cb0a7af7b4e1c6bd3"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_244.tikz",
+      "sha256": "4cb673581f4d8fb86fce90607b012a75342a6f1f66bf18bbfd4ce701722064ac"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_245.tikz",
+      "sha256": "a7a5983ce2c9695be94e4616ffde8eae40f889399661488bf176e7a846e14421"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_246.tikz",
+      "sha256": "47515053f6148735b3b12bf10eeda7254c30ee79254123ecd171e539cf9e26b8"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_247.tikz",
+      "sha256": "76d372688bbba712d4c397234d7b5630eb924493f8144e3807183451dc88ac6a"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_248.tikz",
+      "sha256": "0f2811ae63eeabb5c8b27c3664ec25700e897c826d920d81413cb49c21ac7c0e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_249.tikz",
+      "sha256": "d80c80f6da9da088001be7499e2c09cc25de3cbbf80dad0521cd29ced35feb7a"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_250.tikz",
+      "sha256": "4275289628a86bb89109b1624eb73dc4f87c7fecd134be817c6d795a18cbb5f1"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_251.tikz",
+      "sha256": "285866851b0a6d6d6aa8ee5a15b53b46efc18f90a57b4043d84aa53bd355abc9"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_252.tikz",
+      "sha256": "7bfe182c2a6071c8e3b2cd9b938d0f47179f4d71ed66dad2bbfc54456ec8bc41"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_253.tikz",
+      "sha256": "ce4be33cde5baae1f2585c015d17228cc86dc99f8d4beeb6cfabc3709050cfcb"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_254.tikz",
+      "sha256": "0925310636264b1eae8eb96f1e182c614681b32b43aba693b6acdc509d585367"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_255.tikz",
+      "sha256": "ae532605f8c51f517f951a1a518c3725236017464798dc6e482e25992a455190"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_256.tikz",
+      "sha256": "abfbf168fce19c6bb66b43062b3f6a13a614e7c9906c8b254d39bc57a0cbd664"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_257.tikz",
+      "sha256": "0c17e5ccaba444946a1c27035e6de40e5a443f7f11464359e5f83799747a0a7a"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_258.tikz",
+      "sha256": "ecb2ba4491d327820d2589e0f2c6388c3671c466a9a70bbe84ecf0104cf9c4b8"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_259.tikz",
+      "sha256": "60d319ca23ca32a92a4b02dffe13a262d973149bfadff42af50101b0dd0013b7"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_260.tikz",
+      "sha256": "dd7726064776781369ed3a9ae790d39a5453765137064d833dee344686b363fa"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_261.tikz",
+      "sha256": "6df9bde90f86ca8c73c7d24908ecb3ca8dd7e5e849c376caf8c241494a28ffe8"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_262.tikz",
+      "sha256": "ebb535605bbd2b4f9110fdc357fee3a91d81bed55d1e7864dacdab202bceb9b6"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_263.tikz",
+      "sha256": "0e09f1a089b50100ec82561d5d6c915bf1ac80f484a49be89fe0260a19583219"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/basis/d5_264.tikz",
+      "sha256": "1fbde7fe05c71881e395f211b97616c76e289abbe460e40558b12fa950299ac9"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/examples/reading_legend.tikz",
+      "sha256": "c6eef96e0861c5015df6d79913b3e7390ee393e636cc7a3c858273068eb1fd62"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/examples/teleportation_T.tikz",
+      "sha256": "af067657ca9bd7070886bdbbdb5f92cfe7838ad40a33f6802478bd992ebad5cd"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/examples/teleportation_left.tikz",
+      "sha256": "4a6fedebdfcbb9b37076e9981fc44cdbbb1c76be6c7a1701a92ccd05e0989462"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/examples/teleportation_right.tikz",
+      "sha256": "9d85e7eec1d3336156e647c14ec638b57bc1a028f6e92596b4ce8a6afec3425c"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/examples/x0_cancellation.tikz",
+      "sha256": "e62ffaf6af0ee2a51f54332eba3f3ee3e46a25fd5dfaf802a321cfe1dda81284"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/examples/x0x7_cancellation.tikz",
+      "sha256": "00f606518789af6442fe41ec38c978a0842f8de60078cc010b1b1b17e15c3433"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/examples/x7.tikz",
+      "sha256": "a57911ec79a48253f90bfe0393a9a0c263f8ac4bac3388d708c9a45998986e9f"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/examples/x7_cancellation.tikz",
+      "sha256": "064505d58a537288188cd913795c8023d61a77fe9d37cc4ec2334439aeb66b71"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/examples/z0.tikz",
+      "sha256": "c41231d9a8ce1d3be25c0a0a5576afaec6f630a423eee7916bd6015e146550c4"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/examples/z0z3.tikz",
+      "sha256": "1087e4cbb44dc20b3a74847d0fa27cc06dfac0f2d45fc29ed1d7ea66956e668e"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/examples/z3.tikz",
+      "sha256": "b0396dabf54c0f5167afd1aec4768a55bb8a53c50552555a3d2e9be316e08a27"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/guide.tex",
+      "sha256": "cbcc1beaeea75639e5ee3315535b5dea205cf14c1f4c43f27a4821e26a9ea3a7"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/index.tsv",
+      "sha256": "69cb9368d15bf73c577b7281cc23fcbed3e60685d9f93540e8c97662da578d3d"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/legend.tex",
+      "sha256": "faa9a8a2a82d47b73c940fcef80e8a4fb32405e84d8b6211ffadc4ca26c2eec4"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/pages.tex",
+      "sha256": "d046c51ad9c0e6bc21b77aa6c900ce525e90b617cda6057375eb5906ec56b2bb"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/preamble.tex",
+      "sha256": "770c35b52a041e17e0bb9591dbf9f5566f6137b153b90090ce4d421851f70372"
+    },
+    {
+      "path": "pauli_semiwebs/drawings/zx_styles.tex",
+      "sha256": "6aa07ee8880500dbdced4b3dc3968332158b9f403e9600c4d254a70e9c6fe952"
+    },
+    {
+      "path": "pauli_semiwebs/manifest.json",
+      "sha256": "af1d6657a8d559a38ec4c75917ed548fe026573de46d801b4bdca6666cf273fc"
+    },
+    {
+      "path": "pauli_semiwebs/provenance.json",
+      "sha256": "866f4dedc903d104c1dfbe59fab98f4837c5cdc37d2e0de6dc1a4703eca26fd8"
+    },
+    {
+      "path": "pauli_semiwebs/src/__init__.py",
+      "sha256": "8d70591d9d55617315905cd1d16e7ce41eefd8155e0ed73a5a8da5d195808260"
+    },
+    {
+      "path": "pauli_semiwebs/src/double_check_stage.py",
+      "sha256": "75500151f22a03b9107b6e61ddb0df1bffc5b194cfb6ae66b9aa42f55ca09425"
+    },
+    {
+      "path": "pauli_semiwebs/src/generate.py",
+      "sha256": "83cd55db912556957973f61381135ea3c65d306462489d896340b3059c8a8c4f"
+    },
+    {
+      "path": "pauli_semiwebs/src/layout.py",
+      "sha256": "86d30a77b3ff92493b7a29c57f6d6b24d8635a9cb954a9cd2e5547552214d143"
+    },
+    {
+      "path": "pauli_semiwebs/src/linear.py",
+      "sha256": "0c8e8f47bbb0f9fbdbe6c01aff5c384ef95930ea26a96d2c788c1001366ec867"
+    },
+    {
+      "path": "pauli_semiwebs/src/render.py",
+      "sha256": "6c4ad9c0347358a5b273d5035301c7d29a17157ae0a1a091824e6442ab2b8593"
+    },
+    {
+      "path": "pauli_semiwebs/src/semiweb.py",
+      "sha256": "d0da67fee4f89422be747dcb2546ab5580ce2dc9983f247842e49fa517cabf17"
+    },
+    {
+      "path": "pauli_semiwebs/tests/test_core.py",
+      "sha256": "9cf4a26886fb9d5cf45f9d5a9a3d8495a13fdc8e9fe289475ca6a11113bc24d8"
+    },
+    {
+      "path": "pauli_semiwebs/verification/__init__.py",
+      "sha256": "86cc16d535ec40ce55340209ff7e0a17b85eb66793db7d0f953d7a5961404f26"
+    },
+    {
+      "path": "pauli_semiwebs/verification/check_diagrams.py",
+      "sha256": "f8616bfeac99ab62ce877c710d805e89d3ce0fd774848ed53bc0d796f11e82e9"
+    },
+    {
+      "path": "pauli_semiwebs/verification/check_operators.py",
+      "sha256": "37c4312448b3cde427120c6205e91a8fc8bbec19328f9b388a096585d368bef8"
+    },
+    {
+      "path": "pauli_semiwebs/verify.py",
+      "sha256": "ba049c6552d1a4e10b4c48796363f1f4e066abbcd904dbff5221aa98c1bfdc80"
     },
     {
       "path": "plot_other.py",

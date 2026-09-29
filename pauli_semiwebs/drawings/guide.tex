@@ -1,0 +1,125 @@
+\documentclass[11pt]{article}
+\usepackage[a3paper,landscape,margin=12mm]{geometry}
+\usepackage{amsmath,amssymb,tikz,graphicx,adjustbox,booktabs,caption,hyperref}
+\usetikzlibrary{calc,backgrounds}
+\definecolor{highlight}{RGB}{0,0,0}
+\input{drawings/preamble.tex}
+\input{drawings/legend.tex}
+\pdfinfoomitdate=1
+\pdftrailerid{}
+\pdfsuppressptexinfo=15
+\hypersetup{pdftitle={Pauli semiwebs of the double-checking circuits},
+ pdfauthor={},pdfsubject={},pdfkeywords={},pdfcreator={},pdfproducer={},
+ colorlinks=true,allcolors=highlight,bookmarksopen=false}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\begin{document}
+\begin{semiwebaddition}
+\pdfbookmark[0]{Reading the diagrams}{guide}
+{\LARGE Pauli semiwebs of the double-checking circuits}\par
+\medskip
+{\large A basis for the $d=3$ and $d=5$ ZX diagrams}
+\bigskip
+
+\begin{minipage}[t]{.47\linewidth}
+\textbf{Contents}
+
+Each following page shows one basis element. Products of the 90 elements
+at $d=3$, or the 264 elements at $d=5$, generate every semiweb of the
+corresponding graph, up to overall Pauli phase. The basis is not unique.
+The counts depend on the chosen ZX graph.
+
+\medskip
+\begin{tabular}{lrr}
+\toprule
+ & Count & Pages\\
+\midrule
+$d=3$: incoming $X_q,Z_q$ &14&2--15\\
+$d=3$: additional output support &14&16--29\\
+$d=3$: no boundary support &62&30--91\\
+$d=5$: incoming $X_q,Z_q$ &38&92--129\\
+$d=5$: additional output support &38&130--167\\
+$d=5$: no boundary support &188&168--355\\
+\bottomrule
+\end{tabular}
+
+\medskip
+``No boundary support'' means that the labels on all input and output
+wires are $I$. These semiwebs may still have defects. The full Pauli-web
+subspaces have dimensions 12 and 37; their subspaces with no boundary
+support have dimensions 6 and 19.
+
+\medskip
+\textbf{Circuit}
+
+The $d=5$ headings F1--F7 and U1--U7 identify the original fold and
+unfold CNOT groups. Gates within a group use separate drawing columns
+to avoid overlapping connections.
+
+\medskip
+\textbf{Sources}
+
+The definitions and drawing styles follow Kissinger and van de Wetering,
+\emph{ZX-Flow}, \href{https://arxiv.org/abs/2603.09580}{arXiv:2603.09580},
+Sec.~3. The double-checking circuits are from the construction of Gidney,
+Shutty and Jones, \href{https://arxiv.org/abs/2409.17595}{arXiv:2409.17595}.
+The $d=5$ graph retains the mixed $T/T^\dagger$ pattern of the SOFT source.
+\end{minipage}\hfill
+\begin{minipage}[t]{.49\linewidth}
+\textbf{Reading a diagram} (diagram from \url{https://github.com/tqec/tqec})
+
+\begin{center}
+\raisebox{-.5\height}{\semiwebinput[.40\linewidth]{drawings/examples/teleportation_left.tikz}}%
+\hfill${}={}$\hfill
+\raisebox{-.5\height}{\semiwebinput[.055\linewidth]{drawings/examples/teleportation_T.tikz}}%
+\hfill${}={}$\hfill
+\raisebox{-.5\height}{\semiwebinput[.40\linewidth]{drawings/examples/teleportation_right.tikz}}
+\end{center}
+Both circuits give $T$, up to a scalar, with an $S^\dagger$ correction on
+the right. The overlays show different semiwebs.
+
+\textbf{Legend}\quad
+\semiwebinput[.84\linewidth]{drawings/examples/reading_legend.tikz}
+
+Up to normalisation:
+\mbox{\semiwebCaptionGate{\frac{\pi}{4}} ${}=T$ ($-\pi/4$: $T^\dagger$)};
+\mbox{\semiwebCaptionGate{\frac{\pi}{2}} ${}=S$ ($-\pi/2$: $S^\dagger$)};
+\mbox{\semiwebCaptionCnot ${}={\rm CNOT}$};
+measurement outcome $0$: \mbox{\semiwebCaptionEffect{Z} ${}=\langle+|$ ($X$ basis)},
+\mbox{\semiwebCaptionEffect{X} ${}=\langle0|$ ($Z$ basis)};
+preparations \mbox{\semiwebCaptionState{X} ${}=|0\rangle$}
+and \mbox{\semiwebCaptionState{Z} ${}=|+\rangle$};
+resources \mbox{\semiwebCaptionPhaseState{\frac{\pi}{4}} ${}=|T\rangle$},
+\mbox{\semiwebCaptionPhaseState{\frac{\pi}{2}} ${}=|Y\rangle$}.
+
+At every spider, the incident Pauli labels satisfy
+\[
+ w_v|v(\theta_v)\rangle
+ =\lambda_v|v(\theta_v+\delta_v)\rangle.
+\]
+A nonzero phase shift $\delta_v$ modulo $2\pi$ is a \emph{defect}.
+No defects gives a Pauli web. Numbered violet stars mark the affected
+nodes; the phase shifts are listed below each diagram. The phases
+printed inside the spiders are the original phases.
+A $\pi$ defect at a preparation or measurement changes
+$|+\rangle$ or $\langle+|$ to $|-\rangle$ or $\langle-|$.
+
+The boundary labels and scalar satisfy
+\[
+ K P_{\rm in}=\lambda P_{\rm out}K_{\boldsymbol\delta}.
+\]
+$K$ represents the selected double-checking stage, and $K_{\boldsymbol\delta}$
+has the marked phases changed. Multiplication includes the Pauli scalar
+phases, and phase changes must be composed. Adding two defect shifts
+computed on the original spider is not generally correct.
+
+Each TikZ file records the affected node, qubit and phase change in
+comments. The star is positioned relative to that named node.
+
+\end{minipage}
+\vfill
+\small The drawings suppress common ZX normalisation factors, which cancel between the two sides of each identity.
+\newpage
+\input{drawings/pages.tex}
+\end{semiwebaddition}
+\end{document}

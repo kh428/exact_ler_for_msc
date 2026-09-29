@@ -1,0 +1,19 @@
+{
+  "paper": "https://arxiv.org/abs/2609.18922",
+  "definition": "https://arxiv.org/abs/2603.09580",
+  "circuit_family": "https://arxiv.org/abs/2409.17595",
+  "circuits": [
+    {
+      "distance": 3,
+      "file": "circuits/d3_native_t.txt",
+      "sha256": "f969091f809cd108c9b1a0498b49bef82f364f9d4ca59ac069f4e3bd004d4da9",
+      "scope": "Final double-checking stage only; no physical noise average or terminal code projection."
+    },
+    {
+      "distance": 5,
+      "file": "circuits/d5_native_t.stim",
+      "sha256": "859d925c74712efaae8bab1d944f9e5be4e042e226eeafcc6d7bef9d6fbfbae5",
+      "scope": "Final double-checking stage only; no physical noise average or terminal code projection."
+    }
+  ]
+}

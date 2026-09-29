@@ -1,6 +1,22 @@
-# Exact logical error rates for magic state cultivation
+<h1 align="center">Exact logical error rates<br>for magic state cultivation</h1>
 
-Companion code and data for [arXiv:2609.18922](https://arxiv.org/abs/2609.18922).
+<p align="center">
+  Companion code and data for <a href="https://arxiv.org/abs/2609.18922">arXiv:2609.18922</a>
+</p>
+
+<p align="center">
+  <a href="#start-here">Get started</a> ·
+  <a href="#pauli-semiwebs">Pauli semiwebs</a> ·
+  <a href="#additional-cultivation-circuits">Other cultivation circuits</a> ·
+  <a href="#citation">Citation</a>
+</p>
+
+<p align="center">
+  <a href="assets/msc_overview.png">
+    <img src="assets/msc_overview.png" width="1000" alt="Overview of the exact cultivation calculation: Pauli propagation, tensor contraction, exact series and comparison with the S-gate proxy.">
+  </a>
+</p>
+
 The calculations give the acceptance probability `A`, the probability `B` of
 accepting an output with a logical error, and the conditional logical error
 rate `P_L = B/A`.
@@ -23,6 +39,35 @@ The first command checks the original results. The second checks the seven
 additional circuit variants, including every saved sixth-order batch. The third
 prints the exact coefficients and evaluates their finite series at the chosen
 noise strength. These commands need no third-party Python packages.
+
+## Pauli semiwebs
+
+The [Pauli semiweb code](pauli_semiwebs/) computes a complete basis for each
+noiseless double-checking graph: 90 elements at d=3 and 264 at d=5, including
+semiwebs with no support on the input or output wires. It also generates the
+TikZ diagrams and checks the phase identities using exact arithmetic.
+
+<p align="center">
+  <a href="assets/pauli_semiweb_x7.png">
+    <img src="assets/pauli_semiweb_x7.png" width="1000" alt="A Pauli semiweb for incoming X7 on the d=3 double-checking circuit. Red dashed overlays carry X labels and numbered violet stars mark phase defects.">
+  </a>
+</p>
+
+<p align="center">
+  A Pauli semiweb for incoming X<sub>7</sub> on the d=3 double-checking circuit.<br>
+  Red dashed overlays carry X labels; violet stars mark phase defects.<br>
+  <a href="assets/pauli_semiweb_x7.tex">Figure source</a> ·
+  <a href="pauli_semiwebs/drawings/examples/x7.tikz">TikZ diagram</a> ·
+  <a href="pauli_semiwebs/README.md">Compute the bases and build the diagram guide</a>
+</p>
+
+The notation follows [ZX-Flow](https://arxiv.org/abs/2603.09580).
+Recompute the bases and check the supplied drawings from the repository root:
+
+```sh
+python3 -B pauli_semiwebs/compute_basis.py --check
+python3 -B pauli_semiwebs/draw_diagrams.py --check
+```
 
 ## Additional cultivation circuits
 
@@ -224,6 +269,8 @@ All output directories must be new. The distributed data remain unchanged.
 | `data/alternatives/certificates/` | Modular records, height bounds and compressed complete batch ledgers |
 | `data/alternatives/comparisons/` | Supplied counts, digitised points and labelled diagnostic estimates |
 | `alternatives/` | Fraction arithmetic, certificate checks and calculation adapters |
+| `pauli_semiwebs/` | Semiweb bases, TikZ drawings and exact phase-identity checks |
+| `assets/` | README images and the semiweb figure source |
 
 See [numerical conventions](docs/NUMERICS.md), [ZX graph format](docs/ZX.md),
 [calculation guide](docs/CALCULATION.md) and [sources](docs/SOURCES.md).

@@ -1,0 +1,33 @@
+% Inline ZX symbols for the caption of the incoming-X7 diagram.
+\definecolor{semicapZ}{RGB}{216,248,216}
+\definecolor{semicapX}{RGB}{232,165,165}
+\tikzset{
+ semicap wire/.style={draw=black,line width=.4pt},
+ semicap node/.style={circle,draw=black,text=black,line width=.4pt,
+   inner sep=0pt,minimum size=2.1mm},
+ semicap phase/.style={semicap node,fill=semicapZ,minimum size=5.2mm,
+   text width=4mm,align=center,font=\scriptsize}
+}
+\DeclareRobustCommand{\semiwebCaptionGate}[1]{%
+  \tikz[baseline=-.5ex,x=1mm,y=1mm]{%
+    \draw[semicap wire] (-5,0)--(5,0);
+    \node[semicap phase] at (0,0) {$#1$};}}
+\DeclareRobustCommand{\semiwebCaptionCnot}{%
+  \tikz[baseline=-.5ex,x=1mm,y=1mm]{%
+    \draw[semicap wire] (-4,2)--(4,2);
+    \draw[semicap wire] (-4,-2)--(4,-2);
+    \draw[semicap wire] (0,2)--(0,-2);
+    \node[semicap node,fill=semicapZ] at (0,2) {};
+    \node[semicap node,fill=semicapX] at (0,-2) {};}}
+\DeclareRobustCommand{\semiwebCaptionEffect}[1]{%
+  \tikz[baseline=-.5ex,x=1mm,y=1mm]{%
+    \draw[semicap wire] (-5,0)--(0,0);
+    \node[semicap node,fill=semicap#1] at (0,0) {};}}
+\DeclareRobustCommand{\semiwebCaptionState}[1]{%
+  \tikz[baseline=-.5ex,x=1mm,y=1mm]{%
+    \draw[semicap wire] (0,0)--(5,0);
+    \node[semicap node,fill=semicap#1] at (0,0) {};}}
+\DeclareRobustCommand{\semiwebCaptionPhaseState}[1]{%
+  \tikz[baseline=-.5ex,x=1mm,y=1mm]{%
+    \draw[semicap wire] (0,0)--(5,0);
+    \node[semicap phase] at (0,0) {$#1$};}}
