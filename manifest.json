@@ -15,7 +15,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "d4045ba32416d68f46cea1dbea2a2789842ad8b2f78c2283ac4027a2ba29eb55"
+      "sha256": "165d1bab5738d9332b877ef22302f51a2a0484846bf00575f139dcbfbdbfbbe2"
     },
     {
       "path": "alternatives/__init__.py",
@@ -128,6 +128,14 @@
     {
       "path": "assets/pauli_semiwebs.pdf",
       "sha256": "e4337e26218607d8be1bd2087625cade4720e190746247f1860693d7239e54b2"
+    },
+    {
+      "path": "assets/pauli_semiwebs_15to1.png",
+      "sha256": "e1a717067aeac7c82010f4bdd192c1c71031c2d13d0182b202a8202360218c11"
+    },
+    {
+      "path": "assets/pauli_semiwebs_15to1.tex",
+      "sha256": "2bc0371ef4191a95079756eab4028f906c415268f2ed1b7eb9c2e6a62c01e2fa"
     },
     {
       "path": "calculation/__init__.py",
@@ -3128,6 +3136,154 @@
     {
       "path": "pauli_semiwebs/verify.py",
       "sha256": "ba049c6552d1a4e10b4c48796363f1f4e066abbcd904dbff5221aa98c1bfdc80"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/.gitignore",
+      "sha256": "f4b5af40cc144e4895c6ebc97da0e56536b2ec9b982dd5671f327261fa462ed2"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/NOTICE.md",
+      "sha256": "bfd910fac1b1c840cfebed182c93cf1ad74688c5b2da909565b9496be9f2f0ff"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/README.md",
+      "sha256": "9cf32b8c24ec0d927bc66607240a7cd0f9b898af97ec1747bcd9a2018e6177cf"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/diagrams/factory_t.tikz",
+      "sha256": "02f491057b3bc7fe8f8a3c6c481f1c2f49b909ca8cdf59b4b7ea63fbff3cfdb7"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/diagrams/proxy_web_r1.tikz",
+      "sha256": "8c24800a9ba5837dbc40c1b052f60951ea83790782c372a0ab2be58828c86167"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/diagrams/proxy_web_r2.tikz",
+      "sha256": "61e58e621cbdd59b0a41d0a849128640bf95db931a2f9e103fc78c5ad0e5b7c2"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/diagrams/proxy_web_r3.tikz",
+      "sha256": "699307661ceb0c8aaf37a458a133798313e2f7925c6144cf467156714bdd9fa9"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/diagrams/proxy_web_r4.tikz",
+      "sha256": "b554c41d23e1037a8378214ce51169a834266e3a79bba425a0934df4d84c7384"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/factory/__init__.py",
+      "sha256": "7ba5223f3364dd5d71f3e36c6d5d92838080f188bf4a995aaa2ceaddcd81f380"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/factory/diagram.py",
+      "sha256": "635cfcfef07c0bc26a6d309d347eb98b26d7ecdabd13b0e5224797010354dfcb"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/factory/draw.py",
+      "sha256": "23d711ff9ad78a26a3e97c398d4eb50858ea6e014bb00020beaa4cb59204fbcc"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/factory/run.py",
+      "sha256": "1f5c7c8d61fb53594026a9b6cf9a7a5fb252528d084ae80c4c5af95bf9dc2ffe"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/factory/slides.py",
+      "sha256": "7a851363c790210c06351c538e38601b95d9c01ad2589ffe175c5f5a33cc01d4"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/factory/statevector.py",
+      "sha256": "c08647b8165e3726f41ffc090511691dcb676111ba75e2814cf4a523877fd757"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/factory/tensor.py",
+      "sha256": "e3000c271f82e85519cbb649cad03eaac4640968b6885776ae15c43d0a00d82d"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/factory/test_factory.py",
+      "sha256": "82abc96646566f85dc7f49a30119b49aa40739ddf4fb1a5047e9482a706c9f2f"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/factory/webs.py",
+      "sha256": "7cc87180e7bec942c4ed112b8a02dea297bb5143c04842dd0cab2108a426b4b2"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/manifest.json",
+      "sha256": "4767dc827d74ccfe525923b26809fcd5764abeb95584af233298f81adcec26e6"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/provenance.json",
+      "sha256": "e6977a0b9f8af8538da4251d5939f74cb628d3658fc21ffc5813edf1353d8575"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/results/factory.json",
+      "sha256": "2df3983ac63b8e22dd7cf92c450852b586c1fe44b18493d6bb518aee3636bf09"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/slides/illustrations.tex",
+      "sha256": "abbe3e7e1ad9a45eb35da0c5f6eeef8c459b801dc09b0109b72d36c488e212aa"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/slides/slides.pdf",
+      "sha256": "73e0682e05b268f13051dacf64d2c4cb18afe6b4b5d2aa56657ee1b56d383b3d"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/slides/slides.tex",
+      "sha256": "414fbbce2934c8cef5acef4e29b27526bba2123d163996b41717909d17b73404"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/verify.py",
+      "sha256": "ada3d585c0aa0d0b1a989773cfe47626afe574cc80213ba58c7315a7fb08a309"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/webs/proxy_check1.tikz",
+      "sha256": "d4b3063cb72d36ccde3088960267bb5c86a3bd4849b5056c651246d1e76e6536"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/webs/proxy_check2.tikz",
+      "sha256": "ba053b8f6164cd4e02f92dd1c45133870e337275da43e2ef7c702d55fd78393c"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/webs/proxy_check3.tikz",
+      "sha256": "fe8f115b17d81111441eb2b6390444e17fd5c70d8c5030484cbef40ae3aeefad"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/webs/proxy_check4.tikz",
+      "sha256": "6913ccacdf800afb3615114aabe5661d1820c085f4eab726c260cf187b8a1c07"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/webs/proxy_diagram.tikz",
+      "sha256": "2df9ff6e0d1e370639b0bd3f7ae60d1801e911c43990b231aab3887cacd5612e"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/webs/proxy_output.tikz",
+      "sha256": "0cc30ef4278afbe3c874631860d27101558c300ca41ac39cd603b8d84417f40a"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/webs/t_check1.tikz",
+      "sha256": "c78e687b4eab78f4169f132f2a7d166a0e241c7fb1161139e88d2448d7f44db6"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/webs/t_check2.tikz",
+      "sha256": "90993ad020cb78792c5982d29f5bbeec9479a2712264b3dec310c654cd455ece"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/webs/t_check3.tikz",
+      "sha256": "d194fc37929cf7612e95685d14563c22c4abb81862647b9d7e7ef263efa6e143"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/webs/t_check4.tikz",
+      "sha256": "c2dc5df45697ce59d796fc6e3fd241b7870f5eb72faac0a22fa2cc720915e113"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/webs/t_diagram.tikz",
+      "sha256": "9672ff74107e146ff3075b25fe31758b3bd3b21c74414610ad3bf1d39d2bfa51"
+    },
+    {
+      "path": "pauli_semiwebs_15to1/webs/t_output.tikz",
+      "sha256": "3452a7221416ed266a3a769e1b32e8d066fa36e872d57292d4dc942285725aae"
     },
     {
       "path": "pauli_semiwebs_check/.gitignore",

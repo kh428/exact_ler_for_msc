@@ -1,0 +1,223 @@
+% Eleven slides on the 15-to-1 factory: what a Pauli semiweb is, three examples at one spider,
+% how a Pauli is pushed through a spider and where the defects come from, the four checks as
+% Pauli webs of the S-gate proxy and as semiwebs with T states, why the checks still hold, what
+% the factory outputs, and the web of the output worked out step by step.
+% Built by: python -B -m factory.slides
+\documentclass[aspectratio=169,10pt]{beamer}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,mathtools,array,adjustbox}
+\usepackage{tikz}
+\usetikzlibrary{calc,backgrounds}
+\pgfdeclarelayer{edgelayer}
+\pgfdeclarelayer{nodelayer}
+\pgfsetlayers{background,edgelayer,nodelayer,main}
+\input{drawings/zx_styles.tex}
+\pdfinfoomitdate=1
+\pdftrailerid{}
+\pdfsuppressptexinfo=15
+\title{Pauli webs and semiwebs of a 15-to-1 factory}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{\hfill{\scriptsize\insertframenumber/\inserttotalframenumber}\hspace{4mm}\vspace{2mm}}
+\setbeamertemplate{enumerate items}[default]
+\setbeamersize{text margin left=6mm,text margin right=6mm}
+\setlength{\parskip}{3pt}
+\newcommand{\web}[2]{\adjustbox{width=#1\linewidth}{\input{webs/#2.tikz}}}
+\newcommand{\webkey}[2]{\tikz[baseline=-.6ex]{\draw[style=#1 Web] (0,0)--(.7,0);}\,$#2$}
+\newcommand{\weblegend}{\webkey{X}{X}\quad\webkey{Z}{Z}\quad\webkey{Y}{Y}}
+\newcommand{\defect}[1]{{\color{violet!80!black}\ensuremath{\ast_{#1}}}}
+\newcommand{\defectkey}{\tikz[baseline=-.6ex]{\node[draw=violet!80!black,line width=.6pt,circle,inner sep=0pt,minimum size=2.4mm]{};}\,{\color{violet!80!black}\ensuremath{\ast}}}
+\newcommand{\ket}[1]{\lvert#1\rangle}
+\newcommand{\magic}{\tfrac{X-Y}{\sqrt2}}
+\newcommand{\source}[1]{\par\vfill{\fontsize{6}{7}\selectfont\color{black!70}#1\par}}
+\newcommand{\factoryref}{Protocol: Bravyi and Kitaev, Phys. Rev. A 71, 022316 (2005). Circuit: Litinski, Quantum 3, 205 (2019).}
+\newcommand{\checkedref}{Every step is checked in exact arithmetic by \texttt{factory/run.py}.}
+\newcommand{\webgrid}[1]{%
+\par{\centering\setlength{\tabcolsep}{0pt}%
+\begin{tabular}{c@{\hspace{4mm}}c}
+\web{.46}{#1_check1} & \web{.46}{#1_check2}\\[1mm]
+\web{.46}{#1_check3} & \web{.46}{#1_check4}
+\end{tabular}\par}}
+% One-legged spiders, in the colours of the drawings.
+\tikzset{state/.style={shape=circle,draw=black,minimum size=7.5mm,inner sep=0pt,font=\footnotesize}}
+\newcommand{\zstate}[1]{\tikz[baseline=-.6ex]{\node[state,fill=zxgreen] (a) at (0,0) {$#1$};\draw (a)--(.95,0);}}
+\newcommand{\xstate}[1]{\tikz[baseline=-.6ex]{\node[state,fill=zxred] (a) at (0,0) {$#1$};\draw (a)--(.95,0);}}
+\newcommand{\zhstate}[1]{\tikz[baseline=-.6ex]{\node[state,fill=zxgreen] (a) at (0,0) {$#1$};
+  \node[style=hadamard] (h) at (.8,0) {};\draw (a)--(h)--(1.35,0);}}
+\input{slides/illustrations.tex}
+\begin{document}
+
+\begin{frame}{Pauli webs and semiwebs}
+\small
+A Pauli semiweb labels every wire of a ZX diagram with $I$, $X$, $Y$ or $Z$. At each spider $v$ the product $w_v$ of the labels on its legs may shift its phase:
+\[
+ w_v\ket{v(\theta_v)}=\lambda_v\ket{v(\theta_v+\delta_v)},\qquad \delta_v\neq0\ \text{is a \emph{defect}}\quad\defectkey .
+\]
+With no defect anywhere, the semiweb is a \emph{Pauli web}: its labels leave every spider unchanged.
+
+\textbf{In ZX terms} a label is a $\pi$ spider on the wire:
+\par{\centering\labelsasspiders\par}
+A labelled wire inside the diagram carries its label twice, $P\,P=1$, once for the spider at each end. Each spider then absorbs the $\pi$ spiders on its legs. In a Pauli web every spider comes back as it was: the diagram is unchanged, and only the $\pi$ spiders on its open legs are left over. A defect is a spider that comes back with another phase.
+
+\textbf{What a semiweb says.} It relates the diagram $D$ to the diagram $D_{\boldsymbol\delta}$ in which the ringed phases are shifted.
+\par{\centering
+\begin{tabular}{@{}l@{\qquad}l@{}}
+a closed web that reads the records $c$: & $D_r=\lambda_0\,(-1)^{c\cdot r}\,D_{r,\boldsymbol\delta}$ for every record pattern $r$\\[.5mm]
+an open web with a Pauli $P$ on the output: & $D=\lambda\,P\,D_{\boldsymbol\delta}$
+\end{tabular}\par}
+\source{Kissinger and van de Wetering, arXiv:2603.09580. Notation of arXiv:2609.18922, Appendix I.\quad\mbox{Web edges: \weblegend.}}
+\end{frame}
+
+\begin{frame}{A semiweb at one spider}
+\small
+The local identity $w_v\ket{v(\theta_v)}=\lambda_v\ket{v(\theta_v+\delta_v)}$ in pictures, for a Z spider with two legs. Read each column downwards: the labels of the web, the same labels as $\pi$ spiders, and the spider after it has absorbed them.
+\par\vspace{2mm}
+\par{\centering\absorbedexamples\par}
+\par\vspace{2mm}
+The $S$ spider comes back as it was. With $X$ on one leg the $T$ spider does not, whether the other leg carries $X$ or $Y$: it comes back as $T^\dagger$ or as $T\,S$, a defect of $\mp\frac{\pi}{2}$. The next two slides give the rules behind this.
+\source{The three examples are checked by a unit test.\quad\mbox{Web edges: \weblegend.}\quad\mbox{Defects: \defectkey.}}
+\end{frame}
+
+\begin{frame}{Pushing a Pauli through a spider}
+\small
+The labels of a web are Paulis pushed through the diagram: Pauli propagation, drawn in ZX. At a Z spider of phase $\theta$ two rules of the ZX calculus do it.
+\par\vspace{1mm}
+{\setlength{\tabcolsep}{0pt}%
+\begin{tabular}{@{}m{.5\linewidth}@{\hspace{4mm}}m{.47\linewidth}@{}}
+\centering\copyrule &
+\textbf{Copy.} $X$ entering on one leg leaves on every other leg, and the phase is reversed: $\theta\mapsto-\theta$.\\[4mm]
+\centering\fuserule &
+\textbf{Fuse and unfuse.} $Z$ entering on one leg fuses with the spider, $\theta\mapsto\theta+\pi$. It can be unfused again onto any one other leg: $Z$ passes through and the spider is as it was.\\[4mm]
+\centering\tgaterule &
+\textbf{Copy at a $T$ gate.} $X$ passes, and $T$ becomes $T^\dagger$: \;$T\,X=e^{i\pi/4}\,X\,T^\dagger$.
+\end{tabular}}
+\par\vspace{2mm}
+For an X spider exchange the two colours: there $Z$ copies and $X$ fuses.
+
+Ordinary Pauli propagation writes the last line as $T^\dagger XT=\magic$: the gate stays and the Pauli splits into two terms. A semiweb keeps the single label $X$ and moves the change into the spider. That change of phase is the defect.
+\source{The three rules are checked with matrices by a unit test. Pauli propagation and semiwebs: arXiv:2609.18922, Appendix I.}
+\end{frame}
+
+\begin{frame}{Where the defects come from}
+\small
+Read as propagation, the labels on the legs of a spider are Paulis going into it. A Z spider of phase $\theta$ absorbs them with
+$\;\delta=-2\,o\,\theta+\pi s$:\; $o=1$ if its legs carry $X$ or $Y$ (copy: all of them or none), and $s$ is the parity of the number of legs with $Z$ or $Y$ (fuse).
+\par{\centering\localexamples\par}
+A label on both legs is a Pauli that passes through. At $\pm\frac{\pi}{2}$ the reversal costs $\pi$, and one green $\pi$ repairs it. At $\pm\frac{\pi}{4}$ nothing repairs it:
+\textbf{an $X$ or $Y$ label at a $T$ spider always leaves a defect} of $\pm\frac{\pi}{2}$.
+\source{The four examples are checked by a unit test.\quad\mbox{Web edges: \weblegend.}\quad\mbox{Defects: \defectkey.}}
+\end{frame}
+
+\begin{frame}{The four checks as Pauli webs}
+\small
+In the $S$-gate proxy every $\pi/4$ becomes $\pi/2$. Each $X$ measurement $r_1,\dots,r_4$ is then a closed Pauli web.
+\webgrid{proxy}
+Each web is the measured $X$ pushed back through the diagram until the $S$ states absorb it as $Y$. The four generate every closed Pauli web of the proxy, and a $Z$ fault on an input state flips the checks whose webs end on it.
+\source{\factoryref\ Webs computed from the diagram by \texttt{factory/run.py}.\quad\mbox{Web edges: \weblegend.}}
+\end{frame}
+
+\begin{frame}{With the actual $T$ states: Pauli semiwebs}
+\small
+The same Pauli pushed back through the $\pi/4$ diagram arrives at 8 of the 15 $T$ states as $Y$. A $T$ state cannot absorb $Y$ unchanged: each is left with a defect $\delta=+\pi/2$, ringed and numbered \defect{1} to \defect{8}.
+\webgrid{t}
+No check is a Pauli web here. Each holds only because its eight shifts cancel as a set ($D_{\boldsymbol\delta}=D$).
+One $T\to T^\dagger$ makes the checks on its wires random.
+\source{\factoryref\ Semiwebs: Kissinger and van de Wetering, arXiv:2603.09580. Every identity is checked against the tensor of the diagram.\quad\mbox{Web edges: \weblegend.}\quad\mbox{Defects: \defectkey.}}
+\end{frame}
+
+\begin{frame}{Why each check still holds}
+\small
+Take the check $r_i$, the $X$ measurement of wire $i$, and its semiweb with eight defects.
+\begin{enumerate}
+\item \textbf{The semiweb identity.} For a record pattern $r$, with $c$ the records that the web reads,
+\[
+ D_r=\lambda_0\,(-1)^{c\cdot r}\,D_{r,\boldsymbol\delta},\qquad \lambda_0=1 .
+\]
+$D_{r,\boldsymbol\delta}$ is the same diagram with the eight ringed phases moved from $\pi/4$ to $3\pi/4$.
+\item \textbf{One shift is one extra $S$.} A $T$ state that acts on the set $s$ of wires multiplies $\ket{x}$ by $e^{i\frac{\pi}{4}p_s(x)}$, where $p_s(x)$ is the parity of the bits of $x$ on $s$. Its shift multiplies $\ket{x}$ by $i^{\,p_s(x)}$ as well.
+\item \textbf{The eight shifts together.} The eight $T$ states are those that act on wire $i$. Mod 4 a parity is $p_s=\sum_{j\in s}x_j-2\sum_{j<k\in s}x_jx_k$, so
+\[
+ \textstyle\sum_{s\ni i}p_s(x)\;\equiv\;\sum_j n_j\,x_j-2\sum_{j<k}n_{jk}\,x_jx_k \pmod 4 ,
+\]
+where $n_j$ of the eight act on wire $j$ and $n_{jk}$ of them on both $j$ and $k$. The factory's matrix gives $n_i=8$, $n_j=4$, and $n_{jk}=4$ or $2$. Every term is $0$ mod 4.
+\item \textbf{So the shifts cancel.} $D_{r,\boldsymbol\delta}=D_r$, hence $D_r=(-1)^{c\cdot r}D_r$. The diagram vanishes unless $c\cdot r=0$: the check gives 0 with certainty.
+\end{enumerate}
+\source{\checkedref\ The matrix has a row for each wire and a column for each $T$ state: row weights 7, 8, 8, 8, 8, every two rows share 4 columns, every three share 2.}
+\end{frame}
+
+\begin{frame}{What the factory outputs}
+\small
+Contracted fully, with every $X$ measurement at outcome 0, each diagram is one spider on the output wire.
+\par\vspace{1mm}
+{\setlength{\tabcolsep}{0pt}%
+\begin{tabular}{@{}m{.45\linewidth}@{\hspace{3mm}}m{.52\linewidth}@{}}
+\web{1}{proxy_diagram} &
+$\propto$\;\xstate{\frac{\pi}{2}}\;$=$\;\zhstate{\frac{\pi}{2}}\;$\propto$\;\zstate{\text{-}\frac{\pi}{2}}\par\vspace{1.5mm}
+$S$-gate proxy: $\ket0-i\ket1$, the $-1$ eigenstate of $Y$.\\[1mm]
+\web{1}{t_diagram} &
+$\propto$\;\zstate{\text{-}\frac{\pi}{4}}\par\vspace{1.5mm}
+$T$ states: $\ket0+e^{-i\pi/4}\ket1\propto T^\dagger\ket+$, the $+1$ eigenstate of $\magic=T^\dagger XT$.
+\end{tabular}}
+\par\vspace{1mm}
+The proxy output is a stabiliser state: an eigenstate of the Pauli $Y$. The output with $T$ states is a magic state. It is not an eigenstate of $X$, $Y$ or $Z$: its expectation values are $\langle X\rangle=\tfrac{1}{\sqrt2}$, $\langle Y\rangle=-\tfrac{1}{\sqrt2}$ and $\langle Z\rangle=0$.
+\source{\factoryref\ $\propto$: equal up to a non-zero scalar. The tensor of each diagram is computed exactly and agrees with a direct five-qubit calculation.}
+\end{frame}
+
+\begin{frame}{The web of the output}
+\small
+An open web with a Pauli $P$ on the output leg and defects $\boldsymbol\delta$ says $D=\lambda\,P\,D_{\boldsymbol\delta}$, with $P$ acting on the output.
+\par{\centering\setlength{\tabcolsep}{0pt}%
+\begin{tabular}{c@{\hspace{4mm}}c}
+\web{.46}{proxy_output} & \web{.46}{t_output}\\[.5mm]
+{\scriptsize $S$-gate proxy: an open Pauli web, $Y$ on the output} & {\scriptsize $T$ states: 7 defects of $+\pi/2$, ringed and numbered \defect{1} to \defect{7}}
+\end{tabular}\par}
+\textbf{Proxy.} No defect and $\lambda=-1$, so $D=-Y\,D$. The output is the $-1$ eigenstate of $Y$. A Pauli web can only end on the output with a Pauli of which the output is an eigenstate, and here that Pauli is $Y$.
+
+\textbf{$T$ states.} The same labels leave seven defects, on exactly the seven $T$ states that act on the output wire. Now $D=\lambda\,Y\,D_{\boldsymbol\delta}$ with $\lambda=e^{5i\pi/4}$, and the diagram on the right is a different one. The next two slides work out what this says about the output.
+\source{\factoryref\ Semiwebs: Kissinger and van de Wetering, arXiv:2603.09580.\quad\mbox{Web edges: \weblegend.}\quad\mbox{Defects: \defectkey.}}
+\end{frame}
+
+\begin{frame}{Step 1: the seven shifts are $S^\dagger$ on the output}
+\small
+The seven defects of the output web are the $T$ states that act on wire 0, the output wire.
+\begin{enumerate}
+\item \textbf{Each shift is one extra $S$,} as for the checks: the shift of a $T$ state on the wires $s$ multiplies $\ket{x}$ by $i^{\,p_s(x)}$.
+\item \textbf{The seven shifts together} multiply $\ket{x}$ by $i$ to the power
+\[
+ \textstyle\sum_{s\ni 0}p_s(x)\;\equiv\;\sum_j n_j\,x_j-2\sum_{j<k}n_{jk}\,x_jx_k \pmod 4 .
+\]
+\item \textbf{Count with the matrix.} Now $n_0=7$, the weight of the output row. As before $n_j=4$ for the other wires, and $n_{jk}=4$ or $2$. Only one term survives: the power is $7x_0$ mod 4.
+\item \textbf{That is $S^\dagger$.} $i^{7x_0}=(-i)^{x_0}$: nothing happens when wire 0 is $\ket0$, and $\ket1$ gets a factor $-i$. The seven shifts are $S^\dagger=\mathrm{diag}(1,-i)$ on the output wire and the identity on wires 1 to 4.
+\item \textbf{Move it to the output.} All these operators are diagonal, and $S^\dagger$ on wire 0 commutes with the $X$ measurements of the other wires. So
+\[
+ D_{\boldsymbol\delta}=S^\dagger D .
+\]
+\end{enumerate}
+For a measured wire the count is 8 and the shifts cancel. For the output it is 7, and one $S^\dagger$ is left.
+\source{\checkedref\ It also compares the two tensors: the shifted diagram is $S^\dagger$ applied to the output.}
+\end{frame}
+
+\begin{frame}{Step 2: so the output is stabilised by $(X-Y)/\sqrt2$}
+\small
+\begin{enumerate}
+\item \textbf{The semiweb identity} of the output web: $D=\lambda\,Y\,D_{\boldsymbol\delta}$ with $\lambda=e^{5i\pi/4}$.
+\item \textbf{Insert step 1,} $D_{\boldsymbol\delta}=S^\dagger D$:
+\[
+ D=e^{5i\pi/4}\,Y S^\dagger D\qquad\Longleftrightarrow\qquad Y S^\dagger\,D=e^{3i\pi/4}\,D .
+\]
+The output is an eigenstate of $YS^\dagger$, with eigenvalue $e^{3i\pi/4}$.
+\item \textbf{What is $YS^\dagger$?}
+\[
+ YS^\dagger=\begin{pmatrix}0&-i\\ i&0\end{pmatrix}\begin{pmatrix}1&0\\0&-i\end{pmatrix}
+ =\begin{pmatrix}0&-1\\ i&0\end{pmatrix}
+ =e^{3i\pi/4}\begin{pmatrix}0&e^{i\pi/4}\\ e^{-i\pi/4}&0\end{pmatrix}
+ =e^{3i\pi/4}\;\magic .
+\]
+\item \textbf{The phases cancel:} $\magic\,D=D$. The output is the $+1$ eigenstate of $\magic=T^\dagger XT$, which is not a Pauli.
+\item \textbf{That state is} $T^\dagger\ket+\propto\ket0+e^{-i\pi/4}\ket1$:\quad\zstate{\text{-}\frac{\pi}{4}}\,, as found by contraction.
+\end{enumerate}
+The proxy output is an eigenstate of the Pauli $Y$. The output with $T$ states is an eigenstate of no Pauli: the operator that stabilises it is $\magic$.
+\source{\checkedref\ A unit test repeats the matrix identities and both eigenvalue statements in floating point.}
+\end{frame}
+
+\end{document}
