@@ -1,0 +1,19 @@
+\documentclass[border=3mm]{standalone}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{calc,backgrounds}
+\pgfdeclarelayer{edgelayer}
+\pgfdeclarelayer{nodelayer}
+\pgfsetlayers{background,edgelayer,nodelayer,main}
+\input{pauli_semiwebs/drawings/zx_styles.tex}
+\pdfinfoomitdate=1
+\pdftrailerid{}
+\pdfsuppressptexinfo=15
+\begin{document}
+\begin{tabular}{@{}l@{}}
+{\small\sffamily $S$-gate proxy: the check $r_1$ is a closed Pauli web}\\[1mm]
+\input{pauli_semiwebs_15to1/webs/proxy_check1.tikz}\\[4mm]
+{\small\sffamily $T$ states: the same labels are a semiweb with eight defects of $+\pi/2$}\\[1mm]
+\input{pauli_semiwebs_15to1/webs/t_check1.tikz}
+\end{tabular}
+\end{document}

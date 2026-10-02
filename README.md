@@ -101,6 +101,37 @@ cd pauli_semiwebs_check
 python3 -B verify.py
 ```
 
+## Pauli semiwebs of a 15-to-1 factory
+
+The [15-to-1 factory code](pauli_semiwebs_15to1/) applies the semiweb code to a 15-to-1
+magic state distillation circuit. This addition is not in the paper. In the S-gate proxy
+each of the four X measurements is a closed Pauli web. With T states the diagram has no
+closed Pauli web. Each check is then a semiweb with eight defects of +π/2, one on every T
+state that acts on its wire, and it holds because the eight shifted phases leave the
+diagram unchanged.
+
+<p align="center">
+  <a href="assets/pauli_semiwebs_15to1.png">
+    <img src="assets/pauli_semiwebs_15to1.png" width="1000" alt="The check r1 of a 15-to-1 factory drawn twice on its ZX diagram. Top: a closed Pauli web of the S-gate proxy. Bottom: the same labels with T states, a semiweb whose eight defects at T states are ringed in violet and numbered. Red dashed edges carry X, green edges Z and blue dashed edges Y.">
+  </a>
+</p>
+
+<p align="center">
+  The check r<sub>1</sub> of the 15-to-1 factory: a closed Pauli web of the S-gate proxy, and the same labels with T states.<br>
+  With T states it is a semiweb with defects, ringed in violet, at the eight T states that act on the measured wire.<br>
+  <a href="assets/pauli_semiwebs_15to1.tex">Figure source</a> ·
+  <a href="pauli_semiwebs_15to1/webs/t_check1.tikz">TikZ diagram</a> ·
+  <a href="pauli_semiwebs_15to1/slides/slides.pdf">Slides</a> ·
+  <a href="pauli_semiwebs_15to1/README.md">Reproduce the webs and their checks</a>
+</p>
+
+With `numpy` installed, check everything with:
+
+```sh
+cd pauli_semiwebs_15to1
+python3 -B verify.py
+```
+
 ## Additional cultivation circuits
 
 All series use `x = p/(1-p)`. The coefficients are exact; evaluating a finite
@@ -303,6 +334,7 @@ All output directories must be new. The distributed data remain unchanged.
 | `alternatives/` | Fraction arithmetic, certificate checks and calculation adapters |
 | `pauli_semiwebs/` | Semiweb bases, TikZ drawings and exact phase-identity checks |
 | `pauli_semiwebs_check/` | Whole-circuit Pauli-web checks, detector-web drawings and their guide |
+| `pauli_semiwebs_15to1/` | Pauli webs and semiwebs of a 15-to-1 factory, their drawings and slides |
 | `assets/` | README images, figure sources and both guide PDFs |
 
 See [numerical conventions](docs/NUMERICS.md), [ZX graph format](docs/ZX.md),

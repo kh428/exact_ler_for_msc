@@ -1,0 +1,203 @@
+% Small ZX pictures for the opening slides, in the colours of ../pauli_semiwebs/drawings.
+% The rules and examples that they show are checked by factory/test_factory.py.
+\tikzset{
+  rule spider/.style={shape=circle,draw=black,fill=zxgreen,inner sep=0pt,minimum size=7.5mm,font=\footnotesize},
+  pi spider/.style={shape=circle,draw=black,inner sep=0pt,minimum size=4.6mm,font=\scriptsize},
+  rule ring/.style={shape=circle,draw=violet!80!black,line width=.8pt,inner sep=0pt,minimum size=9.6mm},
+  rule star/.style={text=violet!80!black,font=\small},
+  rule note/.style={font=\scriptsize,align=center,anchor=north},
+  wire label/.style={font=\small}}
+
+% A label of a web is a pi spider on the wire: X a red pi, Z a green pi, Y both, up to a scalar.
+\newcommand{\labelsasspiders}{%
+\begin{tikzpicture}[x=1cm,y=1cm]
+\begin{pgfonlayer}{edgelayer}
+\draw[style=X Web] (0,0) to (1.3,0);
+\draw (1.9,0) to (3.2,0);
+\draw[style=Z Web] (4.6,0) to (5.9,0);
+\draw (6.5,0) to (7.8,0);
+\draw[style=Y Web] (9.2,0) to (10.5,0);
+\draw (11.1,0) to (13.0,0);
+\end{pgfonlayer}
+\node[wire label,text=red!75!black] at (.65,.34) {$X$};
+\node at (1.6,0) {$=$};
+\node[pi spider,fill=zxred] at (2.55,0) {$\pi$};
+\node[wire label,text=green!40!black] at (5.25,.34) {$Z$};
+\node at (6.2,0) {$=$};
+\node[pi spider,fill=zxgreen] at (7.15,0) {$\pi$};
+\node[wire label,text=blue!75!black] at (9.85,.34) {$Y$};
+\node at (10.8,0) {$\propto$};
+\node[pi spider,fill=zxred] at (11.7,0) {$\pi$};
+\node[pi spider,fill=zxgreen] at (12.4,0) {$\pi$};
+\end{tikzpicture}}
+
+% Three examples of the local rule at a Z spider with two legs. Each column reads downwards:
+% the labels of the web, the same labels as pi spiders with one on every labelled leg (X a red
+% pi, Y a red and a green pi), and the spider after it has absorbed them.
+\newcommand{\absorbedexamples}{%
+\begin{tikzpicture}[x=1cm,y=1cm]
+\tikzset{row name/.style={font=\scriptsize,anchor=east,inner sep=0pt},
+  row step/.style={-stealth,line width=.5pt,draw=black!60}}
+\begin{pgfonlayer}{edgelayer}
+\draw[style=X Web] (-1.5,0) to (0,0);
+\draw[style=Y Web] (0,0) to (1.5,0);
+\draw[style=X Web] (2.7,0) to (5.7,0);
+\draw[style=X Web] (6.9,0) to (8.4,0);
+\draw[style=Y Web] (8.4,0) to (9.9,0);
+\draw (-1.25,-1.1) to (1.78,-1.1);
+\draw (2.95,-1.1) to (5.45,-1.1);
+\draw (7.15,-1.1) to (10.18,-1.1);
+\draw (-1.0,-2.2) to (1.0,-2.2);
+\draw (3.2,-2.2) to (5.2,-2.2);
+\draw (7.4,-2.2) to (9.4,-2.2);
+\end{pgfonlayer}
+% for each column: centre of the spider, its phase, the label of the second leg and its colour,
+% the phase after absorbing, the note
+\foreach \c/\phase/\second/\colour/\after/\note in {
+  0/{\frac{\pi}{2}}/Y/blue/{\frac{\pi}{2}}/{$S$: no defect},
+  4.2/{\frac{\pi}{4}}/X/red/{\text{-}\frac{\pi}{4}}/{$T$: $\delta=-\frac{\pi}{2}$},
+  8.4/{\frac{\pi}{4}}/Y/blue/{\frac{3\pi}{4}}/{$T$: $\delta=+\frac{\pi}{2}$}}{
+  \node[rule spider] at (\c,0) {$\phase$};
+  \node[wire label,text=red!75!black] at (\c-1.15,.34) {$X$};
+  \node[wire label,text=\colour!75!black] at (\c+1.15,.34) {$\second$};
+  \node[rule spider] at (\c,-1.1) {$\phase$};
+  \node[pi spider,fill=zxred] at (\c-.76,-1.1) {$\pi$};
+  \node[pi spider,fill=zxred] at (\c+.76,-1.1) {$\pi$};
+  \node[rule spider] at (\c,-2.2) {$\after$};
+  \node[rule note] at (\c,-2.78) {\note};
+}
+% Y on the second leg is a red and a green pi
+\node[pi spider,fill=zxgreen] at (1.29,-1.1) {$\pi$};
+\node[pi spider,fill=zxgreen] at (8.4+1.29,-1.1) {$\pi$};
+% defects
+\foreach \c in {4.2,8.4}{
+  \node[rule ring] at (\c,0) {};
+  \node[rule star] at (\c+.52,.49) {$\ast$};
+  \node[rule ring] at (\c,-2.2) {};
+}
+% what each row is
+\node[row name] at (-1.85,0) {web labels};
+\node[row name] at (-1.85,-1.1) {as $\pi$ spiders};
+\node[row name] at (-1.85,-2.2) {absorbed};
+\draw[row step] (-2.35,-.27) -- (-2.35,-.83);
+\draw[row step] (-2.35,-1.37) -- (-2.35,-1.93);
+\end{tikzpicture}}
+
+% Copy: a red pi entering a Z spider on one leg leaves on the other legs and reverses its phase.
+\newcommand{\copyrule}{%
+\begin{tikzpicture}[x=1cm,y=1cm]
+\begin{pgfonlayer}{edgelayer}
+\draw (0,0) to (1.7,0);
+\draw (1.7,0) to (3.0,.5);
+\draw (1.7,0) to (3.0,-.5);
+\draw (4.0,0) to (4.9,0);
+\draw (4.9,0) to (6.6,.5);
+\draw (4.9,0) to (6.6,-.5);
+\end{pgfonlayer}
+\node[pi spider,fill=zxred] at (.75,0) {$\pi$};
+\node[rule spider] at (1.7,0) {$\theta$};
+\node at (3.5,0) {$\propto$};
+\node[rule spider] at (4.9,0) {\text{-}$\theta$};
+\node[pi spider,fill=zxred] at (5.95,.31) {$\pi$};
+\node[pi spider,fill=zxred] at (5.95,-.31) {$\pi$};
+\end{tikzpicture}}
+
+% Fuse and unfuse: a green pi entering on one leg adds pi, and can leave again on another leg.
+\newcommand{\fuserule}{%
+\begin{tikzpicture}[x=1cm,y=1cm]
+\begin{pgfonlayer}{edgelayer}
+\draw (0,0) to (2.2,0);
+\draw (2.8,0) to (4.6,0);
+\draw (5.2,0) to (7.4,0);
+\end{pgfonlayer}
+\node[pi spider,fill=zxgreen] at (.6,0) {$\pi$};
+\node[rule spider] at (1.45,0) {$\theta$};
+\node at (2.5,0) {$=$};
+\node[rule spider,minimum size=9.5mm] at (3.7,0) {$\theta{+}\pi$};
+\node at (4.9,0) {$=$};
+\node[rule spider] at (5.95,0) {$\theta$};
+\node[pi spider,fill=zxgreen] at (6.8,0) {$\pi$};
+\end{tikzpicture}}
+
+% The copy rule at a T gate: X passes, and T becomes T_dag.
+\newcommand{\tgaterule}{%
+\begin{tikzpicture}[x=1cm,y=1cm]
+\begin{pgfonlayer}{edgelayer}
+\draw (0,0) to (2.2,0);
+\draw (3.2,0) to (5.4,0);
+\end{pgfonlayer}
+\node[pi spider,fill=zxred] at (.6,0) {$\pi$};
+\node[rule spider] at (1.45,0) {$\frac{\pi}{4}$};
+\node at (2.7,0) {$\propto$};
+\node[rule spider] at (3.95,0) {\text{-}$\frac{\pi}{4}$};
+\node[pi spider,fill=zxred] at (4.8,0) {$\pi$};
+\end{tikzpicture}}
+
+% The rule for the defect at a Z spider, delta = -2 o theta + pi s, in four examples. Each row
+% shows the labels of the web, and the same labels as pi spiders: left of the relation the spider
+% has a pi spider on every labelled leg, right of it is the spider that comes back. A label on
+% both legs is a Pauli that passes through.
+\newcommand{\localexamples}{%
+\begin{tikzpicture}[x=1cm,y=1cm]
+\tikzset{row note/.style={font=\scriptsize,anchor=west,align=left},head/.style={font=\scriptsize\bfseries,anchor=south}}
+\node[head] at (1.3,.55) {labels of the web};
+\node[head] at (6.2,.55) {the same labels as $\pi$ spiders, absorbed by the spider};
+\begin{pgfonlayer}{edgelayer}
+\draw[style=Y Web] (0.4,0.00) to (2.2,0.00);
+\draw (3.8,0.00) to (5.7,0.00);
+\draw (7.0,0.00) to (8.6,0.00);
+\draw[style=Y Web] (0.4,-1.12) to (2.2,-1.12);
+\draw (3.8,-1.12) to (5.7,-1.12);
+\draw (7.0,-1.12) to (8.6,-1.12);
+\draw[style=X Web] (0,-2.24) to (2.6,-2.24);
+\draw (3.15,-2.24) to (5.75,-2.24);
+\draw (6.75,-2.24) to (8.55,-2.24);
+\draw[style=Z Web] (0,-3.36) to (2.6,-3.36);
+\draw (3.15,-3.36) to (5.75,-3.36);
+\draw (6.75,-3.36) to (8.55,-3.36);
+\end{pgfonlayer}
+% an S state with Y on its leg
+\node[rule spider] at (0.4,0.00) {$\frac{\pi}{2}$};
+\node[wire label,text=blue!75!black] at (1.6,0.34) {$Y$};
+\node[rule spider] at (3.8,0.00) {$\frac{\pi}{2}$};
+\node[pi spider,fill=zxred] at (4.7,0.00) {$\pi$};
+\node[pi spider,fill=zxgreen] at (5.3,0.00) {$\pi$};
+\node at (6.2,0.00) {$\propto$};
+\node[rule spider] at (7.0,0.00) {$\frac{\pi}{2}$};
+\node[row note] at (9.4,0.00) {$S$ state: $Y$ is absorbed.\\Nothing changes: $\delta=0$};
+% a T state with Y on its leg
+\node[rule spider] at (0.4,-1.12) {$\frac{\pi}{4}$};
+\node[rule ring] at (0.4,-1.12) {};
+\node[rule star] at (0.92,-0.63) {$\ast$};
+\node[wire label,text=blue!75!black] at (1.6,-0.78) {$Y$};
+\node[rule spider] at (3.8,-1.12) {$\frac{\pi}{4}$};
+\node[pi spider,fill=zxred] at (4.7,-1.12) {$\pi$};
+\node[pi spider,fill=zxgreen] at (5.3,-1.12) {$\pi$};
+\node at (6.2,-1.12) {$\propto$};
+\node[rule spider] at (7.0,-1.12) {$\frac{3\pi}{4}$};
+\node[rule ring] at (7.0,-1.12) {};
+\node[row note] at (9.4,-1.12) {$T$ state: $Y$ is absorbed.\\The phase moves: $\delta=+\frac{\pi}{2}$};
+% a T gate with X on both legs: a red pi on each leg
+\node[rule spider] at (1.3,-2.24) {$\frac{\pi}{4}$};
+\node[rule ring] at (1.3,-2.24) {};
+\node[rule star] at (1.82,-1.75) {$\ast$};
+\node[wire label,text=red!75!black] at (.3,-1.90) {$X$};
+\node[wire label,text=red!75!black] at (2.4,-1.90) {$X$};
+\node[pi spider,fill=zxred] at (3.65,-2.24) {$\pi$};
+\node[rule spider] at (4.45,-2.24) {$\frac{\pi}{4}$};
+\node[pi spider,fill=zxred] at (5.25,-2.24) {$\pi$};
+\node at (6.2,-2.24) {$\propto$};
+\node[rule spider] at (7.65,-2.24) {\text{-}$\frac{\pi}{4}$};
+\node[rule ring] at (7.65,-2.24) {};
+\node[row note] at (9.4,-2.24) {$T$ gate: $X$ on both legs.\\$T$ becomes $T^\dagger$: $\delta=-\frac{\pi}{2}$};
+% any phase with Z on both legs: a green pi on each leg
+\node[rule spider] at (1.3,-3.36) {$\theta$};
+\node[wire label,text=green!40!black] at (.3,-3.02) {$Z$};
+\node[wire label,text=green!40!black] at (2.4,-3.02) {$Z$};
+\node[pi spider,fill=zxgreen] at (3.65,-3.36) {$\pi$};
+\node[rule spider] at (4.45,-3.36) {$\theta$};
+\node[pi spider,fill=zxgreen] at (5.25,-3.36) {$\pi$};
+\node at (6.2,-3.36) {$=$};
+\node[rule spider] at (7.65,-3.36) {$\theta$};
+\node[row note] at (9.4,-3.36) {Any phase: $Z$ on both legs.\\Nothing changes: $\delta=0$};
+\end{tikzpicture}}

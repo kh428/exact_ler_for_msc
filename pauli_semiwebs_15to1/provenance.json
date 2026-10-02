@@ -1,0 +1,35 @@
+{
+  "paper": "https://arxiv.org/abs/2609.18922",
+  "status": "An addition to the companion code. These results are not in the paper.",
+  "definition": "https://arxiv.org/abs/2603.09580",
+  "protocol": "https://doi.org/10.1103/PhysRevA.71.022316",
+  "circuit": "https://doi.org/10.22331/q-2019-12-02-205",
+  "reuses": "../pauli_semiwebs: src/ and drawings/zx_styles.tex, read in place and unchanged",
+  "diagrams": [
+    {
+      "file": "diagrams/factory_t.tikz",
+      "sha256": "02f491057b3bc7fe8f8a3c6c481f1c2f49b909ca8cdf59b4b7ea63fbff3cfdb7",
+      "content": "The factory as a ZX diagram with its fifteen T states."
+    },
+    {
+      "file": "diagrams/proxy_web_r1.tikz",
+      "sha256": "8c24800a9ba5837dbc40c1b052f60951ea83790782c372a0ab2be58828c86167",
+      "content": "The S-gate proxy with the web of the check r_1 drawn by hand. Its node positions are the layout of the drawings in webs/."
+    },
+    {
+      "file": "diagrams/proxy_web_r2.tikz",
+      "sha256": "61e58e621cbdd59b0a41d0a849128640bf95db931a2f9e103fc78c5ad0e5b7c2",
+      "content": "The S-gate proxy with the web of the check r_2 drawn by hand."
+    },
+    {
+      "file": "diagrams/proxy_web_r3.tikz",
+      "sha256": "699307661ceb0c8aaf37a458a133798313e2f7925c6144cf467156714bdd9fa9",
+      "content": "The S-gate proxy with the web of the check r_3 drawn by hand."
+    },
+    {
+      "file": "diagrams/proxy_web_r4.tikz",
+      "sha256": "b554c41d23e1037a8378214ce51169a834266e3a79bba425a0934df4d84c7384",
+      "content": "The S-gate proxy with the web of the check r_4 drawn by hand."
+    }
+  ]
+}
