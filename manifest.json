@@ -15,7 +15,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "165d1bab5738d9332b877ef22302f51a2a0484846bf00575f139dcbfbdbfbbe2"
+      "sha256": "1f060a6d62cdbe06efc80d7d4a858f23edcf6e0ba7b261048d10ee02553f125b"
     },
     {
       "path": "alternatives/__init__.py",
@@ -4008,6 +4008,182 @@
     {
       "path": "zx/graph_io.py",
       "sha256": "0168f97a9e0804dfa51218d2fa9087fe81b989463aacd46c300e900a362dc72c"
+    },
+    {
+      "path": "zx_edge_noise/.gitignore",
+      "sha256": "f4b5af40cc144e4895c6ebc97da0e56536b2ec9b982dd5671f327261fa462ed2"
+    },
+    {
+      "path": "zx_edge_noise/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "zx_edge_noise/NOTICE.md",
+      "sha256": "93d1d2d40724bafefa46579707bfd6c78c01767c68468159526066af3f3fb64b"
+    },
+    {
+      "path": "zx_edge_noise/README.md",
+      "sha256": "ee0c0134e5d611c49ab7086166f87aa0c8386acf0b4f8fb106e894c63de84d51"
+    },
+    {
+      "path": "zx_edge_noise/figures/erasure_rates.py",
+      "sha256": "8d6ccadf05681c8168db40e5234078743a295e2b60727cd31192466f3c89ffba"
+    },
+    {
+      "path": "zx_edge_noise/figures/ler_erasure_rates.pdf",
+      "sha256": "c52cf38a5508378ab560067432c1a765aaebadfe0c3bb04bf6b89f607a1fadb7"
+    },
+    {
+      "path": "zx_edge_noise/figures/ler_erasure_rates.png",
+      "sha256": "5b3ccabf3a7a90c23db013e6e35708fe6460248a3c52c34d1b5dee5927231c50"
+    },
+    {
+      "path": "zx_edge_noise/manifest.json",
+      "sha256": "e66ee1022cce288c15a1a3787936fef672c9a11775c17906daa5853138e9703e"
+    },
+    {
+      "path": "zx_edge_noise/provenance.json",
+      "sha256": "5782b8cdb38efcc54015362cdbbfd452813be119dc363fe39e1e9cf4080a9a65"
+    },
+    {
+      "path": "zx_edge_noise/requirements.txt",
+      "sha256": "38306efad7e073e80ea29eda6cc8856aefc6d94f6f0cab0c01e48e491819a15b"
+    },
+    {
+      "path": "zx_edge_noise/results/d3_edges_erasure_ignore.json",
+      "sha256": "672670930e175de18c74076d66226965d260d00f1c6084110d5ecba9a6fef124"
+    },
+    {
+      "path": "zx_edge_noise/results/d3_edges_erasure_ignore_10p.json",
+      "sha256": "7d241dece3a73eb07cd79c5c728968c5dd62519c6187606a50a3d9fce4374da6"
+    },
+    {
+      "path": "zx_edge_noise/results/d3_edges_erasure_ignore_5p.json",
+      "sha256": "09b280a7af02680e2ab13901e90b2a541f6202eac61b585a99c1bd4fb8237357"
+    },
+    {
+      "path": "zx_edge_noise/results/d3_edges_uniform.json",
+      "sha256": "29b2407f4c5639cd3d0156808b250c69c997bce9015e665e883ac18334c18360"
+    },
+    {
+      "path": "zx_edge_noise/results/d5_edges_erasure_ignore.json",
+      "sha256": "5ea947007806e9dfb99c0f71ce6f3381a4e600b053d044e98862ac3b7d2cb3ac"
+    },
+    {
+      "path": "zx_edge_noise/results/d5_edges_uniform.json",
+      "sha256": "7ea30ce620ff41cf1c6e778a48d18ec8b0ec6f739d89b5ede22f5d2acde58a36"
+    },
+    {
+      "path": "zx_edge_noise/specs/edges_erasure_discard.json",
+      "sha256": "443f5aeda297eac6aaa9eca9246fd5f42026de351d2d97263eef149aa3e837c1"
+    },
+    {
+      "path": "zx_edge_noise/specs/edges_erasure_ignore.json",
+      "sha256": "86a5103a6a666dac22609da81ab998fd230ecd1a91316a555d83de4c7197a690"
+    },
+    {
+      "path": "zx_edge_noise/specs/edges_erasure_ignore_10p.json",
+      "sha256": "d433554b278d5b55587e999841e861c9cc935556073aa450f432d8867782fc59"
+    },
+    {
+      "path": "zx_edge_noise/specs/edges_erasure_ignore_5p.json",
+      "sha256": "94981f54be640f41dab0641331c5adb2a831536ea519b2bf3f2fff1dc1225308"
+    },
+    {
+      "path": "zx_edge_noise/specs/edges_uniform.json",
+      "sha256": "94fb84ca8a177d9dc15395f9c0d7425074bb841fc2fc75850da4c28c915e7a71"
+    },
+    {
+      "path": "zx_edge_noise/specs/source.json",
+      "sha256": "82ae25a5e643497917b5143c1b147f57d74c92565a109f2683e513d9a37f15a6"
+    },
+    {
+      "path": "zx_edge_noise/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "zx_edge_noise/tests/test_fast.py",
+      "sha256": "c2423379eb3e583803e75cea1195a5aceb525a3900e5c010caf87fcce9c5e5c8"
+    },
+    {
+      "path": "zx_edge_noise/tests/test_slow.py",
+      "sha256": "8663b7e91bfae66fbb3aa601feadd8bf8db68fd9f7a67c52d9ed7345e5beead2"
+    },
+    {
+      "path": "zx_edge_noise/verify.py",
+      "sha256": "e3b7d73dbcb22a0b2d1a61367e2f4426c1a80770dd883a1b6782d5bae8fb2361"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/__init__.py",
+      "sha256": "845df0a7d6e1ce567a03c8020d28f44d490f1f648dc480bb63e91252314a998a"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/circuit.py",
+      "sha256": "62fe847b2bf3d1f89508b5e9cc9b4cd4835d618a5db0d94f64288aa87f162eed"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/edges.py",
+      "sha256": "27e24a25ad475a9c84722581338d1b0478db63ff5bd21c1435b5df4863ba4f1d"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/elimination.py",
+      "sha256": "9229734232b27f78c92406732ed3d166cc4dc2f8bd188085685d4d8354daec47"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/engine.py",
+      "sha256": "efbdd11b14e47bc0c470dd3792fe629c54c4b20a0e4d8d47b7ee5b750d3d0131"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/network.py",
+      "sha256": "8ca28c12d68c75c549a008a178f5ff639cc0fa8c887b668922b66cb862800c4d"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/noise.py",
+      "sha256": "cb8940a96bf119125de24f86ee1055474d06058cd25f1b925fc97549340edf45"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/series.py",
+      "sha256": "e40500172f41619e3e1a6d9b1882514a88c5f38653f684313c39b168a01edbb5"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/splitter.py",
+      "sha256": "739d84e3b9b049876245c7712d0ee1ed6f6539f7b6ab9b0362469ce79d69e449"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/staged/__init__.py",
+      "sha256": "e32361ea925082c335625d439e70cfa13eeca6c63bca000425d7e71955f1fd30"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/staged/endpoints.py",
+      "sha256": "121d5d042359e7f0b08c422eb3a647c28abe18d088717d4f48b5afb243519f1e"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/staged/growth.py",
+      "sha256": "67b20741df1fca9df7fdf00a49acd064c046dfa666dd8340e0996f0bbd015849"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/staged/run.py",
+      "sha256": "b9bffb1f74ad0a23e5ac502737e619f776e2365dfd4b7f9049072c7f03bb4b07"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/staged/stabilizer/pauli.py",
+      "sha256": "c149d3714717002b360259d8935bcf8cc8742da57eec4db1fd8bd8436a2b9863"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/staged/stabilizer/support.py",
+      "sha256": "c0d40c3fc9ae4fa691b2665957ce57f1448c4d43a70ee8d1d6eb7426fdc2b38f"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/staged/tree.py",
+      "sha256": "0defe2d562652eeb3abc6d99edbf45b50b0354afa3a3c14a1a103c6526dfb099"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/summary.py",
+      "sha256": "74d79a26c85ec549e4b78f03fff6047e4cd3c60e181ae218db4b3477bec3a059"
+    },
+    {
+      "path": "zx_edge_noise/zxedge/whole.py",
+      "sha256": "2637d1d1e5ebbd7c57f27ffe49ffeae61d3c747e2c37bd7ea0f0d795a78d03a3"
     }
   ]
 }

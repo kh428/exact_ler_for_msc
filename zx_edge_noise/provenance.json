@@ -1,0 +1,127 @@
+{
+  "paper": "https://arxiv.org/abs/2609.18922",
+  "status": "An addition to the companion code. These results are not in the paper.",
+  "edge_faults": "https://arxiv.org/abs/2303.08829",
+  "reuses": "../alternatives/calculation (label tensors), ../calculation (exact ring, native kernels, growth groups), read in place and unchanged",
+  "inputs": [
+    {
+      "file": "data/inputs/clifft_d3_p001.stim",
+      "sha256": "094ae095e249c90ac7b0cf82ef187afdf634a0ef8a82331a81b4b9100a902798",
+      "content": "The d=3 SOFT circuit."
+    },
+    {
+      "file": "data/inputs/soft_cultivation_d5_p0005.stim",
+      "sha256": "859d925c74712efaae8bab1d944f9e5be4e042e226eeafcc6d7bef9d6fbfbae5",
+      "content": "The d=5 SOFT circuit."
+    },
+    {
+      "file": "data/inputs/d3_soft_source_noise_20260905.json",
+      "sha256": "02e5e01808105418210f9f030651a24fb66ac78cd525b8dc9ebcbc1a8a782594",
+      "content": "d=3 code definition and the end of the first stage."
+    },
+    {
+      "file": "data/inputs/d5_soft_source_noise_20260905.json",
+      "sha256": "8c7d340f3e415d5cd024439a4f6badffd49cb874fa859bff7386e421af702f16",
+      "content": "d=5 code definition and the start of the final stage."
+    },
+    {
+      "file": "data/models/growth_frame_model.json",
+      "sha256": "6c46cf7308dcbff258d45febbd37ce2127a5e80668ebbfd3f8daa32c732059ee",
+      "content": "Growth labels of the source channels, matched by the compiler here."
+    },
+    {
+      "file": "data/plan/candidate.json",
+      "sha256": "8ddb9c8cc952e364aca50365cb39ead8864d14c326a33ead989436eaf266ad6c",
+      "content": "The growth tree: 569 leaves, joins and eight characters."
+    },
+    {
+      "file": "data/plan/maps.npz",
+      "sha256": "86af7c6a6954d141e038def0ed19d592b748ef10f68b1e347ed31fb37739ac16",
+      "content": "Leaf maps of the growth tree."
+    },
+    {
+      "file": "data/series/d3.json",
+      "sha256": "c531d70808b2c8485b812a5d2234cdbba87d066ed7651c07ea61cee43ab97d5c",
+      "content": "Reference for the d=3 check with the source noise."
+    },
+    {
+      "file": "data/series/d5.json",
+      "sha256": "6d2063aad96d8921575dda96fa0df74e49b5ef56182efe2dbc94900017974411",
+      "content": "Reference for the d=5 check with the source noise."
+    }
+  ],
+  "results": [
+    {
+      "file": "results/d3_edges_uniform.json",
+      "sha256": "29b2407f4c5639cd3d0156808b250c69c997bce9015e665e883ac18334c18360",
+      "command": "python3 -B -m zxedge.whole --circuit clifft_d3_p001.stim --noise specs/edges_uniform.json --degree 10 --primes 8 --output results/d3_edges_uniform.json",
+      "circuit": "clifft_d3_p001.stim",
+      "locations": 285,
+      "degree": 10,
+      "primes": 8,
+      "seconds": 49
+    },
+    {
+      "file": "results/d3_edges_erasure_ignore.json",
+      "sha256": "672670930e175de18c74076d66226965d260d00f1c6084110d5ecba9a6fef124",
+      "command": "python3 -B -m zxedge.whole --circuit clifft_d3_p001.stim --noise specs/edges_erasure_ignore.json --degree 10 --primes 12 --output results/d3_edges_erasure_ignore.json",
+      "circuit": "clifft_d3_p001.stim",
+      "locations": 570,
+      "degree": 10,
+      "primes": 12,
+      "seconds": 87
+    },
+    {
+      "file": "results/d5_edges_uniform.json",
+      "sha256": "7ea30ce620ff41cf1c6e778a48d18ec8b0ec6f739d89b5ede22f5d2acde58a36",
+      "command": "python3 -B -m zxedge.staged.run --noise specs/edges_uniform.json --degree 7 --primes 9 --workers 4 --output results/d5_edges_uniform.json",
+      "circuit": "soft_cultivation_d5_p0005.stim",
+      "locations": 1602,
+      "degree": 7,
+      "primes": 9,
+      "seconds": 2242
+    },
+    {
+      "file": "results/d5_edges_erasure_ignore.json",
+      "sha256": "5ea947007806e9dfb99c0f71ce6f3381a4e600b053d044e98862ac3b7d2cb3ac",
+      "command": "python3 -B -m zxedge.staged.run --noise specs/edges_erasure_ignore.json --degree 7 --primes 12 --workers 4 --output results/d5_edges_erasure_ignore.json",
+      "circuit": "soft_cultivation_d5_p0005.stim",
+      "locations": 3204,
+      "degree": 7,
+      "primes": 12,
+      "seconds": 2259
+    },
+    {
+      "file": "results/d3_edges_erasure_ignore_5p.json",
+      "sha256": "09b280a7af02680e2ab13901e90b2a541f6202eac61b585a99c1bd4fb8237357",
+      "command": "python3 -B -m zxedge.whole --circuit clifft_d3_p001.stim --noise specs/edges_erasure_ignore_5p.json --degree 10 --primes 16 --output results/d3_edges_erasure_ignore_5p.json",
+      "circuit": "clifft_d3_p001.stim",
+      "locations": 570,
+      "degree": 10,
+      "primes": 16,
+      "seconds": 103
+    },
+    {
+      "file": "results/d3_edges_erasure_ignore_10p.json",
+      "sha256": "7d241dece3a73eb07cd79c5c728968c5dd62519c6187606a50a3d9fce4374da6",
+      "command": "python3 -B -m zxedge.whole --circuit clifft_d3_p001.stim --noise specs/edges_erasure_ignore_10p.json --degree 10 --primes 16 --output results/d3_edges_erasure_ignore_10p.json",
+      "circuit": "clifft_d3_p001.stim",
+      "locations": 570,
+      "degree": 10,
+      "primes": 16,
+      "seconds": 109
+    }
+  ],
+  "figures": [
+    {
+      "file": "figures/ler_erasure_rates.png",
+      "sha256": "5b3ccabf3a7a90c23db013e6e35708fe6460248a3c52c34d1b5dee5927231c50",
+      "command": "python3 -B figures/erasure_rates.py"
+    },
+    {
+      "file": "figures/ler_erasure_rates.pdf",
+      "sha256": "c52cf38a5508378ab560067432c1a765aaebadfe0c3bb04bf6b89f607a1fadb7",
+      "command": "python3 -B figures/erasure_rates.py"
+    }
+  ]
+}
