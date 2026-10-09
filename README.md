@@ -132,6 +132,29 @@ cd pauli_semiwebs_15to1
 python3 -B verify.py
 ```
 
+## Noise on ZX edges
+
+The [ZX-edge noise code](zx_edge_noise/) puts a Pauli channel, and optionally an erasure, on
+every edge of the ZX diagram instead of at the circuit-level locations of the source files,
+and computes `A`, `B` and `P_L` as exact series in x = p/(1-p). This addition is not in the
+paper. The d=5 circuit is handled in the three stages of the paper, with the same growth
+tree. With a Pauli X, Y or Z of probability p/3 on each of its 1602 edges, the d=5 circuit
+still needs three faults:
+
+```text
+P_L = (25/72) x^3 + (138125/864) x^4 + (1942148657/31104) x^5 + ... ,
+```
+
+through x^7, and the d=3 circuit gives (1/2) x^2 + (1753/9) x^3 + ... through x^10.
+With `numpy` installed, check the saved series with:
+
+```sh
+cd zx_edge_noise
+python3 -B verify.py
+```
+
+Recomputing them needs the packages of [`zx_edge_noise/requirements.txt`](zx_edge_noise/requirements.txt).
+
 ## Additional cultivation circuits
 
 All series use `x = p/(1-p)`. The coefficients are exact; evaluating a finite
@@ -335,6 +358,7 @@ All output directories must be new. The distributed data remain unchanged.
 | `pauli_semiwebs/` | Semiweb bases, TikZ drawings and exact phase-identity checks |
 | `pauli_semiwebs_check/` | Whole-circuit Pauli-web checks, detector-web drawings and their guide |
 | `pauli_semiwebs_15to1/` | Pauli webs and semiwebs of a 15-to-1 factory, their drawings and slides |
+| `zx_edge_noise/` | Exact series with noise on every ZX edge, Pauli and erasure, at d=3 and d=5 |
 | `assets/` | README images, figure sources and both guide PDFs |
 
 See [numerical conventions](docs/NUMERICS.md), [ZX graph format](docs/ZX.md),

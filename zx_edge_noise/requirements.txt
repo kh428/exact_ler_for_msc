@@ -1,0 +1,8 @@
+# Versions used with Python 3.11.13. A C++17 compiler is needed for the d=5 route (the repository's native kernels).
+# cotengra finds the contraction plans; with optuna (5.0.0 was used) installed it searches with it.
+autoray==0.11.0
+cotengra==0.8.2
+kahypar==1.3.7
+llvmlite==0.49.0
+numba==0.67.0
+numpy==2.4.6
