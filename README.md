@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="#start-here">Get started</a> ·
+  <a href="#an-explainer-and-a-film">Explainer</a> ·
   <a href="#pauli-semiwebs">Pauli semiwebs</a> ·
   <a href="#additional-cultivation-circuits">Other cultivation circuits</a> ·
   <a href="#citation">Citation</a>
@@ -39,6 +40,18 @@ The first command checks the original results. The second checks the seven
 additional circuit variants, including every saved sixth-order batch. The third
 prints the exact coefficients and evaluates their finite series at the chosen
 noise strength. These commands need no third-party Python packages.
+
+## An explainer and a film
+
+The [explainer folder](explainer/) holds two pages that walk through the calculation of the paper: the
+[Exact LER Atlas](explainer/exact_ler_atlas.html), a zoomable map of every step with the paper's figures and small
+interactive widgets, and a [four-minute film](explainer/exact_ler_movie.html) from Pauli propagation to the exact
+series. GitHub shows them as source; open them in a browser from a clone or a download. With `numpy` and `stim` from
+`requirements-zx.txt` installed, recompute and check every number on their propagation pages with:
+
+```sh
+python3 -B explainer/prop/build_prop_data.py
+```
 
 ## Pauli semiwebs
 
