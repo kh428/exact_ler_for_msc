@@ -15,7 +15,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "1f060a6d62cdbe06efc80d7d4a858f23edcf6e0ba7b261048d10ee02553f125b"
+      "sha256": "0638ff5aa2e7d57cd9b49a044a823025f5638285abb03d6b2c5c62bd294f1d95"
     },
     {
       "path": "alternatives/__init__.py",
@@ -1542,8 +1542,360 @@
       "sha256": "6c440544fcda379e16b5ddbb27bb9b50b4cfaa2a0e4e63f968462758a8d7775e"
     },
     {
+      "path": "explainer/README.md",
+      "sha256": "fd35770e98d5d070c07476bbc07059ac38baed5ac8549263f5f8f30ce4231f2b"
+    },
+    {
+      "path": "explainer/exact_ler_atlas.html",
+      "sha256": "630295fa50482fcdee8365f19c6e80a2153d264460d96453e65a1878f49f246b"
+    },
+    {
+      "path": "explainer/exact_ler_movie.html",
+      "sha256": "2d431ce13d2eee6c5af4eb9b8cb5ceabb102a32a8e7c7f0c79d801a1082fb4e5"
+    },
+    {
+      "path": "explainer/img/chan_four_round_plot_only.png",
+      "sha256": "196ec7359d704c93884d6b0fb5854b63d0190eaf4cdf17882b9eb8e86302676e"
+    },
+    {
+      "path": "explainer/img/chan_v1_comparison.png",
+      "sha256": "a5d9f1cde43aa9fe52bd63e232abb4ffcfcd4b48c9a810ae3d2814f5b72c147b"
+    },
+    {
+      "path": "explainer/img/d3_comparison.png",
+      "sha256": "7b9ab2ef67d73e55e7c4fc9a8ed7264ab2d51e20bd88d4dbf490a3b20367e021"
+    },
+    {
+      "path": "explainer/img/d5_acceptance.png",
+      "sha256": "db76fad3dc3e1e2b41f01e5156ab59963aa8673c38b8418b7a5367d21c0e4ca7"
+    },
+    {
+      "path": "explainer/img/d5_comparison.png",
+      "sha256": "0a7ff9ad7ba819e4fc08f843a620db4a6d8037422e3222e76b41fe6e2dd08404"
+    },
+    {
+      "path": "explainer/img/d5_t_vs_s.png",
+      "sha256": "e98075ddcc8a3ed1a465ac181cf12e2df8faa78a86ea69a809c4f213a5a2d313"
+    },
+    {
+      "path": "explainer/img/fold_comparisons.png",
+      "sha256": "9518af080338233673f5e4afa1f736cb117874076943ba8612b8dcf9d96853fa"
+    },
+    {
+      "path": "explainer/img/rp2_comparison.png",
+      "sha256": "a37ce81ec4eb510cedf5a136c2590db829e3e43d6c7d98db027ec2e4bd48014d"
+    },
+    {
+      "path": "explainer/img/series_error.png",
+      "sha256": "8989a0b127bb9d320d80b2387d8586a6a0dd5fb0aa26bc967789ff75c6443722"
+    },
+    {
+      "path": "explainer/prop/build_prop_data.py",
+      "sha256": "6f9c86c0a1d624f5909ea111ee4aeebdaef91645e29c025efc71f3e7baefbb25"
+    },
+    {
+      "path": "explainer/prop/engine.py",
+      "sha256": "c3ac5c5a4579032cfcd7941e4de3586b22309a236b7dffde2cafb17c8d5cd590"
+    },
+    {
+      "path": "explainer/prop/real_check.py",
+      "sha256": "4cf00ad49627992905472b48e12ba9feef93946473eef6cd44c1cec2607ebf1d"
+    },
+    {
+      "path": "explainer/prop/small_examples.py",
+      "sha256": "740d021c97e3a7cf4538e213bdd9f59831631ef6144a99fd697d85e13e879edc"
+    },
+    {
+      "path": "explainer/svg/arithmetic_flow.svg",
+      "sha256": "6f7799b49c6a3f5b7bb0f3c181e667668e6a1bb03cfd6c82f2b23b1b2d572036"
+    },
+    {
+      "path": "explainer/svg/blocks_diagram.svg",
+      "sha256": "0f2c24a585f72f16515a57f0aa775696560ecbee2e5e7b6d637f453fd797dd42"
+    },
+    {
+      "path": "explainer/svg/boundary_cut.svg",
+      "sha256": "b205912a71f8efa0492df71ca1bb021f358d63ca1908e0ef9f2558df43d377ee"
+    },
+    {
+      "path": "explainer/svg/cauchy.svg",
+      "sha256": "cc694f578f63cf8c6da692d71e53bf225a5809445364cdcec540b1ddd4e00e94"
+    },
+    {
+      "path": "explainer/svg/cnot_factors.svg",
+      "sha256": "ff151b726c3a92238fe71fdc485d2295a186725808398241237a9ceee8909ae1"
+    },
+    {
+      "path": "explainer/svg/contraction_tree.svg",
+      "sha256": "682e5ce0aa2b976f687390220644889b69efffa71f6bd33dbb01c9260b36aa5d"
+    },
+    {
+      "path": "explainer/svg/count_factor.svg",
+      "sha256": "66db4f94191707c689c0eab86318bf9751b685b066b0f4182ce9bfe101b75d96"
+    },
+    {
+      "path": "explainer/svg/count_tensor.svg",
+      "sha256": "0ed4f9f664edbc30a404ec5207d01125e0b6ae90fe8ccefbc299ff9b5e0e650b"
+    },
+    {
+      "path": "explainer/svg/covariance_move.svg",
+      "sha256": "a657a5facdd29a5ed04a43b2e60458070ea0683de3d6aa58bba8e64e66f2aa91"
+    },
+    {
+      "path": "explainer/svg/cperp.svg",
+      "sha256": "92124e30766906f5469cb948159099e420c9f67ac9f1195a9f7ce92b3cb72faf"
+    },
+    {
+      "path": "explainer/svg/crt_grid.svg",
+      "sha256": "14cc04b1857979096c560e35e63d4acaf002aeeae091452e8ee2db1aa1bc3a9b"
+    },
+    {
+      "path": "explainer/svg/crt_toy.svg",
+      "sha256": "1a8c88ca6e45a63b9db0eec08b162565c03d1eea5561c0ed76f677cdc4600e7a"
+    },
+    {
+      "path": "explainer/svg/d3_accepted_faults.svg",
+      "sha256": "ecec764638ee17b6e0b4c7f519d149f0f1557de55864965bf5f3475bd9088800"
+    },
+    {
+      "path": "explainer/svg/d3_double_check.svg",
+      "sha256": "bfa2eb2ec2ea1b2d4a01f97c3d6d786237a984f37eb0ec9c74fd5cf15f34b8d2"
+    },
+    {
+      "path": "explainer/svg/d3_fault_expansion.svg",
+      "sha256": "3af4ceacf5c90a24c82a06f46149c439ae26a7bd4cf02416898f552259551df4"
+    },
+    {
+      "path": "explainer/svg/d3_full_propagation.svg",
+      "sha256": "696c9fd7683bc2d0a217537fe06a47ada3081c0aa0a3707f02b285382d35549b"
+    },
+    {
+      "path": "explainer/svg/d3_incoming_column.svg",
+      "sha256": "ac7d3fd79e4288eab2068d857581ac1b6d55c9b99c0af6d8e28dc2eeb8dff1fa"
+    },
+    {
+      "path": "explainer/svg/d3_patch.svg",
+      "sha256": "c02f710d967c7194595942565cda5024fe865c2d10b41c0975866951ca1094de"
+    },
+    {
+      "path": "explainer/svg/d3_pauli_steps.svg",
+      "sha256": "ef26d805169e7af7fcf13074005d0dd1bfeca8142ebcdac0086aa30ebc327108"
+    },
+    {
+      "path": "explainer/svg/d5_accepted_faults.svg",
+      "sha256": "15eea9bfe436d7a9e887d67eeba468baa821088dce33c8e52f966d1b63f5c1aa"
+    },
+    {
+      "path": "explainer/svg/d5_double_check.svg",
+      "sha256": "98ad8cb24329ebc8cbe1d41328d7cdece3a1862e3e7bd58d9fa1cf8007a01eb5"
+    },
+    {
+      "path": "explainer/svg/d5_pattern.svg",
+      "sha256": "5955ead588dd9d8b38f36a4edb7f49fa602cdb26e6a4048d735ee3e5a601694c"
+    },
+    {
+      "path": "explainer/svg/detector_web_d3_det014.svg",
+      "sha256": "13534f1a5a1a969f22ba7b4e5596f81ee61df1c778b4cf2a2133f2632efba20f"
+    },
+    {
+      "path": "explainer/svg/dfive_incidence.svg",
+      "sha256": "46228d564e593d17c5151101eda1829f6880d67b931a0ac072862a0feb13dc63"
+    },
+    {
+      "path": "explainer/svg/fourier_toy.svg",
+      "sha256": "16df1877ff4429e5cf81063ff7841cfa71c6484b8f3a073abd1db99981b76176"
+    },
+    {
+      "path": "explainer/svg/frame_example.svg",
+      "sha256": "7d5593bdcd7cf9d95b271ba35443ef09a0db16e3a0dc562199c06f7f9afc41eb"
+    },
+    {
+      "path": "explainer/svg/gate_noise.svg",
+      "sha256": "671bd4168a01d09c62c44565d2edfc607cfdeb9cbb90ebb500ab945c27a7540f"
+    },
+    {
+      "path": "explainer/svg/gauss_bw.svg",
+      "sha256": "76110cff26059cb2e3d1d863a579d1fe9d86aec0864bed2a953edd53863be0bb"
+    },
+    {
+      "path": "explainer/svg/gauss_twofault.svg",
+      "sha256": "6015850b96849380c6c16b67ee3143467eb0381b15dd111ca676531499f3210c"
+    },
+    {
+      "path": "explainer/svg/growth_contraction.svg",
+      "sha256": "d9ea0e6fcbd13bd31174a2f06cab934374a28ff00cde3c42e4099b3e22c5533b"
+    },
+    {
+      "path": "explainer/svg/growth_flow.svg",
+      "sha256": "0f13a73fae58ac0804a6519236c16efce24ebe8de09ec278001f90b849bc0f22"
+    },
+    {
+      "path": "explainer/svg/growth_labels.svg",
+      "sha256": "bf83de01c62d7cee92f34a689809b0d9c3a2972c51cecdbd15e3dd5dcb63b17f"
+    },
+    {
+      "path": "explainer/svg/ideal_check.svg",
+      "sha256": "453d4f97b21272e0dafd8fb2eb48b6bfef56d25917152bc38c12c7053b90b5cf"
+    },
+    {
+      "path": "explainer/svg/inverse_walsh.svg",
+      "sha256": "94ca94ac0dd626850042ebd9c2a8ebbf63267acf6822126b65c3810c67382575"
+    },
+    {
+      "path": "explainer/svg/m12_m34.svg",
+      "sha256": "f590c116b9e37088d6fcbf41fe0823de83ae94d14715d3cf96185a974f68c302"
+    },
+    {
+      "path": "explainer/svg/mixed_kernel.svg",
+      "sha256": "498b55576ec2027bc8e2119834835116281baba83859a4178cfe0907592c4af1"
+    },
+    {
+      "path": "explainer/svg/mu_F_sum.svg",
+      "sha256": "9f0da374d097840f15de08cd4a177de7ad84dfac8085b0d2e491657e0f7c2a1b"
+    },
+    {
+      "path": "explainer/svg/one_pauli_flow.svg",
+      "sha256": "091731ff530b2fe6aaa1124716dc35ba2f20f84c25660b65f69ce40fc5249800"
+    },
+    {
+      "path": "explainer/svg/opennet.svg",
+      "sha256": "1475e4bebde2db68d9f8de80d8327e91ddf835cbab73e2817d48d2f1f568c17f"
+    },
+    {
+      "path": "explainer/svg/order_bubbles.svg",
+      "sha256": "ccaef8f3dc513d568f9178d94847de511e8b56f72c3b3e2edbfa2d8be996457e"
+    },
+    {
+      "path": "explainer/svg/overview.svg",
+      "sha256": "a696c8bdc8129c9fe37295a5ff99fedd35863047bf3f01e125058f58ac27e223"
+    },
+    {
+      "path": "explainer/svg/parity_toy.svg",
+      "sha256": "fe2d438425575f605eb0d30563634fbba681704055525f03a58b904b17167487"
+    },
+    {
+      "path": "explainer/svg/pipeline.svg",
+      "sha256": "0e53709a310d0780c566a60bb24931b6cb4444a166b30603bcf12dc12b4b3d67"
+    },
+    {
+      "path": "explainer/svg/pp_hand.svg",
+      "sha256": "865ef30ed9c4a86b8e44f9c67a821aeb5ebcbc7ebe8f71ddf845a0b1915aa528"
+    },
+    {
+      "path": "explainer/svg/pp_real.svg",
+      "sha256": "2de4065e464f9df6dc08bedc0072b8022aa22308618187809bc6df19bf34b673"
+    },
+    {
+      "path": "explainer/svg/pp_real_thumb.svg",
+      "sha256": "2073fe95b423de6532119c55ac49dfe9e064f107ecb7c8992b87f9b5a4463b9b"
+    },
+    {
+      "path": "explainer/svg/pp_response.svg",
+      "sha256": "e591cbc38004b62a8c78f6b976e87261f7608dc947345226d172240a8b86c7cc"
+    },
+    {
+      "path": "explainer/svg/pp_rules.svg",
+      "sha256": "2699e1b63561f914f80df073c1f57ec5673fcc110802f04b9d8760ee04ca1585"
+    },
+    {
+      "path": "explainer/svg/pp_tensors.svg",
+      "sha256": "76c318a4534361a100bb9886e528481227c160e7766506322ef9533a544be617"
+    },
+    {
+      "path": "explainer/svg/primes_characters.svg",
+      "sha256": "5de7126d6df9441d0838670c595919b52a02c9ffd2ca6df49f8dc9922a04f0b2"
+    },
+    {
+      "path": "explainer/svg/q_position.svg",
+      "sha256": "4725f9b236a847c64f9e505b622c0d7ef9add6c4e53a52f3179dbe2d2e8199ad"
+    },
+    {
+      "path": "explainer/svg/response.svg",
+      "sha256": "6d350f8001371e4f67f5b40892a418b6003bee827968f486cc141f304e0489c2"
+    },
+    {
+      "path": "explainer/svg/semiweb_x0_cancellation.svg",
+      "sha256": "6b6a3a7e8bcd37a66dad3c5d74ee62a8e4aab167d8f39fe8473c8404289df605"
+    },
+    {
+      "path": "explainer/svg/semiweb_x0x7_cancellation.svg",
+      "sha256": "90176a7475247d73b906bcae26256101bdca6a4a651ef28c6b3c0b0646ca1a2e"
+    },
+    {
+      "path": "explainer/svg/semiweb_x7.svg",
+      "sha256": "d18dd09528951b7d41b3140317e4a3175abda174125e5a8a7bd81e8802018b7f"
+    },
+    {
+      "path": "explainer/svg/semiweb_x7_cancellation.svg",
+      "sha256": "95967cb6e8e9410019c38abff6935b4536bb0e4e8bec7ecc7e97d5fdb638df6f"
+    },
+    {
+      "path": "explainer/svg/semiweb_z0.svg",
+      "sha256": "29148756273bdaccf6b6cb59db004c2fc13ccc5db398f47817b30f1d4068ec0a"
+    },
+    {
+      "path": "explainer/svg/semiweb_z0z3.svg",
+      "sha256": "24298ae243e576a63c03c658c182b719898dd9812c19702ab908c6915adc6b14"
+    },
+    {
+      "path": "explainer/svg/semiweb_z3.svg",
+      "sha256": "9432f16e653abebac6cd99f46b93dd760e13ed224bc0c61f11894af64036faf7"
+    },
+    {
+      "path": "explainer/svg/site_factor.svg",
+      "sha256": "e886cb15ab8e6ac9d00bd9d3f68531e71f50c024a277a178772a6dfa75517adf"
+    },
+    {
+      "path": "explainer/svg/tab_examples.svg",
+      "sha256": "49bb768acd3d4133864b3f7d1d99b5dd8dee0b116fd370738eb1d6890e860baa"
+    },
+    {
+      "path": "explainer/svg/tab_expansion.svg",
+      "sha256": "9fbeeeac83bea9178829f73ea5ee79d066fa4fcb06486250ac0b9aef25b66bf8"
+    },
+    {
+      "path": "explainer/svg/tab_f_b2.svg",
+      "sha256": "01571a5db2022b62d73b66f9ec447ec43f7e47b3e20423c48c042c96a20169b6"
+    },
+    {
+      "path": "explainer/svg/tab_f_twofault.svg",
+      "sha256": "5acc55c8a1a880f42c27403fada45cc11cccada6ec1dd026ade55877dabc2257"
+    },
+    {
+      "path": "explainer/svg/tab_recursion_d5.svg",
+      "sha256": "d769344919472a90585eb1505c01ed14e18aafa809683949300b92ae1ba533e5"
+    },
+    {
+      "path": "explainer/svg/tab_toygrowth.svg",
+      "sha256": "13a897cba9bd8954c33033fd7eb44c085e821bbaf2a2173f2f8fcb8b3b1b2d4d"
+    },
+    {
+      "path": "explainer/svg/tab_xorjoin.svg",
+      "sha256": "e2fbcc4ca15198c4dbaf6fa152516ab1ce57a490499906da5d3a4c1a54b23647"
+    },
+    {
+      "path": "explainer/svg/tensor_definition.svg",
+      "sha256": "785b24b504cb866a0695d824af9576b17bb060a915843bff9956b4df755209ee"
+    },
+    {
+      "path": "explainer/svg/terminal_factor.svg",
+      "sha256": "de081bef872823777280d78f06e3dd077c1e23d7ade454a4f7e8034f2bc1ca60"
+    },
+    {
+      "path": "explainer/svg/tree_nodes.svg",
+      "sha256": "0c0837024f173e6fa6314f240c9446909a258e2b20d02f7a60f7a4251edeacdb"
+    },
+    {
+      "path": "explainer/svg/window.svg",
+      "sha256": "c98f7d04b736a5b991aafb2d26200a6c48a8c55f5b5c0b1c172ea0193186f3f6"
+    },
+    {
       "path": "licenses/Clifft-Apache-2.0.txt",
       "sha256": "684608a45d3ce21f3dd76ca80b4ce75dd868083a7148c352b628571a9c425c37"
+    },
+    {
+      "path": "licenses/LatinModern-GUST-Font-License.txt",
+      "sha256": "49ea6cb9257bbee0a3979c48a774cd221550ac1c20c95549efe45fc99cc18050"
     },
     {
       "path": "licenses/RP2-MIT.txt",
